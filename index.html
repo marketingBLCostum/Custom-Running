@@ -332,7 +332,7 @@
 <body class="bg-gray-50">
     <!-- Navigation -->
     <!-- Top Bar -->
-    <nav id="navbar" class="w-full bg-transparent border-b border-transparent absolute top-0 z-50">
+    <nav id="navbar" class="w-full bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
         <div class="bg-black text-white">
             <div class="container mx-auto px-6">
                 <div class="h-8 flex items-center justify-between text-[11px]">
@@ -385,25 +385,25 @@
                     </a>
 
                     <div class="hidden lg:flex flex-1 items-center justify-center gap-8">
-                        <a href="#come-funziona" class="text-white hover:text-gray-300 text-[12px] font-medium uppercase tracking-[0.18em] transition">Come Funziona</a>
-                        <a href="#portfolio" class="text-white hover:text-gray-300 text-[12px] font-medium uppercase tracking-[0.18em] transition">Ispirazione</a>
-                        <a href="#sport" class="text-white hover:text-gray-300 text-[12px] font-medium uppercase tracking-[0.18em] transition">Crea la tua divisa</a>
-                        <a href="#contatti" class="text-white hover:text-gray-300 text-[12px] font-medium uppercase tracking-[0.18em] transition">Contattaci</a>
-                        <a href="#faq" class="text-white hover:text-gray-300 text-[12px] font-medium uppercase tracking-[0.18em] transition">FAQ</a>
+                        <a href="#come-funziona" class="text-black hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Come Funziona</a>
+                        <a href="#portfolio" class="text-black hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Ispirazione</a>
+                        <a href="#sport" class="text-black hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Crea la tua divisa</a>
+                        <a href="#contatti" class="text-black hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Contattaci</a>
+                        <a href="#faq" class="text-black hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">FAQ</a>
                     </div>
 
-                    <button id="mobile-menu-btn" class="md:hidden text-white" aria-label="Apri menu">
+                    <button id="mobile-menu-btn" class="md:hidden text-black" aria-label="Apri menu">
                         <i class="fas fa-bars text-xl"></i>
                     </button>
                 </div>
 
-                <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-300 bg-black">
+                <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-300 bg-white">
                     <div class="px-6 py-4 grid grid-cols-1 gap-3">
-                        <a href="#come-funziona" class="block text-center py-2 text-white hover:text-gray-300 font-medium text-sm transition">Come Funziona</a>
-                        <a href="#portfolio" class="block text-center py-2 text-white hover:text-gray-300 font-medium text-sm transition">Ispirazione</a>
-                        <a href="#sport" class="block text-center py-2 text-white hover:text-gray-300 font-medium text-sm transition">Crea la tua divisa</a>
-                        <a href="#contatti" class="block text-center py-2 text-white hover:text-gray-300 font-medium text-sm transition">Contattaci</a>
-                        <a href="#faq" class="block text-center py-2 text-white hover:text-gray-300 font-medium text-sm transition">FAQ</a>
+                        <a href="#come-funziona" class="block text-center py-2 text-black hover:text-gray-700 font-medium text-sm transition">Come Funziona</a>
+                        <a href="#portfolio" class="block text-center py-2 text-black hover:text-gray-700 font-medium text-sm transition">Ispirazione</a>
+                        <a href="#sport" class="block text-center py-2 text-black hover:text-gray-700 font-medium text-sm transition">Crea la tua divisa</a>
+                        <a href="#contatti" class="block text-center py-2 text-black hover:text-gray-700 font-medium text-sm transition">Contattaci</a>
+                        <a href="#faq" class="block text-center py-2 text-black hover:text-gray-700 font-medium text-sm transition">FAQ</a>
                     </div>
                 </div>
             </div>
@@ -421,18 +421,14 @@
         <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
         
         <!-- Content Overlay -->
-        <div class="relative z-20 container mx-auto px-6 flex items-center h-full">
-            <div class="max-w-2xl">
-                <h1 class="text-4xl md:text-6xl font-black text-white leading-[1.05] uppercase">
-                    CREA LA TUA DIVISA DA CICLISMO PERSONALIZZATA
-                </h1>
-                <p class="mt-4 text-sm md:text-base text-white font-light">
-                    Crea la tua divisa da ciclismo personalizzata col nostro team di grafici
+        <div class="relative z-20 container mx-auto px-6 flex items-end h-full pb-16">
+            <div class="max-w-lg">
+                <h2 class="text-3xl md:text-4xl font-thin text-white mb-3 tracking-wide">
+                    Completi Iconici
+                </h2>
+                <p class="text-xl md:text-2xl text-white font-light leading-relaxed">
+                    Crea la tua divisa da ciclismo personalizzata
                 </p>
-                <div class="mt-6 flex items-center gap-5">
-                    <a href="#portfolio" class="inline-flex items-center h-10 px-4 bg-white text-black text-[12px] font-medium">Panoramica prodotto</a>
-                    <a href="#contatti" class="text-white text-[12px] underline underline-offset-4">Richiedi Informazioni</a>
-                </div>
             </div>
         </div>
     </section>
@@ -443,17 +439,21 @@
         <div class="w-full max-w-full mx-auto">
             <!-- First Row: 4 Vertical -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
-                <div class="overflow-hidden" style="padding-bottom: 150%; position: relative;">
-                    <img src="images/GIACCA.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div class="product-card overflow-hidden" style="padding-bottom: 150%; position: relative;">
+                    <img src="images/CANOTAGGIO/1 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="images/CANOTAGGIO/1 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
                 </div>
-                <div class="overflow-hidden" style="padding-bottom: 150%; position: relative;">
-                    <img src="images/GIACCA.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div class="product-card overflow-hidden" style="padding-bottom: 150%; position: relative;">
+                    <img src="images/CANOTAGGIO/2 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="images/CANOTAGGIO/2 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
                 </div>
-                <div class="overflow-hidden" style="padding-bottom: 150%; position: relative;">
-                    <img src="images/GIACCA.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div class="product-card overflow-hidden" style="padding-bottom: 150%; position: relative;">
+                    <img src="images/CANOTAGGIO/3 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="images/CANOTAGGIO/3 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
                 </div>
-                <div class="overflow-hidden" style="padding-bottom: 150%; position: relative;">
-                    <img src="images/GIACCA.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div class="product-card overflow-hidden" style="padding-bottom: 150%; position: relative;">
+                    <img src="images/CANOTAGGIO/4 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="images/CANOTAGGIO/4 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100">
                 </div>
             </div>
             
