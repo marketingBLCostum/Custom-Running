@@ -251,6 +251,17 @@
             }
         }
 
+        .slide-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .slide-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         /* GALLERY: compact like GOBIK style */
         :root{
             --gallery-height-desktop: 280px;
@@ -421,37 +432,248 @@
         <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
         
         <!-- Content Overlay -->
-        <div class="relative z-20 container mx-auto px-6 flex items-end h-full pb-16">
-            <div class="max-w-lg">
-                <h2 class="text-3xl md:text-4xl font-thin text-white mb-3 tracking-wide">
-                    Completi Iconici
-                </h2>
-                <p class="text-xl md:text-2xl text-white font-light leading-relaxed">
-                    Crea la tua divisa da ciclismo personalizzata
+        <div class="relative z-20 container mx-auto px-6 flex items-center h-full">
+            <div class="max-w-2xl text-left">
+                <h1 class="text-4xl md:text-6xl font-black text-white leading-[1.05] uppercase mb-4">
+                    CREA LA TUA DIVISA PERSONALIZZATA
+                </h1>
+                <p class="text-lg md:text-xl text-white font-light mb-8">
+                    Crea la tua divisa personalizzata col nostro team di grafici
                 </p>
+                <div class="flex flex-col sm:flex-row items-start gap-4">
+                    <a href="#portfolio" class="inline-flex items-center h-12 px-6 bg-white text-black text-[12px] font-medium hover:bg-gray-100 transition">
+                        Panoramica prodotto
+                    </a>
+                    <a href="#contatti" class="inline-flex items-center h-12 px-6 text-white text-[12px] font-medium underline underline-offset-4 hover:no-underline transition">
+                        Richiedi Informazioni
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+      <!-- How It Works Section -->
+    <section id="come-funziona" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-gray-800 mb-4 section-title uppercase">
+                    COME FUNZIONA
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Il processo semplice per creare il tuo abbigliamento personalizzato
+                </p>
+            </div>
+
+            <!-- Steps Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-32 max-w-7xl mx-auto">
+                <!-- Step 1 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <span class="text-gray-400 text-4xl font-bold opacity-30">01</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Prendi Ispirazione</h3>
+                    <div class="text-gray-600 text-sm leading-relaxed max-w-xs text-justify">
+                        <p>Raccontaci chi siete, i valori della vostra squadra e l'identità che volete trasmettere. Ogni progetto nasce dall'ascolto: colori, loghi, obiettivi e utilizzo finale sono il punto di partenza per un risultato davvero su misura.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <span class="text-gray-400 text-4xl font-bold opacity-30">02</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Grafica</h3>
+                    <div class="text-gray-600 text-sm leading-relaxed max-w-xs text-justify">
+                        <p>Il nostro team grafico sviluppa una proposta personalizzata partendo dalle tue indicazioni. Linee, proporzioni e resa su tessuto vengono studiate per garantire un design coerente, tecnico e riconoscibile.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <span class="text-gray-400 text-4xl font-bold opacity-30">03</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Design finale</h3>
+                    <div class="text-gray-600 text-sm leading-relaxed max-w-xs text-justify">
+                        <p>Una volta definito il concept, adattiamo il design ai capi selezionati. Vestibilità, materiali e dettagli vengono ottimizzati per offrire comfort, performance e uniformità su tutta la collezione.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <span class="text-gray-400 text-4xl font-bold opacity-30">04</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">La Produzione</h3>
+                    <div class="text-gray-600 text-sm leading-relaxed max-w-xs text-justify">
+                        <p>Dopo la tua approvazione, il design viene ottimizzato per la produzione. Ogni dettaglio viene curato per garantire la massima qualità di stampa e vestibilità, con un occhio di riguardo alla durabilità del capo.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" style="opacity: 1 !important; visibility: visible !important;">
+                <h2 class="text-4xl font-black mb-4 uppercase" style="color: #000000 !important; font-weight: 900 !important; display: block !important;">
+                    PRENDI ISPIRAZIONE
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: #000000 !important; font-weight: 500 !important; display: block !important; margin-top: 1rem !important;">
+                    Alcune delle creazioni personalizzate realizzate per i nostri clienti
+                </p>
+            </div>
+            
+            <!-- Designs Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Ciclismo Designs -->
+                <div class="design-item ciclismo-design" data-sport="ciclismo">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/GIF/GIF1 CICLISMO.gif" alt="Design 1" class="w-full h-full object-contain" 
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-blue-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-bicycle text-blue-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
 
-    
-    <!-- Products Gallery Section -->
-    <section id="sport" class="py-12 bg-white w-full px-4">
-        <div class="w-full max-w-full mx-auto">
+                <!-- Atletica Designs -->
+                <div class="design-item atletica-design hidden" data-sport="atletica">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 2.JPG" alt="Design 2" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-green-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-running text-green-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Triathlon Designs -->
+                <div class="design-item triathlon-design hidden" data-sport="triathlon">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 3.JPG" alt="Design 3" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-purple-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-swimmer text-purple-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional designs for each sport -->
+                <div class="design-item ciclismo-design" data-sport="ciclismo">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/GIF/GIF2 CICLISMO.gif" alt="Design 4" class="w-full h-full object-contain" 
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-blue-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-bicycle text-blue-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item ciclismo-design" data-sport="ciclismo">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/GIF/GIF3 CICLISMO.gif" alt="Design 5" class="w-full h-full object-contain" 
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-blue-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-bicycle text-blue-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item atletica-design hidden" data-sport="atletica">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 6.JPG" alt="Design 6" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-green-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-running text-green-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item atletica-design hidden" data-sport="atletica">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 7.JPG" alt="Design 7" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-green-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-running text-green-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item triathlon-design hidden" data-sport="triathlon">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 8.JPG" alt="Design 8" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-purple-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-swimmer text-purple-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item triathlon-design hidden" data-sport="triathlon">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 9.JPG" alt="Design 9" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-purple-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-swimmer text-purple-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pattinaggio Designs -->
+                <div class="design-item pattinaggio-design hidden" data-sport="pattinaggio">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 10.JPG" alt="Design 10" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-orange-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-skating text-orange-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item pattinaggio-design hidden" data-sport="pattinaggio">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 11.JPG" alt="Design 11" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-orange-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-skating text-orange-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item pattinaggio-design hidden" data-sport="pattinaggio">
+                    <div class="aspect-[3/4] bg-transparent flex items-center justify-center p-0 overflow-hidden">
+                        <img src="images/divisa 12.JPG" alt="Design 12" class="w-full h-full object-contain"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full bg-orange-300 rounded-lg flex items-center justify-center" style="display: none;">
+                            <i class="fas fa-skating text-orange-500 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#contatti" class="inline-flex items-center h-12 px-6 bg-black text-white text-sm font-medium">
+                    Richiedi informazioni
+                </a>
+            </div>
+        </div>
+    </section>
             <!-- First Row: 4 Vertical -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
-                <div class="product-card overflow-hidden group bg-gray-50" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/1 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/1 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-50" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/2 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/2 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-50" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/3 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/3 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-50" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/4 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/4 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
@@ -469,19 +691,19 @@
             
             <!-- Third Row: 4 Vertical -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/5 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/5 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/6 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/6 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/7 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/7 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/8 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/8 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
@@ -489,19 +711,19 @@
             
             <!-- Fourth Row: 4 Vertical -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full">
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/9 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/9 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/10 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/10 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/11 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/11 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
-                <div class="product-card overflow-hidden group bg-gray-100" style="padding-bottom: 150%; position: relative;">
+                <div class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative;">
                     <img src="images/CANOTAGGIO/12 davanti.png" alt="" class="absolute inset-0 w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/12 dietro.png" alt="" class="absolute inset-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 </div>
