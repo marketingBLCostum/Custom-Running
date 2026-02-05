@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIVISA CANOTAGGIO 3 - Custom Bicycle Line</title>
+    <title>DIVISA CANOTAGGIO 3 - Giacca · Unisex - Custom Bicycle Line</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -30,6 +30,7 @@
         .color-option {
             transition: all 0.2s ease;
             cursor: pointer;
+            border: 2px solid transparent;
         }
         
         .color-option:hover {
@@ -38,7 +39,8 @@
         }
         
         .color-option.selected {
-            box-shadow: 0 0 0 3px #374151;
+            border: 2px solid #374151;
+            box-shadow: 0 0 0 1px white, 0 0 0 3px #374151;
         }
         
         .quantity-button {
@@ -138,7 +140,7 @@
                 <div class="space-y-6">
                     <!-- Main Image -->
                     <div class="bg-gray-100 rounded-lg overflow-hidden" style="padding-bottom: 120%; position: relative;">
-                        <img id="main-image" src="images/CANOTAGGIO/3 davanti.png" alt="DIVISA CANOTAGGIO 3" 
+                        <img id="main-image" src="images/CANOTAGGIO/3 davanti.png" alt="GIACCA UNISEX DIVISA CANOTAGGIO 3" 
                              class="absolute inset-0 w-full h-full object-contain product-image-main">
                     </div>
                     
@@ -163,107 +165,110 @@
                 <div class="space-y-8">
                     <!-- Title and Price -->
                     <div>
-                        <h1 class="text-4xl font-black text-gray-900 mb-4">DIVISA CANOTAGGIO 3</h1>
-                        <div class="text-3xl font-bold text-gray-900 mb-6">120,00 €</div>
+                        <div class="text-sm text-gray-500 font-normal mb-2">GIACCA · UNISEX</div>
+                        <h1 class="text-5xl font-black text-gray-900 mb-3 leading-tight">DIVISA CANOTAGGIO 3</h1>
+                        <div class="text-4xl font-bold text-gray-900 mb-8">120,00 €</div>
                     </div>
 
                     <!-- Color Selection -->
                     <div>
-                        <h3 class="text-sm font-semibold text-gray-900 mb-4">COLORE</h3>
+                        <h3 class="text-sm font-semibold text-gray-900 mb-6 uppercase tracking-wide">COLORE</h3>
                         <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-blue-600 rounded-lg color-option selected" onclick="selectColor(this)"></div>
-                            <div class="w-12 h-12 bg-red-600 rounded-lg color-option" onclick="selectColor(this)"></div>
-                            <div class="w-12 h-12 bg-green-600 rounded-lg color-option" onclick="selectColor(this)"></div>
+                            <div class="w-12 h-12 bg-green-700 rounded-lg color-option selected cursor-pointer border-2 border-gray-800" onclick="selectColor(this)"></div>
+                            <div class="w-12 h-12 bg-gray-400 rounded-lg color-option cursor-pointer border-2 border-transparent hover:border-gray-800" onclick="selectColor(this)"></div>
+                            <div class="w-12 h-12 bg-black rounded-lg color-option cursor-pointer border-2 border-transparent hover:border-gray-800" onclick="selectColor(this)"></div>
                         </div>
                     </div>
 
                     <!-- Size Selection -->
                     <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <h3 class="text-sm font-semibold text-gray-900">TAGLIA</h3>
-                            <a href="#" class="text-sm text-gray-600 underline hover:no-underline">Qual è la mia taglia?</a>
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wide">TAGLIA</h3>
+                            <a href="#" class="text-sm text-gray-500 underline hover:no-underline">Qual è la mia taglia?</a>
                         </div>
-                        <div class="grid grid-cols-7 gap-2 mb-4">
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400" disabled>2XS</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">XS</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">S</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">M</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">L</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">XL</button>
-                            <button class="size-button border border-gray-300 rounded py-3 text-sm font-medium hover:border-gray-400">2XL</button>
+                        <div class="grid grid-cols-7 gap-3 mb-6">
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 bg-gray-100 text-gray-400 cursor-not-allowed" disabled>2XS</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">XS</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">S</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">M</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">L</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">XL</button>
+                            <button class="size-button border border-gray-300 rounded-lg py-2 text-xs font-medium hover:border-gray-400 hover:bg-black hover:text-white transition-all duration-200">2XL</button>
                         </div>
                         
                         <!-- Model Info -->
-                        <div class="text-xs text-gray-600 space-y-1">
+                        <div class="text-xs text-gray-500 space-y-2">
                             <div>Uomo: 181 cm - 63 kg - Taglia S</div>
                             <div>Donna: 161 cm - 49 kg - Taglia XS</div>
                         </div>
                     </div>
 
                     <!-- Quantity and Add to Cart -->
-                    <div class="space-y-4">
-                        <div class="flex items-center space-x-4">
-                            <h3 class="text-sm font-semibold text-gray-900">QUANTITÀ</h3>
-                            <div class="flex items-center border border-gray-300 rounded">
-                                <button class="quantity-button px-3 py-2 text-gray-600 hover:text-gray-900" onclick="changeQuantity(-1)">-</button>
-                                <input type="number" id="quantity" value="1" min="1" max="5" class="w-16 text-center border-0 focus:outline-none" readonly>
-                                <button class="quantity-button px-3 py-2 text-gray-600 hover:text-gray-900" onclick="changeQuantity(1)">+</button>
-                            </div>
+                    <div class="space-y-6">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wide">QUANTITÀ</h3>
                             <div class="text-sm text-green-600 font-medium">5 Disponibile</div>
                         </div>
-                        
-                        <button class="w-full bg-black text-white py-4 font-semibold hover:bg-gray-800 transition">
-                            Aggiungi al carrello
-                        </button>
+                        <div class="flex items-center justify-between gap-6">
+                            <div class="flex items-center border border-gray-300 rounded-lg">
+                                <button class="quantity-button px-4 py-3 text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors" onclick="changeQuantity(-1)">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="5" class="w-20 text-center border-0 focus:outline-none text-lg font-medium" readonly>
+                                <button class="quantity-button px-4 py-3 text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors" onclick="changeQuantity(1)">+</button>
+                            </div>
+                            
+                            <button class="bg-black text-white px-8 py-3 font-semibold hover:bg-gray-800 transition-all duration-200 text-lg whitespace-nowrap">
+                                Aggiungi al carrello
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Technical Characteristics -->
-                    <div class="border-t border-b border-gray-200 py-8">
-                        <h3 class="text-lg font-bold text-gray-900 mb-6">CARATTERISTICHE TECNICHE</h3>
+                    <div class="border-t border-b border-gray-200 py-10">
+                        <h3 class="text-lg font-bold text-gray-900 mb-8">CARATTERISTICHE TECNICHE</h3>
                         
-                        <div class="space-y-4">
+                        <div class="space-y-6">
                             <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Isolamento</span>
-                                    <span class="text-xs text-gray-500">1/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 20%"></div>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Traspirabilità</span>
-                                    <span class="text-xs text-gray-500">4/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Protezione Pioggia</span>
+                                <div class="flex justify-between items-center mb-3">
+                                    <span class="text-sm text-gray-700 font-medium">Impermeabilità</span>
                                     <span class="text-xs text-gray-500">3/5</span>
                                 </div>
-                                <div class="feature-bar">
+                                <div class="feature-bar h-2">
                                     <div class="feature-bar-fill" style="width: 60%"></div>
                                 </div>
                             </div>
                             
                             <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Protezione Vento</span>
+                                <div class="flex justify-between items-center mb-3">
+                                    <span class="text-sm text-gray-700 font-medium">Traspirabilità</span>
                                     <span class="text-xs text-gray-500">4/5</span>
                                 </div>
-                                <div class="feature-bar">
+                                <div class="feature-bar h-2">
+                                    <div class="feature-bar-fill" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="flex justify-between items-center mb-3">
+                                    <span class="text-sm text-gray-700 font-medium">Impermeabilità</span>
+                                    <span class="text-xs text-gray-500">3/5</span>
+                                </div>
+                                <div class="feature-bar h-2">
+                                    <div class="feature-bar-fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="flex justify-between items-center mb-3">
+                                    <span class="text-sm text-gray-700 font-medium">Protezione Vento</span>
+                                    <span class="text-xs text-gray-500">4/5</span>
+                                </div>
+                                <div class="feature-bar h-2">
                                     <div class="feature-bar-fill" style="width: 80%"></div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="grid grid-cols-2 gap-4 mt-6 text-sm">
+                        <div class="grid grid-cols-2 gap-6 mt-8 text-sm">
                             <div>
                                 <span class="font-semibold">Peso:</span> 175 g (M)
                             </div>
@@ -271,16 +276,16 @@
                                 <span class="font-semibold">Temperatura d'uso:</span> 8 - 16 °C
                             </div>
                             <div class="col-span-2">
-                                <span class="font-semibold">Fitting:</span> REGULAR FIT
+                                <span class="font-semibold">Vestibilità:</span> REGULAR FIT
                             </div>
                         </div>
                     </div>
 
                     <!-- Description -->
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-4">DESCRIZIONE</h3>
-                        <p class="text-gray-700 leading-relaxed">
-                            Divisa professionale per canotaggio, progettata per garantire massima performance e comfort durante le competizioni. Design moderno e materiali tecnici di alta qualità con trattamento idroripelente per protezione dagli elementi.
+                        <h3 class="text-lg font-bold text-gray-900 mb-6">DESCRIZIONE</h3>
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            Giacca pieghevole di peso medio progettata per offrire una protezione totale contro il vento e la pioggia leggera. Il suo tessuto solido ed elastico offre un'ottima libertà di movimento, mentre il trattamento idroripelente garantisce un'efficace protezione contro gli elementi. Ideale per attività outdoor in condizioni climatiche variabili.
                         </p>
                     </div>
                 </div>
@@ -379,6 +384,15 @@
                     this.classList.remove('border-gray-300');
                 }
             });
+        });
+
+        // Initialize first available size as selected
+        document.addEventListener('DOMContentLoaded', function() {
+            const firstAvailableSize = document.querySelector('.size-button:not([disabled])');
+            if (firstAvailableSize) {
+                firstAvailableSize.classList.add('bg-black', 'text-white');
+                firstAvailableSize.classList.remove('border-gray-300');
+            }
         });
     </script>
 </body>
