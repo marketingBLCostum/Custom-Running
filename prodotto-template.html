@@ -11,55 +11,66 @@
         
         body {
             font-family: 'Inter', sans-serif;
+            color: #333;
         }
         
         .size-button {
             transition: all 0.2s ease;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
         }
         
         .size-button:hover:not(:disabled) {
-            border-color: #374151;
-            transform: translateY(-1px);
+            border-color: #000;
+            transform: none;
         }
         
         .size-button:disabled {
             opacity: 0.4;
             cursor: not-allowed;
+            text-decoration: line-through;
+            background-color: #f9f9f9;
         }
         
         .color-option {
             transition: all 0.2s ease;
             cursor: pointer;
+            position: relative;
         }
         
         .color-option:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         
         .color-option.selected {
-            box-shadow: 0 0 0 3px #374151;
+            border-color: #000 !important;
+            transform: scale(1.05);
+        }
+        
+        .color-option.selected:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 5px;
+            height: 5px;
+            background: #000;
+            border-radius: 50%;
         }
         
         .quantity-button {
             transition: all 0.2s ease;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .quantity-button:hover {
-            background-color: #f3f4f6;
-        }
-        
-        .feature-bar {
-            height: 8px;
-            background: #e5e7eb;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        
-        .feature-bar-fill {
-            height: 100%;
-            background: #374151;
-            transition: width 0.3s ease;
+            background-color: #f5f5f5;
         }
         
         .product-image-main {
@@ -69,15 +80,61 @@
         .thumbnail {
             transition: all 0.2s ease;
             cursor: pointer;
+            border: 1px solid transparent;
         }
         
         .thumbnail:hover {
             opacity: 0.8;
-            transform: scale(1.05);
+            border-color: #ddd;
         }
         
         .thumbnail.active {
-            border: 2px solid #374151;
+            border-color: #000;
+        }
+        
+        /* Accordion styles */
+        .accordion-toggle {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-toggle.active {
+            color: #000;
+        }
+        
+        .accordion-toggle.active i {
+            transform: rotate(45deg);
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .accordion-content.active {
+            display: block;
+            max-height: 1000px;
+            transition: max-height 0.5s ease-in;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .product-gallery {
+                flex-direction: column-reverse;
+            }
+            
+            .thumbnails-vertical {
+                flex-direction: row !important;
+                margin-top: 15px;
+                margin-right: 0;
+                overflow-x: auto;
+                padding-bottom: 10px;
+            }
+            
+            .thumbnails-vertical .thumbnail {
+                min-width: 70px;
+                height: 70px;
+            }
         }
     </style>
 </head>
@@ -150,134 +207,277 @@
     </nav>
 
     <!-- Product Section -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="grid lg:grid-cols-2 gap-16 items-start">
-                <!-- Product Images -->
-                <div class="space-y-6">
-                    <!-- Main Image -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden" style="padding-bottom: 120%; position: relative;">
-                        <img id="main-image" src="images/GIACCA.png" alt="GIACCA UNISEX SELKIE AVOCADO" 
-                             class="absolute inset-0 w-full h-full object-contain product-image-main">
-                    </div>
-                    
-                    <!-- Thumbnails -->
-                    <div class="grid grid-cols-4 gap-2">
-                        <div class="bg-gray-100 rounded thumbnail active" onclick="changeImage('images/GIACCA.png', this)">
-                            <img src="images/GIACCA.png" alt="Fronte" class="w-full h-full object-contain p-2">
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <!-- Breadcrumb -->
+            <div class="text-sm text-gray-500 mb-8">
+                <a href="index.html" class="hover:text-black">Home</a> / 
+                <a href="#" class="hover:text-black">Abbigliamento</a> / 
+                <span class="text-black">Giacca Selkie</span>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-12">
+                <!-- Product Gallery -->
+                <div class="lg:w-1/2">
+                    <div class="flex flex-row-reverse">
+                        <!-- Main Image -->
+                        <div class="w-full">
+                            <div class="bg-gray-50 rounded-lg overflow-hidden aspect-square">
+                                <img id="main-image" src="images/GIACCA.png" alt="GIACCA UNISEX SELKIE AVOCADO" 
+                                     class="w-full h-full object-contain transition-opacity duration-300">
+                            </div>
                         </div>
-                        <div class="bg-gray-100 rounded thumbnail" onclick="changeImage('images/GIACCA.png', this)">
-                            <img src="images/GIACCA.png" alt="Dietro" class="w-full h-full object-contain p-2">
-                        </div>
-                        <div class="bg-gray-100 rounded thumbnail" onclick="changeImage('images/GIACCA.png', this)">
-                            <img src="images/GIACCA.png" alt="Dettaglio" class="w-full h-full object-contain p-2">
-                        </div>
-                        <div class="bg-gray-100 rounded thumbnail" onclick="changeImage('images/GIACCA.png', this)">
-                            <img src="images/GIACCA.png" alt="Dettaglio" class="w-full h-full object-contain p-2">
+                        
+                        <!-- Thumbnails -->
+                        <div class="mr-4 hidden md:flex flex-col space-y-3">
+                            <div class="w-16 h-16 bg-gray-100 rounded cursor-pointer border-2 border-transparent hover:border-gray-300 transition-colors" 
+                                 onclick="changeImage('images/GIACCA.png', this)">
+                                <img src="images/GIACCA.png" alt="Fronte" class="w-full h-full object-contain p-1">
+                            </div>
+                            <div class="w-16 h-16 bg-gray-100 rounded cursor-pointer border-2 border-transparent hover:border-gray-300 transition-colors" 
+                                 onclick="changeImage('images/GIACCA.png', this)">
+                                <img src="images/GIACCA.png" alt="Dietro" class="w-full h-full object-contain p-1">
+                            </div>
+                            <div class="w-16 h-16 bg-gray-100 rounded cursor-pointer border-2 border-transparent hover:border-gray-300 transition-colors" 
+                                 onclick="changeImage('images/GIACCA.png', this)">
+                                <img src="images/GIACCA.png" alt="Dettaglio" class="w-full h-full object-contain p-1">
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Product Info -->
-                <div class="space-y-8">
-                    <!-- Title and Price -->
-                    <div>
-                        <h1 class="text-4xl font-black text-gray-900 mb-4">GIACCA UNISEX SELKIE AVOCADO</h1>
-                        <div class="text-3xl font-bold text-gray-900 mb-6">120,00 €</div>
-                    </div>
-
-                    </div>
-
-                    <!-- Quantity and Add to Cart -->
-                    <div class="space-y-4">
-                        <div class="flex items-center space-x-4">
-                            <h3 class="text-sm font-semibold text-gray-900">QUANTITÀ</h3>
-                            <div class="flex items-center border border-gray-300 rounded">
-                                <button class="quantity-button px-3 py-2 text-gray-600 hover:text-gray-900" onclick="changeQuantity(-1)">-</button>
-                                <input type="number" id="quantity" value="1" min="1" max="5" class="w-16 text-center border-0 focus:outline-none" readonly>
-                                <button class="quantity-button px-3 py-2 text-gray-600 hover:text-gray-900" onclick="changeQuantity(1)">+</button>
-                            </div>
-                            <div class="text-sm text-green-600 font-medium">5 Disponibile</div>
+                <div class="lg:w-1/2">
+                    <div class="sticky top-4">
+                        <!-- Title and Price -->
+                        <div class="mb-6">
+                            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">GIACCA UNISEX SELKIE AVOCADO</h1>
+                            <div class="text-2xl font-semibold text-gray-900">120,00 €</div>
+                            <div class="text-sm text-green-600 font-medium mt-1">Disponibile</div>
                         </div>
-                        
-                        <button class="w-full bg-black text-white py-4 font-semibold hover:bg-gray-800 transition">
-                            Aggiungi al carrello
-                        </button>
-                    </div>
 
-                    <!-- Technical Characteristics -->
-                    <div class="border-t border-b border-gray-200 py-8">
-                        <h3 class="text-lg font-bold text-gray-900 mb-6">CARATTERISTICHE TECNICHE</h3>
-                        
-                        <div class="space-y-4">
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Isolamento</span>
-                                    <span class="text-xs text-gray-500">1/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 20%"></div>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Traspirabilità</span>
-                                    <span class="text-xs text-gray-500">4/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Protezione Pioggia</span>
-                                    <span class="text-xs text-gray-500">3/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 60%"></div>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm text-gray-700">Protezione Vento</span>
-                                    <span class="text-xs text-gray-500">4/5</span>
-                                </div>
-                                <div class="feature-bar">
-                                    <div class="feature-bar-fill" style="width: 80%"></div>
-                                </div>
+                        <!-- Color Selection -->
+                        <div class="mb-6">
+                            <h3 class="text-sm font-medium text-gray-900 mb-2">COLORE: <span id="selected-color">Verde Avocado</span></h3>
+                            <div class="flex space-x-2">
+                                <button class="color-option w-10 h-10 rounded-full border-2 border-transparent selected" 
+                                        style="background-color: #4c7f5c;" 
+                                        data-color="Verde Avocado"
+                                        onclick="selectColor(this, 'Verde Avocado')">
+                                    <span class="sr-only">Verde Avocado</span>
+                                </button>
+                                <button class="color-option w-10 h-10 rounded-full border-2 border-transparent" 
+                                        style="background-color: #c41e3a;" 
+                                        data-color="Rosso"
+                                        onclick="selectColor(this, 'Rosso')">
+                                    <span class="sr-only">Rosso</span>
+                                </button>
+                                <button class="color-option w-10 h-10 rounded-full border-2 border-transparent" 
+                                        style="background-color: #1e3a8a;" 
+                                        data-color="Blu"
+                                        onclick="selectColor(this, 'Blu')">
+                                    <span class="sr-only">Blu</span>
+                                </button>
+                                <button class="color-option w-10 h-10 rounded-full border-2 border-transparent" 
+                                        style="background-color: #000000;" 
+                                        data-color="Nero"
+                                        onclick="selectColor(this, 'Nero')">
+                                    <span class="sr-only">Nero</span>
+                                </button>
                             </div>
                         </div>
-                        
-                        <div class="grid grid-cols-2 gap-4 mt-6 text-sm">
-                            <div>
-                                <span class="font-semibold">Peso:</span> 175 g (M)
+
+                        <!-- Size Selection -->
+                        <div class="mb-6">
+                            <div class="flex justify-between items-center mb-2">
+                                <h3 class="text-sm font-medium text-gray-900">TAGLIA</h3>
+                                <button class="text-xs text-gray-500 hover:text-black underline">Guida alle taglie</button>
                             </div>
-                            <div>
-                                <span class="font-semibold">Temperatura d'uso:</span> 8 - 16 °C
+                            <div class="grid grid-cols-5 gap-2">
+                                <button class="size-button h-12 border rounded text-sm font-medium hover:border-black" 
+                                        data-size="XS"
+                                        onclick="selectSize(this, 'XS')">
+                                    XS
+                                </button>
+                                <button class="size-button h-12 border rounded text-sm font-medium hover:border-black" 
+                                        data-size="S"
+                                        onclick="selectSize(this, 'S')">
+                                    S
+                                </button>
+                                <button class="size-button h-12 border rounded text-sm font-medium bg-black text-white" 
+                                        data-size="M"
+                                        onclick="selectSize(this, 'M')">
+                                    M
+                                </button>
+                                <button class="size-button h-12 border rounded text-sm font-medium hover:border-black" 
+                                        data-size="L"
+                                        onclick="selectSize(this, 'L')">
+                                    L
+                                </button>
+                                <button class="size-button h-12 border rounded text-sm font-medium hover:border-black" 
+                                        data-size="XL"
+                                        onclick="selectSize(this, 'XL')">
+                                    XL
+                                </button>
                             </div>
-                            <div class="col-span-2">
-                                <span class="font-semibold">Fitting:</span> REGULAR FIT
+                        </div>
+
+                        <!-- Add to Cart -->
+                        <div class="mb-8">
+                            <div class="flex items-center mb-4">
+                                <div class="flex items-center border border-gray-300 rounded mr-4">
+                                    <button class="quantity-button px-4 py-2 text-gray-600 hover:bg-gray-100" 
+                                            onclick="changeQuantity(-1)">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <input type="number" id="quantity" value="1" min="1" max="5" 
+                                           class="w-12 text-center border-x border-gray-300 h-full focus:outline-none" readonly>
+                                    <button class="quantity-button px-4 py-2 text-gray-600 hover:bg-gray-100" 
+                                            onclick="changeQuantity(1)">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <button class="flex-1 bg-black text-white py-3 px-6 font-medium hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center">
+                                    <i class="fas fa-shopping-cart mr-2"></i>
+                                    AGGIUNGI AL CARRELLO
+                                </button>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="text-sm text-gray-600 hover:text-black underline">Spedizione e reso gratuito</a>
+                            </div>
+                        </div>
+
+                        <!-- Product Details Accordion -->
+                        <div class="border-t border-gray-200 pt-6">
+                            <div class="border-b border-gray-200">
+                                <button class="accordion-toggle w-full flex justify-between items-center py-4 text-left">
+                                    <span class="font-medium">DETTAGLI PRODOTTO</span>
+                                    <i class="fas fa-plus text-gray-400"></i>
+                                </button>
+                                <div class="accordion-content hidden pb-4 text-sm text-gray-600">
+                                    <p class="mb-4">Giacca pieghevole di peso medio progettata per offrire una protezione totale contro il vento e la pioggia leggera.</p>
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Tessuto solido ed elastico per massima libertà di movimento</li>
+                                        <li>Trattamento idrorepellente DWR</li>
+                                        <li>Fodera in rete traspirante</n>
+                                        <li>Cappuccio staccabile con regolazione posteriore</li>
+                                        <li>Fodera interna asportabile</li>
+                                        <li>Peso: 320g</li>
+                                        <li>Made in Italy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="border-b border-gray-200">
+                                <button class="accordion-toggle w-full flex justify-between items-center py-4 text-left">
+                                    <span class="font-medium">CONSIGLI PER LA CURA</span>
+                                    <i class="fas fa-plus text-gray-400"></i>
+                                </button>
+                                <div class="accordion-content hidden pb-4 text-sm text-gray-600">
+                                    <ul class="list-disc pl-5 space-y-2">
+                                        <li>Lavare a 30°</li>
+                                        <li>Non candeggiare</li>
+                                        <li>Stirare a bassa temperatura</li>
+                                        <li>Non asciugare in asciugatrice</li>
+                                        <li>Non lavare a secco</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="border-b border-gray-200">
+                                <button class="accordion-toggle w-full flex justify-between items-center py-4 text-left">
+                                    <span class="font-medium">SPEDIZIONE E RESO</span>
+                                    <i class="fas fa-plus text-gray-400"></i>
+                                </button>
+                                <div class="accordion-content hidden pb-4 text-sm text-gray-600">
+                                    <p class="mb-2">Spedizione gratuita per ordini superiori a 100€</p>
+                                    <p class="mb-2">Reso gratuito entro 30 giorni</p>
+                                    <p>Consegna in 2-4 giorni lavorativi</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <!-- Description -->
-                    <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-4">DESCRIZIONE</h3>
-                        <p class="text-gray-700 leading-relaxed">
-                            Giacca pieghevole di peso medio progettata per offrire una protezione totale contro il vento e la pioggia leggera. Il suo tessuto solido ed elastico offre un'ottima libertà di movimento, mentre il trattamento idroripelente garantisce un'efficace protezione contro gli elementi. Ideale per attività outdoor in condizioni climatiche variabili.
-                        </p>
+            <!-- Product Description -->
+            <div class="mt-16 max-w-3xl mx-auto">
+                <h2 class="text-2xl font-bold text-center mb-8">GIACCA SELKIE</h2>
+                <div class="prose max-w-none">
+                    <p class="text-center text-gray-700 mb-8">
+                        La giacca Selkie è il perfetto compromesso tra stile e funzionalità. Progettata per resistere alle intemperie, 
+                        questa giacca unisex offre comfort e protezione in ogni condizione climatica. Il design pulito e moderno la rende 
+                        adatta sia all'uso urbano che alle attività all'aria aperta.
+                    </p>
+                    
+                    <div class="grid md:grid-cols-3 gap-8 text-center my-12">
+                        <div>
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <i class="fas fa-wind text-2xl text-gray-700"></i>
+                            </div>
+                            <h4 class="font-semibold mb-1">IMPERMEABILE</h4>
+                            <p class="text-sm text-gray-600">Tessuto idrorepellente per protezione completa</p>
+                        </div>
+                        <div>
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <i class="fas fa-tshirt text-2xl text-gray-700"></i>
+                            </div>
+                            <h4 class="font-semibold mb-1">TRASPIRABILE</h4>
+                            <p class="text-sm text-gray-600">Tessuto traspirante per massimo comfort</p>
+                        </div>
+                        <div>
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <i class="fas fa-leaf text-2xl text-gray-700"></i>
+                            </div>
+                            <h4 class="font-semibold mb-1">SOSTENIBILE</h4>
+                            <p class="text-sm text-gray-600">Realizzata con materiali riciclati</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <div class="mt-20">
+                <h3 class="text-xl font-bold mb-8 text-center">PRODOTTI CORRELATI</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <!-- Product 1 -->
+                    <div class="group">
+                        <div class="aspect-square bg-gray-50 rounded-lg mb-3 overflow-hidden">
+                            <img src="images/GIACCA.png" alt="Prodotto correlato" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity">
+                        </div>
+                        <h4 class="font-medium">Pantaloni da Ciclismo</h4>
+                        <p class="text-gray-600">120,00 €</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="group">
+                        <div class="aspect-square bg-gray-50 rounded-lg mb-3 overflow-hidden">
+                            <img src="images/GIACCA.png" alt="Prodotto correlato" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity">
+                        </div>
+                        <h4 class="font-medium">Maglia a Maniche Corte</h4>
+                        <p class="text-gray-600">85,00 €</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="group">
+                        <div class="aspect-square bg-gray-50 rounded-lg mb-3 overflow-hidden">
+                            <img src="images/GIACCA.png" alt="Prodotto correlato" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity">
+                        </div>
+                        <h4 class="font-medium">Gilet Termico</h4>
+                        <p class="text-gray-600">95,00 €</p>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="group">
+                        <div class="aspect-square bg-gray-50 rounded-lg mb-3 overflow-hidden">
+                            <img src="images/GIACCA.png" alt="Prodotto correlato" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity">
+                        </div>
+                        <h4 class="font-medium">Guanti Invernali</h4>
+                        <p class="text-gray-600">45,00 €</p>
+                    </div>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-        <!-- Footer -->
     <footer class="bg-white py-8 text-gray-700 text-sm">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
@@ -292,7 +492,7 @@
                     <ul class="space-y-1">
                         <li><a href="https://www.bicycle-line.com/it/content/4-brand" class="hover:text-gray-800 transition">Brand</a></li>
                         <li><a href="https://www.bicycle-line.com/it/content/6-storia" class="hover:text-gray-800 transition">Storia</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita" class="hover:text-gray-800 transition">SostenibilitÃ </a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita" class="hover:text-gray-800 transition">Sostenibilità</a></li>
                         <li><a href="https://www.bicycle-line.com/it/contact" class="hover:text-gray-800 transition">Contattaci</a></li>
                     </ul>
                 </div>
@@ -377,11 +577,21 @@
         }
 
         // Color selection
-        function selectColor(colorElement) {
+        function selectColor(colorElement, colorName) {
             document.querySelectorAll('.color-option').forEach(option => {
                 option.classList.remove('selected');
             });
             colorElement.classList.add('selected');
+            
+            // Update the selected color text
+            const selectedColorElement = document.getElementById('selected-color');
+            if (selectedColorElement) {
+                selectedColorElement.textContent = colorName;
+            }
+            
+            // Here you would typically update the product image based on color
+            // For now, we'll just log it
+            console.log('Selected color:', colorName);
         }
 
         // Quantity change
@@ -396,32 +606,58 @@
         }
 
         // Size selection
-        document.querySelectorAll('.size-button').forEach(button => {
-            button.addEventListener('click', function() {
-                if (!this.disabled) {
-                    document.querySelectorAll('.size-button').forEach(btn => {
-                        btn.classList.remove('bg-black', 'text-white');
-                        btn.classList.add('border-gray-300');
-                    });
-                    this.classList.add('bg-black', 'text-white');
-                    this.classList.remove('border-gray-300');
+        function selectSize(button, size) {
+            document.querySelectorAll('.size-button').forEach(btn => {
+                btn.classList.remove('bg-black', 'text-white');
+                btn.classList.add('bg-white', 'text-gray-900');
+            });
+            button.classList.remove('bg-white', 'text-gray-900');
+            button.classList.add('bg-black', 'text-white');
+            
+            // Update any size-related UI
+            console.log('Selected size:', size);
+        }
+
+        // Accordion functionality
+        document.querySelectorAll('.accordion-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle active class on button
+                button.classList.toggle('active');
+                
+                // Toggle icon
+                if (icon) {
+                    icon.classList.toggle('fa-plus');
+                    icon.classList.toggle('fa-minus');
+                }
+                
+                // Toggle content
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    content.classList.remove('active');
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    content.classList.add('active');
                 }
             });
         });
-    </script>
-    <script>
+
         // Mobile menu toggle
-        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+        document.getElementById('mobile-menu-btn')?.addEventListener('click', function() {
             const menu = document.getElementById('mobile-menu');
-            if (menu.classList.contains('hidden')) {
-                menu.classList.remove('hidden');
-                menu.classList.add('block');
-            } else {
-                menu.classList.remove('block');
-                menu.classList.add('hidden');
+            if (menu) {
+                const isOpen = menu.classList.toggle('hidden');
+                this.innerHTML = isOpen ? '<i class="fas fa-bars text-xl"></i>' : '<i class="fas fa-times text-xl"></i>';
             }
         });
-
+        
+        // Initialize first accordion as open
+        document.addEventListener('DOMContentLoaded', function() {
+            const firstAccordion = document.querySelector('.accordion-toggle');
+            if (firstAccordion) {
+                firstAccordion.click(); // Open first accordion by default
         // Language dropdown toggle
         function toggleLanguageMenu(button) {
             const dropdown = button.nextElementSibling;
