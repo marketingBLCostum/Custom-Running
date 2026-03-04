@@ -559,7 +559,7 @@
       mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
     }
 
-    // Language dropdown (fix: no onclick inline + event safe)
+    // Language dropdown functionality
     const langToggle = document.getElementById('language-toggle');
     const langDropdown = document.getElementById('language-dropdown');
 
@@ -580,6 +580,29 @@
       document.addEventListener('click', (e) => {
         if (!langDropdown.contains(e.target) && !langToggle.contains(e.target)) {
           setLangOpen(false);
+        }
+      });
+    }
+
+    // Category dropdown functionality
+    const categoryToggle = document.getElementById('category-toggle');
+    const categoryDropdown = document.getElementById('category-dropdown');
+
+    function setCategoryOpen(open) {
+      if (!categoryDropdown || !categoryToggle) return;
+      categoryDropdown.classList.toggle('hidden', !open);
+    }
+
+    if (categoryToggle && categoryDropdown) {
+      categoryToggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setCategoryOpen(categoryDropdown.classList.contains('hidden'));
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!categoryDropdown.contains(e.target) && !categoryToggle.contains(e.target)) {
+          setCategoryOpen(false);
         }
       });
     }

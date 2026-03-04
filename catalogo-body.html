@@ -584,29 +584,6 @@
       });
     }
 
-    // Sort dropdown functionality
-    const sortToggle = document.getElementById('sort-toggle');
-    const sortDropdown = document.getElementById('sort-dropdown');
-
-    function setSortOpen(open) {
-      if (!sortDropdown || !sortToggle) return;
-      sortDropdown.classList.toggle('hidden', !open);
-    }
-
-    if (sortToggle && sortDropdown) {
-      sortToggle.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        setSortOpen(sortDropdown.classList.contains('hidden'));
-      });
-
-      document.addEventListener('click', (e) => {
-        if (!sortDropdown.contains(e.target) && !sortToggle.contains(e.target)) {
-          setSortOpen(false);
-        }
-      });
-    }
-
     // Category dropdown functionality
     const categoryToggle = document.getElementById('category-toggle');
     const categoryDropdown = document.getElementById('category-dropdown');
