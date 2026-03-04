@@ -274,6 +274,28 @@
 
   
   </section>
+
+  <!-- Filters Section -->
+  <section class="py-8 bg-white border-b">
+    <div class="container mx-auto px-6">
+      <div class="flex justify-between items-center">
+        <!-- Category Dropdown -->
+        <div class="relative">
+          <button id="category-toggle" class="flex items-center gap-2 px-4 py-2 border border-gray-300 bg-white hover:bg-gray-50 transition">
+            <span class="text-gray-700">Filtri</span>
+            <i class="fas fa-chevron-down text-gray-500 text-sm"></i>
+          </button>
+          <div id="category-dropdown" class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-10 hidden">
+            <a href="catalogo-body.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition">Body</a>
+            <a href="catalogo-maglia.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition">Maglia</a>
+            <a href="catalogo-gilet.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition">Gilet</a>
+            <a href="catalogo-calzamaglia.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-50 transition">Calzamaglia</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
             <!-- First Row: 4 Vertical -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
                 <a href="prodotto-1.html" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative; display: block;">
