@@ -96,7 +96,7 @@
     .size{min-width:34px;height:40px;padding:0 10px;border:1px solid transparent;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:400;background:transparent;font-family:'Inter',sans-serif}
     .size.active{background:#000;color:#fff;border-radius:2px}
     .post-content{max-width:1440px;margin:0 auto;background:#fff}
-    .promo-section{padding:66px 24px 0;background:#fff}
+    .promo-section{padding:66px 24px 80px;background:#fff}
     .promo-inner{max-width:1440px;margin:0 auto;text-align:center}
     .promo-copy{max-width:760px;margin:0 auto;font-size:12px;line-height:1.7;color:#666}
     .promo-links{margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:12px}
@@ -285,7 +285,7 @@
       <div class="option-block">
         <div class="size-line">
           <div class="option-label" style="margin:0">Taglia:</div>
-          <div class="guide">GUIDA ALLE TAGLIE</div>
+          <div class="guide" id="size-guide-btn" style="cursor: pointer;">GUIDA ALLE TAGLIE</div>
         </div>
         <div class="sizes">
           <button class="size">S</button>
@@ -366,6 +366,31 @@
       </div>
     </aside>
   </main>
+
+  <!-- Size Guide Popup -->
+  <div id="size-guide-popup" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+    <div class="bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-auto relative">
+      <!-- Close button -->
+      <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold z-10">
+        ×
+      </button>
+      
+      <!-- Popup content -->
+      <div class="p-8">
+        <h2 class="text-2xl font-bold mb-6 text-center">GUIDA ALLE TAGLIE</h2>
+        
+        <!-- Size guide image placeholder -->
+        <div class="flex justify-center mb-6">
+          <img id="size-guide-image" src="" alt="Guida alle taglie" class="max-w-full h-auto">
+        </div>
+        
+        <!-- Additional info -->
+        <div class="text-center text-sm text-gray-600">
+          <p>Clicca sulla "X" in alto a destra per chiudere</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section class="post-content">
     <section class="promo-section">
@@ -520,6 +545,34 @@
                 body.style.display = 'none';
             }
         });
+
+        // Size guide popup functionality
+        const sizeGuideBtn = document.getElementById('size-guide-btn');
+        const sizeGuidePopup = document.getElementById('size-guide-popup');
+        const closePopupBtn = document.getElementById('close-popup');
+
+        if (sizeGuideBtn && sizeGuidePopup) {
+            sizeGuideBtn.addEventListener('click', function() {
+                sizeGuidePopup.classList.remove('hidden');
+                // Here you can set the image source when you provide it
+                // document.getElementById('size-guide-image').src = 'path/to/your/image.jpg';
+            });
+        }
+
+        if (closePopupBtn && sizeGuidePopup) {
+            closePopupBtn.addEventListener('click', function() {
+                sizeGuidePopup.classList.add('hidden');
+            });
+        }
+
+        // Close popup when clicking outside
+        if (sizeGuidePopup) {
+            sizeGuidePopup.addEventListener('click', function(e) {
+                if (e.target === sizeGuidePopup) {
+                    sizeGuidePopup.classList.add('hidden');
+                }
+            });
+        }
     });
   </script>
 </body>
