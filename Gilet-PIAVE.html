@@ -301,7 +301,6 @@
         <div class="acc-item">
           <div class="acc-head">
             <div class="acc-title">Descrizione</div>
-            <div class="acc-icon">−</div>
           </div>
           <div class="acc-body">
             <div class="description">
@@ -313,33 +312,20 @@
         <div class="acc-item">
           <div class="acc-head">
             <div class="acc-title">Caratteristiche tecniche</div>
-            <div class="acc-icon">−</div>
           </div>
           <div class="acc-body tech-grid">
             <div class="metric-grid">
               <div class="metric">
                 <div class="label">Elasticità</div>
-                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span></div>
+                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
               </div>
               <div class="metric">
                 <div class="label">Traspirabilità</div>
-                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span></div>
+                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
               </div>
               <div class="metric">
                 <div class="label">Vestibilità</div>
-                <div class="bars"><span class="on"></span><span></span><span></span><span></span></div>
-              </div>
-            </div>
-
-            <div class="temp">
-              <div class="temp-head">
-                <div class="temp-title">Temperatura</div>
-                <div class="temp-chip">da -6° a +10°</div>
-              </div>
-              <div class="temp-line"></div>
-              <div class="temp-range">
-                <span>-10°</span>
-                <span>+23°</span>
+                <div class="bars"><span class="on"></span><span></span><span></span><span></span><span></span></div>
               </div>
             </div>
           </div>
@@ -347,8 +333,34 @@
 
         <div class="acc-item">
           <div class="acc-head">
-            <div class="acc-title">Dettaglio tecnico</div>
+            <div class="acc-title">CARATTERISTICHE PRINCIPALI</div>
             <div class="acc-icon">+</div>
+          </div>
+          <div class="acc-body">
+            <div class="description">
+              <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 8px;">• Cerniera YKK® lunga divisibile con camlock</li>
+                <li style="margin-bottom: 8px;">• Completamente personalizzabile</li>
+                <li style="margin-bottom: 8px;">• Tessuto posteriore in materiale membranato impermeabile, antivento e traspirante</li>
+                <li style="margin-bottom: 8px;">• Spalle rinforzate con un tessuto resistente</li>
+                <li style="margin-bottom: 8px;">• Tasca con tre scomparti e patta protettiva superiore</li>
+                <li style="margin-bottom: 8px;">• Produzione europea</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <div class="acc-head">
+            <div class="acc-title">COMPOSIZIONE DEL TESSUTO</div>
+            <div class="acc-icon">+</div>
+          </div>
+          <div class="acc-body">
+            <div class="description">
+              <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 8px;">• Parte principale: 92% PL (poliestere) 8% EA (elastan) + membrana PL</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -477,6 +489,37 @@
                 }
             });
         }
+
+        // Accordion functionality - only for sections with +/− icons
+        const accHeads = document.querySelectorAll('.acc-head');
+        accHeads.forEach(head => {
+            const accIcon = head.querySelector('.acc-icon');
+            // Only add accordion functionality if there's an icon
+            if (accIcon) {
+                head.addEventListener('click', function() {
+                    const accItem = this.parentElement;
+                    const accBody = accItem.querySelector('.acc-body');
+                    
+                    // Toggle body visibility
+                    if (accBody.style.display === 'none' || accBody.style.display === '') {
+                        accBody.style.display = 'block';
+                        accIcon.textContent = '−';
+                    } else {
+                        accBody.style.display = 'none';
+                        accIcon.textContent = '+';
+                    }
+                });
+            }
+        });
+
+        // Initially hide only the accordion bodies with icons
+        document.querySelectorAll('.acc-item .acc-body').forEach(body => {
+            const head = body.previousElementSibling;
+            const hasIcon = head && head.querySelector('.acc-icon');
+            if (hasIcon) {
+                body.style.display = 'none';
+            }
+        });
     });
   </script>
 </body>
