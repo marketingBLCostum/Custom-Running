@@ -80,9 +80,23 @@
 
     .hero {
       position: relative;
-      min-height: 86vh;
+      min-height: 100vh;
       background: #000;
       overflow: hidden;
+    }
+
+    .hero-slide {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .hero-media,
@@ -127,7 +141,7 @@
     }
 
     .hero-title {
-      font-size: clamp(52px, 10vw, 108px);
+      font-size: clamp(36px, 7vw, 76px);
       max-width: 980px;
       margin: 0 auto;
     }
@@ -626,7 +640,7 @@
       .look-card { min-height: 520px; }
       .editorial-card { min-height: 70vh; }
       .hero,
-      .hero-copy { min-height: 700px; }
+      .hero-copy { min-height: 600px; }
       .faq-trigger { grid-template-columns: 40px 1fr 24px; }
       .faq-body { padding-left: 54px; }
       .form-grid-2 { grid-template-columns: 1fr; }
@@ -741,19 +755,17 @@
       </div>
     </nav>
 
-    <div class="nike-strip">
-      Produzione personalizzata, supporto grafico dedicato e assistenza diretta. <a href="#contatti">Richiedi informazioni</a>
-    </div>
+   
 
     <section id="home" class="hero">
       <div class="hero-media">
-        <div class="hero-slide active"><img src="images/Home.png" alt="Bicycle Line Custom"></div>
+        <div class="hero-slide active"><img src="images/home.gif" alt="Bicycle Line Custom"></div>
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-copy max-wrap">
         <div>
           
-          <h1 class="hero-title">Crea la tua divisa personalizzata</h1>
+          <h1 class="hero-title">Crea la tua<br>divisa personalizzata</h1>
           <p class="hero-desc">Design su misura, supporto del nostro team grafico e produzione specializzata per trasformare la tua identità di squadra in un kit tecnico premium.</p>
           <div class="flex flex-wrap items-center justify-center gap-3 mt-7">
             <a href="#contatti" class="pill-btn white">Richiedi informazioni</a>
@@ -1109,52 +1121,75 @@
     </section>
 
     
-    <footer class="site-footer">
-      <div class="max-wrap">
-        <div class="footer-grid">
-          <div>
-            <a href="https://www.bicycle-line.com/it/" target="_blank"><img src="images/logodfs.png" alt="Bicycle Line" class="w-20 h-auto"></a>
-          </div>
-          <div>
-            <h3 class="footer-title">Bicycle Line</h3>
-            <a href="https://www.bicycle-line.com/it/content/4-brand">Brand</a>
-            <a href="https://www.bicycle-line.com/it/content/6-storia">Storia</a>
-            <a href="https://www.bicycle-line.com/it/content/9-sostenibilita">Sostenibilità</a>
-            <a href="https://www.bicycle-line.com/it/contact">Contattaci</a>
-          </div>
-          <div>
-            <h3 class="footer-title">Shop</h3>
-            <a href="https://www.bicycle-line.com/it/947-uomo">Uomo</a>
-            <a href="https://www.bicycle-line.com/it/948-donna">Donna</a>
-            <a href="https://www.bicycle-line.com/it/949-cat-bambino">Bambino</a>
-            <a href="https://www.bicycle-line.com/it/1109-offerte">Offerte</a>
-          </div>
-          <div>
-            <h3 class="footer-title">Link utili</h3>
-            <a href="https://www.bicycle-line.com/it/content/1-spedizione">Spedizione</a>
-            <a href="https://www.bicycle-line.com/it/content/5-pagamento">Pagamento</a>
-            <a href="https://www.bicycle-line.com/it/content/18-faq">FAQ</a>
-            <a href="https://www.bicycle-line.com/it/content/12-guida-alle-taglie">Guida alle taglie</a>
-            <a href="https://www.bicycle-line.com/it/content/13-resi">Resi</a>
-          </div>
-          <div>
-            <h3 class="footer-title">Note legali</h3>
-            <a href="https://www.bicycle-line.com/it/content/15-privacy-policy">Privacy Policy</a>
-            <a href="https://www.bicycle-line.com/it/content/16-cookie-policy">Cookie policy</a>
-            <a href="https://www.bicycle-line.com/it/content/17-termini-e-condizioni">Termini e condizioni</a>
-            <h3 class="footer-title" style="margin-top:24px;">Contattaci</h3>
-            <p>Bicycle Line - VAT 02027450267</p>
-            <p>Via Ferrara, 2-4 31030 Dosson di Casier, Treviso - Italia</p>
-            <p>+39 0422 490156</p>
-            <p>custom@bicycle-line.com</p>
-          </div>
-        </div>
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-gray-300 text-sm">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                <!-- Logo -->
+                <div class="col-span-1">
+                    <a href="https://www.bicycle-line.com/it/" target="_blank"><img src="images/logodfs.png" alt="Bicycle Line Logo" class="w-20 h-auto"></a>
+                </div>
 
-        <div class="footer-bottom">
-          <div>Italia</div>
-          <div>© 2026 Bicycle Line. Tutti i diritti riservati.</div>
+                <!-- BICYCLE LINE -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-white mb-3">BICYCLE LINE</h3>
+                    <ul class="space-y-1">
+                        <li><a href="https://www.bicycle-line.com/it/content/4-brand" class="hover:text-white transition">Brand</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/6-storia" class="hover:text-white transition">Storia</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita" class="hover:text-white transition">Sostenibilità</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/contact" class="hover:text-white transition">Contattaci</a></li>
+                    </ul>
+                </div>
+
+                <!-- SHOP -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-white mb-3">SHOP</h3>
+                    <ul class="space-y-1">
+                        <li><a href="https://www.bicycle-line.com/it/947-uomo" class="hover:text-white transition">Uomo</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/948-donna" class="hover:text-white transition">Donna</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/949-cat-bambino" class="hover:text-white transition">Bambino</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/1109-offerte" class="hover:text-white transition">Offerte</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/23-shop" class="hover:text-white transition">Guida allo shopping online</a></li>
+                    </ul>
+                </div>
+
+                <!-- LINK UTILI -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-white mb-3">LINK UTILI</h3>
+                    <ul class="space-y-1">
+                        <li><a href="https://www.bicycle-line.com/it/content/1-spedizione" class="hover:text-white transition">Spedizione</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/5-pagamento" class="hover:text-white transition">Pagamento</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/18-faq" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/12-guida-alle-taglie" class="hover:text-white transition">Guida alle taglie</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/14-garanzia" class="hover:text-white transition">Utilizzo del prodotto e garanzia</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/13-resi" class="hover:text-white transition">Resi</a></li>
+                    </ul>
+                </div>
+
+                <!-- NOTE LEGALI + CONTACT US -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-white mb-3">NOTE LEGALI</h3>
+                    <ul class="space-y-1">
+                        <li><a href="https://www.bicycle-line.com/it/content/15-privacy-policy" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/16-cookie-policy" class="hover:text-white transition">Cookie policy</a></li>
+                        <li><a href="https://www.bicycle-line.com/it/content/17-termini-e-condizioni" class="hover:text-white transition">Termini e condizioni</a></li>
+                    </ul>
+
+                    <h3 class="font-bold text-white mb-3 mt-4">CONTATTACI</h3>
+                    <ul class="space-y-1 text-xs">
+                        <li class="font-semibold">Bicycle Line - VAT 02027450267</li>
+                        <li>Via Ferrara, 2-4 31030 Dosson di Casier</li>
+                        <li>Treviso - Italia</li>
+                        <li>+39 0422 490156</li>
+                        <li>custom@bicycle-line.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 mt-6 pt-4 text-center text-xs text-gray-400">
+            </div>
         </div>
-      </div>
     </footer>
   </div>
 
