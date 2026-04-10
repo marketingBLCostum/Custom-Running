@@ -267,8 +267,7 @@
             transform: translateY(0);
         }
 
-        /* GALLERY: compact like GOBIK style */
-        :root{
+                :root{
             --gallery-height-desktop: 280px;
             --gallery-height-tablet: 240px;
             --gallery-height-mobile: 180px;
@@ -425,7 +424,262 @@
             </div>
         </div>
     </nav>
+<style>
+  .ui-shell{
+    --topbar-h: 30px;
+    --nav-h: 68px;
+    --hero-h: calc(100vh - var(--topbar-h) - var(--nav-h));
+    --bg-top: #0a0a0a;
+    --bg-nav: #121212;
+    --bg-hero: #000000;
+    --text: #ffffff;
+    --muted: #cfcfcf;
+    --search-bg: #0f0f10;
+    --search-border: rgba(255,255,255,.06);
+    --pill-bg: #ffffff;
+    --pill-text: #111111;
+  }
 
+  .ui-shell, .ui-shell *{ box-sizing: border-box; }
+
+  .ui-shell{
+    width: 100%;
+    color: var(--text);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #000;
+  }
+
+  /* TOP BAR */
+  .ui-topbar{
+    height: var(--topbar-h);
+    background: var(--bg-top);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px 0 18px;
+  }
+
+  .ui-topbar-left{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .ui-mini-logo{
+    height: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ui-mini-logo svg{
+    height: 100%;
+    fill: #fff;
+  }
+
+  .ui-topbar-right{
+    display: flex;
+    gap: 14px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .ui-topbar-right a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .ui-topbar-right .sep{ opacity: .6; }
+
+  /* NAV */
+  .ui-nav{
+    height: var(--nav-h);
+    background: linear-gradient(90deg,#151515,#181818,#151515);
+    display: grid;
+    grid-template-columns: 220px 1fr 320px;
+    align-items: center;
+    padding: 0 28px;
+  }
+
+  .ui-logo svg{
+    height: 26px;
+    fill: #fff;
+  }
+
+  .ui-nav-center{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+  }
+
+  .ui-nav-center a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .ui-nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .ui-search{
+    height: 44px;
+    width: 170px;
+    border-radius: 999px;
+    background: var(--search-bg);
+    border: 1px solid var(--search-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    color: #ccc;
+    font-size: 15px;
+  }
+
+  .ui-search svg{
+    width: 18px;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+  }
+
+  .ui-icon{
+    width: 24px;
+    height: 24px;
+  }
+
+  .ui-icon svg{
+    width: 100%;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+  }
+
+  /* HERO */
+  .ui-hero{
+    position: relative;
+    min-height: var(--hero-h);
+    background: #000;
+  }
+
+  .ui-hero-content{
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .ui-hero-kicker{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .ui-hero-title{
+    font-size: clamp(64px,7vw,110px);
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  .ui-hero-sub{
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .ui-cta{
+    margin-top: 20px;
+    display: inline-flex;
+    height: 42px;
+    padding: 0 22px;
+    border-radius: 999px;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+</style>
+
+<section class="ui-shell">
+
+  <!-- TOP BAR -->
+  <div class="ui-topbar">
+    <div class="ui-topbar-left">
+      <div class="ui-mini-logo">
+        <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="6"/></svg>
+      </div>
+      <div class="ui-mini-logo">
+        <svg viewBox="0 0 20 20"><rect x="4" y="4" width="12" height="12"/></svg>
+      </div>
+    </div>
+
+    <div class="ui-topbar-right">
+      <a href="#">Trova un negozio</a>
+      <span class="sep">|</span>
+      <a href="#">Aiuto</a>
+      <span class="sep">|</span>
+      <a href="#">Unisciti a noi</a>
+      <span class="sep">|</span>
+      <a href="#">Accedi</a>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <div class="ui-nav">
+    <div class="ui-logo">
+      <!-- QUI METTI IL TUO LOGO -->
+      <svg viewBox="0 0 60 20"><rect width="60" height="6"/></svg>
+    </div>
+
+    <div class="ui-nav-center">
+      <a href="#">Novità</a>
+      <a href="#">Uomo</a>
+      <a href="#">Donna</a>
+      <a href="#">Kids</a>
+      <a href="#">Sport</a>
+      <a href="#">Custom</a>
+    </div>
+
+    <div class="ui-nav-right">
+      <div class="ui-search">
+        <svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="7"/>
+          <line x1="16" y1="16" x2="22" y2="22"/>
+        </svg>
+        Cerca
+      </div>
+
+      <div class="ui-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 20s-7-4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5-7 9-7 9z"/>
+        </svg>
+      </div>
+
+      <div class="ui-icon">
+        <svg viewBox="0 0 24 24">
+          <rect x="6" y="7" width="12" height="12"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="ui-hero">
+    <div class="ui-hero-content">
+      <div class="ui-hero-kicker">Pegasus 42</div>
+      <div class="ui-hero-title">FULL HORSEPOWER</div>
+      <div class="ui-hero-sub">Unità Air Zoom curva a tutta lunghezza. Più energia.</div>
+      <a href="#" class="ui-cta">Acquista</a>
+    </div>
+  </section>
+
+</section>
     <!-- Hero Section -->
     <section id="home" class="relative h-[750px] md:h-[850px] flex items-center justify-center bg-black overflow-hidden -mt-32">
         <!-- Hero Background -->
@@ -654,9 +908,9 @@
             </div>
         </div>
     </section>
-            <!-- First Row: 4 Vertical -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full mb-4">
-                <a href="catalogo-body.html" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative; display: block;">
+            <!-- First Row: 2 Vertical - Male and Female -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full mb-4">
+                <a href="#contatti" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 90%; position: relative; display: block;">
                     <img src="images/CANOTAGGIO/1 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/1 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     
@@ -665,11 +919,11 @@
                     
                     <!-- Contenuto testuale overlay -->
                     <div class="absolute left-8 bottom-8 z-2">
-                        <h3 class="text-base font-normal text-black m-0">Body</h3>
+                        <h3 class="text-base font-normal text-black m-0">Uomo</h3>
                         <span class="inline-block text-black border border-black border-opacity-70 px-4 py-2 text-sm hover:bg-white hover:text-black transition">Vedi catalogo</span>
                     </div>
                 </a>
-                <a href="catalogo-maglia.html" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative; display: block;">
+                <a href="#contatti" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 90%; position: relative; display: block;">
                     <img src="images/CANOTAGGIO/2 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300">
                     <img src="images/CANOTAGGIO/2 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     
@@ -678,33 +932,7 @@
                     
                     <!-- Contenuto testuale overlay -->
                     <div class="absolute left-8 bottom-8 z-2">
-                        <h3 class="text-base font-normal text-black m-0">Maglia</h3>
-                        <span class="inline-block text-black border border-black border-opacity-70 px-4 py-2 text-sm hover:bg-white hover:text-black transition">Vedi catalogo</span>
-                    </div>
-                </a>
-                <a href="catalogo-gilet.html" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative; display: block;">
-                    <img src="images/CANOTAGGIO/3 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300">
-                    <img src="images/CANOTAGGIO/3 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    
-                    <!-- Overlay scuro soft per leggibilità -->
-                    <div class="absolute inset-0 bg-black bg-opacity-10 z-1"></div>
-                    
-                    <!-- Contenuto testuale overlay -->
-                    <div class="absolute left-8 bottom-8 z-2">
-                        <h3 class="text-base font-normal text-black m-0">Gilet</h3>
-                        <span class="inline-block text-black border border-black border-opacity-70 px-4 py-2 text-sm hover:bg-white hover:text-black transition">Vedi catalogo</span>
-                    </div>
-                </a>
-                <a href="catalogo-calzamaglia.html" class="product-card overflow-hidden group bg-gray-200" style="padding-bottom: 150%; position: relative; display: block;">
-                    <img src="images/CANOTAGGIO/4 davanti.png" alt="" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-0 transition-opacity duration-300">
-                    <img src="images/CANOTAGGIO/4 dietro.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    
-                    <!-- Overlay scuro soft per leggibilità -->
-                    <div class="absolute inset-0 bg-black bg-opacity-10 z-1"></div>
-                    
-                    <!-- Contenuto testuale overlay -->
-                    <div class="absolute left-8 bottom-8 z-2">
-                        <h3 class="text-base font-normal text-black m-0">Calzamaglia</h3>
+                        <h3 class="text-base font-normal text-black m-0">Donna</h3>
                         <span class="inline-block text-black border border-black border-opacity-70 px-4 py-2 text-sm hover:bg-white hover:text-black transition">Vedi catalogo</span>
                     </div>
                 </a>
