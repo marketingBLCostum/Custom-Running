@@ -12,10 +12,10 @@
 
     :root {
       --container: 1440px;
-      --text: #111111;
-      --muted: #707072;
-      --line: #e5e5e5;
-      --soft: #f5f5f5;
+      --text: #ffffff;
+      --muted: #a0a0a0;
+      --line: #333333;
+      --soft: #1a1a1a;
     }
 
     * { box-sizing: border-box; }
@@ -24,7 +24,7 @@
       margin: 0;
       font-family: 'Inter', sans-serif;
       color: var(--text);
-      background: #ffffff;
+      background: #000000;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -46,14 +46,14 @@
 
     .nav-utility {
       height: 36px;
-      background: var(--soft);
+      background: #2a2a2a;
       border-bottom: 1px solid var(--line);
       font-size: 12px;
     }
 
     .nav-main {
       height: 60px;
-      background: #fff;
+      background: #000000;
       border-bottom: 1px solid var(--line);
     }
 
@@ -61,17 +61,17 @@
       position: relative;
       font-size: 15px;
       font-weight: 500;
-      color: #111;
+      color: #ffffff;
       padding: 18px 0;
       transition: color .2s ease;
     }
 
-    .nav-link:hover { color: #555; }
+    .nav-link:hover { color: #a0a0a0; }
 
     .search-pill {
       height: 40px;
       border-radius: 999px;
-      background: var(--soft);
+      background: #1a1a1a;
       padding: 0 14px;
       display: flex;
       align-items: center;
@@ -147,7 +147,7 @@
       justify-content: center;
       height: 38px;
       padding: 0 20px;
-      border-radius: 999px;
+      border-radius: 0;
       font-size: 14px;
       font-weight: 500;
       transition: all .2s ease;
@@ -198,7 +198,7 @@
     .look-card {
       position: relative;
       overflow: hidden;
-      background: #f3f3f3;
+      background: #1a1a1a;
     }
 
     .category-card img,
@@ -244,11 +244,11 @@
       font-size: clamp(42px, 8vw, 88px);
       max-width: 980px;
       margin: 0 auto;
-      color: #111;
+      color: #ffffff;
     }
 
     .editorial-desc {
-      color: #111;
+      color: #ffffff;
       max-width: 760px;
     }
 
@@ -273,20 +273,20 @@
       margin-bottom: 12px;
     }
 
-    .link-columns a:hover { color: #111; }
+    .link-columns a:hover { color: #ffffff; }
 
     .nike-strip {
-      background: #fff;
+      background: #2a2a2a;
       border-top: 1px solid var(--line);
       border-bottom: 1px solid var(--line);
       text-align: center;
       padding: 14px 24px;
       font-size: 14px;
-      color: #111;
+      color: #ffffff;
     }
 
     .nike-strip a {
-      color: #111;
+      color: #ffffff;
       text-decoration: underline;
       text-underline-offset: 2px;
     }
@@ -375,7 +375,7 @@
     }
 
     .review-card {
-      background: #fff;
+      background: #1a1a1a;
       border: 1px solid var(--line);
       padding: 28px;
     }
@@ -392,7 +392,7 @@
       height: 28px;
       padding: 0 10px;
       border-radius: 999px;
-      background: #f5f5f5;
+      background: #2a2a2a;
       font-size: 11px;
       font-weight: 700;
       margin-top: 18px;
@@ -428,14 +428,14 @@
       font-size: 20px;
       font-weight: 500;
       letter-spacing: -0.02em;
-      color: #111;
+      color: #ffffff;
     }
 
     .faq-icon {
       font-size: 28px;
       font-weight: 300;
       line-height: 1;
-      color: #555;
+      color: #a0a0a0;
     }
 
     .faq-body {
@@ -657,41 +657,41 @@
 </head>
 <body>
   <div class="site-shell">
-    <nav id="navbar" class="sticky top-0 z-50 bg-white">
+    <nav id="navbar" class="sticky top-0 z-50 bg-black">
       <div class="nav-utility hidden md:block">
         <div class="max-wrap h-full flex items-center justify-between">
-          <div class="flex items-center gap-4 text-black">
+          <div class="flex items-center gap-4 text-white">
             <div class="relative">
               <button id="language-toggle" class="flex items-center gap-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(event)">
                 <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
                 <span>Italiano</span>
                 <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
               </button>
-              <div id="language-dropdown" class="absolute left-0 mt-2 w-44 bg-white rounded shadow-lg z-50 hidden border border-gray-200">
-                <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center gap-2 text-black">
+              <div id="language-dropdown" class="absolute left-0 mt-2 w-44 bg-gray-800 rounded shadow-lg z-50 hidden border border-gray-600">
+                <a href="index.html" class="block px-4 py-2 hover:bg-gray-700 flex items-center gap-2 text-white">
                   <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
                   <span>Italiano</span>
                 </a>
-                <a href="ndex-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center gap-2 text-black">
+                <a href="ndex-en.html" class="block px-4 py-2 hover:bg-gray-700 flex items-center gap-2 text-white">
                   <img src="images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
                   <span>English</span>
                 </a>
-                <a href="index-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center gap-2 text-black">
+                <a href="index-de.html" class="block px-4 py-2 hover:bg-gray-700 flex items-center gap-2 text-white">
                   <img src="images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
                   <span>Deutsch</span>
                 </a>
-                <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center gap-2 text-black">
+                <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-700 flex items-center gap-2 text-white">
                   <img src="images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
                   <span>Français</span>
                 </a>
-                <a href="index-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center gap-2 text-black">
+                <a href="index-es.html" class="block px-4 py-2 hover:bg-gray-700 flex items-center gap-2 text-white">
                   <img src="images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
                   <span>Español</span>
                 </a>
               </div>
             </div>
           </div>
-          <div class="flex items-center gap-3 text-[#707072]">
+          <div class="flex items-center gap-3 text-[#a0a0a0]">
             <a href="#contatti">Contattaci</a>
             <span>|</span>
             <a href="#faq">FAQ</a>
@@ -715,28 +715,28 @@
 
           <div class="hidden md:flex items-center gap-3">
             <div class="search-pill">
-              <i class="fas fa-search text-sm text-[#707072]"></i>
-              <span class="text-sm text-[#707072]">Cerca</span>
+              <i class="fas fa-search text-sm text-[#a0a0a0]"></i>
+              <span class="text-sm text-[#a0a0a0]">Cerca</span>
             </div>
-            <button class="w-9 h-9 rounded-full flex items-center justify-center hover:bg-[#f5f5f5] transition"><i class="far fa-heart"></i></button>
-            <button class="w-9 h-9 rounded-full flex items-center justify-center hover:bg-[#f5f5f5] transition"><i class="fas fa-bag-shopping"></i></button>
+            <button class="w-9 h-9 rounded-full flex items-center justify-center hover:bg-[#1a1a1a] transition"><i class="far fa-heart"></i></button>
+            <button class="w-9 h-9 rounded-full flex items-center justify-center hover:bg-[#1a1a1a] transition"><i class="fas fa-bag-shopping"></i></button>
           </div>
 
-          <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center text-black" aria-label="Apri menu">
+          <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center text-white" aria-label="Apri menu">
             <i class="fas fa-bars text-xl"></i>
           </button>
         </div>
       </div>
 
-      <div id="mobile-menu" class="hidden lg:hidden border-b border-gray-200 bg-white">
+      <div id="mobile-menu" class="hidden lg:hidden border-b border-gray-600 bg-black">
         <div class="max-wrap py-4 grid grid-cols-1 gap-3">
-          <a href="#come-funziona" class="text-black text-sm py-2">Come funziona</a>
-          <a href="#portfolio" class="text-black text-sm py-2">Ispirazione</a>
-          <a href="#sport-looks" class="text-black text-sm py-2">Uomo</a>
-          <a href="#sport-looks" class="text-black text-sm py-2">Donna</a>
-          <a href="#differenze" class="text-black text-sm py-2">Perché BL</a>
-          <a href="#contatti" class="text-black text-sm py-2">Contattaci</a>
-          <a href="#faq" class="text-black text-sm py-2">FAQ</a>
+          <a href="#come-funziona" class="text-white text-sm py-2">Come funziona</a>
+          <a href="#portfolio" class="text-white text-sm py-2">Ispirazione</a>
+          <a href="#sport-looks" class="text-white text-sm py-2">Uomo</a>
+          <a href="#sport-looks" class="text-white text-sm py-2">Donna</a>
+          <a href="#differenze" class="text-white text-sm py-2">Perché BL</a>
+          <a href="#contatti" class="text-white text-sm py-2">Contattaci</a>
+          <a href="#faq" class="text-white text-sm py-2">FAQ</a>
         </div>
       </div>
     </nav>
@@ -752,7 +752,7 @@
       <div class="hero-overlay"></div>
       <div class="hero-copy max-wrap">
         <div>
-          <p class="eyebrow">Bicycle Line Custom</p>
+          
           <h1 class="hero-title">Crea la tua divisa personalizzata</h1>
           <p class="hero-desc">Design su misura, supporto del nostro team grafico e produzione specializzata per trasformare la tua identità di squadra in un kit tecnico premium.</p>
           <div class="flex flex-wrap items-center justify-center gap-3 mt-7">
@@ -826,7 +826,7 @@
         <img src="images/orizzontale1.jpg" alt="Collezione Bicycle Line">
       </a>
       <div class="editorial-copy max-wrap">
-        <p class="eyebrow" style="color:#111;">Prendi ispirazione</p>
+        <p class="eyebrow" style="color:#ffffff;">Prendi ispirazione</p>
         <h2 class="editorial-title">Scopri il meglio del custom, in un unico posto.</h2>
         <p class="editorial-desc">Una selezione di realizzazioni, tagli e soluzioni sviluppate per team che cercano una presenza visiva più forte, tecnica e riconoscibile.</p>
         <div class="mt-6"><a href="#contatti" class="pill-btn black">Richiedi informazioni</a></div>
@@ -857,14 +857,16 @@
     </section>
 
     <section class="section-pad-lg">
-      <a href="#contatti" class="editorial-card block">
-        <img src="images/gif/2.gif" alt="Nuovi look">
-      </a>
       <div class="editorial-copy max-wrap">
-        <p class="eyebrow" style="color:#111;">Bicycle Line Custom</p>
-        <h2 class="editorial-title">Linee pulite. Identità forte. Performance vera.</h2>
-        <p class="editorial-desc">Un approccio più premium, essenziale e visivo per presentare il servizio custom come un brand sportswear, non come una semplice pagina informativa.</p>
-        <div class="mt-6"><a href="#differenze" class="pill-btn black">Scopri di più</a></div>
+        
+        <h2 class="editorial-title">Linee pulite.<br>
+          Identità forte.<br>Performance vera.</h2>
+    
+      </div>
+      <div class="mt-12">
+        <a href="#contatti" class="editorial-card block" style="min-height: 500px;">
+          <img src="images/orizzontale2.jpg" alt="Collezione Bicycle Line">
+        </a>
       </div>
     </section>
 
@@ -939,7 +941,7 @@
       </div>
     </section>
 
-    <section id="faq" class="section-pad-lg section-bottom" style="background:#fff;">
+    <section id="faq" class="section-pad-lg section-bottom" style="background:#000000;">
       <div class="max-wrap text-center mb-14">
         <h2 class="section-heading">FAQ – BL Custom</h2>
         <p class="section-intro">Risposte rapide alle domande più frequenti sul servizio custom, le quantità minime, i tempi e il processo d'ordine.</p>
@@ -1106,39 +1108,7 @@
       </div>
     </section>
 
-    <section class="section-pad-lg section-bottom">
-      <div class="max-wrap">
-        <div class="link-columns">
-          <div>
-            <h3>Scarpe</h3>
-            <a href="#sport-looks">Collezione uomo</a>
-            <a href="#sport-looks">Collezione donna</a>
-            <a href="#portfolio">Ispirazione team</a>
-            <a href="#differenze">Qualità produttiva</a>
-            <a href="#contatti">Richiesta personalizzazione</a>
-          </div>
-          <div>
-            <h3>Abbigliamento</h3>
-            <a href="#portfolio-grid">Divise personalizzate</a>
-            <a href="#come-funziona">Processo creativo</a>
-            <a href="#differenze">Prodotto in Italia</a>
-          </div>
-          <div>
-            <h3>Bambini</h3>
-            <a href="#faq">Taglie junior</a>
-            <a href="#faq">Campionario taglie</a>
-          </div>
-          <div>
-            <h3>In evidenza</h3>
-            <a href="#home">Bicycle Line Custom</a>
-            <a href="#portfolio">Prendi ispirazione</a>
-            <a href="#contatti">Richiedi un preventivo</a>
-            <a href="#faq">Domande frequenti</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
     <footer class="site-footer">
       <div class="max-wrap">
         <div class="footer-grid">
