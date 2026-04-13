@@ -83,6 +83,8 @@
       min-height: 100vh;
       background: #000;
       overflow: hidden;
+      margin-top: -64px;
+      padding-top: 64px;
     }
 
     .hero-slide {
@@ -761,7 +763,12 @@
 
     <section id="home" class="hero">
       <div class="hero-media">
-        <div class="hero-slide active"><img src="images/home.gif" alt="Bicycle Line Custom"></div>
+        <div class="hero-slide active">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+          <source src="images/herosection.mp4" type="video/mp4">
+          Il tuo browser non supporta il video.
+        </video>
+      </div>
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-copy max-wrap">
@@ -817,7 +824,10 @@
 
     <section id="portfolio-grid" class="section-pad-lg">
       <a href="#contatti" class="editorial-card block">
-        <img src="images/home.gif" alt="Collezione Bicycle Line">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+          <source src="images/VIDEO TRASFORMAZIONE.mp4" type="video/mp4">
+          Il tuo browser non supporta il video.
+        </video>
       </a>
       <div class="editorial-copy max-wrap">
         <p class="eyebrow" style="color:#ffffff;">Prendi ispirazione</p>
