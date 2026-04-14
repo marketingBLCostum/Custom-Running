@@ -669,76 +669,257 @@
 </head>
 <body>
   <div class="site-shell">
-    <nav id="navbar" class="w-full bg-gray-800 border-b border-gray-600 sticky top-0 z-50 shadow-sm">
-        <div class="bg-black text-white">
-            <div class="container mx-auto px-6">
-                <div class="h-8 flex items-center justify-between text-[11px]">
-                    <div class="flex items-center space-x-4">
-                            <div class="relative group">
-                                <button id="language-toggle" class="flex items-center space-x-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(this)">
-                                        <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-                                        <span>Italiano</span>
-                                        <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
-                                    </button>
-                                    <div id="language-dropdown" class="absolute left-0 mt-1 w-40 bg-white text-gray-800 rounded-sm shadow-lg z-50 hidden" style="color: black !important;">
-                                        <a href="index2.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                            <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-                                            <span>Italiano</span>
-                                        </a>
-                                        <a href="ndex-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                            <img src="images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
-                                            <span>English</span>
-                                        </a>
-                                        <a href="index-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                            <img src="images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
-                                            <span>Deutsch</span>
-                                        </a>
-                                        <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                            <img src="images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
-                                            <span>Français</span>
-                                        </a>
-                                        <a href="index-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                            <img src="images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
-                                            <span>Español</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <style>
+  .ui-shell{
+    --topbar-h: 30px;
+    --nav-h: 68px;
+    --hero-h: calc(100vh - var(--topbar-h) - var(--nav-h));
+    --bg-top: #0a0a0a;
+    --bg-nav: #121212;
+    --bg-hero: #000000;
+    --text: #ffffff;
+    --muted: #cfcfcf;
+    --search-bg: #0f0f10;
+    --search-border: rgba(255,255,255,.06);
+    --pill-bg: #ffffff;
+    --pill-text: #111111;
+  }
 
-                    <div class="flex items-center space-x-6">
-                        <a href="https://www.bicycle-line.com/it/content/4-brand" target="_blank" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="https://www.bicycle-line.com/it/content/4-brand" target="_blank" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="#contatti" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="#faq" class="text-gray-300 hover:text-white text-sm transition"></a>
-                    </div>
-                </div>
-            </div>
+  .ui-shell, .ui-shell *{ box-sizing: border-box; }
 
-            <div class="bg-transparent">
-                <div class="container mx-auto px-6">
-                    <div class="nav-main bg-black h-24 flex items-center justify-between gap-6">
-                        <a href="https://www.bicycle-line.com/it/" target="_blank" class="flex items-center shrink-0">
-                            <img src="images/logo bianco.png" alt="Bicycle Line" class="h-24 w-auto">
-                        </a>
+  .ui-shell{
+    width: 100%;
+    color: var(--text);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #000;
+  }
 
-                        <div class="hidden lg:flex flex-1 items-center justify-center gap-8">
-                            <a href="#come-funziona" class="text-white hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Come Funziona</a>
-                            <a href="#portfolio" class="text-white hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Ispirazione</a>
-                            <a href="#sport" class="text-white hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Crea la tua divisa</a>
-                            <a href="#contatti" class="text-white hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">Contattaci</a>
-                            <a href="#faq" class="text-white hover:text-gray-700 text-[12px] font-medium uppercase tracking-[0.18em] transition">FAQ</a>
-                        </div>
+  /* TOP BAR */
+  .ui-topbar{
+    height: var(--topbar-h);
+    background: var(--bg-top);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px 0 60px;
+  }
 
-                        <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center text-white" aria-label="Apri menu">
-                            <i class="fas fa-bars text-xl"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
+  .ui-topbar-left{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .ui-mini-logo{
+    height: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ui-mini-logo svg{
+    height: 100%;
+    fill: #fff;
+  }
+
+  .ui-topbar-right{
+    display: flex;
+    gap: 14px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .ui-topbar-right a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .ui-topbar-right .sep{ opacity: .6; }
+
+  /* NAV */
+  .ui-nav{
+    height: var(--nav-h);
+    background: linear-gradient(90deg,#151515,#181818,#151515);
+    display: grid;
+    grid-template-columns: 220px 1fr 320px;
+    align-items: center;
+    padding: 0 28px 0 70px;
+  }
+
+  .ui-logo svg{
+    height: 80px;
+    fill: #fff;
+  }
+
+  .ui-nav-center{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+  }
+
+  .ui-nav-center a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .ui-nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .ui-search{
+    height: 44px;
+    width: 170px;
+    border-radius: 999px;
+    background: var(--search-bg);
+    border: 1px solid var(--search-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    color: #ccc;
+    font-size: 15px;
+  }
+
+  .ui-search svg{
+    width: 18px;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+  }
+
+  .ui-icon{
+    width: 24px;
+    height: 24px;
+  }
+
+  .ui-icon svg{
+    width: 100%;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+  }
+
+  /* HERO */
+  .ui-hero{
+    position: relative;
+    min-height: var(--hero-h);
+    background: #000;
+  }
+
+  .ui-hero-content{
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .ui-hero-kicker{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .ui-hero-title{
+    font-size: clamp(64px,7vw,110px);
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  .ui-hero-sub{
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .ui-cta{
+    margin-top: 20px;
+    display: inline-flex;
+    height: 42px;
+    padding: 0 22px;
+    border-radius: 999px;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+</style>
+
+<section class="ui-shell">
+
+  <!-- TOP BAR -->
+  <div class="ui-topbar">
+    <div class="ui-topbar-left">
+      <div class="relative group">
+        <button id="language-toggle" class="flex items-center space-x-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(this)">
+          <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
+          <span>Italiano</span>
+          <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
+        </button>
+        <div id="language-dropdown" class="absolute left-0 mt-1 w-40 bg-white text-gray-800 rounded-sm shadow-lg z-50 hidden" style="color: black !important;">
+          <a href="index2.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Italiano</span>
+          </a>
+          <a href="ndex-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>English</span>
+          </a>
+          <a href="index-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Deutsch</span>
+          </a>
+          <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Français</span>
+          </a>
+          <a href="index-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Español</span>
+          </a>
         </div>
-    </nav>    <div id="mobile-menu" class="hidden lg:hidden border-b border-gray-600 bg-black">
+      </div>
+    </div>
+
+    <div class="ui-topbar-right">
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <div class="ui-nav">
+    <div class="ui-logo">
+      <img src="images/logo bianco.png" alt="Bicycle Line" style="height: 80px;">
+    </div>
+
+    <div class="ui-nav-center">
+      <a href="#come-funziona">Come Funziona</a>
+      <a href="#sport-looks">Uomo</a>
+      <a href="#sport-looks">Donna</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contatti">Contattaci</a>
+    </div>
+
+    <div class="ui-nav-right">
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="ui-hero">
+    <div class="ui-hero-content">
+      <div class="ui-hero-kicker">Running</div>
+      <div class="ui-hero-title">Divise personalizzate</div>
+      <div class="ui-hero-sub">Design su misura e produzione specializzata per il tuo team.</div>
+      <a href="#contatti" class="ui-cta">Richiedi informazioni</a>
+    </div>
+  </section>
+
+</section>    <div id="mobile-menu" class="hidden lg:hidden border-b border-gray-600 bg-black">
         <div class="max-wrap py-4 grid grid-cols-1 gap-3">
           <a href="#come-funziona" class="text-white text-sm py-2">Come funziona</a>
           <a href="#portfolio" class="text-white text-sm py-2">Ispirazione</a>
@@ -823,7 +1004,7 @@
       <div class="editorial-copy max-wrap">
         <p class="eyebrow" style="color:#ffffff;">Prendi ispirazione</p>
         <h2 class="editorial-title">Scopri il meglio del custom, in un unico posto.</h2>
-        <p class="editorial-desc">Una selezione di realizzazioni, tagli e soluzioni sviluppate per team che cercano una presenza visiva più forte, tecnica e riconoscibile.</p>
+       
         <div class="mt-6"><a href="#contatti" class="pill-btn black">Richiedi informazioni</a></div>
       </div>
     </section>
