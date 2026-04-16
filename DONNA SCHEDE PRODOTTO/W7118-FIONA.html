@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BL - W7118 FIONA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --surface:#f2f2f2;
+      --panel:#ffffff;
+      --text:#111111;
+      --muted:#666666;
+      --line:#e2e2e2;
+      --line-2:#d9d9d9;
+      --chip:#efefef;
+      --black:#000000;
+      --ink:#0b0b0b;
+      --soft:#f4f5f7;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;height:100%}
+    body{min-width:1440px}
+    img{display:block;max-width:100%}
+    a{text-decoration:none;color:inherit}
+    button{font:inherit}
+    .container-w{max-width:1200px}
+    .link-underline{text-decoration:underline;text-underline-offset:3px}
+    .hairline{border-color:#ededed}
+    #language-dropdown a,#language-dropdown span{color:#000 !important}
+    #navbar{font-family:'Inter',sans-serif}
+
+    .breadcrumbs{height:42px;border-bottom:1px solid var(--line);background:#fff}
+    .breadcrumbs__inner{max-width:1440px;margin:0 auto;padding:0 88px;height:100%;display:flex;align-items:center;gap:8px;font-size:13px;text-transform:uppercase}
+    .breadcrumbs .dim{color:#5f5f5f;font-weight:400}
+    .breadcrumbs .sep{color:#a0a0a0}
+    .breadcrumbs .current{font-weight:700}
+
+    .page{
+      max-width:1440px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns: 906px 1fr;
+      align-items:start;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      column-gap:4px;
+      row-gap:10px;
+      background:#ffffff;
+      padding-right:0;
+      align-content:start;
+    }
+    .media{
+      background:#efefef;
+      min-height:582px;
+      overflow:hidden;
+      position:relative;
+    }
+    .media.short{min-height:578px}
+    .media.tall{min-height:654px}
+    .media img{width:100%;height:100%;object-fit:cover}
+    .media.contain img{object-fit:contain}
+    .media.pad-a img{padding:24px 82px 54px}
+    .media.pad-b img{padding:24px 88px 54px}
+    .media.pad-c img{padding:84px 20px 98px}
+    .blank{background:#efefef}
+
+    .sidebar{
+      background:#fff;
+      min-height:100vh;
+      border-left:1px solid var(--line);
+      padding:24px 22px 70px 22px;
+      position:sticky;
+      top:0;
+      align-self:start;
+    }
+    .eyebrow{font-size:13px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;margin:3px 0 8px}
+    .product-title{font-size:24px;line-height:1.1;font-weight:800;letter-spacing:0.14em;text-transform:uppercase;margin:0 0 28px}
+
+    .option-block{margin:10px 0 26px}
+    .option-label{font-size:16px;font-weight:700;margin-bottom:12px}
+    .option-label span{font-weight:400;margin-left:8px;color:#333}
+    .size-line{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+    .size-value{font-size:16px;font-weight:400;color:#333}
+    .guide{height:24px;padding:0 10px;border-radius:16px;background:var(--chip);display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;color:#222}
+    .sizes{display:flex;gap:18px;align-items:center;margin-top:2px}
+    .size{min-width:34px;height:40px;padding:0 10px;border:1px solid transparent;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:400;background:transparent;font-family:'Inter',sans-serif}
+    .size.active{background:#000;color:#fff;border-radius:2px}
+    .post-content{max-width:1440px;margin:0 auto;background:#fff}
+    .promo-section{padding:66px 24px 80px;background:#fff}
+    .promo-inner{max-width:1440px;margin:0 auto;text-align:center}
+
+    .accordion{border-bottom:1px solid var(--line);margin-bottom:-1px}
+    .accordion-header{padding:24px 0;cursor:pointer;display:flex;align-items:center;justify-content:space-between}
+    .accordion-title{font-size:16px;font-weight:700}
+    .accordion-content{display:none;padding:0 0 24px}
+    .accordion.active .accordion-content{display:block}
+    .accordion-icon{width:20px;height:20px;display:flex;align-items:center;justify-content:center}
+    .accordion-icon svg{width:12px;height:12px}
+
+    .specs-table{width:100%;border-collapse:collapse;margin:20px 0}
+    .specs-table td{padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}
+    .specs-table td:first-child{font-weight:600;width:40%}
+
+    .size-guide-modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:1000;align-items:center;justify-content:center}
+    .size-guide-modal.active{display:flex}
+    .size-guide-content{background:#fff;padding:40px;max-width:600px;width:90%;max-height:80vh;overflow-y:auto}
+    .size-guide-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}
+    .size-guide-title{font-size:24px;font-weight:700}
+    .size-guide-close{width:32px;height:32px;border:none;background:#f5f5f5;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}
+    .size-guide-table{width:100%;border-collapse:collapse}
+    .size-guide-table th,.size-guide-table td{padding:12px;text-align:left;border-bottom:1px solid var(--line)}
+    .size-guide-table th{font-weight:600;background:#f9f9f9}
+  </style>
+</head>
+<body>
+  <div class="breadcrumbs">
+    <div class="breadcrumbs__inner">
+      <a href="../index2.html" class="dim hover:underline">HOME</a>
+      <span class="sep">></span>
+      <a href="../donna.html" class="dim hover:underline">DONNA</a>
+      <span class="sep">></span>
+      <span class="current">W7118 FIONA</span>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="gallery">
+      <div class="media tall">
+        <img src="../images/DONNA/BLSQW7118_RUNNING_TOP_woman_front.png" alt="W7118 FIONA Front">
+      </div>
+      <div class="media short">
+        <img src="../images/DONNA/BLSQW7118_RUNNING_TOP_woman_back.png" alt="W7118 FIONA Back">
+      </div>
+      <div class="media short">
+        <img src="../images/DONNA/BLSQW7118_RUNNING_TOP_detail.png" alt="W7118 FIONA Detail">
+      </div>
+      <div class="media short">
+        <img src="../images/DONNA/BLSQW7118_RUNNING_TOP_detail2.png" alt="W7118 FIONA Detail 2">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="eyebrow">RUNNING DONNA</div>
+      <h1 class="product-title">W7118 FIONA</h1>
+      
+      <div class="option-block">
+        <div class="option-label">Taglie <span>•</span></div>
+        <div class="sizes">
+          <div class="size active">XS</div>
+          <div class="size">S</div>
+          <div class="size">M</div>
+          <div class="size">L</div>
+          <div class="size">XL</div>
+          <div class="size">XXL</div>
+        </div>
+        <div class="size-line">
+          <div class="guide" onclick="openSizeGuide()">Guida taglie</div>
+        </div>
+      </div>
+
+      <div class="option-block">
+        <div class="option-label">Personalizzazione</div>
+        <p style="font-size:14px;color:#666;margin:8px 0">Completa la tua divisa con loghi, numeri e sponsor. Il nostro team di designer ti guiderà nella creazione del design perfetto.</p>
+        <button class="w-full bg-black text-white py-3 px-6 rounded-lg font-medium hover:bg-gray-800 transition" onclick="window.location.href='../index2.html#contatti'">
+          Richiedi personalizzazione
+        </button>
+      </div>
+
+      <div class="option-block">
+        <div class="option-label">Caratteristiche principali</div>
+        <ul style="font-size:14px;color:#666;margin:8px 0;list-style:none;padding:0">
+          <li style="margin-bottom:8px">• Tessuto estremamente traspirante</li>
+          <li style="margin-bottom:8px">• Inserto in rete traspirante sulla schiena</li>
+          <li style="margin-bottom:8px">• Doppio strato</li>
+          <li style="margin-bottom:8px">• Fascia elastica in microfibra sul fondo</li>
+        </ul>
+      </div>
+
+      <div class="option-block">
+        <div class="option-label">Composizione</div>
+        <p style="font-size:14px;color:#666;margin:8px 0">
+          <strong>Parte principale:</strong> 79% PL (poliestere) 21% EA (elastan)<br>
+          <strong>Rete interna:</strong> 86% PL (poliestere) 14% EA (elastan)<br>
+          <strong>Rete dietro:</strong> 76% PL (poliestere) 24% EA (elastan)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-content">
+    <div class="promo-section">
+      <div class="promo-inner">
+        <div class="accordion">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="accordion-title">Descrizione</div>
+            <div class="accordion-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <p style="font-size:14px;line-height:1.6;color:#666">
+              Il nostro reggiseno sportivo da running da donna è progettato con cura per adattarsi all'anatomia femminile. Il tessuto frontale è doppiato per un migliore supporto del seno, mentre la parte posteriore in rete traspirante assicura un'ottima ventilazione durante la corsa.
+            </p>
+            <p style="font-size:14px;line-height:1.6;color:#666;margin-top:16px">
+              Completato da un elastico in microfibra che mantiene il reggiseno sportivo saldamente in posizione, questo è il top in versione corta ideale per le tue sessioni di running. Completamente personalizzabile con la tecnica della sublimazione.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="accordion-title">Caratteristiche tecniche</div>
+            <div class="accordion-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <table class="specs-table">
+              <tr>
+                <td>Tessuto</td>
+                <td>Estremamente traspirante</td>
+              </tr>
+              <tr>
+                <td>Inserto schiena</td>
+                <td>Rete traspirante</td>
+              </tr>
+              <tr>
+                <td>Struttura</td>
+                <td>Doppio strato</td>
+              </tr>
+              <tr>
+                <td>Fondo</td>
+                <td>Fascia elastica in microfibra</td>
+              </tr>
+              <tr>
+                <td>Personalizzazione</td>
+                <td>Completamente personalizzabile con sublimazione</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="accordion-title">Composizione tessuto</div>
+            <div class="accordion-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <table class="specs-table">
+              <tr>
+                <td>Parte principale</td>
+                <td>79% PL (poliestere) 21% EA (elastan)</td>
+              </tr>
+              <tr>
+                <td>Rete interna</td>
+                <td>86% PL (poliestere) 14% EA (elastan)</td>
+              </tr>
+              <tr>
+                <td>Rete dietro</td>
+                <td>76% PL (poliestere) 24% EA (elastan)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="accordion-title">Istruzioni di lavaggio</div>
+            <div class="accordion-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <ul style="font-size:14px;line-height:1.6;color:#666;list-style:none;padding:0">
+              <li style="margin-bottom:8px">• Lavare a macchina a 30°C massimo</li>
+              <li style="margin-bottom:8px">• Non usare ammorbidenti</li>
+              <li style="margin-bottom:8px">• Asciugare all'ombra</li>
+              <li style="margin-bottom:8px">• Stirare a bassa temperatura</li>
+              <li style="margin-bottom:8px">• Non lavare a secco</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="size-guide-modal" id="sizeGuideModal">
+    <div class="size-guide-content">
+      <div class="size-guide-header">
+        <h3 class="size-guide-title">Guida alle taglie</h3>
+        <button class="size-guide-close" onclick="closeSizeGuide()">×</button>
+      </div>
+      <table class="size-guide-table">
+        <thead>
+          <tr>
+            <th>Taglia</th>
+            <th>Circonferenza petto (cm)</th>
+            <th>Circonferenza vita (cm)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>XS</td>
+            <td>78-82</td>
+            <td>60-64</td>
+          </tr>
+          <tr>
+            <td>S</td>
+            <td>82-86</td>
+            <td>64-68</td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>86-90</td>
+            <td>68-72</td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>90-94</td>
+            <td>72-76</td>
+          </tr>
+          <tr>
+            <td>XL</td>
+            <td>94-98</td>
+            <td>76-80</td>
+          </tr>
+          <tr>
+            <td>XXL</td>
+            <td>98-102</td>
+            <td>80-84</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(header) {
+      const accordion = header.parentElement;
+      accordion.classList.toggle('active');
+      const icon = header.querySelector('.accordion-icon svg');
+      icon.style.transform = accordion.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
+    }
+
+    function openSizeGuide() {
+      document.getElementById('sizeGuideModal').classList.add('active');
+    }
+
+    function closeSizeGuide() {
+      document.getElementById('sizeGuideModal').classList.remove('active');
+    }
+
+    // Close modal when clicking outside
+    document.getElementById('sizeGuideModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeSizeGuide();
+      }
+    });
+  </script>
+</body>
+</html>
