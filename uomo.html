@@ -836,6 +836,12 @@
     }
 
     svg { display: block; }
+
+    .breadcrumbs{height:42px;border-bottom:1px solid var(--line);background:#fff}
+    .breadcrumbs__inner{max-width:1440px;margin:0 auto;padding:0 88px;height:100%;display:flex;align-items:center;gap:8px;font-size:13px;text-transform:uppercase}
+    .breadcrumbs .dim{color:#5f5f5f;font-weight:400}
+    .breadcrumbs .sep{color:#a0a0a0}
+    .breadcrumbs .current{font-weight:700}
   </style>
 </head>
 <body>
@@ -897,6 +903,14 @@
   </div>
 
       </header>
+
+  <div class="breadcrumbs">
+    <div class="breadcrumbs__inner">
+      <a href="index2.html" class="dim hover:underline">HOME</a>
+      <span class="sep">></span>
+      <span class="current">RUNNING UOMO</span>
+    </div>
+  </div>
 
     <main class="catalog-shell">
       <section class="products-area">
