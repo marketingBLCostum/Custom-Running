@@ -36,6 +36,87 @@
     #language-dropdown a,#language-dropdown span{color:#000 !important}
     #navbar{font-family:'Inter',sans-serif}
 
+    /* TOP BAR */
+    .ui-topbar{
+      height: 30px;
+      background: #0a0a0a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 34px 0 60px;
+    }
+
+    .ui-topbar-left{
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .ui-topbar-left button{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      background: none;
+      border: none;
+      cursor: pointer;
+      fill: #fff;
+    }
+
+    .ui-topbar-right{
+      display: flex;
+      gap: 14px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .ui-topbar-right a{
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .ui-topbar-right .sep{ opacity: .6; }
+
+    /* NAV BIANCO */
+    .ui-nav-white{
+      height: 96px;
+      background: linear-gradient(90deg,#ffffff,#f8f8f8,#ffffff);
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 0 40px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .ui-nav-white .ui-logo{
+      display: flex;
+      align-items: center;
+    }
+
+    .ui-nav-white .ui-nav-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 34px;
+    }
+
+    .ui-nav-white .ui-nav-center a{
+      color: #000;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .ui-nav-white .ui-nav-right{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
     .breadcrumbs{height:42px;border-bottom:1px solid var(--line);background:#fff}
     .breadcrumbs__inner{max-width:1440px;margin:0 auto;padding:0 88px;height:100%;display:flex;align-items:center;gap:8px;font-size:13px;text-transform:uppercase}
     .breadcrumbs .dim{color:#5f5f5f;font-weight:400}
@@ -158,85 +239,59 @@
   </style>
 </head>
 <body class="bg-white text-neutral-900">
-    <nav id="navbar" class="w-full bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-        <div class="bg-black text-white">
-            <div class="container mx-auto px-6">
-                <div class="h-8 flex items-center justify-between text-[11px]">
-                    <div class="flex items-center space-x-4">
-                        <div class="relative group">
-                            <button id="language-toggle" class="flex items-center space-x-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(this)">
-                                <img src="../images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-                                <span>Italiano</span>
-                                <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
-                            </button>
-                            <div id="language-dropdown" class="absolute left-0 mt-1 w-40 bg-white text-gray-800 rounded-sm shadow-lg z-50 hidden" style="color: black !important;">
-                                <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                    <img src="../images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-                                    <span>Italiano</span>
-                                </a>
-                                <a href="ndex-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                    <img src="../images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
-                                    <span>English</span>
-                                </a>
-                                <a href="index-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                    <img src="../images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
-                                    <span>Deutsch</span>
-                                </a>
-                                <a href="index-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                    <img src="../images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
-                                    <span>Français</span>
-                                </a>
-                                <a href="index-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-                                    <img src="../images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
-                                    <span>Español</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-6">
-                        <a href="https://www.bicycle-line.com/it/content/4-brand" target="_blank" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="https://www.bicycle-line.com/it/content/4-brand" target="_blank" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="#contatti" class="text-gray-300 hover:text-white text-sm transition"></a>
-                        <a href="#faq" class="text-gray-300 hover:text-white text-sm transition"></a>
-                    </div>
-                </div>
-            </div>
+
+  <!-- TOP BAR -->
+  <div class="ui-topbar">
+    <div class="ui-topbar-left">
+      <div class="relative group">
+        <button id="language-toggle" class="flex items-center space-x-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(this)">
+          <img src="../images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
+          <span>Italiano</span>
+          <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
+        </button>
+        <div id="language-dropdown" class="absolute left-0 mt-1 w-40 bg-white text-gray-800 rounded-sm shadow-lg z-50 hidden" style="color: black !important;">
+          <a href="ragazzi.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="../images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Italiano</span>
+          </a>
+          <a href="ragazzi-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="../images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>English</span>
+          </a>
+          <a href="ragazzi-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="../images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Deutsch</span>
+          </a>
+          <a href="ragazzi-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="../images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Français</span>
+          </a>
+          <a href="ragazzi-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
+            <img src="../images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
+            <span>Español</span>
+          </a>
         </div>
+      </div>
+    </div>
+    <div class="ui-topbar-right"></div>
+  </div>
 
-        <div class="bg-transparent">
-            <div class="container mx-auto px-6">
-                <div class="h-20 flex items-center justify-between gap-6">
-                    <a href="index.html" target="_blank" class="flex items-center">
-                        <img src="../images/logodfs.png" alt="Bicycle Line" class="h-10 w-auto">
-                    </a>
+  <!-- NAV -->
+  <div class="ui-nav-white">
+    <div class="ui-logo">
+      <img src="../images/logodfs.png" alt="Bicycle Line" style="height: 50px;">
+    </div>
+    <div class="ui-nav-center">
+      <a href="../index2.html#come-funziona">Come Funziona</a>
+      <a href="../uomo.html">Uomo</a>
+      <a href="../donna.html">Donna</a>
+      <a href="../ragazzi.html">Ragazzi</a>
+      <a href="../index2.html#faq">FAQ</a>
+      <a href="../index2.html#contatti">Contattaci</a>
+    </div>
+    <div class="ui-nav-right"></div>
+  </div>
 
-                    <div class="hidden lg:flex flex-1 items-center justify-center gap-8">
-                        <a href="index.html#come-funziona" class="text-gray-900 hover:text-black text-[12px] font-medium uppercase tracking-[0.18em] transition">Come Funziona</a>
-                        <a href="index.html#portfolio" class="text-gray-900 hover:text-black text-[12px] font-medium uppercase tracking-[0.18em] transition">Ispirazione</a>
-                        <a href="index.html#sport" class="text-gray-900 hover:text-black text-[12px] font-medium uppercase tracking-[0.18em] transition">Crea la tua divisa</a>
-                        <a href="index.html#contatti" class="text-gray-900 hover:text-black text-[12px] font-medium uppercase tracking-[0.18em] transition">Contattaci</a>
-                        <a href="index.html#faq" class="text-gray-900 hover:text-black text-[12px] font-medium uppercase tracking-[0.18em] transition">FAQ</a>
-                    </div>
-
-                    <button id="mobile-menu-btn" class="md:hidden text-black" aria-label="Apri menu">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
-                </div>
-
-                <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-300 bg-white">
-                    <div class="px-6 py-4 grid grid-cols-1 gap-3">
-                        <a href="index.html#come-funziona" class="block text-center py-2 text-gray-900 hover:text-black font-medium text-sm transition">Come Funziona</a>
-                        <a href="index.html#portfolio" class="block text-center py-2 text-gray-900 hover:text-black font-medium text-sm transition">Ispirazione</a>
-                        <a href="index.html#sport" class="block text-center py-2 text-gray-900 hover:text-black font-medium text-sm transition">Crea la tua divisa</a>
-                        <a href="index.html#contatti" class="block text-center py-2 text-gray-900 hover:text-black font-medium text-sm transition">Contattaci</a>
-                        <a href="index.html#faq" class="block text-center py-2 text-gray-900 hover:text-black font-medium text-sm transition">FAQ</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    
   <div class="breadcrumbs">
     <div class="breadcrumbs__inner">
       <a href="../index2.html" class="dim hover:underline">HOME</a>
@@ -275,28 +330,27 @@
       <div class="mt-2 text-sm text-gray-600">Disponibile per Ragazzi</div>
 
       <div class="option-block">
-
-      <div class="option-block">
-        <div class="size-line">
-          <div class="option-label" style="margin:0">Taglia:</div>
-          <div class="guide" id="size-guide-btn" style="cursor: pointer;">GUIDA ALLE TAGLIE</div>
-        </div>
-        <div class="sizes">
-          <button class="size">128</button>
-          <button class="size">140</button>
-          <button class="size">152</button>
-          <button class="size">164</button>
-        </div>
-      </div>
-
-      <div class="accordion">
-        <div class="acc-item">
-          <div class="acc-head">
-            <div class="acc-title">Descrizione</div>
+        <div class="option-block">
+          <div class="size-line">
+            <div class="option-label" style="margin:0">Taglia:</div>
+            <div class="guide" id="size-guide-btn" style="cursor: pointer;">GUIDA ALLE TAGLIE</div>
           </div>
-          <div class="acc-body">
-            <div class="description">
-              Sorpassa i tuoi limiti con i nostri pantaloni
+          <div class="sizes">
+            <button class="size">128</button>
+            <button class="size">140</button>
+            <button class="size">152</button>
+            <button class="size">164</button>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <div class="acc-item">
+            <div class="acc-head">
+              <div class="acc-title">Descrizione</div>
+            </div>
+            <div class="acc-body">
+              <div class="description">
+                Sorpassa i tuoi limiti con i nostri pantaloni
 SPEED Run. Progettati per l'eccellenza,
 questi pantaloni sono realizzati con un
 tessuto tecnico di alta qualità che offre
@@ -310,60 +364,61 @@ sessioni più intense. Inoltre, le bande
 laterali sono personalizzabili con i colori
 del tuo team, aggiungendo un tocco di
 stile distintivo alla tua corsa.
-            </div>
-          </div>
-        </div>
-
-        <div class="acc-item">
-          <div class="acc-head">
-            <div class="acc-title">Caratteristiche tecniche</div>
-          </div>
-          <div class="acc-body tech-grid">
-            <div class="metric-grid">
-              <div class="metric">
-                <div class="label">Elasticità</div>
-                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
-              </div>
-              <div class="metric">
-                <div class="label">Traspirabilità</div>
-                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span></div>
-              </div>
-              <div class="metric">
-                <div class="label">Vestibilità</div>
-                <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="acc-item">
-          <div class="acc-head">
-            <div class="acc-title">CARATTERISTICHE PRINCIPALI</div>
-            <div class="acc-icon">+</div>
-          </div>
-          <div class="acc-body">
-            <div class="description">
-              <ul style="list-style-type: none; padding: 0; margin: 0;">
-                <li style="margin-bottom: 8px;">Tessuto termico Performer 210 gr/m2</li>
-                <li style="margin-bottom: 8px;">Fasce laterali personalizzabili</li>
-                <li style="margin-bottom: 8px;">Elastico con cordoncino regolabile in vita</li>
-                <li style="margin-bottom: 8px;">Taglie: 128, 140, 152, 164</li>
-              </ul>
+          <div class="acc-item">
+            <div class="acc-head">
+              <div class="acc-title">Caratteristiche tecniche</div>
+            </div>
+            <div class="acc-body tech-grid">
+              <div class="metric-grid">
+                <div class="metric">
+                  <div class="label">Elasticità</div>
+                  <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
+                </div>
+                <div class="metric">
+                  <div class="label">Traspirabilità</div>
+                  <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span></div>
+                </div>
+                <div class="metric">
+                  <div class="label">Vestibilità</div>
+                  <div class="bars"><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="acc-item">
-          <div class="acc-head">
-            <div class="acc-title">COMPOSIZIONE DEL TESSUTO</div>
-            <div class="acc-icon">+</div>
+          <div class="acc-item">
+            <div class="acc-head">
+              <div class="acc-title">CARATTERISTICHE PRINCIPALI</div>
+              <div class="acc-icon">+</div>
+            </div>
+            <div class="acc-body">
+              <div class="description">
+                <ul style="list-style-type: none; padding: 0; margin: 0;">
+                  <li style="margin-bottom: 8px;">Tessuto termico Performer 210 gr/m2</li>
+                  <li style="margin-bottom: 8px;">Fasce laterali personalizzabili</li>
+                  <li style="margin-bottom: 8px;">Elastico con cordoncino regolabile in vita</li>
+                  <li style="margin-bottom: 8px;">Taglie: 128, 140, 152, 164</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="acc-body">
-            <div class="description">
-              <ul style="list-style-type: none; padding: 0; margin: 0;">
-                <li style="margin-bottom: 8px;">Parte principale: 80% PA (poliammide) 20% EA (elastan)</li>
-                <li style="margin-bottom: 8px;">Inserti: 80% PL (poliestere) 20% EA (elastan)</li>
-              </ul>
+
+          <div class="acc-item">
+            <div class="acc-head">
+              <div class="acc-title">COMPOSIZIONE DEL TESSUTO</div>
+              <div class="acc-icon">+</div>
+            </div>
+            <div class="acc-body">
+              <div class="description">
+                <ul style="list-style-type: none; padding: 0; margin: 0;">
+                  <li style="margin-bottom: 8px;">Parte principale: 80% PA (poliammide) 20% EA (elastan)</li>
+                  <li style="margin-bottom: 8px;">Inserti: 80% PL (poliestere) 20% EA (elastan)</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -374,21 +429,12 @@ stile distintivo alla tua corsa.
   <!-- Size Guide Popup -->
   <div id="size-guide-popup" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
     <div class="bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-auto relative">
-      <!-- Close button -->
-      <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold z-10">
-        ×
-      </button>
-      
-      <!-- Popup content -->
+      <button id="close-popup" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold z-10">×</button>
       <div class="p-8">
         <h2 class="text-2xl font-bold mb-6 text-center">GUIDA ALLE TAGLIE</h2>
-        
-        <!-- Size guide image placeholder -->
         <div class="flex justify-center mb-6">
           <img id="size-guide-image" src="" alt="Guida alle taglie" class="max-w-full h-auto">
         </div>
-        
-        <!-- Additional info -->
         <div class="text-center text-sm text-gray-600">
           <p>Clicca sulla "X" in alto a destra per chiudere</p>
         </div>
@@ -406,86 +452,69 @@ stile distintivo alla tua corsa.
         </div>
       </div>
     </section>
-
- 
+  </section>
 
   <footer class="bg-white py-8 text-gray-700 text-sm">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-                <!-- Logo -->
-                <div class="col-span-1">
-                    <a href="https://www.bicycle-line.com/it/" target="_blank"><img src="images/logodfs.png" alt="Bicycle Line Logo" class="w-20 h-auto"></a>
-                </div>
-
-                <!-- BICYCLE LINE -->
-                <div class="col-span-1">
-                    <h3 class="font-bold text-gray-900 mb-3">BICYCLE LINE</h3>
-                    <ul class="space-y-1">
-                        <li><a href="https://www.bicycle-line.com/it/content/4-brand" class="hover:text-gray-900 transition">Brand</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/6-storia" class="hover:text-gray-900 transition">Storia</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita" class="hover:text-gray-900 transition">Sostenibilità</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/contact" class="hover:text-gray-900 transition">Contattaci</a></li>
-                    </ul>
-                </div>
-
-                <!-- SHOP -->
-                <div class="col-span-1">
-                    <h3 class="font-bold text-gray-900 mb-3">SHOP</h3>
-                    <ul class="space-y-1">
-                        <li><a href="https://www.bicycle-line.com/it/947-uomo" class="hover:text-gray-900 transition">Uomo</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/948-donna" class="hover:text-gray-900 transition">Donna</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/949-cat-bambino" class="hover:text-gray-900 transition">Bambino</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/1109-offerte" class="hover:text-gray-900 transition">Offerte</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/23-shop" class="hover:text-gray-900 transition">Guida allo shopping online</a></li>
-                    </ul>
-                </div>
-
-                <!-- LINK UTILI -->
-                <div class="col-span-1">
-                    <h3 class="font-bold text-gray-900 mb-3">LINK UTILI</h3>
-                    <ul class="space-y-1">
-                        <li><a href="https://www.bicycle-line.com/it/content/1-spedizione" class="hover:text-gray-900 transition">Spedizione</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/5-pagamento" class="hover:text-gray-900 transition">Pagamento</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/18-faq" class="hover:text-gray-900 transition">FAQ</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/12-guida-alle-taglie" class="hover:text-gray-900 transition">Guida alle taglie</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/14-garanzia" class="hover:text-gray-900 transition">Utilizzo del prodotto e garanzia</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/13-resi" class="hover:text-gray-900 transition">Resi</a></li>
-                    </ul>
-                </div>
-
-                <!-- NOTE LEGALI + CONTACT US -->
-                <div class="col-span-1">
-                    <h3 class="font-bold text-gray-900 mb-3">NOTE LEGALI</h3>
-                    <ul class="space-y-1">
-                        <li><a href="https://www.bicycle-line.com/it/content/15-privacy-policy" class="hover:text-gray-900 transition">Privacy Policy</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/16-cookie-policy" class="hover:text-gray-900 transition">Cookie policy</a></li>
-                        <li><a href="https://www.bicycle-line.com/it/content/17-termini-e-condizioni" class="hover:text-gray-900 transition">Termini e condizioni</a></li>
-                    </ul>
-
-                    <h3 class="font-bold text-gray-900 mb-3 mt-4">CONTATTACI</h3>
-                    <ul class="space-y-1 text-xs">
-                        <li class="font-semibold">Bicycle Line - VAT 02027450267</li>
-                        <li>Via Ferrara, 2-4 31030 Dosson di Casier</li>
-                        <li>Treviso - Italia</li>
-                        <li>+39 0422 490156</li>
-                        <li>custom@bicycle-line.com</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Bottom Bar -->
-            <div class="border-t border-gray-300 mt-6 pt-4 text-center text-xs text-gray-500">
-            </div>
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+        <!-- Logo -->
+        <div class="col-span-1">
+          <a href="https://www.bicycle-line.com/it/" target="_blank"><img src="../images/logodfs.png" alt="Bicycle Line Logo" class="w-20 h-auto"></a>
         </div>
-    </footer>
-                </div>
-            </div>
-
-            <!-- Bottom Bar -->
-            <div class="border-t border-gray-700 mt-6 pt-4 text-center text-xs text-gray-400">
-            </div>
+        <!-- BICYCLE LINE -->
+        <div class="col-span-1">
+          <h3 class="font-bold text-gray-900 mb-3">BICYCLE LINE</h3>
+          <ul class="space-y-1">
+            <li><a href="https://www.bicycle-line.com/it/content/4-brand" class="hover:text-gray-900 transition">Brand</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/6-storia" class="hover:text-gray-900 transition">Storia</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita" class="hover:text-gray-900 transition">Sostenibilità</a></li>
+            <li><a href="https://www.bicycle-line.com/it/contact" class="hover:text-gray-900 transition">Contattaci</a></li>
+          </ul>
         </div>
-    </footer>
+        <!-- SHOP -->
+        <div class="col-span-1">
+          <h3 class="font-bold text-gray-900 mb-3">SHOP</h3>
+          <ul class="space-y-1">
+            <li><a href="https://www.bicycle-line.com/it/947-uomo" class="hover:text-gray-900 transition">Uomo</a></li>
+            <li><a href="https://www.bicycle-line.com/it/948-donna" class="hover:text-gray-900 transition">Donna</a></li>
+            <li><a href="https://www.bicycle-line.com/it/949-cat-bambino" class="hover:text-gray-900 transition">Bambino</a></li>
+            <li><a href="https://www.bicycle-line.com/it/1109-offerte" class="hover:text-gray-900 transition">Offerte</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/23-shop" class="hover:text-gray-900 transition">Guida allo shopping online</a></li>
+          </ul>
+        </div>
+        <!-- LINK UTILI -->
+        <div class="col-span-1">
+          <h3 class="font-bold text-gray-900 mb-3">LINK UTILI</h3>
+          <ul class="space-y-1">
+            <li><a href="https://www.bicycle-line.com/it/content/1-spedizione" class="hover:text-gray-900 transition">Spedizione</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/5-pagamento" class="hover:text-gray-900 transition">Pagamento</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/18-faq" class="hover:text-gray-900 transition">FAQ</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/12-guida-alle-taglie" class="hover:text-gray-900 transition">Guida alle taglie</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/14-garanzia" class="hover:text-gray-900 transition">Utilizzo del prodotto e garanzia</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/13-resi" class="hover:text-gray-900 transition">Resi</a></li>
+          </ul>
+        </div>
+        <!-- NOTE LEGALI + CONTACT US -->
+        <div class="col-span-1">
+          <h3 class="font-bold text-gray-900 mb-3">NOTE LEGALI</h3>
+          <ul class="space-y-1">
+            <li><a href="https://www.bicycle-line.com/it/content/15-privacy-policy" class="hover:text-gray-900 transition">Privacy Policy</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/16-cookie-policy" class="hover:text-gray-900 transition">Cookie policy</a></li>
+            <li><a href="https://www.bicycle-line.com/it/content/17-termini-e-condizioni" class="hover:text-gray-900 transition">Termini e condizioni</a></li>
+          </ul>
+          <h3 class="font-bold text-gray-900 mb-3 mt-4">CONTATTACI</h3>
+          <ul class="space-y-1 text-xs">
+            <li class="font-semibold">Bicycle Line - VAT 02027450267</li>
+            <li>Via Ferrara, 2-4 31030 Dosson di Casier</li>
+            <li>Treviso - Italia</li>
+            <li>+39 0422 490156</li>
+            <li>custom@bicycle-line.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-300 mt-6 pt-4 text-center text-xs text-gray-500"></div>
+    </div>
+  </footer>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -535,20 +564,17 @@ stile distintivo alla tua corsa.
             });
         }
 
-        // Accordion functionality - only for sections with +/ icons
+        // Accordion functionality - only for sections with +/- icons
         const accHeads = document.querySelectorAll('.acc-head');
         accHeads.forEach(head => {
             const accIcon = head.querySelector('.acc-icon');
-            // Only add accordion functionality if there's an icon
             if (accIcon) {
                 head.addEventListener('click', function() {
                     const accItem = this.parentElement;
                     const accBody = accItem.querySelector('.acc-body');
-                    
-                    // Toggle body visibility
                     if (accBody.style.display === 'none' || accBody.style.display === '') {
                         accBody.style.display = 'block';
-                        accIcon.textContent = '';
+                        accIcon.textContent = '-';
                     } else {
                         accBody.style.display = 'none';
                         accIcon.textContent = '+';
@@ -574,8 +600,6 @@ stile distintivo alla tua corsa.
         if (sizeGuideBtn && sizeGuidePopup) {
             sizeGuideBtn.addEventListener('click', function() {
                 sizeGuidePopup.classList.remove('hidden');
-                // Here you can set the image source when you provide it
-                // document.getElementById('size-guide-image').src = 'path/to/your/image.jpg';
             });
         }
 
@@ -585,7 +609,6 @@ stile distintivo alla tua corsa.
             });
         }
 
-        // Close popup when clicking outside
         if (sizeGuidePopup) {
             sizeGuidePopup.addEventListener('click', function(e) {
                 if (e.target === sizeGuidePopup) {
