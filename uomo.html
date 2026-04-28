@@ -850,29 +850,36 @@
       overflow: hidden;
     }
     
-    .preview-overlay {
+    .card-image .product-photo img {
+      transition: opacity 0.3s ease;
+    }
+    
+    .card-image:hover .product-photo img {
+      opacity: 0;
+    }
+    
+    .preview-replacement {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.9);
       display: flex;
       align-items: center;
       justify-content: center;
       opacity: 0;
       transition: opacity 0.3s ease;
-      z-index: 10;
+      pointer-events: none;
     }
     
-    .preview-overlay img {
+    .preview-replacement img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: center;
     }
     
-    .card-image:hover .preview-overlay {
+    .card-image:hover .preview-replacement {
       opacity: 1;
     }
   </style>
@@ -954,6 +961,9 @@
                                 <a href="W7100-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7100_RUNNING_MMC_front.png" alt="W7100 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7100/1.png" alt="W7100 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7100-SPEED-RUN.html" class="product-name"><strong>W7100 SPEED RUN</strong></a>
               <div class="product-subtitle">T-shirt manica corta collo a giro - uomo</div>
@@ -964,6 +974,9 @@
                                 <a href="W7114-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7100_RUNNING_MMC_front_V_neck.png" alt="W7114 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7114/1.png" alt="W7114 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7114-SPEED-RUN.html" class="product-name"><strong>W7114 SPEED RUN</strong></a>
               <div class="product-subtitle">T-shirt manica corta collo a V - uomo</div>
@@ -974,6 +987,9 @@
                 <a href="W7101-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7101_RUNNING_CANOTTA_front.png" alt="W7101 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7101/1.png" alt="W7101 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7101-SPEED-RUN.html" class="product-name"><strong>W7101 SPEED RUN</strong></a>
               <div class="product-subtitle">Canotta - uomo</div>
@@ -984,6 +1000,9 @@
                                 <a href="W7901-PROFLEX.html" class="product-photo">
                   <img src="images/uomo/BLSQW7901_RUNNING_BODY_PROFLEX_man_front.png" alt="W7901 PROFLEX" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7901/1.png" alt="W7901 PROFLEX Preview">
+                </div>
               </div>
                                           <a href="W7901-PROFLEX.html" class="product-name"><strong>W7901 PROFLEX</strong></a>
               <div class="product-subtitle">Body manica corta atletica - uomo</div>
@@ -994,6 +1013,9 @@
                                 <a href="W7102-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7102 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7102/1.png" alt="W7102 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7102-SPEED-RUN.html" class="product-name"><strong>W7102 SPEED RUN</strong></a>
               <div class="product-subtitle">Pantaloncini con slip - uomo</div>
@@ -1004,6 +1026,9 @@
                 <a href="W7112-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7112-SPEED-RUN.html" class="product-name"><strong>W7112 SPEED RUN</strong></a>
               <div class="product-subtitle">Pantaloncini senza slip - uomo</div>
@@ -1014,6 +1039,9 @@
                                 <a href="W2919-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W2919 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W2919/1.png" alt="W2919 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W2919-SPEED-RUN.html" class="product-name"><strong>W2919 SPEED RUN</strong></a>
               <div class="product-subtitle">Pantaloncini elasticizzati - uomo</div>
@@ -1024,6 +1052,9 @@
                                 <a href="W2901-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png" alt="W2901 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W2901/1.png" alt="W2901 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W2901-SPEED-RUN.html" class="product-name"><strong>W2901 SPEED RUN</strong></a>
               <div class="product-subtitle">Maglia manica lunga termica con zip corta - uomo</div>
@@ -1034,6 +1065,9 @@
                 <a href="W7106-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_front.png" alt="W7106 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7106/1.png" alt="W7106 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7106-SPEED-RUN.html" class="product-name"><strong>W7106 SPEED RUN</strong></a>
               <div class="product-subtitle">T-shirt manica lunga termica - uomo</div>
@@ -1044,6 +1078,9 @@
                                 <a href="W7107-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_front.png" alt="W7107 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7107/1.png" alt="W7107 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7107-SPEED-RUN.html" class="product-name"><strong>W7107 SPEED RUN</strong></a>
               <div class="product-subtitle">T-shirt manica lunga leggera - uomo</div>
@@ -1054,6 +1091,9 @@
                                 <a href="W7108-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7100_RUNNING_MMC_front.png" alt="W7108 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7108/1.png" alt="W7108 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W7108-SPEED-RUN.html" class="product-name"><strong>W7108 SPEED RUN</strong></a>
               <div class="product-subtitle">Mantellina leggera antivento - uomo</div>
@@ -1064,6 +1104,9 @@
                 <a href="W3701-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW7100_RUNNING_MMC_front.png" alt="W3701 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W3701/1.png" alt="W3701 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W3701-SPEED-RUN.html" class="product-name"><strong>W3701 SPEED RUN</strong></a>
               <div class="product-subtitle">Gilet leggero antivento - uomo</div>
@@ -1074,6 +1117,9 @@
                                 <a href="W2912-SPEED-RUN.html" class="product-photo">
                   <img src="images/uomo/BLSQW2912_RUNNING_TIGHTS_front.png" alt="W2912 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W2912/1.png" alt="W2912 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="W2912-SPEED-RUN.html" class="product-name"><strong>W2912 SPEED RUN</strong></a>
               <div class="product-subtitle">Fuseaux lungo - uomo</div>
@@ -1084,6 +1130,9 @@
                                 <a href="W7015-HYBRID-S.html" class="product-photo">
                   <img src="images/uomo/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+                </div>
               </div>
                                           <a href="W7015-HYBRID-S.html" class="product-name"><strong>W7015 HYBRID S</strong></a>
               <div class="product-subtitle">Pantaloncino con slip interno - uomo</div>
@@ -1181,8 +1230,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const productCode = extractProductCode(href);
       
       if (productCode) {
-        const previewImg = document.createElement('div');
-        previewImg.className = 'preview-overlay';
+        const previewReplacement = document.createElement('div');
+        previewReplacement.className = 'preview-replacement';
         
         // Create preview image
         const img = document.createElement('img');
@@ -1208,17 +1257,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (previewMap[productCode]) {
           img.src = previewMap[productCode];
           img.alt = `Preview ${productCode}`;
-          img.style.cursor = 'pointer';
           
-          // Add click event to navigate to product page
-          img.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            window.location.href = href;
-          });
-          
-          previewImg.appendChild(img);
-          card.appendChild(previewImg);
+          previewReplacement.appendChild(img);
+          card.appendChild(previewReplacement);
         }
       }
     }
