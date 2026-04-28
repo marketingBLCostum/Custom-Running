@@ -842,6 +842,45 @@
     .breadcrumbs .dim{color:#5f5f5f;font-weight:400}
     .breadcrumbs .sep{color:#a0a0a0}
     .breadcrumbs .current{font-weight:700}
+
+    /* Hover preview styles */
+    .card-image {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .card-image .product-photo img {
+      transition: opacity 0.3s ease;
+    }
+    
+    .card-image:hover .product-photo img {
+      opacity: 0;
+    }
+    
+    .preview-replacement {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    
+    .preview-replacement img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .card-image:hover .preview-replacement {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -921,6 +960,9 @@
                                 <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW7120-RUNNING-MMC.html" class="product-photo">
                   <img src="images/RAGAZZI/W7120img.png" alt="W7120 SPEED RUN" style="width:100%;height:100%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/RAGAZZI/W7120/1.png" alt="W7120 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW7120-RUNNING-MMC.html" class="product-name"><strong>W7120 SPEED RUN</strong></a>
               <div class="product-subtitle">T-shirt manica corta - ragazzi</div>
@@ -931,6 +973,9 @@
                                 <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW2948-RUNNING-LYCRA-SHORTS.html" class="product-photo">
                   <img src="images/RAGAZZI/W2948img.png" alt="W2948 SPEED RUN" style="width:100%;height:100%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/RAGAZZI/W2948/1.png" alt="W2948 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW2948-RUNNING-LYCRA-SHORTS.html" class="product-name"><strong>W2948 SPEED RUN</strong></a>
               <div class="product-subtitle">Pantaloncini elasticizzati - ragazzi</div>
@@ -941,6 +986,9 @@
                                 <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW7121-RUNNING-CANOTTA.html" class="product-photo">
                   <img src="images/RAGAZZI/7121img.png" alt="W7121 SPEED RUN" style="width:100%;height:100%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="images/RAGAZZI/W7121/1.png" alt="W7121 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="RAGAZZI SCHEDE PRODOTTO/BLSQW7121-RUNNING-CANOTTA.html" class="product-name"><strong>W7121 SPEED RUN</strong></a>
               <div class="product-subtitle">Canotta - ragazzi</div>
