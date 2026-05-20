@@ -453,67 +453,69 @@
     }
   </style>
 </head>
-<body class="bg-white text-neutral-900">
+<body>
 
-  <!-- TOP BAR -->
-  <div class="ui-topbar">
-    <div class="ui-topbar-left">
-      <div class="relative group">
-        <button id="language-toggle" class="flex items-center space-x-2 hover:opacity-80 transition-opacity" onclick="toggleLanguageMenu(this)">
-          <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-          <span>Italiano</span>
-          <i class="fas fa-chevron-down text-[10px] opacity-70"></i>
-        </button>
-        <div id="language-dropdown" class="absolute left-0 mt-1 w-40 bg-white text-gray-800 rounded-sm shadow-lg z-50 hidden" style="color: black !important;">
-          <a href="uomo.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-            <img src="images/BANDIERE/italia.jpg" alt="Italiano" class="w-5 h-3.5 object-cover rounded-sm">
-            <span>Italiano</span>
-          </a>
-          <a href="uomo-en.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-            <img src="images/BANDIERE/english.jpg" alt="English" class="w-5 h-3.5 object-cover rounded-sm">
-            <span>English</span>
-          </a>
-          <a href="uomo-de.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-            <img src="images/BANDIERE/Deutsch.jpg" alt="Deutsch" class="w-5 h-3.5 object-cover rounded-sm">
-            <span>Deutsch</span>
-          </a>
-          <a href="uomo-fr.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-            <img src="images/BANDIERE/Français.jpg" alt="Français" class="w-5 h-3.5 object-cover rounded-sm">
-            <span>Français</span>
-          </a>
-          <a href="uomo-es.html" class="block px-4 py-2 hover:bg-gray-100 flex items-center space-x-2 text-black">
-            <img src="images/BANDIERE/Español.jpg" alt="Español" class="w-5 h-3.5 object-cover rounded-sm">
-            <span>Español</span>
-          </a>
-        </div>
+<!-- ANNOUNCEMENT BAR -->
+<div class="topbar" style="position:relative;">
+  <span>Ordini personalizzati da <strong>10 pezzi</strong> — Produzione 100% Italiana</span>
+  <div class="topbar-right">
+    <span style="opacity:0.5;">|</span>
+    <a href="#contatti">Richiedi preventivo →</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-logo">
+    <a href="index.html"><img src="images/logodfs.png" alt="Bicycle Line"></a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html#come-funziona">Come Funziona</a></li>
+    <li><a href="uomo.html">Uomo</a></li>
+    <li><a href="donna.html">Donna</a></li>
+    <li><a href="accessori.html">Accessori</a></li>
+    <li><a href="ragazzi.html">Ragazzi</a></li>
+    <li><a href="index.html#faq">FAQ</a></li>
+    <li><a href="index.html#contatti">Contatti</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <div class="lang-wrap">
+      <button class="lang-btn" id="lang-toggle">
+        <img src="images/BANDIERE/italia.jpg" alt="IT">
+        <span>IT</span>
+        <i class="fas fa-chevron-down" style="font-size:9px; opacity:0.6;"></i>
+      </button>
+      <div class="lang-dropdown" id="lang-dropdown">
+        <a href="index.html"><img src="images/BANDIERE/italia.jpg" alt="IT"> Italiano</a>
+        <a href="index-en.html"><img src="images/BANDIERE/english.jpg" alt="EN"> English</a>
+        <a href="index-de.html"><img src="images/BANDIERE/Deutsch.jpg" alt="DE"> Deutsch</a>
+        <a href="index-fr.html"><img src="images/BANDIERE/Français.jpg" alt="FR"> Français</a>
+        <a href="index-es.html"><img src="images/BANDIERE/Español.jpg" alt="ES"> Español</a>
       </div>
     </div>
-    <div class="ui-topbar-right"></div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
+</nav>
 
-  <!-- NAV -->
-  <div class="ui-nav-white">
-    <div class="ui-logo">
-      <a href="../index2.html">
-        <img src="images/logodfs.png" alt="Bicycle Line" style="height: 50px;">
-      </a>
-    </div>
-
-    <div class="ui-nav-center">
-      <a href="index2.html#come-funziona">Come Funziona</a>
-      <a href="uomo.html">Uomo</a>
-      <a href="donna.html">Donna</a>
-      <a href="ragazzi.html">Ragazzi</a>
-      <a href="index2.html#faq">FAQ</a>
-      <a href="index2.html#contatti">Contattaci</a>
-    </div>
-
-    <div class="ui-nav-right"></div>
-  </div>
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-close" id="mobile-close">✕</button>
+  <a href="index.html#come-funziona">Come Funziona</a>
+  <a href="uomo.html">Uomo</a>
+  <a href="donna.html">Donna</a>
+  <a href="accessori.html">Accessori</a>
+  <a href="ragazzi.html">Ragazzi</a>
+  <a href="index.html#faq">FAQ</a>
+  <a href="index.html#contatti">Contattaci</a>
+</div>
 
   <div class="breadcrumbs">
     <div class="breadcrumbs__inner">
-      <a href="index2.html" class="dim hover:underline">HOME</a>
+      <a href="index.html" class="dim hover:underline">HOME</a>
       <span class="sep">></span>
       <a href="uomo.html" class="dim hover:underline">RUNNING UOMO</a>
       <span class="sep">></span>
@@ -737,21 +739,16 @@
       const mobileBtn = document.getElementById('mobile-menu-btn');
       if (mobileBtn) {
         mobileBtn.addEventListener('click', function() {
-          const menu = document.getElementById('mobile-menu');
-          if (!menu) return;
-          if (menu.classList.contains('hidden')) {
-            menu.classList.remove('hidden');
-            menu.classList.add('block');
-          } else {
-            menu.classList.remove('block');
-            menu.classList.add('hidden');
-          }
+          const sidebar = document.querySelector('.sidebar');
+          sidebar.classList.toggle('open');
         });
       }
 
-      const accHeads = document.querySelectorAll('.acc-head');
-      accHeads.forEach(head => {
+      // Accordion functionality
+      document.querySelectorAll('.acc-item').forEach(item => {
+        const head = item.querySelector('.acc-head');
         const accIcon = head.querySelector('.acc-icon');
+        
         if (accIcon) {
           head.addEventListener('click', function() {
             const accItem = this.parentElement;
