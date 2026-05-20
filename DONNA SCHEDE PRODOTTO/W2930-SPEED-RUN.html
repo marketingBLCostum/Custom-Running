@@ -731,22 +731,57 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      console.log('Script loaded');
+      
       // LANG DROPDOWN
       const langToggle = document.getElementById('lang-toggle');
       const langDropdown = document.getElementById('lang-dropdown');
-      langToggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        langDropdown.classList.toggle('open');
-      });
-      document.addEventListener('click', () => langDropdown.classList.remove('open'));
+      
+      console.log('langToggle:', langToggle);
+      console.log('langDropdown:', langDropdown);
+      
+      if (langToggle && langDropdown) {
+        langToggle.addEventListener('click', function(e) {
+          console.log('Language toggle clicked');
+          e.preventDefault();
+          e.stopPropagation();
+          
+          const isOpen = langDropdown.classList.contains('open');
+          console.log('Current state:', isOpen);
+          
+          if (isOpen) {
+            langDropdown.classList.remove('open');
+          } else {
+            langDropdown.classList.add('open');
+          }
+          
+          console.log('New state:', langDropdown.classList.contains('open'));
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
+            langDropdown.classList.remove('open');
+          }
+        });
+      }
 
       // MOBILE NAV
       const hamburger = document.getElementById('hamburger');
       const mobileNav = document.getElementById('mobile-nav');
       const mobileClose = document.getElementById('mobile-close');
-      hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
-      mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
-      mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
+      
+      if (hamburger && mobileNav) {
+        hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
+      }
+      
+      if (mobileClose && mobileNav) {
+        mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
+      }
+      
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
+      }
 
       // Accordion functionality
       const accHeads = document.querySelectorAll('.acc-head');
