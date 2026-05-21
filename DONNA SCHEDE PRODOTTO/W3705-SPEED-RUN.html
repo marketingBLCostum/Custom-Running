@@ -733,104 +733,109 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-        function closeLanguageMenu() {
-            const dropdown = document.getElementById('language-dropdown');
-            const button = document.getElementById('language-toggle');
-            if (dropdown) dropdown.classList.add('hidden');
-            if (button) button.classList.remove('active');
-            document.removeEventListener('click', closeOnClickOutside);
-        }
+      console.log('Script loaded');
+      
+      // LANG DROPDOWN
+      const langToggle = document.getElementById('lang-toggle');
+      const langDropdown = document.getElementById('lang-dropdown');
+      
+      console.log('langToggle:', langToggle);
+      console.log('langDropdown:', langDropdown);
+      
+      if (langToggle && langDropdown) {
+        langToggle.addEventListener('click', function(e) {
+          console.log('Language toggle clicked');
+          e.preventDefault();
+          e.stopPropagation();
+          
+          const isOpen = langDropdown.classList.contains('open');
+          console.log('Current state:', isOpen);
+          
+          if (isOpen) {
+            langDropdown.classList.remove('open');
+          } else {
+            langDropdown.classList.add('open');
+          }
+          
+          console.log('New state:', langDropdown.classList.contains('open'));
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+          if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
+            langDropdown.classList.remove('open');
+          }
+        });
+      }
 
-        function closeOnClickOutside(event) {
-            const dropdown = document.getElementById('language-dropdown');
-            const button = document.getElementById('language-toggle');
-            if (dropdown && !dropdown.contains(event.target) && button && !button.contains(event.target)) {
-                closeLanguageMenu();
-            }
-        }
+      // MOBILE NAV
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobile-nav');
+      const mobileClose = document.getElementById('mobile-close');
+      
+      if (hamburger && mobileNav) {
+        hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
+      }
+      
+      if (mobileClose && mobileNav) {
+        mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
+      }
+      
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
+      }
 
-        window.toggleLanguageMenu = function(button) {
-            const dropdown = document.getElementById('language-dropdown');
-            if (!dropdown) return;
-            if (dropdown.classList.contains('hidden')) {
-                document.querySelectorAll('.language-dropdown').forEach(d => d.classList.add('hidden'));
-                dropdown.classList.remove('hidden');
-                button.classList.add('active');
-                setTimeout(() => {
-                    document.addEventListener('click', closeOnClickOutside);
-                }, 0);
+      // Accordion functionality
+      const accHeads = document.querySelectorAll('.acc-head');
+      accHeads.forEach(head => {
+        const accIcon = head.querySelector('.acc-icon');
+        if (accIcon) {
+          head.addEventListener('click', function() {
+            const accItem = this.parentElement;
+            const accBody = accItem.querySelector('.acc-body');
+            if (accBody.style.display === 'none' || accBody.style.display === '') {
+              accBody.style.display = 'block';
+              accIcon.textContent = '-';
             } else {
-                closeLanguageMenu();
+              accBody.style.display = 'none';
+              accIcon.textContent = '+';
             }
+          });
         }
+      });
 
-        const mobileBtn = document.getElementById('mobile-menu-btn');
-        if (mobileBtn) {
-            mobileBtn.addEventListener('click', function() {
-                const menu = document.getElementById('mobile-menu');
-                if (!menu) return;
-                if (menu.classList.contains('hidden')) {
-                    menu.classList.remove('hidden');
-                    menu.classList.add('block');
-                } else {
-                    menu.classList.remove('block');
-                    menu.classList.add('hidden');
-                }
-            });
+      // Initially hide only the accordion bodies with icons
+      document.querySelectorAll('.acc-item .acc-body').forEach(body => {
+        const head = body.previousElementSibling;
+        if (head && head.querySelector('.acc-icon')) {
+          body.style.display = 'none';
         }
+      });
 
-        // Accordion functionality - only for sections with +/- icons
-        const accHeads = document.querySelectorAll('.acc-head');
-        accHeads.forEach(head => {
-            const accIcon = head.querySelector('.acc-icon');
-            if (accIcon) {
-                head.addEventListener('click', function() {
-                    const accItem = this.parentElement;
-                    const accBody = accItem.querySelector('.acc-body');
-                    if (accBody.style.display === 'none' || accBody.style.display === '') {
-                        accBody.style.display = 'block';
-                        accIcon.textContent = '-';
-                    } else {
-                        accBody.style.display = 'none';
-                        accIcon.textContent = '+';
-                    }
-                });
-            }
+      // Size guide popup functionality
+      const sizeGuideBtn = document.getElementById('size-guide-btn');
+      const sizeGuidePopup = document.getElementById('size-guide-popup');
+      const closeSizeGuide = document.getElementById('close-size-guide');
+      
+      if (sizeGuideBtn && sizeGuidePopup) {
+        sizeGuideBtn.addEventListener('click', () => {
+          sizeGuidePopup.style.display = 'flex';
         });
-
-        // Initially hide only the accordion bodies with icons
-        document.querySelectorAll('.acc-item .acc-body').forEach(body => {
-            const head = body.previousElementSibling;
-            const hasIcon = head && head.querySelector('.acc-icon');
-            if (hasIcon) {
-                body.style.display = 'none';
-            }
+      }
+      
+      if (closeSizeGuide && sizeGuidePopup) {
+        closeSizeGuide.addEventListener('click', () => {
+          sizeGuidePopup.style.display = 'none';
         });
-
-        // Size guide popup functionality
-        const sizeGuideBtn = document.getElementById('size-guide-btn');
-        const sizeGuidePopup = document.getElementById('size-guide-popup');
-        const closePopupBtn = document.getElementById('close-popup');
-
-        if (sizeGuideBtn && sizeGuidePopup) {
-            sizeGuideBtn.addEventListener('click', function() {
-                sizeGuidePopup.classList.remove('hidden');
-            });
-        }
-
-        if (closePopupBtn && sizeGuidePopup) {
-            closePopupBtn.addEventListener('click', function() {
-                sizeGuidePopup.classList.add('hidden');
-            });
-        }
-
-        if (sizeGuidePopup) {
-            sizeGuidePopup.addEventListener('click', function(e) {
-                if (e.target === sizeGuidePopup) {
-                    sizeGuidePopup.classList.add('hidden');
-                }
-            });
-        }
+      }
+      
+      if (sizeGuidePopup) {
+        sizeGuidePopup.addEventListener('click', (e) => {
+          if (e.target === sizeGuidePopup) {
+            sizeGuidePopup.style.display = 'none';
+          }
+        });
+      }
     });
   </script>
 </body>
