@@ -439,31 +439,7 @@
     .temp-line{height:4px;background:#e0e0e0;position:relative}
     .temp-line::before{content:'';position:absolute;left:12%;right:30%;top:0;bottom:0;background:#111}
     .temp-range{display:flex;align-items:center;justify-content:space-between;margin-top:10px;color:#555;font-size:12px}
-    .page,
-    .gallery,
-    .media,
-    .sidebar{
-      min-width:0;
-      max-width:100%;
-    }
-    .page,
-    .gallery{
-      width:100%;
-    }
-    .media img{
-      max-width:100%;
-    }
-
     @media (max-width: 1200px){
-      .page{width:100%;overflow:hidden}
-      .gallery{width:100%;grid-template-columns:minmax(0,1fr)}
-      .media,.media.short,.media.tall{width:100%;min-height:min(520px,120vw)}
-      .media img{width:100%;max-width:100%;min-width:0}
-      .media.pad-a img,.media.pad-b img{padding:24px min(82px,12vw) 54px}
-      .media.pad-c img{padding:84px min(20px,6vw) 98px}
-      .sidebar{width:100%;max-width:100%;position:relative;min-height:auto;border-left:0}
-    }
-
       body{min-width:0}
       .page{grid-template-columns:1fr}
       .sidebar{position:relative;min-height:auto;border-left:0}

@@ -1065,30 +1065,37 @@
       position: relative;
       overflow: hidden;
     }
+    .card-image .product-photo img {
+      transition: opacity 0.3s ease;
+    }
     
-    .preview-overlay {
+    .card-image:hover .product-photo img {
+      opacity: 0;
+    }
+    
+    .preview-replacement {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.9);
       display: flex;
       align-items: center;
       justify-content: center;
       opacity: 0;
       transition: opacity 0.3s ease;
-      z-index: 10;
+      pointer-events: none;
     }
     
-    .preview-overlay img {
+    .preview-replacement img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       object-position: center;
+      background: #efefef;
     }
     
-    .card-image:hover .preview-overlay {
+    .card-image:hover .preview-replacement {
       opacity: 1;
     }
   </style>
@@ -1167,6 +1174,9 @@
                                 <a href="DONNA DE/W7103-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7103.png" alt="W7103 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7103/1.png" alt="W7103 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7103-SPEED-RUN_DE.html" class="product-name"><strong>W7103 SPEED RUN</strong></a>
               <div class="product-subtitle">Kurzarm-T-Shirt mit Rundhalsausschnitt - Damen</div>
@@ -1177,6 +1187,9 @@
                                 <a href="DONNA DE/W7116-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7116.png" alt="W7116 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7116/1.png" alt="W7116 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7116-SPEED-RUN_DE.html" class="product-name"><strong>W7116 SPEED RUN</strong></a>
               <div class="product-subtitle">Kurzarm-T-Shirt mit V-Ausschnitt - Damen</div>
@@ -1187,6 +1200,9 @@
                 <a href="DONNA DE/W7104-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7104.png" alt="W7104 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7104/1.png" alt="W7104 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7104-SPEED-RUN_DE.html" class="product-name"><strong>W7104 SPEED RUN</strong></a>
               <div class="product-subtitle">Tanktop - Damen</div>
@@ -1197,6 +1213,9 @@
                                 <a href="DONNA DE/W7118-FIONA_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7118.png" alt="W7118 FIONA" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7118/1.png" alt="W7118 FIONA Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7118-FIONA_DE.html" class="product-name"><strong>W7118 FIONA</strong></a>
               <div class="product-subtitle">Sport-BH - Damen</div>
@@ -1207,6 +1226,9 @@
                                 <a href="DONNA DE/W7119-LARY_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7119.png" alt="W7119 LARY" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7119/1.png" alt="W7119 LARY Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7119-LARY_DE.html" class="product-name"><strong>W7119 LARY</strong></a>
               <div class="product-subtitle">Top - Damen</div>
@@ -1217,6 +1239,9 @@
                                 <a href="DONNA DE/W7115-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7115.png" alt="W7115 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7115/1.png" alt="W7115 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7115-SPEED-RUN_DE.html" class="product-name"><strong>W7115 SPEED RUN</strong></a>
               <div class="product-subtitle">Shorts mit Innenstring - Damen</div>
@@ -1227,6 +1252,9 @@
                 <a href="DONNA DE/W2915-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W2915.png" alt="W2915 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W2915/1.PNG" alt="W2915 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W2915-SPEED-RUN_DE.html" class="product-name"><strong>W2915 SPEED RUN</strong></a>
               <div class="product-subtitle">Elastische Shorts - Damen</div>
@@ -1237,6 +1265,9 @@
                 <a href="DONNA DE/W7105-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7105.png" alt="W7105 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7105/1.png" alt="W7105 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7105-SPEED-RUN_DE.html" class="product-name"><strong>W7105 SPEED RUN</strong></a>
               <div class="product-subtitle">2-in-1-Shorts - Damen</div>
@@ -1247,6 +1278,9 @@
                                 <a href="DONNA DE/W7113-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7113.png" alt="W7113 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7113/1.png" alt="W7113 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7113-SPEED-RUN_DE.html" class="product-name"><strong>W7113 SPEED RUN</strong></a>
               <div class="product-subtitle">Shorts ohne Innenslip - Damen</div>
@@ -1257,6 +1291,9 @@
                                 <a href="DONNA DE/W2930-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W2930.png" alt="W2930 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png" alt="W2930 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W2930-SPEED-RUN_DE.html" class="product-name"><strong>W2930 SPEED RUN</strong></a>
               <div class="product-subtitle">Thermo-Langarmshirt mit kurzem Reißverschluss - Damen</div>
@@ -1267,6 +1304,9 @@
                                 <a href="DONNA DE/W7109-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7109.png" alt="W7109 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7109/1.png" alt="W7109 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7109-SPEED-RUN_DE.html" class="product-name"><strong>W7109 SPEED RUN</strong></a>
               <div class="product-subtitle">Thermo-Langarm-T-Shirt - Damen</div>
@@ -1277,6 +1317,9 @@
                                 <a href="DONNA DE/W7111-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7111.png" alt="W7111 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7111/1.png" alt="W7111 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7111-SPEED-RUN_DE.html" class="product-name"><strong>W7111 SPEED RUN</strong></a>
               <div class="product-subtitle">Leichte winddichte Jacke - Damen</div>
@@ -1287,6 +1330,9 @@
                                 <a href="DONNA DE/W3705-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W3705.png" alt="W3705 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W3705/1.png" alt="W3705 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W3705-SPEED-RUN_DE.html" class="product-name"><strong>W3705 SPEED RUN</strong></a>
               <div class="product-subtitle">Leichte winddichte Weste - Damen</div>
@@ -1297,6 +1343,9 @@
                 <a href="DONNA DE/W7110-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W7110.png" alt="W7110 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W7110/1.png" alt="W7110 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W7110-SPEED-RUN_DE.html" class="product-name"><strong>W7110 SPEED RUN</strong></a>
               <div class="product-subtitle">Leichtes Langarm-T-Shirt - Damen</div>
@@ -1307,6 +1356,9 @@
                                 <a href="DONNA DE/W2960-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W2960.png" alt="W2960 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W2960/1.png" alt="W2960 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W2960-SPEED-RUN_DE.html" class="product-name"><strong>W2960 SPEED RUN</strong></a>
               <div class="product-subtitle">3/4-Laufhose - Damen</div>
@@ -1317,6 +1369,9 @@
                 <a href="DONNA DE/W2913-SPEED-RUN_DE.html" class="product-photo">
                   <img src="../images/DONNA/CATALOGO/W2913.png" alt="W2913 SPEED RUN" style="width:90%;height:90%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
                 </a>
+                <div class="preview-replacement">
+                  <img src="../images/DONNA/W2913/1.png" alt="W2913 SPEED RUN Preview">
+                </div>
               </div>
                                           <a href="DONNA DE/W2913-SPEED-RUN_DE.html" class="product-name"><strong>W2913 SPEED RUN</strong></a>
               <div class="product-subtitle">Lange Laufhose - Damen</div>
