@@ -648,48 +648,48 @@
     <div class="footer-inner">
       <div class="footer-grid">
         <div>
-          <a href="https://www.bicycle-line.com/it/" target="_blank"><img src="../../images/logodfs.png" alt="Bicycle Line Logo" class="footer-logo"></a>
+          <a href="https://www.bicycle-line.com/fr/" target="_blank"><img src="../../images/logodfs.png" alt="Bicycle Line Logo" class="footer-logo"></a>
         </div>
 
         <div>
           <h3 class="footer-title">BICYCLE LINE</h3>
           <ul class="footer-list">
-            <li><a href="https://www.bicycle-line.com/it/content/4-brand">Marque</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/6-storia">Histoire</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/9-sostenibilita">Durabilité</a></li>
-            <li><a href="https://www.bicycle-line.com/it/contact">Contactez-nous</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/4-brand">Marque</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/6-storia">Histoire</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/9-sostenibilita">Durabilité</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/contact">Contactez-nous</a></li>
           </ul>
         </div>
 
         <div>
           <h3 class="footer-title">SHOP</h3>
           <ul class="footer-list">
-            <li><a href="https://www.bicycle-line.com/it/947-uomo">Homme</a></li>
-            <li><a href="https://www.bicycle-line.com/it/948-donna">Femme</a></li>
-            <li><a href="https://www.bicycle-line.com/it/949-cat-bambino">Juniors</a></li>
-            <li><a href="https://www.bicycle-line.com/it/1109-offerte">Offres</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/23-shop">Guide d’achat en ligne</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/947-uomo">Homme</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/948-donna">Femme</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/949-cat-bambino">Juniors</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/1109-offerte">Offres</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/23-shop">Guide d’achat en ligne</a></li>
           </ul>
         </div>
 
         <div>
           <h3 class="footer-title">LIENS UTILES</h3>
           <ul class="footer-list">
-            <li><a href="https://www.bicycle-line.com/it/content/1-spedizione">Livraison</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/5-pagamento">Paiement</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/18-faq">FAQ</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/12-guida-alle-taglie">Guide des tailles</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/14-garanzia">Utilisation du produit et garantie</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/13-resi">Retours</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/1-spedizione">Livraison</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/5-pagamento">Paiement</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/18-faq">FAQ</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/12-guida-alle-taglie">Guide des tailles</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/14-garanzia">Utilisation du produit et garantie</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/13-resi">Retours</a></li>
           </ul>
         </div>
 
         <div>
           <h3 class="footer-title">MENTIONS LÉGALES</h3>
           <ul class="footer-list">
-            <li><a href="https://www.bicycle-line.com/it/content/15-privacy-policy">Politique de confidentialité</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/16-cookie-policy">Politique relative aux cookies</a></li>
-            <li><a href="https://www.bicycle-line.com/it/content/17-termini-e-condizioni">Conditions générales</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/15-privacy-policy">Politique de confidentialité</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/16-cookie-policy">Politique relative aux cookies</a></li>
+            <li><a href="https://www.bicycle-line.com/fr/content/17-termini-e-condizioni">Conditions générales</a></li>
           </ul>
 
           <h3 class="footer-title" style="margin-top:18px;">CONTACTEZ-NOUS</h3>
@@ -707,70 +707,71 @@
     </div>
   </footer>
 
-  <script>
+    <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const mobileBtn = document.getElementById('mobile-menu-btn');
-      if (mobileBtn) {
-        mobileBtn.addEventListener('click', function() {
-          const menu = document.getElementById('mobile-menu');
-          if (!menu) return;
-          if (menu.classList.contains('hidden')) {
-            menu.classList.remove('hidden');
-            menu.classList.add('block');
-          } else {
-            menu.classList.remove('block');
-            menu.classList.add('hidden');
+      const langToggle = document.getElementById('lang-toggle');
+      const langDropdown = document.getElementById('lang-dropdown');
+      if (langToggle && langDropdown) {
+        langToggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          langDropdown.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+          if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
+            langDropdown.classList.remove('open');
           }
         });
       }
 
-      const accHeads = document.querySelectorAll('.acc-head');
-      accHeads.forEach(head => {
-        const accIcon = head.querySelector('.acc-icon');
-        if (accIcon) {
-          head.addEventListener('click', function() {
-            const accItem = this.parentElement;
-            const accBody = accItem.querySelector('.acc-body');
-
-            if (accBody.style.display === 'none' || accBody.style.display === '') {
-              accBody.style.display = 'block';
-              accIcon.textContent = '';
-            } else {
-              accBody.style.display = 'none';
-              accIcon.textContent = '+';
-            }
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobile-nav');
+      const mobileClose = document.getElementById('mobile-close');
+      if (hamburger && mobileNav) {
+        hamburger.addEventListener('click', function() {
+          mobileNav.classList.add('open');
+        });
+      }
+      if (mobileClose && mobileNav) {
+        mobileClose.addEventListener('click', function() {
+          mobileNav.classList.remove('open');
+        });
+      }
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            mobileNav.classList.remove('open');
           });
-        }
+        });
+      }
+
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      if (mobileBtn) {
+        mobileBtn.addEventListener('click', function() {
+          const sidebar = document.querySelector('.sidebar');
+          if (sidebar) sidebar.classList.toggle('open');
+        });
+      }
+
+      document.querySelectorAll('.acc-item').forEach(function(item) {
+        const head = item.querySelector('.acc-head');
+        const accIcon = item.querySelector('.acc-icon');
+        const accBody = item.querySelector('.acc-body');
+        if (!head || !accIcon || !accBody) return;
+        head.addEventListener('click', function() {
+          const isClosed = accBody.style.display === 'none' || accBody.style.display === '';
+          accBody.style.display = isClosed ? 'block' : 'none';
+          accIcon.textContent = isClosed ? '-' : '+';
+        });
       });
 
-      document.querySelectorAll('.acc-item .acc-body').forEach(body => {
+      document.querySelectorAll('.acc-item .acc-body').forEach(function(body) {
         const head = body.previousElementSibling;
-        const hasIcon = head && head.querySelector('.acc-icon');
-        if (hasIcon) {
+        if (head && head.querySelector('.acc-icon')) {
           body.style.display = 'none';
         }
-      });        });
-      }
+      });
     });
-  </script>
-
-  <script>
-    // LANG DROPDOWN
-    const langToggle = document.getElementById('lang-toggle');
-    const langDropdown = document.getElementById('lang-dropdown');
-    langToggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      langDropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', () => langDropdown.classList.remove('open'));
-
-    // MOBILE NAV
-    const hamburger = document.getElementById('hamburger');
-    const mobileNav = document.getElementById('mobile-nav');
-    const mobileClose = document.getElementById('mobile-close');
-    hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
-    mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
-    mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
   </script>
 </body>
 </html>

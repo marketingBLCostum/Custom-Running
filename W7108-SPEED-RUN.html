@@ -707,70 +707,71 @@
     </div>
   </footer>
 
-  <script>
+    <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const mobileBtn = document.getElementById('mobile-menu-btn');
-      if (mobileBtn) {
-        mobileBtn.addEventListener('click', function() {
-          const menu = document.getElementById('mobile-menu');
-          if (!menu) return;
-          if (menu.classList.contains('hidden')) {
-            menu.classList.remove('hidden');
-            menu.classList.add('block');
-          } else {
-            menu.classList.remove('block');
-            menu.classList.add('hidden');
+      const langToggle = document.getElementById('lang-toggle');
+      const langDropdown = document.getElementById('lang-dropdown');
+      if (langToggle && langDropdown) {
+        langToggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          langDropdown.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+          if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
+            langDropdown.classList.remove('open');
           }
         });
       }
 
-      const accHeads = document.querySelectorAll('.acc-head');
-      accHeads.forEach(head => {
-        const accIcon = head.querySelector('.acc-icon');
-        if (accIcon) {
-          head.addEventListener('click', function() {
-            const accItem = this.parentElement;
-            const accBody = accItem.querySelector('.acc-body');
-
-            if (accBody.style.display === 'none' || accBody.style.display === '') {
-              accBody.style.display = 'block';
-              accIcon.textContent = '';
-            } else {
-              accBody.style.display = 'none';
-              accIcon.textContent = '+';
-            }
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobile-nav');
+      const mobileClose = document.getElementById('mobile-close');
+      if (hamburger && mobileNav) {
+        hamburger.addEventListener('click', function() {
+          mobileNav.classList.add('open');
+        });
+      }
+      if (mobileClose && mobileNav) {
+        mobileClose.addEventListener('click', function() {
+          mobileNav.classList.remove('open');
+        });
+      }
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            mobileNav.classList.remove('open');
           });
-        }
+        });
+      }
+
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      if (mobileBtn) {
+        mobileBtn.addEventListener('click', function() {
+          const sidebar = document.querySelector('.sidebar');
+          if (sidebar) sidebar.classList.toggle('open');
+        });
+      }
+
+      document.querySelectorAll('.acc-item').forEach(function(item) {
+        const head = item.querySelector('.acc-head');
+        const accIcon = item.querySelector('.acc-icon');
+        const accBody = item.querySelector('.acc-body');
+        if (!head || !accIcon || !accBody) return;
+        head.addEventListener('click', function() {
+          const isClosed = accBody.style.display === 'none' || accBody.style.display === '';
+          accBody.style.display = isClosed ? 'block' : 'none';
+          accIcon.textContent = isClosed ? '-' : '+';
+        });
       });
 
-      document.querySelectorAll('.acc-item .acc-body').forEach(body => {
+      document.querySelectorAll('.acc-item .acc-body').forEach(function(body) {
         const head = body.previousElementSibling;
-        const hasIcon = head && head.querySelector('.acc-icon');
-        if (hasIcon) {
+        if (head && head.querySelector('.acc-icon')) {
           body.style.display = 'none';
         }
-      });        });
-      }
+      });
     });
-  </script>
-
-  <script>
-    // LANG DROPDOWN
-    const langToggle = document.getElementById('lang-toggle');
-    const langDropdown = document.getElementById('lang-dropdown');
-    langToggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      langDropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', () => langDropdown.classList.remove('open'));
-
-    // MOBILE NAV
-    const hamburger = document.getElementById('hamburger');
-    const mobileNav = document.getElementById('mobile-nav');
-    const mobileClose = document.getElementById('mobile-close');
-    hamburger.addEventListener('click', () => mobileNav.classList.add('open'));
-    mobileClose.addEventListener('click', () => mobileNav.classList.remove('open'));
-    mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
   </script>
 </body>
 </html>
