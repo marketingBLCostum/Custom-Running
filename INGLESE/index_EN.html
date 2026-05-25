@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/png" href="../images/logodfs.png" />
-  <title>Bicycle Line — Custom Cycling Apparel</title>
+  <title>Bicycle Line — Custom Running Apparel</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -1234,7 +1234,7 @@
       <div class="fade-up">
         <p class="section-label">Let’s talk</p>
         <h2 class="contact-info-title">Contact us</h2>
-        <p class="contact-desc">Request a no-obligation custom quote for your cycling kit. Our team will guide you in choosing the model that best suits your needs.</p>
+        <p class="contact-desc">Request a no-obligation custom quote for your running kit. Our team will guide you in choosing the model that best suits your needs.</p>
 
         <div class="contact-method">
           <div class="contact-icon"><i class="fas fa-envelope"></i></div>
@@ -1264,33 +1264,33 @@
           <div class="form-row">
             <div class="field">
               <label>First name *</label>
-              <input type="text" name="nome" placeholder="Il tuo nome" required>
+              <input type="text" name="nome" placeholder="Your first name" required>
             </div>
             <div class="field">
               <label>Last name *</label>
-              <input type="text" name="cognome" placeholder="Il tuo cognome" required>
-              <input type="hidden" name="lang" value="it">
+              <input type="text" name="cognome" placeholder="Your last name" required>
+              <input type="hidden" name="lang" value="en">
             </div>
           </div>
           <div class="field">
             <label>Team name *</label>
-            <input type="text" name="nomeTeam" placeholder="Nome della tua squadra" required>
+            <input type="text" name="nomeTeam" placeholder="Your team name" required>
           </div>
           <div class="field">
             <label>Email *</label>
-            <input type="email" name="email" placeholder="tua@email.com" required>
+            <input type="email" name="email" placeholder="your@email.com" required>
           </div>
           <div class="field">
             <label>Sport</label>
-            <input type="text" name="sport" value="Ciclismo" readonly>
+            <input type="text" name="sport" value="Running" readonly>
           </div>
           <div class="field">
             <label>Number of athletes</label>
-            <input type="number" name="numeroAtleti" placeholder="N° atleti del team">
+            <input type="number" name="numeroAtleti" placeholder="Number of team athletes">
           </div>
           <div class="field">
             <label>Message</label>
-            <textarea name="messaggio" placeholder="Scrivi qui qualsiasi informazione aggiuntiva…"></textarea>
+            <textarea name="messaggio" placeholder="Write any additional information here…"></textarea>
           </div>
           <button type="submit" class="form-submit">Send Request</button>
           <div id="success-msg">✓ Request sent successfully</div>
@@ -1359,7 +1359,7 @@
             <img src="../images/logo bianco.png" alt="Bicycle Line">
           </a>
         </div>
-        <p class="footer-tagline">Custom technical cycling apparel.<br>Italyn production since 1987.</p>
+        <p class="footer-tagline">Custom technical running apparel.<br>Italian production since 1987.</p>
       </div>
       <div class="footer-col">
         <h4>Bicycle Line</h4>
@@ -1465,7 +1465,7 @@
         if (!res.ok) throw new Error();
         successMsg.style.display = 'block';
         form.reset();
-        form.querySelector('[name="sport"]').value = 'Ciclismo';
+        form.querySelector('[name="sport"]').value = 'Running';
       } catch {
         errorMsg.style.display = 'block';
       }

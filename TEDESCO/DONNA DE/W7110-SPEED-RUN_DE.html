@@ -428,8 +428,31 @@
     .temp-line{height:4px;background:#e0e0e0;position:relative}
     .temp-line::before{content:'';position:absolute;left:12%;right:30%;top:0;bottom:0;background:#111}
     .temp-range{display:flex;align-items:center;justify-content:space-between;margin-top:10px;color:#555;font-size:12px}
+    .page,
+    .gallery,
+    .media,
+    .sidebar{
+      min-width:0;
+      max-width:100%;
+    }
+    .page,
+    .gallery{
+      width:100%;
+    }
+    .media img{
+      max-width:100%;
+    }
 
     @media (max-width: 1200px){
+      .page{width:100%;overflow:hidden}
+      .gallery{width:100%;grid-template-columns:minmax(0,1fr)}
+      .media,.media.short,.media.tall{width:100%;min-height:min(520px,120vw)}
+      .media img{width:100%;max-width:100%;min-width:0}
+      .media.pad-a img,.media.pad-b img{padding:24px min(82px,12vw) 54px}
+      .media.pad-c img{padding:84px min(20px,6vw) 98px}
+      .sidebar{width:100%;max-width:100%;position:relative;min-height:auto;border-left:0}
+    }
+
       body{min-width:0}
       .page{grid-template-columns:1fr}
       .sidebar{position:relative;min-height:auto;border-left:0}
@@ -534,7 +557,6 @@
 <div class="option-block">
 <div class="size-line">
 <div class="option-label" style="margin:0">Größe:</div>
-<div class="guide" id="size-guide-btn" style="cursor: pointer;">GRÖSSENTABELLE</div>
 </div>
 <div class="sizes">
 <button class="size">S</button>
@@ -609,21 +631,6 @@
 </div>
 </aside>
 </main>
-<!-- Size Guide Popup -->
-<div class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center" id="size-guide-popup">
-<div class="bg-white rounded-lg max-w-4xl max-h-[90vh] overflow-auto relative">
-<button class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold z-10" id="close-popup">×</button>
-<div class="p-8">
-<h2 class="text-2xl font-bold mb-6 text-center">GRÖSSENTABELLE</h2>
-<div class="flex justify-center mb-6">
-<img alt="Größentabelle" class="max-w-full h-auto" id="size-guide-image" src=""/>
-</div>
-<div class="text-center text-sm text-gray-600">
-<p>Klicke oben rechts auf „X“, um zu schließen</p>
-</div>
-</div>
-</div>
-</div>
 <section class="post-content">
 <section class="promo-section">
 <div class="promo-inner">
@@ -766,31 +773,6 @@
                 body.style.display = 'none';
             }
         });
-
-        // Size guide popup functionality
-        const sizeGuideBtn = document.getElementById('size-guide-btn');
-        const sizeGuidePopup = document.getElementById('size-guide-popup');
-        const closePopupBtn = document.getElementById('close-popup');
-
-        if (sizeGuideBtn && sizeGuidePopup) {
-            sizeGuideBtn.addEventListener('click', function() {
-                sizeGuidePopup.classList.remove('hidden');
-            });
-        }
-
-        if (closePopupBtn && sizeGuidePopup) {
-            closePopupBtn.addEventListener('click', function() {
-                sizeGuidePopup.classList.add('hidden');
-            });
-        }
-
-        if (sizeGuidePopup) {
-            sizeGuidePopup.addEventListener('click', function(e) {
-                if (e.target === sizeGuidePopup) {
-                    sizeGuidePopup.classList.add('hidden');
-                }
-            });
-        }
     });
   </script>
 </body>

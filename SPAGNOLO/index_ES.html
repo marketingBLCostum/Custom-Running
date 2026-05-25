@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/png" href="../images/logodfs.png" />
-  <title>Bicycle Line — Ropa de ciclismo personalizada</title>
+  <title>Bicycle Line — Ropa de running personalizada</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -1234,7 +1234,7 @@
       <div class="fade-up">
         <p class="section-label">Hablemos</p>
         <h2 class="contact-info-title">Contáctanos</h2>
-        <p class="contact-desc">Solicita un presupuesto personalizado sin compromiso para tu equipación de ciclismo. Nuestro equipo te guiará en la elección del modelo que mejor se adapte a tus necesidades.</p>
+        <p class="contact-desc">Solicita un presupuesto personalizado sin compromiso para tu equipación de running. Nuestro equipo te guiará en la elección del modelo que mejor se adapte a tus necesidades.</p>
 
         <div class="contact-method">
           <div class="contact-icon"><i class="fas fa-envelope"></i></div>
@@ -1264,33 +1264,33 @@
           <div class="form-row">
             <div class="field">
               <label>Nombre *</label>
-              <input type="text" name="nome" placeholder="Il tuo nome" required>
+              <input type="text" name="nome" placeholder="Tu nombre" required>
             </div>
             <div class="field">
               <label>Apellido *</label>
-              <input type="text" name="cognome" placeholder="Il tuo cognome" required>
-              <input type="hidden" name="lang" value="it">
+              <input type="text" name="cognome" placeholder="Tu apellido" required>
+              <input type="hidden" name="lang" value="es">
             </div>
           </div>
           <div class="field">
             <label>Nombre del equipo *</label>
-            <input type="text" name="nomeTeam" placeholder="Nome della tua squadra" required>
+            <input type="text" name="nomeTeam" placeholder="Nombre de tu equipo" required>
           </div>
           <div class="field">
             <label>Email *</label>
-            <input type="email" name="email" placeholder="tua@email.com" required>
+            <input type="email" name="email" placeholder="tu@email.com" required>
           </div>
           <div class="field">
             <label>Deporte</label>
-            <input type="text" name="sport" value="Ciclismo" readonly>
+            <input type="text" name="sport" value="Running" readonly>
           </div>
           <div class="field">
             <label>Número de atletas</label>
-            <input type="number" name="numeroAtleti" placeholder="N° atleti del team">
+            <input type="number" name="numeroAtleti" placeholder="N.º de atletas del equipo">
           </div>
           <div class="field">
             <label>Mensaje</label>
-            <textarea name="messaggio" placeholder="Scrivi qui qualsiasi informazione aggiuntiva…"></textarea>
+            <textarea name="messaggio" placeholder="Escribe aquí cualquier información adicional…"></textarea>
           </div>
           <button type="submit" class="form-submit">Enviar solicitud</button>
           <div id="success-msg">✓ Solicitud enviada correctamente</div>
@@ -1359,7 +1359,7 @@
             <img src="../images/logo bianco.png" alt="Bicycle Line">
           </a>
         </div>
-        <p class="footer-tagline">Ropa técnica de ciclismo personalizada.<br>Producción italiana desde 1987.</p>
+        <p class="footer-tagline">Ropa técnica de running personalizada.<br>Producción italiana desde 1987.</p>
       </div>
       <div class="footer-col">
         <h4>Bicycle Line</h4>
@@ -1465,7 +1465,7 @@
         if (!res.ok) throw new Error();
         successMsg.style.display = 'block';
         form.reset();
-        form.querySelector('[name="sport"]').value = 'Ciclismo';
+        form.querySelector('[name="sport"]').value = 'Running';
       } catch {
         errorMsg.style.display = 'block';
       }
