@@ -673,36 +673,20 @@
 </footer>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        function closeLanguageMenu() {
-            const dropdown = document.getElementById('language-dropdown');
-            const button = document.getElementById('language-toggle');
-            if (dropdown) dropdown.classList.add('hidden');
-            if (button) button.classList.remove('active');
-            document.removeEventListener('click', closeOnClickOutside);
-        }
-
-        function closeOnClickOutside(event) {
-            const dropdown = document.getElementById('language-dropdown');
-            const button = document.getElementById('language-toggle');
-            if (dropdown && !dropdown.contains(event.target) && button && !button.contains(event.target)) {
-                closeLanguageMenu();
-            }
-        }
-
-        window.toggleLanguageMenu = function(button) {
-            const dropdown = document.getElementById('language-dropdown');
-            if (!dropdown) return;
-            if (dropdown.classList.contains('hidden')) {
-                document.querySelectorAll('.language-dropdown').forEach(d => d.classList.add('hidden'));
-                dropdown.classList.remove('hidden');
-                button.classList.add('active');
-                setTimeout(() => {
-                    document.addEventListener('click', closeOnClickOutside);
-                }, 0);
-            } else {
-                closeLanguageMenu();
-            }
-        }
+      const langToggle = document.getElementById('lang-toggle');
+      const langDropdown = document.getElementById('lang-dropdown');
+      if (langToggle && langDropdown) {
+        langToggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          langDropdown.classList.toggle('open');
+        });
+        document.addEventListener('click', function(e) {
+          if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
+            langDropdown.classList.remove('open');
+          }
+        });
+      }
 
         const mobileBtn = document.getElementById('mobile-menu-btn');
         if (mobileBtn) {
