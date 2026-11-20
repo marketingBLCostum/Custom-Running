@@ -1,0 +1,5517 @@
+{
+  "date": "2026-11-20",
+  "local": "C:\\LORENZO\\5 SPORT PER SITO CUSTOM\\RUNNING - Copia",
+  "remote": "\\\\Serverbl\\dati\\Documenti Comuni\\___LORENZO\\SITI CUSTOM\\RUNNING",
+  "localFiles": 344,
+  "remoteFiles": 344,
+  "identical": 276,
+  "different": 68,
+  "onlyLocal": 0,
+  "onlyRemote": 0,
+  "rows": [
+    {
+      "relative": "4 sport/ciclismo.png",
+      "local": {
+        "name": "4 sport/ciclismo.png",
+        "bytes": 2269335,
+        "mtime": "2026-01-20T08:53:00.000Z",
+        "hash": "1d23f4a0caf57771a2e46aa33ad2f349ffa2101f60f6d3bff261de0aac1dc368"
+      },
+      "remote": {
+        "name": "4 sport/ciclismo.png",
+        "bytes": 2269335,
+        "mtime": "2026-01-20T08:53:00.000Z",
+        "hash": "1d23f4a0caf57771a2e46aa33ad2f349ffa2101f60f6d3bff261de0aac1dc368"
+      },
+      "same": true
+    },
+    {
+      "relative": "4 sport/pattinaggio.jpg",
+      "local": {
+        "name": "4 sport/pattinaggio.jpg",
+        "bytes": 280053,
+        "mtime": "2026-01-07T10:51:00.000Z",
+        "hash": "0c02e242f2251531f55ba95d2ea3e579e1a51872c5ae4bf71a8769ad67e17e69"
+      },
+      "remote": {
+        "name": "4 sport/pattinaggio.jpg",
+        "bytes": 280053,
+        "mtime": "2026-01-07T10:51:00.000Z",
+        "hash": "0c02e242f2251531f55ba95d2ea3e579e1a51872c5ae4bf71a8769ad67e17e69"
+      },
+      "same": true
+    },
+    {
+      "relative": "4 sport/running.png",
+      "local": {
+        "name": "4 sport/running.png",
+        "bytes": 207078,
+        "mtime": "2026-01-08T07:46:24.053Z",
+        "hash": "23425a43674fe76a970454188fcfc762cb2ae322ff2006dc7acd342026970048"
+      },
+      "remote": {
+        "name": "4 sport/running.png",
+        "bytes": 207078,
+        "mtime": "2026-01-08T07:46:24.053Z",
+        "hash": "23425a43674fe76a970454188fcfc762cb2ae322ff2006dc7acd342026970048"
+      },
+      "same": true
+    },
+    {
+      "relative": "4 sport/thriathlon.png",
+      "local": {
+        "name": "4 sport/thriathlon.png",
+        "bytes": 1958017,
+        "mtime": "2026-01-08T09:04:00.000Z",
+        "hash": "3258166c9c3054de9943ba8ba75a8518f7f0127094e1f4369e2397f0f77f84b4"
+      },
+      "remote": {
+        "name": "4 sport/thriathlon.png",
+        "bytes": 1958017,
+        "mtime": "2026-01-08T09:04:00.000Z",
+        "hash": "3258166c9c3054de9943ba8ba75a8518f7f0127094e1f4369e2397f0f77f84b4"
+      },
+      "same": true
+    },
+    {
+      "relative": "BANDIERE/Deutsch.jpg",
+      "local": {
+        "name": "BANDIERE/Deutsch.jpg",
+        "bytes": 540,
+        "mtime": "2026-01-12T09:24:34.574Z",
+        "hash": "53b1c4b01f271b2444fdbd63932d55d35806ac5b185246d951640aa9dc045a9b"
+      },
+      "remote": {
+        "name": "BANDIERE/Deutsch.jpg",
+        "bytes": 540,
+        "mtime": "2026-01-12T09:24:34.574Z",
+        "hash": "53b1c4b01f271b2444fdbd63932d55d35806ac5b185246d951640aa9dc045a9b"
+      },
+      "same": true
+    },
+    {
+      "relative": "BANDIERE/english.jpg",
+      "local": {
+        "name": "BANDIERE/english.jpg",
+        "bytes": 640,
+        "mtime": "2026-01-12T09:24:23.924Z",
+        "hash": "33638ac3dbd05433f82f59cb4e2fba0bff45dd7d8c81b66b5bd5805594441077"
+      },
+      "remote": {
+        "name": "BANDIERE/english.jpg",
+        "bytes": 640,
+        "mtime": "2026-01-12T09:24:23.924Z",
+        "hash": "33638ac3dbd05433f82f59cb4e2fba0bff45dd7d8c81b66b5bd5805594441077"
+      },
+      "same": true
+    },
+    {
+      "relative": "BANDIERE/Español.jpg",
+      "local": {
+        "name": "BANDIERE/Español.jpg",
+        "bytes": 565,
+        "mtime": "2026-01-12T09:24:49.892Z",
+        "hash": "11278550f6c70bf2de275cf1cab15883fb86f147c8ed5bb852d0a607f9e7d276"
+      },
+      "remote": {
+        "name": "BANDIERE/Español.jpg",
+        "bytes": 565,
+        "mtime": "2026-01-12T09:24:49.892Z",
+        "hash": "11278550f6c70bf2de275cf1cab15883fb86f147c8ed5bb852d0a607f9e7d276"
+      },
+      "same": true
+    },
+    {
+      "relative": "BANDIERE/Français.jpg",
+      "local": {
+        "name": "BANDIERE/Français.jpg",
+        "bytes": 562,
+        "mtime": "2026-01-12T09:24:41.084Z",
+        "hash": "768d65fb9debecb95a1a1421337e10220e04708346abca363eea7801fc7b85bd"
+      },
+      "remote": {
+        "name": "BANDIERE/Français.jpg",
+        "bytes": 562,
+        "mtime": "2026-01-12T09:24:41.084Z",
+        "hash": "768d65fb9debecb95a1a1421337e10220e04708346abca363eea7801fc7b85bd"
+      },
+      "same": true
+    },
+    {
+      "relative": "BANDIERE/italia.jpg",
+      "local": {
+        "name": "BANDIERE/italia.jpg",
+        "bytes": 429,
+        "mtime": "2026-01-12T09:24:03.314Z",
+        "hash": "a50e043f9e1b959accdb183fbd03bafb882f899d2bb2d9d46726780ccab0ce18"
+      },
+      "remote": {
+        "name": "BANDIERE/italia.jpg",
+        "bytes": 429,
+        "mtime": "2026-01-12T09:24:03.314Z",
+        "hash": "a50e043f9e1b959accdb183fbd03bafb882f899d2bb2d9d46726780ccab0ce18"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/1 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/1 davanti.png",
+        "bytes": 2383626,
+        "mtime": "2024-03-13T15:01:59.185Z",
+        "hash": "acf89f12f2b21617c7ac26bfb2fb8e18dea3d73bacf99127dbd7f2c51a3a85a7"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/1 davanti.png",
+        "bytes": 2383626,
+        "mtime": "2024-03-13T15:01:59.185Z",
+        "hash": "acf89f12f2b21617c7ac26bfb2fb8e18dea3d73bacf99127dbd7f2c51a3a85a7"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/1 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/1 dietro.png",
+        "bytes": 2383785,
+        "mtime": "2024-03-13T15:02:10.498Z",
+        "hash": "404448fd3ea1369ac0a828e86b03c9cb051a501ace22dedfe58395505e9bdb8e"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/1 dietro.png",
+        "bytes": 2383785,
+        "mtime": "2024-03-13T15:02:10.498Z",
+        "hash": "404448fd3ea1369ac0a828e86b03c9cb051a501ace22dedfe58395505e9bdb8e"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/10 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/10 davanti.png",
+        "bytes": 600764,
+        "mtime": "2024-03-18T09:59:36.458Z",
+        "hash": "36bc6613bff16866d3abfe0647a519dec3cfa845461c5257e423fe283831ef94"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/10 davanti.png",
+        "bytes": 600764,
+        "mtime": "2024-03-18T09:59:36.458Z",
+        "hash": "36bc6613bff16866d3abfe0647a519dec3cfa845461c5257e423fe283831ef94"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/10 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/10 dietro.png",
+        "bytes": 616117,
+        "mtime": "2024-03-18T09:59:46.536Z",
+        "hash": "93dbc5b3c26810527f66de9fed721b6b2b6af483c6a1977565504d433f5b4555"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/10 dietro.png",
+        "bytes": 616117,
+        "mtime": "2024-03-18T09:59:46.536Z",
+        "hash": "93dbc5b3c26810527f66de9fed721b6b2b6af483c6a1977565504d433f5b4555"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/11 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/11 davanti.png",
+        "bytes": 1313361,
+        "mtime": "2024-07-10T10:06:02.920Z",
+        "hash": "9f42aa55e1e0e21957c34c57e0bcfcbdf9399f81fabdb987c80bfd3b099e40d5"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/11 davanti.png",
+        "bytes": 1313361,
+        "mtime": "2024-07-10T10:06:02.920Z",
+        "hash": "9f42aa55e1e0e21957c34c57e0bcfcbdf9399f81fabdb987c80bfd3b099e40d5"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/11 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/11 dietro.png",
+        "bytes": 1325902,
+        "mtime": "2024-08-29T09:25:00.401Z",
+        "hash": "d24cf556c4ae0d946045260b8d246652502acf7d535cb624d2dff64f60b09d93"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/11 dietro.png",
+        "bytes": 1325902,
+        "mtime": "2024-08-29T09:25:00.401Z",
+        "hash": "d24cf556c4ae0d946045260b8d246652502acf7d535cb624d2dff64f60b09d93"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/12 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/12 davanti.png",
+        "bytes": 1594737,
+        "mtime": "2024-06-24T13:22:56.539Z",
+        "hash": "52630fd5690ed33e71fffd5ddfadb9d279b07e8dbeab9629397740367f20097d"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/12 davanti.png",
+        "bytes": 1594737,
+        "mtime": "2024-06-24T13:22:56.539Z",
+        "hash": "52630fd5690ed33e71fffd5ddfadb9d279b07e8dbeab9629397740367f20097d"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/12 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/12 dietro.png",
+        "bytes": 1479136,
+        "mtime": "2024-06-24T14:28:23.833Z",
+        "hash": "0ffaa70bc8f386618a9224a3f70f1a3fd1712a1c636b94741362a53895c7ab55"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/12 dietro.png",
+        "bytes": 1479136,
+        "mtime": "2024-06-24T14:28:23.833Z",
+        "hash": "0ffaa70bc8f386618a9224a3f70f1a3fd1712a1c636b94741362a53895c7ab55"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/2 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/2 davanti.png",
+        "bytes": 1077066,
+        "mtime": "2024-03-12T14:25:35.005Z",
+        "hash": "f768a7bd6ec5aacd05d0ca9845d0bb93279ba4467116da486e32b1c816f3b938"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/2 davanti.png",
+        "bytes": 1077066,
+        "mtime": "2024-03-12T14:25:35.005Z",
+        "hash": "f768a7bd6ec5aacd05d0ca9845d0bb93279ba4467116da486e32b1c816f3b938"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/2 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/2 dietro.png",
+        "bytes": 958585,
+        "mtime": "2024-03-12T14:25:25.005Z",
+        "hash": "295eb14723f98b6585099310de4e687f46355951ea6f71e413c7cc73b6004ec6"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/2 dietro.png",
+        "bytes": 958585,
+        "mtime": "2024-03-12T14:25:25.005Z",
+        "hash": "295eb14723f98b6585099310de4e687f46355951ea6f71e413c7cc73b6004ec6"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/3 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/3 davanti.png",
+        "bytes": 1469607,
+        "mtime": "2024-03-20T11:29:23.666Z",
+        "hash": "519d88021a4621afb4716e056bf59c8a3a92803f5d48c95205e0692d394f2c59"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/3 davanti.png",
+        "bytes": 1469607,
+        "mtime": "2024-03-20T11:29:23.666Z",
+        "hash": "519d88021a4621afb4716e056bf59c8a3a92803f5d48c95205e0692d394f2c59"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/3 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/3 dietro.png",
+        "bytes": 1501229,
+        "mtime": "2024-03-20T11:29:42.886Z",
+        "hash": "9ad9be670caeb8c7a6f72b6b0fe950b02db4bcdefa6489051b356754769bd537"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/3 dietro.png",
+        "bytes": 1501229,
+        "mtime": "2024-03-20T11:29:42.886Z",
+        "hash": "9ad9be670caeb8c7a6f72b6b0fe950b02db4bcdefa6489051b356754769bd537"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/4 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/4 davanti.png",
+        "bytes": 1315954,
+        "mtime": "2024-03-13T10:43:47.567Z",
+        "hash": "14979f43fba7c9a506ac990f23d056bd087eefa59929c853b11675d5d6b5e729"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/4 davanti.png",
+        "bytes": 1315954,
+        "mtime": "2024-03-13T10:43:47.567Z",
+        "hash": "14979f43fba7c9a506ac990f23d056bd087eefa59929c853b11675d5d6b5e729"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/4 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/4 dietro.png",
+        "bytes": 1292040,
+        "mtime": "2024-08-29T09:24:54.588Z",
+        "hash": "ec1d164a02927d5ce8955991ec63d6c2456db2bcc54e8debd5c8c2078ecdee5f"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/4 dietro.png",
+        "bytes": 1292040,
+        "mtime": "2024-08-29T09:24:54.588Z",
+        "hash": "ec1d164a02927d5ce8955991ec63d6c2456db2bcc54e8debd5c8c2078ecdee5f"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/5 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/5 davanti.png",
+        "bytes": 2170699,
+        "mtime": "2024-03-13T16:38:06.287Z",
+        "hash": "eae4fa7141e8062de07fba6d92e53f1d0f8ad59a308fb8aab957691abf0e8f78"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/5 davanti.png",
+        "bytes": 2170699,
+        "mtime": "2024-03-13T16:38:06.287Z",
+        "hash": "eae4fa7141e8062de07fba6d92e53f1d0f8ad59a308fb8aab957691abf0e8f78"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/5 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/5 dietro.png",
+        "bytes": 2087946,
+        "mtime": "2024-03-20T13:18:15.931Z",
+        "hash": "74a39176bd0b1ad48712c8af999672605aa629a7215881078ed1bdacf6372f62"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/5 dietro.png",
+        "bytes": 2087946,
+        "mtime": "2024-03-20T13:18:15.931Z",
+        "hash": "74a39176bd0b1ad48712c8af999672605aa629a7215881078ed1bdacf6372f62"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/6 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/6 davanti.png",
+        "bytes": 1186656,
+        "mtime": "2024-03-14T08:27:03.379Z",
+        "hash": "c6cbf11cb44b7f80341356e4f894e76ee5ec76332b06d302ee2b8295f6dc1eff"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/6 davanti.png",
+        "bytes": 1186656,
+        "mtime": "2024-03-14T08:27:03.379Z",
+        "hash": "c6cbf11cb44b7f80341356e4f894e76ee5ec76332b06d302ee2b8295f6dc1eff"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/6 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/6 dietro.png",
+        "bytes": 1162202,
+        "mtime": "2024-03-14T09:16:42.874Z",
+        "hash": "5bf813e1b5fef0de2e0fa9a84de82b5eae3ac4dcf3c98d945b5eb828657741ff"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/6 dietro.png",
+        "bytes": 1162202,
+        "mtime": "2024-03-14T09:16:42.874Z",
+        "hash": "5bf813e1b5fef0de2e0fa9a84de82b5eae3ac4dcf3c98d945b5eb828657741ff"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/7 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/7 davanti.png",
+        "bytes": 1844072,
+        "mtime": "2024-03-14T07:54:08.815Z",
+        "hash": "45ab98b9bb532ee2568feb2afc39fca957a3a1ae83a95d6ee703b67cb3d97eae"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/7 davanti.png",
+        "bytes": 1844072,
+        "mtime": "2024-03-14T07:54:08.815Z",
+        "hash": "45ab98b9bb532ee2568feb2afc39fca957a3a1ae83a95d6ee703b67cb3d97eae"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/7 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/7 dietro.png",
+        "bytes": 1769019,
+        "mtime": "2024-03-20T13:20:22.843Z",
+        "hash": "1235c467cb94e2dbb697207fed161e6e8ec8413185b1af0b8bc7d3108636a56c"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/7 dietro.png",
+        "bytes": 1769019,
+        "mtime": "2024-03-20T13:20:22.843Z",
+        "hash": "1235c467cb94e2dbb697207fed161e6e8ec8413185b1af0b8bc7d3108636a56c"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/8 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/8 davanti.png",
+        "bytes": 1063913,
+        "mtime": "2024-03-14T10:20:50.123Z",
+        "hash": "3c6e3fa9d682f2ec8a01fab01c7b2fcb2387c9a08968d7e2f5f70592d515123a"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/8 davanti.png",
+        "bytes": 1063913,
+        "mtime": "2024-03-14T10:20:50.123Z",
+        "hash": "3c6e3fa9d682f2ec8a01fab01c7b2fcb2387c9a08968d7e2f5f70592d515123a"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/8 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/8 dietro.png",
+        "bytes": 1027835,
+        "mtime": "2024-03-14T10:21:13.062Z",
+        "hash": "e2a6572568032d5a3d8397cc474171ff74919d78a5aa57fa6cddaa172425807b"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/8 dietro.png",
+        "bytes": 1027835,
+        "mtime": "2024-03-14T10:21:13.062Z",
+        "hash": "e2a6572568032d5a3d8397cc474171ff74919d78a5aa57fa6cddaa172425807b"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/9 davanti.png",
+      "local": {
+        "name": "CANOTAGGIO/9 davanti.png",
+        "bytes": 1449727,
+        "mtime": "2024-07-10T07:52:07.742Z",
+        "hash": "2cf6c9e0d2d642600b6f10eb64e732424529b29a9c682b32ba22cd1888138676"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/9 davanti.png",
+        "bytes": 1449727,
+        "mtime": "2024-07-10T07:52:07.742Z",
+        "hash": "2cf6c9e0d2d642600b6f10eb64e732424529b29a9c682b32ba22cd1888138676"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/9 dietro.png",
+      "local": {
+        "name": "CANOTAGGIO/9 dietro.png",
+        "bytes": 1483279,
+        "mtime": "2024-07-09T13:50:15.337Z",
+        "hash": "8cd99a3e36accd1860dcacc221d77da976261b484915764582750f45e132b5fe"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/9 dietro.png",
+        "bytes": 1483279,
+        "mtime": "2024-07-09T13:50:15.337Z",
+        "hash": "8cd99a3e36accd1860dcacc221d77da976261b484915764582750f45e132b5fe"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_back.png",
+      "local": {
+        "name": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_back.png",
+        "bytes": 1755287,
+        "mtime": "2024-03-20T11:29:13.416Z",
+        "hash": "5b2689503b44afa7de0a0ca9b63a6792db64a3f5d01c82416e8db9e62d7c199b"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_back.png",
+        "bytes": 1755287,
+        "mtime": "2024-03-20T11:29:13.416Z",
+        "hash": "5b2689503b44afa7de0a0ca9b63a6792db64a3f5d01c82416e8db9e62d7c199b"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_front.png",
+      "local": {
+        "name": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_front.png",
+        "bytes": 1632768,
+        "mtime": "2024-03-20T11:29:04.806Z",
+        "hash": "2c0b91962665c55fff9554588725f51516dc03ed95e64210654a7d8ffff45a34"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/BLSQW3604_ROWING_gilet_PIAVE_front.png",
+        "bytes": 1632768,
+        "mtime": "2024-03-20T11:29:04.806Z",
+        "hash": "2c0b91962665c55fff9554588725f51516dc03ed95e64210654a7d8ffff45a34"
+      },
+      "same": true
+    },
+    {
+      "relative": "CANOTAGGIO/SFONDO.png",
+      "local": {
+        "name": "CANOTAGGIO/SFONDO.png",
+        "bytes": 45768,
+        "mtime": "2026-02-05T08:34:56.899Z",
+        "hash": "8bc23fb6322a7cedc06605047cebe6019fedbf4b3c1ee19be00f3c7fa6e2eb53"
+      },
+      "remote": {
+        "name": "CANOTAGGIO/SFONDO.png",
+        "bytes": 45768,
+        "mtime": "2026-02-05T08:34:56.899Z",
+        "hash": "8bc23fb6322a7cedc06605047cebe6019fedbf4b3c1ee19be00f3c7fa6e2eb53"
+      },
+      "same": true
+    },
+    {
+      "relative": "Cattura.JPG",
+      "local": {
+        "name": "Cattura.JPG",
+        "bytes": 278587,
+        "mtime": "2026-02-04T07:37:42.512Z",
+        "hash": "77b164951f52fea3e6992f8d33104c8cb0d60bfe8ffcae8dddc3354f21935d60"
+      },
+      "remote": {
+        "name": "Cattura.JPG",
+        "bytes": 278587,
+        "mtime": "2026-02-04T07:37:42.512Z",
+        "hash": "77b164951f52fea3e6992f8d33104c8cb0d60bfe8ffcae8dddc3354f21935d60"
+      },
+      "same": true
+    },
+    {
+      "relative": "corridori.png",
+      "local": {
+        "name": "corridori.png",
+        "bytes": 123672,
+        "mtime": "2026-05-28T09:47:01.180Z",
+        "hash": "94e9aa09b7e4af265098b2ea60909bea6327db608924d197041aaf756626e9c7"
+      },
+      "remote": {
+        "name": "corridori.png",
+        "bytes": 123672,
+        "mtime": "2026-05-28T09:47:01.180Z",
+        "hash": "94e9aa09b7e4af265098b2ea60909bea6327db608924d197041aaf756626e9c7"
+      },
+      "same": true
+    },
+    {
+      "relative": "corridori2.png",
+      "local": {
+        "name": "corridori2.png",
+        "bytes": 247640,
+        "mtime": "2026-04-13T07:44:02.004Z",
+        "hash": "92321dfccec149e00a7ed7add5b1bafa9994555eadc871dfbcae905f44932ac4"
+      },
+      "remote": {
+        "name": "corridori2.png",
+        "bytes": 247640,
+        "mtime": "2026-04-13T07:44:02.004Z",
+        "hash": "92321dfccec149e00a7ed7add5b1bafa9994555eadc871dfbcae905f44932ac4"
+      },
+      "same": true
+    },
+    {
+      "relative": "donna.png",
+      "local": {
+        "name": "donna.png",
+        "bytes": 387976,
+        "mtime": "2026-05-28T09:58:38.956Z",
+        "hash": "5992c4a4001ed90784e5d1790706397f4a13021c179a7449ba729e233a874051"
+      },
+      "remote": {
+        "name": "donna.png",
+        "bytes": 387976,
+        "mtime": "2026-05-28T09:58:38.956Z",
+        "hash": "5992c4a4001ed90784e5d1790706397f4a13021c179a7449ba729e233a874051"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/1.png",
+      "local": {
+        "name": "DONNA/7113/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "remote": {
+        "name": "DONNA/7113/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/2.png",
+      "local": {
+        "name": "DONNA/7113/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "remote": {
+        "name": "DONNA/7113/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/3.png",
+      "local": {
+        "name": "DONNA/7113/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "remote": {
+        "name": "DONNA/7113/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/4.png",
+      "local": {
+        "name": "DONNA/7113/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "remote": {
+        "name": "DONNA/7113/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/5.png",
+      "local": {
+        "name": "DONNA/7113/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "remote": {
+        "name": "DONNA/7113/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/7113/6.png",
+      "local": {
+        "name": "DONNA/7113/6.png",
+        "bytes": 91966,
+        "mtime": "2026-04-28T06:17:19.824Z",
+        "hash": "17201042a5658ac653504dd58effc226ace9b14623b028d664791d619eb26b0c"
+      },
+      "remote": {
+        "name": "DONNA/7113/6.png",
+        "bytes": 91966,
+        "mtime": "2026-04-28T06:17:19.824Z",
+        "hash": "17201042a5658ac653504dd58effc226ace9b14623b028d664791d619eb26b0c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_back.png",
+        "bytes": 667032,
+        "mtime": "2026-01-26T08:13:32.399Z",
+        "hash": "adf6336b8d05aaa6a2a2a58638e54dfed520c10ba10fe2efadbd759d52d62ca1"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_back.png",
+        "bytes": 667032,
+        "mtime": "2026-01-26T08:13:32.399Z",
+        "hash": "adf6336b8d05aaa6a2a2a58638e54dfed520c10ba10fe2efadbd759d52d62ca1"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_front.png",
+        "bytes": 647302,
+        "mtime": "2026-01-26T08:13:32.447Z",
+        "hash": "13a688b9c53294ebdd186cd30558d09562ac6e8679c004489c8d35591d6d3a4a"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2913_RUNNING_TIGHTS_woman_front.png",
+        "bytes": 647302,
+        "mtime": "2026-01-26T08:13:32.447Z",
+        "hash": "13a688b9c53294ebdd186cd30558d09562ac6e8679c004489c8d35591d6d3a4a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_back.png",
+        "bytes": 1448877,
+        "mtime": "2026-01-26T08:13:32.504Z",
+        "hash": "b0ffa70a280589a8ce865f644b318bc3d5db512d82d7e586b4bee551ed572300"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_back.png",
+        "bytes": 1448877,
+        "mtime": "2026-01-26T08:13:32.504Z",
+        "hash": "b0ffa70a280589a8ce865f644b318bc3d5db512d82d7e586b4bee551ed572300"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_front.png",
+        "bytes": 1337365,
+        "mtime": "2026-01-26T08:13:32.563Z",
+        "hash": "e392a4a4ba197e481c6e51e19edba4333911d5dc86c10f1f541f1046b87a8684"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2915_RUNNING_LYCRA_SHORTS_woman_front.png",
+        "bytes": 1337365,
+        "mtime": "2026-01-26T08:13:32.563Z",
+        "hash": "e392a4a4ba197e481c6e51e19edba4333911d5dc86c10f1f541f1046b87a8684"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_back.png",
+        "bytes": 2774851,
+        "mtime": "2026-01-26T08:13:32.816Z",
+        "hash": "f780fb8db22bf8f9854cd6f316325db6a458653177cdd6cc8c80561501f7092e"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_back.png",
+        "bytes": 2774851,
+        "mtime": "2026-01-26T08:13:32.816Z",
+        "hash": "f780fb8db22bf8f9854cd6f316325db6a458653177cdd6cc8c80561501f7092e"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png",
+        "bytes": 2824285,
+        "mtime": "2026-01-26T08:13:32.899Z",
+        "hash": "4af07bbf6b12cdbba2eaf00949605e966c7b58f1c03e0e71286f68366f307b8e"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png",
+        "bytes": 2824285,
+        "mtime": "2026-01-26T08:13:32.899Z",
+        "hash": "4af07bbf6b12cdbba2eaf00949605e966c7b58f1c03e0e71286f68366f307b8e"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7102_RUNNING_SHORTS+slip_front.png",
+      "local": {
+        "name": "DONNA/BLSQW7102_RUNNING_SHORTS+slip_front.png",
+        "bytes": 1533283,
+        "mtime": "2026-01-26T08:13:44.804Z",
+        "hash": "824ed18faa10729db6138a06106c8ed529a4c2df4e8cfc2edb91cf145a91541c"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7102_RUNNING_SHORTS+slip_front.png",
+        "bytes": 1533283,
+        "mtime": "2026-01-26T08:13:44.804Z",
+        "hash": "824ed18faa10729db6138a06106c8ed529a4c2df4e8cfc2edb91cf145a91541c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7103_RUNNING_MMC_back_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_back_AGG.png",
+        "bytes": 2261248,
+        "mtime": "2026-01-26T08:13:45.140Z",
+        "hash": "71ab9811abcfcba90f83cdaed653189f9ccdb8f67e888276dcfea9d1eaed70d9"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_back_AGG.png",
+        "bytes": 2261248,
+        "mtime": "2026-01-26T08:13:45.140Z",
+        "hash": "71ab9811abcfcba90f83cdaed653189f9ccdb8f67e888276dcfea9d1eaed70d9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7103_RUNNING_MMC_front_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_front_AGG.png",
+        "bytes": 2333706,
+        "mtime": "2026-01-26T08:13:45.206Z",
+        "hash": "39a5133fc95b5753bde1e485c11578d49748f321c7e4e01524dd7729694b79bd"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_front_AGG.png",
+        "bytes": 2333706,
+        "mtime": "2026-01-26T08:13:45.206Z",
+        "hash": "39a5133fc95b5753bde1e485c11578d49748f321c7e4e01524dd7729694b79bd"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7103_RUNNING_MMC_front_V_neck_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_front_V_neck_AGG.png",
+        "bytes": 2334302,
+        "mtime": "2026-01-26T08:13:45.949Z",
+        "hash": "9196d68fde17ff2c6b188cac46088814d7948dd8a25957d9e313cb26bae21cc5"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7103_RUNNING_MMC_front_V_neck_AGG.png",
+        "bytes": 2334302,
+        "mtime": "2026-01-26T08:13:45.949Z",
+        "hash": "9196d68fde17ff2c6b188cac46088814d7948dd8a25957d9e313cb26bae21cc5"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7104_RUNNING_CANOTTA_back_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7104_RUNNING_CANOTTA_back_AGG.png",
+        "bytes": 2012883,
+        "mtime": "2026-01-26T08:13:46.424Z",
+        "hash": "e41cced1b1c22322c3734cb2c8adf09ffe4481f530daab33053b752354282490"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7104_RUNNING_CANOTTA_back_AGG.png",
+        "bytes": 2012883,
+        "mtime": "2026-01-26T08:13:46.424Z",
+        "hash": "e41cced1b1c22322c3734cb2c8adf09ffe4481f530daab33053b752354282490"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7104_RUNNING_CANOTTA_front_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7104_RUNNING_CANOTTA_front_AGG.png",
+        "bytes": 1917687,
+        "mtime": "2026-01-26T08:13:46.481Z",
+        "hash": "479d39e2f2bdd5c9425574e7c5a0b22e222fc4a0b991b683541269b7e5fb4b10"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7104_RUNNING_CANOTTA_front_AGG.png",
+        "bytes": 1917687,
+        "mtime": "2026-01-26T08:13:46.481Z",
+        "hash": "479d39e2f2bdd5c9425574e7c5a0b22e222fc4a0b991b683541269b7e5fb4b10"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7105_RUNNING_SHORTS_back.png",
+      "local": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS_back.png",
+        "bytes": 385141,
+        "mtime": "2026-01-26T08:13:46.518Z",
+        "hash": "d036f589ad1dbf672179934ae24fa4435b250b04d795b8ca072058de784e843f"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS_back.png",
+        "bytes": 385141,
+        "mtime": "2026-01-26T08:13:46.518Z",
+        "hash": "d036f589ad1dbf672179934ae24fa4435b250b04d795b8ca072058de784e843f"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7105_RUNNING_SHORTS_front_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS_front_AGG.png",
+        "bytes": 469912,
+        "mtime": "2026-01-26T08:13:46.556Z",
+        "hash": "dc3ea2821b786d2756a46a9da8496d87c7edaf2e33603dd49bff3104832a830d"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS_front_AGG.png",
+        "bytes": 469912,
+        "mtime": "2026-01-26T08:13:46.556Z",
+        "hash": "dc3ea2821b786d2756a46a9da8496d87c7edaf2e33603dd49bff3104832a830d"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7105_RUNNING_SHORTS+slip_front_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS+slip_front_AGG.png",
+        "bytes": 838428,
+        "mtime": "2026-01-26T08:13:46.601Z",
+        "hash": "4703d8461f87e1a0bc93a4f3f7e161218ecb42411456fc1d0753c4c790b970eb"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7105_RUNNING_SHORTS+slip_front_AGG.png",
+        "bytes": 838428,
+        "mtime": "2026-01-26T08:13:46.601Z",
+        "hash": "4703d8461f87e1a0bc93a4f3f7e161218ecb42411456fc1d0753c4c790b970eb"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+        "bytes": 3227988,
+        "mtime": "2026-01-26T08:13:47.258Z",
+        "hash": "d33ef15948ad0732dcb04b01081d53481b734f5bb2fcab08546820f9057993c0"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+        "bytes": 3227988,
+        "mtime": "2026-01-26T08:13:47.258Z",
+        "hash": "d33ef15948ad0732dcb04b01081d53481b734f5bb2fcab08546820f9057993c0"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+        "bytes": 3413678,
+        "mtime": "2026-01-26T08:13:47.343Z",
+        "hash": "72a1a3a6218e35ed84ab48e15db4e56f258563ed788b502cc17410a06a739ecd"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7109_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+        "bytes": 3413678,
+        "mtime": "2026-01-26T08:13:47.343Z",
+        "hash": "72a1a3a6218e35ed84ab48e15db4e56f258563ed788b502cc17410a06a739ecd"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+        "bytes": 3227988,
+        "mtime": "2026-01-26T08:13:47.438Z",
+        "hash": "d33ef15948ad0732dcb04b01081d53481b734f5bb2fcab08546820f9057993c0"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_back.png",
+        "bytes": 3227988,
+        "mtime": "2026-01-26T08:13:47.438Z",
+        "hash": "d33ef15948ad0732dcb04b01081d53481b734f5bb2fcab08546820f9057993c0"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+        "bytes": 3413333,
+        "mtime": "2026-01-26T08:13:47.525Z",
+        "hash": "8e1681ab700e874abd628ddcab3f1f2625d35504a2309b7d4dd7693cb604c928"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7110_RUNNING_LONG_SLEEVED_T-SHIRT_woman_front.png",
+        "bytes": 3413333,
+        "mtime": "2026-01-26T08:13:47.525Z",
+        "hash": "8e1681ab700e874abd628ddcab3f1f2625d35504a2309b7d4dd7693cb604c928"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7115_RUNNING_SHORTS+perizoma_front_AGG.png",
+      "local": {
+        "name": "DONNA/BLSQW7115_RUNNING_SHORTS+perizoma_front_AGG.png",
+        "bytes": 812401,
+        "mtime": "2026-01-26T08:13:47.754Z",
+        "hash": "ceef632ae98f70e37ce9f219fbe15e7252eb70c9094b49a6efe43fbf738a426e"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7115_RUNNING_SHORTS+perizoma_front_AGG.png",
+        "bytes": 812401,
+        "mtime": "2026-01-26T08:13:47.754Z",
+        "hash": "ceef632ae98f70e37ce9f219fbe15e7252eb70c9094b49a6efe43fbf738a426e"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7118_RUNNING_TOP_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW7118_RUNNING_TOP_woman_back.png",
+        "bytes": 2369547,
+        "mtime": "2026-01-26T08:13:47.976Z",
+        "hash": "72eecd37d4c42bc79a1236d132e1bd6d69859ba2b8541d1030fcf846849cd122"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7118_RUNNING_TOP_woman_back.png",
+        "bytes": 2369547,
+        "mtime": "2026-01-26T08:13:47.976Z",
+        "hash": "72eecd37d4c42bc79a1236d132e1bd6d69859ba2b8541d1030fcf846849cd122"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7118_RUNNING_TOP_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW7118_RUNNING_TOP_woman_front.png",
+        "bytes": 2138898,
+        "mtime": "2026-01-26T08:13:48.048Z",
+        "hash": "329f86c4d0cd4772c7190a414a58405a888c9cb77ffd286731be01b267937279"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7118_RUNNING_TOP_woman_front.png",
+        "bytes": 2138898,
+        "mtime": "2026-01-26T08:13:48.048Z",
+        "hash": "329f86c4d0cd4772c7190a414a58405a888c9cb77ffd286731be01b267937279"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7119_RUNNING_TOP_woman_back.png",
+      "local": {
+        "name": "DONNA/BLSQW7119_RUNNING_TOP_woman_back.png",
+        "bytes": 2294863,
+        "mtime": "2026-01-26T08:13:48.115Z",
+        "hash": "14d4c1c77af3ff9ac3563bd64ef374ad8efaa514cc4be8ef0e5ace7842e7c4aa"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7119_RUNNING_TOP_woman_back.png",
+        "bytes": 2294863,
+        "mtime": "2026-01-26T08:13:48.115Z",
+        "hash": "14d4c1c77af3ff9ac3563bd64ef374ad8efaa514cc4be8ef0e5ace7842e7c4aa"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/BLSQW7119_RUNNING_TOP_woman_front.png",
+      "local": {
+        "name": "DONNA/BLSQW7119_RUNNING_TOP_woman_front.png",
+        "bytes": 1868590,
+        "mtime": "2026-01-26T08:13:48.181Z",
+        "hash": "8db83fbd16eb4e2aec92cd86d8d07126ea13f04677b31a697e9fd54348bafa74"
+      },
+      "remote": {
+        "name": "DONNA/BLSQW7119_RUNNING_TOP_woman_front.png",
+        "bytes": 1868590,
+        "mtime": "2026-01-26T08:13:48.181Z",
+        "hash": "8db83fbd16eb4e2aec92cd86d8d07126ea13f04677b31a697e9fd54348bafa74"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/7113.png",
+      "local": {
+        "name": "DONNA/CATALOGO/7113.png",
+        "bytes": 489527,
+        "mtime": "2026-04-23T09:00:08.443Z",
+        "hash": "061fae54a7301883579f1a9dfef8285fee715722138aee934d16c48322d6055d"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/7113.png",
+        "bytes": 489527,
+        "mtime": "2026-04-23T09:00:08.443Z",
+        "hash": "061fae54a7301883579f1a9dfef8285fee715722138aee934d16c48322d6055d"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W2913.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W2913.png",
+        "bytes": 352712,
+        "mtime": "2026-04-23T09:08:04.806Z",
+        "hash": "3589557bf223ed0b8a0e74018ea2e50f603f6fd9cbe5f222963368dba39e3b6e"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W2913.png",
+        "bytes": 352712,
+        "mtime": "2026-04-23T09:08:04.806Z",
+        "hash": "3589557bf223ed0b8a0e74018ea2e50f603f6fd9cbe5f222963368dba39e3b6e"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W2915.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W2915.png",
+        "bytes": 434121,
+        "mtime": "2026-04-23T08:48:13.863Z",
+        "hash": "f2548b0b9e29938f85e2d4f5719e88cbab87c674348ac94d90772f16017a1a32"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W2915.png",
+        "bytes": 434121,
+        "mtime": "2026-04-23T08:48:13.863Z",
+        "hash": "f2548b0b9e29938f85e2d4f5719e88cbab87c674348ac94d90772f16017a1a32"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W2930.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W2930.png",
+        "bytes": 915745,
+        "mtime": "2026-04-23T08:25:05.159Z",
+        "hash": "f1a90f48c4db1770b92251c4fe626d7c38cb697fff856c706d61cfc0ad8bf5a6"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W2930.png",
+        "bytes": 915745,
+        "mtime": "2026-04-23T08:25:05.159Z",
+        "hash": "f1a90f48c4db1770b92251c4fe626d7c38cb697fff856c706d61cfc0ad8bf5a6"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W2960.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W2960.png",
+        "bytes": 322558,
+        "mtime": "2026-04-23T09:11:35.639Z",
+        "hash": "13004c734ac2d05b51bb9ed15a9e69e876c31a81e9ad2d8faabc52c06ac7def1"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W2960.png",
+        "bytes": 322558,
+        "mtime": "2026-04-23T09:11:35.639Z",
+        "hash": "13004c734ac2d05b51bb9ed15a9e69e876c31a81e9ad2d8faabc52c06ac7def1"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W3705.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W3705.png",
+        "bytes": 1102496,
+        "mtime": "2026-04-23T07:58:26.711Z",
+        "hash": "0863376e7e315bbfba5a36c3699c2a3dc9791cbe0d41428aa74afe520f710c1a"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W3705.png",
+        "bytes": 1102496,
+        "mtime": "2026-04-23T07:58:26.711Z",
+        "hash": "0863376e7e315bbfba5a36c3699c2a3dc9791cbe0d41428aa74afe520f710c1a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7103.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7103.png",
+        "bytes": 945558,
+        "mtime": "2026-04-23T08:27:46.874Z",
+        "hash": "71430a4b17283c7be081eb29ec77c336e67468e7b7f79f9cb159788de846d61a"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7103.png",
+        "bytes": 945558,
+        "mtime": "2026-04-23T08:27:46.874Z",
+        "hash": "71430a4b17283c7be081eb29ec77c336e67468e7b7f79f9cb159788de846d61a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7104.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7104.png",
+        "bytes": 672958,
+        "mtime": "2026-04-23T08:25:26.090Z",
+        "hash": "1195477ee128963445772d4ba5767c1938f443fa7c49b77a40e047eb7d2de356"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7104.png",
+        "bytes": 672958,
+        "mtime": "2026-04-23T08:25:26.090Z",
+        "hash": "1195477ee128963445772d4ba5767c1938f443fa7c49b77a40e047eb7d2de356"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7105.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7105.png",
+        "bytes": 420014,
+        "mtime": "2026-04-23T08:40:47.295Z",
+        "hash": "354db62cd27f5095d812b9024e45b0d2bea86d6b2ed8f286874dcd40b0938479"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7105.png",
+        "bytes": 420014,
+        "mtime": "2026-04-23T08:40:47.295Z",
+        "hash": "354db62cd27f5095d812b9024e45b0d2bea86d6b2ed8f286874dcd40b0938479"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7109.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7109.png",
+        "bytes": 1112680,
+        "mtime": "2026-04-23T08:33:22.799Z",
+        "hash": "f5e2a676e6b646a321b1db0cf61cbe0ad94ad62e7d9f87a38be025bb4adaee0d"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7109.png",
+        "bytes": 1112680,
+        "mtime": "2026-04-23T08:33:22.799Z",
+        "hash": "f5e2a676e6b646a321b1db0cf61cbe0ad94ad62e7d9f87a38be025bb4adaee0d"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7110.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7110.png",
+        "bytes": 1112680,
+        "mtime": "2026-04-23T08:33:22.799Z",
+        "hash": "f5e2a676e6b646a321b1db0cf61cbe0ad94ad62e7d9f87a38be025bb4adaee0d"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7110.png",
+        "bytes": 1112680,
+        "mtime": "2026-04-23T08:33:22.799Z",
+        "hash": "f5e2a676e6b646a321b1db0cf61cbe0ad94ad62e7d9f87a38be025bb4adaee0d"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7111.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7111.png",
+        "bytes": 1230402,
+        "mtime": "2026-04-23T08:10:17.805Z",
+        "hash": "b2cc39fb94e391f79e21b3cb29275477815762075e8105e75a4dfb243e0ada56"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7111.png",
+        "bytes": 1230402,
+        "mtime": "2026-04-23T08:10:17.805Z",
+        "hash": "b2cc39fb94e391f79e21b3cb29275477815762075e8105e75a4dfb243e0ada56"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7113.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7113.png",
+        "bytes": 449974,
+        "mtime": "2026-04-23T09:12:35.823Z",
+        "hash": "c3d67267ee5c12f1d78348dcca201aa7b511929b23f246d4eca27cb4f8114cd9"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7113.png",
+        "bytes": 449974,
+        "mtime": "2026-04-23T09:12:35.823Z",
+        "hash": "c3d67267ee5c12f1d78348dcca201aa7b511929b23f246d4eca27cb4f8114cd9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7115.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7115.png",
+        "bytes": 449974,
+        "mtime": "2026-04-23T09:12:49.194Z",
+        "hash": "82b7f3b5605c95dcda23d79b3a4145dcf10b2a8d9308cf2b1fe922da0ab67d83"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7115.png",
+        "bytes": 449974,
+        "mtime": "2026-04-23T09:12:49.194Z",
+        "hash": "82b7f3b5605c95dcda23d79b3a4145dcf10b2a8d9308cf2b1fe922da0ab67d83"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7116.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7116.png",
+        "bytes": 934704,
+        "mtime": "2026-04-23T08:24:31.691Z",
+        "hash": "572da6365eeb34b89154c44321e65826619194ec4418d16a4e44aa08ce35f496"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7116.png",
+        "bytes": 934704,
+        "mtime": "2026-04-23T08:24:31.691Z",
+        "hash": "572da6365eeb34b89154c44321e65826619194ec4418d16a4e44aa08ce35f496"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7118.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7118.png",
+        "bytes": 879070,
+        "mtime": "2026-04-23T08:39:26.705Z",
+        "hash": "8389651102ece60df62fb6ebb2e66475ff7d577dfdaab7878b991c3c6dcd7866"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7118.png",
+        "bytes": 879070,
+        "mtime": "2026-04-23T08:39:26.705Z",
+        "hash": "8389651102ece60df62fb6ebb2e66475ff7d577dfdaab7878b991c3c6dcd7866"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/CATALOGO/W7119.png",
+      "local": {
+        "name": "DONNA/CATALOGO/W7119.png",
+        "bytes": 827486,
+        "mtime": "2026-04-23T08:38:27.985Z",
+        "hash": "761ab79d76510796c719a52ded5de6aa8e728a7c47748dbe34b8d28669a237da"
+      },
+      "remote": {
+        "name": "DONNA/CATALOGO/W7119.png",
+        "bytes": 827486,
+        "mtime": "2026-04-23T08:38:27.985Z",
+        "hash": "761ab79d76510796c719a52ded5de6aa8e728a7c47748dbe34b8d28669a237da"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/IMGW7116.png",
+      "local": {
+        "name": "DONNA/IMGW7116.png",
+        "bytes": 838171,
+        "mtime": "2026-04-23T07:00:01.116Z",
+        "hash": "fac7ce04765c7ee4c875417ae6df6846708cd8525da65db27a35ec3df06bc710"
+      },
+      "remote": {
+        "name": "DONNA/IMGW7116.png",
+        "bytes": 838171,
+        "mtime": "2026-04-23T07:00:01.116Z",
+        "hash": "fac7ce04765c7ee4c875417ae6df6846708cd8525da65db27a35ec3df06bc710"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/RUNNING GILET DONNA - back_AGG.png",
+      "local": {
+        "name": "DONNA/RUNNING GILET DONNA - back_AGG.png",
+        "bytes": 2494633,
+        "mtime": "2026-01-26T08:13:30.346Z",
+        "hash": "3310b054a6f703b6f5da772ce08b269ea9ca411dce5f6e790020020cb7aedafb"
+      },
+      "remote": {
+        "name": "DONNA/RUNNING GILET DONNA - back_AGG.png",
+        "bytes": 2494633,
+        "mtime": "2026-01-26T08:13:30.346Z",
+        "hash": "3310b054a6f703b6f5da772ce08b269ea9ca411dce5f6e790020020cb7aedafb"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/RUNNING GILET DONNA - front_AGG.png",
+      "local": {
+        "name": "DONNA/RUNNING GILET DONNA - front_AGG.png",
+        "bytes": 2487671,
+        "mtime": "2026-01-26T08:13:30.427Z",
+        "hash": "3b8392308a8cb26d13fac8aebaf9da10a1c02d1bfa71299614596fd5ef150297"
+      },
+      "remote": {
+        "name": "DONNA/RUNNING GILET DONNA - front_AGG.png",
+        "bytes": 2487671,
+        "mtime": "2026-01-26T08:13:30.427Z",
+        "hash": "3b8392308a8cb26d13fac8aebaf9da10a1c02d1bfa71299614596fd5ef150297"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/RUNNING MANTELLINA DONNA - back_AGG.png",
+      "local": {
+        "name": "DONNA/RUNNING MANTELLINA DONNA - back_AGG.png",
+        "bytes": 3436100,
+        "mtime": "2026-01-26T08:13:30.532Z",
+        "hash": "846e4f93bb0baf4011a856ea742f39fbd30df809c824cc0dde41e968fc91c02c"
+      },
+      "remote": {
+        "name": "DONNA/RUNNING MANTELLINA DONNA - back_AGG.png",
+        "bytes": 3436100,
+        "mtime": "2026-01-26T08:13:30.532Z",
+        "hash": "846e4f93bb0baf4011a856ea742f39fbd30df809c824cc0dde41e968fc91c02c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/RUNNING MANTELLINA DONNA - front_AGG.png",
+      "local": {
+        "name": "DONNA/RUNNING MANTELLINA DONNA - front_AGG.png",
+        "bytes": 3199151,
+        "mtime": "2026-01-26T08:13:30.635Z",
+        "hash": "b2435f1992a5780b494f3d659b754ed10204de4d20a4327a16573fc885ecf83a"
+      },
+      "remote": {
+        "name": "DONNA/RUNNING MANTELLINA DONNA - front_AGG.png",
+        "bytes": 3199151,
+        "mtime": "2026-01-26T08:13:30.635Z",
+        "hash": "b2435f1992a5780b494f3d659b754ed10204de4d20a4327a16573fc885ecf83a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/1.png",
+      "local": {
+        "name": "DONNA/W2913/1.png",
+        "bytes": 85640,
+        "mtime": "2026-04-24T08:09:25.380Z",
+        "hash": "724641141da61ffb90e70c8c22c279c9ed75de583702879d60f759fcd30464c9"
+      },
+      "remote": {
+        "name": "DONNA/W2913/1.png",
+        "bytes": 85640,
+        "mtime": "2026-04-24T08:09:25.380Z",
+        "hash": "724641141da61ffb90e70c8c22c279c9ed75de583702879d60f759fcd30464c9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/2.png",
+      "local": {
+        "name": "DONNA/W2913/2.png",
+        "bytes": 98778,
+        "mtime": "2026-04-24T08:09:34.799Z",
+        "hash": "e2a101e012f2739b60adb63ea12a780003ac86862f865756e08b5b7192dd5426"
+      },
+      "remote": {
+        "name": "DONNA/W2913/2.png",
+        "bytes": 98778,
+        "mtime": "2026-04-24T08:09:34.799Z",
+        "hash": "e2a101e012f2739b60adb63ea12a780003ac86862f865756e08b5b7192dd5426"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/3.png",
+      "local": {
+        "name": "DONNA/W2913/3.png",
+        "bytes": 78572,
+        "mtime": "2026-04-24T08:10:00.453Z",
+        "hash": "2fbecb94e3129252c221102fa2a8233959bd5bd48efdad42b17627bff4e347ef"
+      },
+      "remote": {
+        "name": "DONNA/W2913/3.png",
+        "bytes": 78572,
+        "mtime": "2026-04-24T08:10:00.453Z",
+        "hash": "2fbecb94e3129252c221102fa2a8233959bd5bd48efdad42b17627bff4e347ef"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/4.png",
+      "local": {
+        "name": "DONNA/W2913/4.png",
+        "bytes": 86486,
+        "mtime": "2026-04-24T08:17:28.926Z",
+        "hash": "28bea5b8074c5630019d9c6ef0725ea7ee700a325632486592eaca9c0510e4c7"
+      },
+      "remote": {
+        "name": "DONNA/W2913/4.png",
+        "bytes": 86486,
+        "mtime": "2026-04-24T08:17:28.926Z",
+        "hash": "28bea5b8074c5630019d9c6ef0725ea7ee700a325632486592eaca9c0510e4c7"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/5.png",
+      "local": {
+        "name": "DONNA/W2913/5.png",
+        "bytes": 49844,
+        "mtime": "2026-04-24T08:28:55.969Z",
+        "hash": "aecd4386ffa22a60c0cd44164c6f78a05f80d6eecebd136182344422af6ad719"
+      },
+      "remote": {
+        "name": "DONNA/W2913/5.png",
+        "bytes": 49844,
+        "mtime": "2026-04-24T08:28:55.969Z",
+        "hash": "aecd4386ffa22a60c0cd44164c6f78a05f80d6eecebd136182344422af6ad719"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2913/6.png",
+      "local": {
+        "name": "DONNA/W2913/6.png",
+        "bytes": 38996,
+        "mtime": "2026-04-24T08:30:01.800Z",
+        "hash": "20d0e7fc90243cb2221ae8a02e81732f5e4b375915ee8b7f7b1624f6e3c30cc5"
+      },
+      "remote": {
+        "name": "DONNA/W2913/6.png",
+        "bytes": 38996,
+        "mtime": "2026-04-24T08:30:01.800Z",
+        "hash": "20d0e7fc90243cb2221ae8a02e81732f5e4b375915ee8b7f7b1624f6e3c30cc5"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2915/1.PNG",
+      "local": {
+        "name": "DONNA/W2915/1.PNG",
+        "bytes": 79076,
+        "mtime": "2026-04-24T07:37:53.692Z",
+        "hash": "21d6163bae5f46cb99f5c2fef880d675a23681277d1e13458ba455609a61cc4c"
+      },
+      "remote": {
+        "name": "DONNA/W2915/1.PNG",
+        "bytes": 79076,
+        "mtime": "2026-04-24T07:37:53.692Z",
+        "hash": "21d6163bae5f46cb99f5c2fef880d675a23681277d1e13458ba455609a61cc4c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2915/2.png",
+      "local": {
+        "name": "DONNA/W2915/2.png",
+        "bytes": 73532,
+        "mtime": "2026-04-24T07:38:12.671Z",
+        "hash": "cf1355488216db3710dec056ae59ff67484a8a4b6df4301b0e9f06ff8ccce88c"
+      },
+      "remote": {
+        "name": "DONNA/W2915/2.png",
+        "bytes": 73532,
+        "mtime": "2026-04-24T07:38:12.671Z",
+        "hash": "cf1355488216db3710dec056ae59ff67484a8a4b6df4301b0e9f06ff8ccce88c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2915/3.png",
+      "local": {
+        "name": "DONNA/W2915/3.png",
+        "bytes": 79076,
+        "mtime": "2026-04-24T06:24:11.745Z",
+        "hash": "21d6163bae5f46cb99f5c2fef880d675a23681277d1e13458ba455609a61cc4c"
+      },
+      "remote": {
+        "name": "DONNA/W2915/3.png",
+        "bytes": 67622,
+        "mtime": "2026-04-24T07:39:04.035Z",
+        "hash": "0e17ab6dcba356f6183955a9e8ceabcccc3492c126ff848321bde722740f98b2"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2915/4.png",
+      "local": {
+        "name": "DONNA/W2915/4.png",
+        "bytes": 57030,
+        "mtime": "2026-04-24T07:38:39.720Z",
+        "hash": "57a7e1993c8218428ebbc75c777961ccf97e09869923476784cbe6f8f22826f9"
+      },
+      "remote": {
+        "name": "DONNA/W2915/4.png",
+        "bytes": 57030,
+        "mtime": "2026-04-24T07:38:39.720Z",
+        "hash": "57a7e1993c8218428ebbc75c777961ccf97e09869923476784cbe6f8f22826f9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2915/5.png",
+      "local": {
+        "name": "DONNA/W2915/5.png",
+        "bytes": 77730,
+        "mtime": "2026-04-24T07:47:19.916Z",
+        "hash": "a9c21716209032c8dd81b0b3792e6307ea75e88051acd423377684075c7e40e3"
+      },
+      "remote": {
+        "name": "DONNA/W2915/5.png",
+        "bytes": 77730,
+        "mtime": "2026-04-24T07:47:19.916Z",
+        "hash": "a9c21716209032c8dd81b0b3792e6307ea75e88051acd423377684075c7e40e3"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2915/6.png",
+      "local": {
+        "name": "DONNA/W2915/6.png",
+        "bytes": 64404,
+        "mtime": "2026-04-24T07:46:56.474Z",
+        "hash": "059609ccf7cade5369e74ec571a83d502597483506350923f02958649c698848"
+      },
+      "remote": {
+        "name": "DONNA/W2915/6.png",
+        "bytes": 64404,
+        "mtime": "2026-04-24T07:46:56.474Z",
+        "hash": "059609ccf7cade5369e74ec571a83d502597483506350923f02958649c698848"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2930/1.png",
+      "local": {
+        "name": "DONNA/W2930/1.png",
+        "bytes": 124408,
+        "mtime": "2026-05-29T07:02:28.397Z",
+        "hash": "998605e6f3ce5ac2dbb79c710fc8b348d0e476b345f78e3ad778309435ceb472"
+      },
+      "remote": {
+        "name": "DONNA/W2930/1.png",
+        "bytes": 124408,
+        "mtime": "2026-05-29T07:02:28.397Z",
+        "hash": "998605e6f3ce5ac2dbb79c710fc8b348d0e476b345f78e3ad778309435ceb472"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2930/2.png",
+      "local": {
+        "name": "DONNA/W2930/2.png",
+        "bytes": 111832,
+        "mtime": "2026-05-29T07:06:37.997Z",
+        "hash": "62a1d17548014814090255fd41d5ebc0a729bc156670ad6b69afcf86fc1cc81a"
+      },
+      "remote": {
+        "name": "DONNA/W2930/2.png",
+        "bytes": 111832,
+        "mtime": "2026-05-29T07:06:37.997Z",
+        "hash": "62a1d17548014814090255fd41d5ebc0a729bc156670ad6b69afcf86fc1cc81a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2930/3.png",
+      "local": {
+        "name": "DONNA/W2930/3.png",
+        "bytes": 97540,
+        "mtime": "2026-08-26T07:55:06.813Z",
+        "hash": "d315eda53332770c372aaf736bbb139528e001f4f50e8e57e82b4028bbd8dde8"
+      },
+      "remote": {
+        "name": "DONNA/W2930/3.png",
+        "bytes": 116048,
+        "mtime": "2026-05-29T07:02:12.371Z",
+        "hash": "a04d1d23272edcad053bf3b4b99eacb9b518e37c6dfbb65bc207db987c032bb3"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2930/4.png",
+      "local": {
+        "name": "DONNA/W2930/4.png",
+        "bytes": 90132,
+        "mtime": "2026-08-26T08:25:55.423Z",
+        "hash": "5e643442016c6b17e1d1dca059a0751d5f9d9bf5a08cbd34806a9ac99e903420"
+      },
+      "remote": {
+        "name": "DONNA/W2930/4.png",
+        "bytes": 112348,
+        "mtime": "2026-04-24T09:26:19.345Z",
+        "hash": "5dd8b900306dd1d1afca24cc4cb2160d1d60a9537266570c0306d0abcd0c5512"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2930/5.png",
+      "local": {
+        "name": "DONNA/W2930/5.png",
+        "bytes": 1621105,
+        "mtime": "2026-07-20T06:41:49.051Z",
+        "hash": "ad0901d0e242e8cbb4132b787671579f42e5a54c935dffa7c772badf58fcf2e9"
+      },
+      "remote": {
+        "name": "DONNA/W2930/5.png",
+        "bytes": 2824285,
+        "mtime": "2026-01-26T08:13:32.899Z",
+        "hash": "4af07bbf6b12cdbba2eaf00949605e966c7b58f1c03e0e71286f68366f307b8e"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2930/6.png",
+      "local": {
+        "name": "DONNA/W2930/6.png",
+        "bytes": 1585648,
+        "mtime": "2026-07-20T06:43:37.863Z",
+        "hash": "e1ba95a1b785ab0b55c521dd8b59b366c804f6631974f2b25b3bcb43b834a00f"
+      },
+      "remote": {
+        "name": "DONNA/W2930/6.png",
+        "bytes": 163728,
+        "mtime": "2026-04-24T09:29:26.689Z",
+        "hash": "5d0cffeb1556498a21c13063aa029b642727a2678b9685fe766e146f019dbb0f"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2960/1.png",
+      "local": {
+        "name": "DONNA/W2960/1.png",
+        "bytes": 19643507,
+        "mtime": "2026-04-28T06:05:59.945Z",
+        "hash": "ddc5f70e673881d6b4ecb28f31fda08c4c8eae4ef31fec3bee1167de9055c92c"
+      },
+      "remote": {
+        "name": "DONNA/W2960/1.png",
+        "bytes": 19643507,
+        "mtime": "2026-04-28T06:05:59.945Z",
+        "hash": "ddc5f70e673881d6b4ecb28f31fda08c4c8eae4ef31fec3bee1167de9055c92c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2960/2.png",
+      "local": {
+        "name": "DONNA/W2960/2.png",
+        "bytes": 20949039,
+        "mtime": "2026-04-28T06:06:04.050Z",
+        "hash": "9f771517a0dce16f4d11144abfb25fc9e72d8c328a5426bf1b71f7f280df3d4b"
+      },
+      "remote": {
+        "name": "DONNA/W2960/2.png",
+        "bytes": 20949039,
+        "mtime": "2026-04-28T06:06:04.050Z",
+        "hash": "9f771517a0dce16f4d11144abfb25fc9e72d8c328a5426bf1b71f7f280df3d4b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2960/3.png",
+      "local": {
+        "name": "DONNA/W2960/3.png",
+        "bytes": 18878658,
+        "mtime": "2026-04-28T06:05:58.926Z",
+        "hash": "46dbb47d8867a5606222a82f1c1bbcd7714f42088fb5d37576c2eb2e1c0c187c"
+      },
+      "remote": {
+        "name": "DONNA/W2960/3.png",
+        "bytes": 18878658,
+        "mtime": "2026-04-28T06:05:58.926Z",
+        "hash": "46dbb47d8867a5606222a82f1c1bbcd7714f42088fb5d37576c2eb2e1c0c187c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2960/4.png",
+      "local": {
+        "name": "DONNA/W2960/4.png",
+        "bytes": 22954467,
+        "mtime": "2026-04-28T06:06:02.484Z",
+        "hash": "af92ca2902c55cababc5d99f1b5906a29b3fcdf0ceae587b37a6f863c749f72b"
+      },
+      "remote": {
+        "name": "DONNA/W2960/4.png",
+        "bytes": 22954467,
+        "mtime": "2026-04-28T06:06:02.484Z",
+        "hash": "af92ca2902c55cababc5d99f1b5906a29b3fcdf0ceae587b37a6f863c749f72b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W2960/5.png",
+      "local": {
+        "name": "DONNA/W2960/5.png",
+        "bytes": 456133,
+        "mtime": "2026-07-20T06:46:44.941Z",
+        "hash": "054f7475adf60e4fe7d1dac3d3383fbad572e81d3799be998f30e2d81597b8d0"
+      },
+      "remote": {
+        "name": "DONNA/W2960/5.png",
+        "bytes": 322558,
+        "mtime": "2026-04-23T09:11:35.639Z",
+        "hash": "13004c734ac2d05b51bb9ed15a9e69e876c31a81e9ad2d8faabc52c06ac7def1"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W2960/6.png",
+      "local": {
+        "name": "DONNA/W2960/6.png",
+        "bytes": 78464,
+        "mtime": "2026-04-28T06:20:53.970Z",
+        "hash": "4e8810d40cf532ef906a94276520fdeaef82f441ebafc5a0fc34ecdb56412917"
+      },
+      "remote": {
+        "name": "DONNA/W2960/6.png",
+        "bytes": 78464,
+        "mtime": "2026-04-28T06:20:53.970Z",
+        "hash": "4e8810d40cf532ef906a94276520fdeaef82f441ebafc5a0fc34ecdb56412917"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/1.png",
+      "local": {
+        "name": "DONNA/W3705/1.png",
+        "bytes": 96944,
+        "mtime": "2026-04-24T07:29:27.673Z",
+        "hash": "546614acff9a1cd7e1461d03b485e2c074e3375d6971bd1dc5fc6b652cb472f9"
+      },
+      "remote": {
+        "name": "DONNA/W3705/1.png",
+        "bytes": 96944,
+        "mtime": "2026-04-24T07:29:27.673Z",
+        "hash": "546614acff9a1cd7e1461d03b485e2c074e3375d6971bd1dc5fc6b652cb472f9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/2.png",
+      "local": {
+        "name": "DONNA/W3705/2.png",
+        "bytes": 80914,
+        "mtime": "2026-04-24T07:32:43.031Z",
+        "hash": "594418cf570f840ba3b9afc30ab7e4f79fde62ec060ac898b5ed7f34b0e5de1f"
+      },
+      "remote": {
+        "name": "DONNA/W3705/2.png",
+        "bytes": 80914,
+        "mtime": "2026-04-24T07:32:43.031Z",
+        "hash": "594418cf570f840ba3b9afc30ab7e4f79fde62ec060ac898b5ed7f34b0e5de1f"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/3.png",
+      "local": {
+        "name": "DONNA/W3705/3.png",
+        "bytes": 99190,
+        "mtime": "2026-04-24T07:30:17.433Z",
+        "hash": "76a26324826c8615f29473aca4893f844cd49bd71bd4c43f8847d0d0aecdb0de"
+      },
+      "remote": {
+        "name": "DONNA/W3705/3.png",
+        "bytes": 99190,
+        "mtime": "2026-04-24T07:30:17.433Z",
+        "hash": "76a26324826c8615f29473aca4893f844cd49bd71bd4c43f8847d0d0aecdb0de"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/4.png",
+      "local": {
+        "name": "DONNA/W3705/4.png",
+        "bytes": 71100,
+        "mtime": "2026-04-24T07:36:21.381Z",
+        "hash": "23415053fda5114510f204f6ee2889e25716e190b7615a7432e39762b14491c2"
+      },
+      "remote": {
+        "name": "DONNA/W3705/4.png",
+        "bytes": 71100,
+        "mtime": "2026-04-24T07:36:21.381Z",
+        "hash": "23415053fda5114510f204f6ee2889e25716e190b7615a7432e39762b14491c2"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/5.png",
+      "local": {
+        "name": "DONNA/W3705/5.png",
+        "bytes": 201598,
+        "mtime": "2026-04-24T07:36:46.173Z",
+        "hash": "44c5518463a36496f49c56433bffac5f420075530df1bd8dd80a705392e1dc72"
+      },
+      "remote": {
+        "name": "DONNA/W3705/5.png",
+        "bytes": 201598,
+        "mtime": "2026-04-24T07:36:46.173Z",
+        "hash": "44c5518463a36496f49c56433bffac5f420075530df1bd8dd80a705392e1dc72"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W3705/6.png",
+      "local": {
+        "name": "DONNA/W3705/6.png",
+        "bytes": 183670,
+        "mtime": "2026-04-24T07:39:55.171Z",
+        "hash": "090e1755cb1ad4d2551a5348a91da97fea629891751baa6a937117ef57fe2326"
+      },
+      "remote": {
+        "name": "DONNA/W3705/6.png",
+        "bytes": 183670,
+        "mtime": "2026-04-24T07:39:55.171Z",
+        "hash": "090e1755cb1ad4d2551a5348a91da97fea629891751baa6a937117ef57fe2326"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7103/1.png",
+      "local": {
+        "name": "DONNA/W7103/1.png",
+        "bytes": 87912,
+        "mtime": "2026-04-24T06:56:01.751Z",
+        "hash": "aa5fb34867b2e3aaab811eda75724dc6de3441eca4bf85b4d809a0b53a16f80a"
+      },
+      "remote": {
+        "name": "DONNA/W7103/1.png",
+        "bytes": 87912,
+        "mtime": "2026-04-24T06:56:01.751Z",
+        "hash": "aa5fb34867b2e3aaab811eda75724dc6de3441eca4bf85b4d809a0b53a16f80a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7103/2.png",
+      "local": {
+        "name": "DONNA/W7103/2.png",
+        "bytes": 68098,
+        "mtime": "2026-04-24T06:56:40.359Z",
+        "hash": "5bd672aa0cd3a46207cbefec42c005d28bb494c22bc0dba63d3349332a3f172b"
+      },
+      "remote": {
+        "name": "DONNA/W7103/2.png",
+        "bytes": 68098,
+        "mtime": "2026-04-24T06:56:40.359Z",
+        "hash": "5bd672aa0cd3a46207cbefec42c005d28bb494c22bc0dba63d3349332a3f172b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7103/3.png",
+      "local": {
+        "name": "DONNA/W7103/3.png",
+        "bytes": 64084,
+        "mtime": "2026-04-24T06:56:55.033Z",
+        "hash": "15e710d0b5ed22fbcf0fd3455d69ffb4a73ec2450f0910db0c3d6fbbbfe7494e"
+      },
+      "remote": {
+        "name": "DONNA/W7103/3.png",
+        "bytes": 64084,
+        "mtime": "2026-04-24T06:56:55.033Z",
+        "hash": "15e710d0b5ed22fbcf0fd3455d69ffb4a73ec2450f0910db0c3d6fbbbfe7494e"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7103/4.png",
+      "local": {
+        "name": "DONNA/W7103/4.png",
+        "bytes": 58002,
+        "mtime": "2026-04-24T07:02:32.037Z",
+        "hash": "9636b0899f4d9e98222845e9d970cfc5f4d507d5e917476eec7cd4e2dc28b39c"
+      },
+      "remote": {
+        "name": "DONNA/W7103/4.png",
+        "bytes": 58002,
+        "mtime": "2026-04-24T07:02:32.037Z",
+        "hash": "9636b0899f4d9e98222845e9d970cfc5f4d507d5e917476eec7cd4e2dc28b39c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7103/5.png",
+      "local": {
+        "name": "DONNA/W7103/5.png",
+        "bytes": 1430909,
+        "mtime": "2026-07-20T06:19:21.035Z",
+        "hash": "3382d3ab5eab31f143c227503ca3e4fadcc2993e8733a29f66906e4bded4beba"
+      },
+      "remote": {
+        "name": "DONNA/W7103/5.png",
+        "bytes": 147052,
+        "mtime": "2026-04-23T09:35:51.570Z",
+        "hash": "f0082cc48825427d1857a99d22a6e41336cfdd877023a2e6a6a52fd3bda637a6"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7103/6.png",
+      "local": {
+        "name": "DONNA/W7103/6.png",
+        "bytes": 129248,
+        "mtime": "2026-04-23T07:06:00.831Z",
+        "hash": "45434142a0338dbaaf88f93e0258ceeb59cf86611dd91ffb9343e82096bb5f70"
+      },
+      "remote": {
+        "name": "DONNA/W7103/6.png",
+        "bytes": 129248,
+        "mtime": "2026-04-23T07:06:00.831Z",
+        "hash": "45434142a0338dbaaf88f93e0258ceeb59cf86611dd91ffb9343e82096bb5f70"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7104/1.png",
+      "local": {
+        "name": "DONNA/W7104/1.png",
+        "bytes": 62994,
+        "mtime": "2026-08-26T06:58:22.162Z",
+        "hash": "5d2b6c326d58cbda434defe2b4eabf13af4f6be750732ee6dc85bc9bad30a98d"
+      },
+      "remote": {
+        "name": "DONNA/W7104/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7104/2.png",
+      "local": {
+        "name": "DONNA/W7104/2.png",
+        "bytes": 57888,
+        "mtime": "2026-08-26T06:58:32.533Z",
+        "hash": "13c4ea44321c525643f5332ffa895f784898b020960133442ba9570a2e9068c3"
+      },
+      "remote": {
+        "name": "DONNA/W7104/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7104/3.png",
+      "local": {
+        "name": "DONNA/W7104/3.png",
+        "bytes": 56958,
+        "mtime": "2026-08-26T07:41:52.567Z",
+        "hash": "cc74ae50de11c9ebee5e6ba2495bcf1a7fe6da9c591a08abc06aaef8ea765ab2"
+      },
+      "remote": {
+        "name": "DONNA/W7104/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7104/4.png",
+      "local": {
+        "name": "DONNA/W7104/4.png",
+        "bytes": 46442,
+        "mtime": "2026-08-26T07:47:06.085Z",
+        "hash": "623f9eaffd1ba618466ef56b294f4a5db11bbd42dc435dc60a1ecdca232da051"
+      },
+      "remote": {
+        "name": "DONNA/W7104/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7104/5.png",
+      "local": {
+        "name": "DONNA/W7104/5.png",
+        "bytes": 234834,
+        "mtime": "2026-04-28T06:15:44.271Z",
+        "hash": "34155b7cb3ed2c99111e9b9cb9564b7535ec9ff6bdf27f18d3e88b546604e61f"
+      },
+      "remote": {
+        "name": "DONNA/W7104/5.png",
+        "bytes": 234834,
+        "mtime": "2026-04-28T06:15:44.271Z",
+        "hash": "34155b7cb3ed2c99111e9b9cb9564b7535ec9ff6bdf27f18d3e88b546604e61f"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7104/6.png",
+      "local": {
+        "name": "DONNA/W7104/6.png",
+        "bytes": 157712,
+        "mtime": "2026-04-28T06:14:42.195Z",
+        "hash": "eae0131a77f7abb8d8fd4102e4138482ecb09a4552a80854828ef56a2db605e5"
+      },
+      "remote": {
+        "name": "DONNA/W7104/6.png",
+        "bytes": 157712,
+        "mtime": "2026-04-28T06:14:42.195Z",
+        "hash": "eae0131a77f7abb8d8fd4102e4138482ecb09a4552a80854828ef56a2db605e5"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/1.png",
+      "local": {
+        "name": "DONNA/W7105/1.png",
+        "bytes": 22217168,
+        "mtime": "2026-04-23T06:48:38.364Z",
+        "hash": "ccaad94866133efe6e5e02c9a3bbfe7be2beb8679f4f5dcb5fb4025e0d1dfaf6"
+      },
+      "remote": {
+        "name": "DONNA/W7105/1.png",
+        "bytes": 22217168,
+        "mtime": "2026-04-23T06:48:38.364Z",
+        "hash": "ccaad94866133efe6e5e02c9a3bbfe7be2beb8679f4f5dcb5fb4025e0d1dfaf6"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/2.png",
+      "local": {
+        "name": "DONNA/W7105/2.png",
+        "bytes": 21916664,
+        "mtime": "2026-04-23T06:48:40.542Z",
+        "hash": "505104db93a9682bad3e253ec8dc3c64cd808ed821ff61b636e5ac2841aeed62"
+      },
+      "remote": {
+        "name": "DONNA/W7105/2.png",
+        "bytes": 21916664,
+        "mtime": "2026-04-23T06:48:40.542Z",
+        "hash": "505104db93a9682bad3e253ec8dc3c64cd808ed821ff61b636e5ac2841aeed62"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/3.png",
+      "local": {
+        "name": "DONNA/W7105/3.png",
+        "bytes": 21858856,
+        "mtime": "2026-04-23T06:48:41.477Z",
+        "hash": "9182ce83e7ec14c77152c5b05a4b30d4700fecf294f54875b634a77b1b999179"
+      },
+      "remote": {
+        "name": "DONNA/W7105/3.png",
+        "bytes": 21858856,
+        "mtime": "2026-04-23T06:48:41.477Z",
+        "hash": "9182ce83e7ec14c77152c5b05a4b30d4700fecf294f54875b634a77b1b999179"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/4.png",
+      "local": {
+        "name": "DONNA/W7105/4.png",
+        "bytes": 21709275,
+        "mtime": "2026-04-23T06:48:39.229Z",
+        "hash": "9813e9ebbbfe8caf1c00437e725b2599fd5ef33f4466f1e417ac6d29b7de2eac"
+      },
+      "remote": {
+        "name": "DONNA/W7105/4.png",
+        "bytes": 21709275,
+        "mtime": "2026-04-23T06:48:39.229Z",
+        "hash": "9813e9ebbbfe8caf1c00437e725b2599fd5ef33f4466f1e417ac6d29b7de2eac"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/5.PNG",
+      "local": {
+        "name": "DONNA/W7105/5.PNG",
+        "bytes": 51624,
+        "mtime": "2026-04-24T09:33:14.417Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "remote": {
+        "name": "DONNA/W7105/5.PNG",
+        "bytes": 51624,
+        "mtime": "2026-04-24T09:33:14.417Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7105/6.png",
+      "local": {
+        "name": "DONNA/W7105/6.png",
+        "bytes": 839991,
+        "mtime": "2026-07-20T06:22:14.610Z",
+        "hash": "b8115dfcdec1d36d953117ccaf40474b9eb90c0725646219b03beb2ec973502b"
+      },
+      "remote": {
+        "name": "DONNA/W7105/6.png",
+        "bytes": 91966,
+        "mtime": "2026-04-24T09:33:28.118Z",
+        "hash": "17201042a5658ac653504dd58effc226ace9b14623b028d664791d619eb26b0c"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7109/1.png",
+      "local": {
+        "name": "DONNA/W7109/1.png",
+        "bytes": 118248,
+        "mtime": "2026-04-24T09:21:20.599Z",
+        "hash": "ecd1d58f8ef01d5300cf70e51fa4d97f821e70cf3b75a82d9faf758e96a9c759"
+      },
+      "remote": {
+        "name": "DONNA/W7109/1.png",
+        "bytes": 118248,
+        "mtime": "2026-04-24T09:21:20.599Z",
+        "hash": "ecd1d58f8ef01d5300cf70e51fa4d97f821e70cf3b75a82d9faf758e96a9c759"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7109/2.png",
+      "local": {
+        "name": "DONNA/W7109/2.png",
+        "bytes": 116780,
+        "mtime": "2026-04-24T09:21:34.557Z",
+        "hash": "03d7ad40f7c174cc90691c1afe081ad84478be29f0122db1759a647a6aab6c6b"
+      },
+      "remote": {
+        "name": "DONNA/W7109/2.png",
+        "bytes": 116780,
+        "mtime": "2026-04-24T09:21:34.557Z",
+        "hash": "03d7ad40f7c174cc90691c1afe081ad84478be29f0122db1759a647a6aab6c6b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7109/3.png",
+      "local": {
+        "name": "DONNA/W7109/3.png",
+        "bytes": 117048,
+        "mtime": "2026-04-24T09:22:35.838Z",
+        "hash": "c6db849f269990d0f95af3ade0e23ddb258ed6d79c7d9a6f08b11d0c9477d0f8"
+      },
+      "remote": {
+        "name": "DONNA/W7109/3.png",
+        "bytes": 117048,
+        "mtime": "2026-04-24T09:22:35.838Z",
+        "hash": "c6db849f269990d0f95af3ade0e23ddb258ed6d79c7d9a6f08b11d0c9477d0f8"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7109/4.png",
+      "local": {
+        "name": "DONNA/W7109/4.png",
+        "bytes": 112348,
+        "mtime": "2026-04-24T09:26:19.345Z",
+        "hash": "5dd8b900306dd1d1afca24cc4cb2160d1d60a9537266570c0306d0abcd0c5512"
+      },
+      "remote": {
+        "name": "DONNA/W7109/4.png",
+        "bytes": 112348,
+        "mtime": "2026-04-24T09:26:19.345Z",
+        "hash": "5dd8b900306dd1d1afca24cc4cb2160d1d60a9537266570c0306d0abcd0c5512"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7109/5.png",
+      "local": {
+        "name": "DONNA/W7109/5.png",
+        "bytes": 213062,
+        "mtime": "2026-04-24T09:26:55.067Z",
+        "hash": "aafd3130c1ac823d2fdb3c7965b30ed2ea7825e887248d1705ba2f5305c85444"
+      },
+      "remote": {
+        "name": "DONNA/W7109/5.png",
+        "bytes": 213062,
+        "mtime": "2026-04-24T09:26:55.067Z",
+        "hash": "aafd3130c1ac823d2fdb3c7965b30ed2ea7825e887248d1705ba2f5305c85444"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7109/6.png",
+      "local": {
+        "name": "DONNA/W7109/6.png",
+        "bytes": 1667607,
+        "mtime": "2026-07-20T06:44:22.710Z",
+        "hash": "e7ca7e5fa80bcad42d5d1f18e0625d082e66a8b3781e53e939157b6b41229ca9"
+      },
+      "remote": {
+        "name": "DONNA/W7109/6.png",
+        "bytes": 163728,
+        "mtime": "2026-04-24T09:29:26.689Z",
+        "hash": "5d0cffeb1556498a21c13063aa029b642727a2678b9685fe766e146f019dbb0f"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7110/1.png",
+      "local": {
+        "name": "DONNA/W7110/1.png",
+        "bytes": 118248,
+        "mtime": "2026-04-24T09:21:20.599Z",
+        "hash": "ecd1d58f8ef01d5300cf70e51fa4d97f821e70cf3b75a82d9faf758e96a9c759"
+      },
+      "remote": {
+        "name": "DONNA/W7110/1.png",
+        "bytes": 118248,
+        "mtime": "2026-04-24T09:21:20.599Z",
+        "hash": "ecd1d58f8ef01d5300cf70e51fa4d97f821e70cf3b75a82d9faf758e96a9c759"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7110/2.png",
+      "local": {
+        "name": "DONNA/W7110/2.png",
+        "bytes": 116780,
+        "mtime": "2026-04-24T09:21:34.557Z",
+        "hash": "03d7ad40f7c174cc90691c1afe081ad84478be29f0122db1759a647a6aab6c6b"
+      },
+      "remote": {
+        "name": "DONNA/W7110/2.png",
+        "bytes": 116780,
+        "mtime": "2026-04-24T09:21:34.557Z",
+        "hash": "03d7ad40f7c174cc90691c1afe081ad84478be29f0122db1759a647a6aab6c6b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7110/3.png",
+      "local": {
+        "name": "DONNA/W7110/3.png",
+        "bytes": 117048,
+        "mtime": "2026-04-24T09:22:35.838Z",
+        "hash": "c6db849f269990d0f95af3ade0e23ddb258ed6d79c7d9a6f08b11d0c9477d0f8"
+      },
+      "remote": {
+        "name": "DONNA/W7110/3.png",
+        "bytes": 117048,
+        "mtime": "2026-04-24T09:22:35.838Z",
+        "hash": "c6db849f269990d0f95af3ade0e23ddb258ed6d79c7d9a6f08b11d0c9477d0f8"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7110/4.png",
+      "local": {
+        "name": "DONNA/W7110/4.png",
+        "bytes": 112348,
+        "mtime": "2026-04-24T09:26:19.345Z",
+        "hash": "5dd8b900306dd1d1afca24cc4cb2160d1d60a9537266570c0306d0abcd0c5512"
+      },
+      "remote": {
+        "name": "DONNA/W7110/4.png",
+        "bytes": 112348,
+        "mtime": "2026-04-24T09:26:19.345Z",
+        "hash": "5dd8b900306dd1d1afca24cc4cb2160d1d60a9537266570c0306d0abcd0c5512"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7110/5.png",
+      "local": {
+        "name": "DONNA/W7110/5.png",
+        "bytes": 213062,
+        "mtime": "2026-04-24T09:26:55.067Z",
+        "hash": "aafd3130c1ac823d2fdb3c7965b30ed2ea7825e887248d1705ba2f5305c85444"
+      },
+      "remote": {
+        "name": "DONNA/W7110/5.png",
+        "bytes": 213062,
+        "mtime": "2026-04-24T09:26:55.067Z",
+        "hash": "aafd3130c1ac823d2fdb3c7965b30ed2ea7825e887248d1705ba2f5305c85444"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7110/6.png",
+      "local": {
+        "name": "DONNA/W7110/6.png",
+        "bytes": 1667607,
+        "mtime": "2026-07-20T06:45:09.547Z",
+        "hash": "ad4446b735e7d6bf532e9d591a12338e3cc68e5deb0341f95169c6e77b638989"
+      },
+      "remote": {
+        "name": "DONNA/W7110/6.png",
+        "bytes": 163728,
+        "mtime": "2026-04-24T09:29:26.689Z",
+        "hash": "5d0cffeb1556498a21c13063aa029b642727a2678b9685fe766e146f019dbb0f"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7111/1.png",
+      "local": {
+        "name": "DONNA/W7111/1.png",
+        "bytes": 19643507,
+        "mtime": "2026-04-28T06:05:59.945Z",
+        "hash": "ddc5f70e673881d6b4ecb28f31fda08c4c8eae4ef31fec3bee1167de9055c92c"
+      },
+      "remote": {
+        "name": "DONNA/W7111/1.png",
+        "bytes": 19643507,
+        "mtime": "2026-04-28T06:05:59.945Z",
+        "hash": "ddc5f70e673881d6b4ecb28f31fda08c4c8eae4ef31fec3bee1167de9055c92c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7111/2.png",
+      "local": {
+        "name": "DONNA/W7111/2.png",
+        "bytes": 20949039,
+        "mtime": "2026-04-28T06:06:04.050Z",
+        "hash": "9f771517a0dce16f4d11144abfb25fc9e72d8c328a5426bf1b71f7f280df3d4b"
+      },
+      "remote": {
+        "name": "DONNA/W7111/2.png",
+        "bytes": 20949039,
+        "mtime": "2026-04-28T06:06:04.050Z",
+        "hash": "9f771517a0dce16f4d11144abfb25fc9e72d8c328a5426bf1b71f7f280df3d4b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7111/3.png",
+      "local": {
+        "name": "DONNA/W7111/3.png",
+        "bytes": 18878658,
+        "mtime": "2026-04-28T06:05:58.926Z",
+        "hash": "46dbb47d8867a5606222a82f1c1bbcd7714f42088fb5d37576c2eb2e1c0c187c"
+      },
+      "remote": {
+        "name": "DONNA/W7111/3.png",
+        "bytes": 18878658,
+        "mtime": "2026-04-28T06:05:58.926Z",
+        "hash": "46dbb47d8867a5606222a82f1c1bbcd7714f42088fb5d37576c2eb2e1c0c187c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7111/4.png",
+      "local": {
+        "name": "DONNA/W7111/4.png",
+        "bytes": 22954467,
+        "mtime": "2026-04-28T06:06:02.484Z",
+        "hash": "af92ca2902c55cababc5d99f1b5906a29b3fcdf0ceae587b37a6f863c749f72b"
+      },
+      "remote": {
+        "name": "DONNA/W7111/4.png",
+        "bytes": 22954467,
+        "mtime": "2026-04-28T06:06:02.484Z",
+        "hash": "af92ca2902c55cababc5d99f1b5906a29b3fcdf0ceae587b37a6f863c749f72b"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7111/5.png",
+      "local": {
+        "name": "DONNA/W7111/5.png",
+        "bytes": 244298,
+        "mtime": "2026-04-28T06:16:28.613Z",
+        "hash": "6a9bbf7308a406ea0091e71e1ce02fe8b4656d5035fb0484989be7300d0a623a"
+      },
+      "remote": {
+        "name": "DONNA/W7111/5.png",
+        "bytes": 244298,
+        "mtime": "2026-04-28T06:16:28.613Z",
+        "hash": "6a9bbf7308a406ea0091e71e1ce02fe8b4656d5035fb0484989be7300d0a623a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7111/6.png",
+      "local": {
+        "name": "DONNA/W7111/6.png",
+        "bytes": 284238,
+        "mtime": "2026-04-28T06:22:56.917Z",
+        "hash": "6a7183af31daabbe86432d1a6fefad312e3d8f2d04db575a1c8e378eb2d3d258"
+      },
+      "remote": {
+        "name": "DONNA/W7111/6.png",
+        "bytes": 284238,
+        "mtime": "2026-04-28T06:22:56.917Z",
+        "hash": "6a7183af31daabbe86432d1a6fefad312e3d8f2d04db575a1c8e378eb2d3d258"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7113/1.png",
+      "local": {
+        "name": "DONNA/W7113/1.png",
+        "bytes": 62994,
+        "mtime": "2026-08-26T06:58:22.162Z",
+        "hash": "5d2b6c326d58cbda434defe2b4eabf13af4f6be750732ee6dc85bc9bad30a98d"
+      },
+      "remote": {
+        "name": "DONNA/W7113/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7113/2.png",
+      "local": {
+        "name": "DONNA/W7113/2.png",
+        "bytes": 57888,
+        "mtime": "2026-08-26T06:58:32.533Z",
+        "hash": "13c4ea44321c525643f5332ffa895f784898b020960133442ba9570a2e9068c3"
+      },
+      "remote": {
+        "name": "DONNA/W7113/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7113/3.png",
+      "local": {
+        "name": "DONNA/W7113/3.png",
+        "bytes": 56958,
+        "mtime": "2026-08-26T07:41:52.567Z",
+        "hash": "cc74ae50de11c9ebee5e6ba2495bcf1a7fe6da9c591a08abc06aaef8ea765ab2"
+      },
+      "remote": {
+        "name": "DONNA/W7113/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7113/4.png",
+      "local": {
+        "name": "DONNA/W7113/4.png",
+        "bytes": 46442,
+        "mtime": "2026-08-26T07:47:06.085Z",
+        "hash": "623f9eaffd1ba618466ef56b294f4a5db11bbd42dc435dc60a1ecdca232da051"
+      },
+      "remote": {
+        "name": "DONNA/W7113/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7113/5.png",
+      "local": {
+        "name": "DONNA/W7113/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "remote": {
+        "name": "DONNA/W7113/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7113/6.png",
+      "local": {
+        "name": "DONNA/W7113/6.png",
+        "bytes": 839991,
+        "mtime": "2026-07-20T06:23:05.267Z",
+        "hash": "85d1c5372012111e80a5b179e01479b5e5749d489a6ab70050f3a5780e19b088"
+      },
+      "remote": {
+        "name": "DONNA/W7113/6.png",
+        "bytes": 91966,
+        "mtime": "2026-04-28T06:17:19.824Z",
+        "hash": "17201042a5658ac653504dd58effc226ace9b14623b028d664791d619eb26b0c"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7115/1.png",
+      "local": {
+        "name": "DONNA/W7115/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "remote": {
+        "name": "DONNA/W7115/1.png",
+        "bytes": 19991198,
+        "mtime": "2026-04-28T06:08:39.656Z",
+        "hash": "4a7cf5f9a31adb009aa0184f0e49dc15aa05e4c56587b19b6b5ca4906eba23d9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7115/2.png",
+      "local": {
+        "name": "DONNA/W7115/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "remote": {
+        "name": "DONNA/W7115/2.png",
+        "bytes": 19657345,
+        "mtime": "2026-04-28T06:08:36.861Z",
+        "hash": "0fe77ebfd514f44ae25e5e8279355d5588b8c9cb35d757942e13f983a5ed6b3a"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7115/3.png",
+      "local": {
+        "name": "DONNA/W7115/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "remote": {
+        "name": "DONNA/W7115/3.png",
+        "bytes": 22608369,
+        "mtime": "2026-04-28T06:08:40.790Z",
+        "hash": "984941e9b58c269a28dc48a6e5776b72c34f861b71544b9505f592fd6c010160"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7115/4.png",
+      "local": {
+        "name": "DONNA/W7115/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "remote": {
+        "name": "DONNA/W7115/4.png",
+        "bytes": 9140807,
+        "mtime": "2026-04-28T06:08:41.117Z",
+        "hash": "b3b59faee4e6ac6f3538293a0193ad273432cef1d5bd84819eb1f6b659158e71"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7115/5.png",
+      "local": {
+        "name": "DONNA/W7115/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "remote": {
+        "name": "DONNA/W7115/5.png",
+        "bytes": 51624,
+        "mtime": "2026-04-28T06:17:07.170Z",
+        "hash": "1a0210220370e9dc1cbfd194c535cc3ee84b750a00d04f12c20756a2970ead46"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7115/6.png",
+      "local": {
+        "name": "DONNA/W7115/6.png",
+        "bytes": 812658,
+        "mtime": "2026-07-20T06:21:16.877Z",
+        "hash": "6f9e35a23da5e868d4e8f31b1e41ad2bc1e20becca734890d59c87ab288d4de7"
+      },
+      "remote": {
+        "name": "DONNA/W7115/6.png",
+        "bytes": 91966,
+        "mtime": "2026-04-28T06:17:19.824Z",
+        "hash": "17201042a5658ac653504dd58effc226ace9b14623b028d664791d619eb26b0c"
+      },
+      "same": false
+    },
+    {
+      "relative": "DONNA/W7116/1.png",
+      "local": {
+        "name": "DONNA/W7116/1.png",
+        "bytes": 22217168,
+        "mtime": "2026-04-23T06:48:38.364Z",
+        "hash": "ccaad94866133efe6e5e02c9a3bbfe7be2beb8679f4f5dcb5fb4025e0d1dfaf6"
+      },
+      "remote": {
+        "name": "DONNA/W7116/1.png",
+        "bytes": 22217168,
+        "mtime": "2026-04-23T06:48:38.364Z",
+        "hash": "ccaad94866133efe6e5e02c9a3bbfe7be2beb8679f4f5dcb5fb4025e0d1dfaf6"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7116/2.png",
+      "local": {
+        "name": "DONNA/W7116/2.png",
+        "bytes": 21916664,
+        "mtime": "2026-04-23T06:48:40.542Z",
+        "hash": "505104db93a9682bad3e253ec8dc3c64cd808ed821ff61b636e5ac2841aeed62"
+      },
+      "remote": {
+        "name": "DONNA/W7116/2.png",
+        "bytes": 21916664,
+        "mtime": "2026-04-23T06:48:40.542Z",
+        "hash": "505104db93a9682bad3e253ec8dc3c64cd808ed821ff61b636e5ac2841aeed62"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7116/3.png",
+      "local": {
+        "name": "DONNA/W7116/3.png",
+        "bytes": 21858856,
+        "mtime": "2026-04-23T06:48:41.477Z",
+        "hash": "9182ce83e7ec14c77152c5b05a4b30d4700fecf294f54875b634a77b1b999179"
+      },
+      "remote": {
+        "name": "DONNA/W7116/3.png",
+        "bytes": 21858856,
+        "mtime": "2026-04-23T06:48:41.477Z",
+        "hash": "9182ce83e7ec14c77152c5b05a4b30d4700fecf294f54875b634a77b1b999179"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7116/4.png",
+      "local": {
+        "name": "DONNA/W7116/4.png",
+        "bytes": 21709275,
+        "mtime": "2026-04-23T06:48:39.229Z",
+        "hash": "9813e9ebbbfe8caf1c00437e725b2599fd5ef33f4466f1e417ac6d29b7de2eac"
+      },
+      "remote": {
+        "name": "DONNA/W7116/4.png",
+        "bytes": 21709275,
+        "mtime": "2026-04-23T06:48:39.229Z",
+        "hash": "9813e9ebbbfe8caf1c00437e725b2599fd5ef33f4466f1e417ac6d29b7de2eac"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7116/5.png",
+      "local": {
+        "name": "DONNA/W7116/5.png",
+        "bytes": 154198,
+        "mtime": "2026-04-23T06:56:09.589Z",
+        "hash": "e2484b209c8d401446110043df2437843e9c76ddfc1be6dc008909e1591932de"
+      },
+      "remote": {
+        "name": "DONNA/W7116/5.png",
+        "bytes": 154198,
+        "mtime": "2026-04-23T06:56:09.589Z",
+        "hash": "e2484b209c8d401446110043df2437843e9c76ddfc1be6dc008909e1591932de"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7116/6.png",
+      "local": {
+        "name": "DONNA/W7116/6.png",
+        "bytes": 129248,
+        "mtime": "2026-04-23T07:06:00.831Z",
+        "hash": "45434142a0338dbaaf88f93e0258ceeb59cf86611dd91ffb9343e82096bb5f70"
+      },
+      "remote": {
+        "name": "DONNA/W7116/6.png",
+        "bytes": 129248,
+        "mtime": "2026-04-23T07:06:00.831Z",
+        "hash": "45434142a0338dbaaf88f93e0258ceeb59cf86611dd91ffb9343e82096bb5f70"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/1.png",
+      "local": {
+        "name": "DONNA/W7118/1.png",
+        "bytes": 134046,
+        "mtime": "2026-04-24T06:23:01.376Z",
+        "hash": "5873ec5200ee25b5c57955ecf1881a1835610746d4c09abd69fabf0f94102748"
+      },
+      "remote": {
+        "name": "DONNA/W7118/1.png",
+        "bytes": 134046,
+        "mtime": "2026-04-24T06:23:01.376Z",
+        "hash": "5873ec5200ee25b5c57955ecf1881a1835610746d4c09abd69fabf0f94102748"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/2.png",
+      "local": {
+        "name": "DONNA/W7118/2.png",
+        "bytes": 73532,
+        "mtime": "2026-04-24T06:22:47.029Z",
+        "hash": "cf1355488216db3710dec056ae59ff67484a8a4b6df4301b0e9f06ff8ccce88c"
+      },
+      "remote": {
+        "name": "DONNA/W7118/2.png",
+        "bytes": 73532,
+        "mtime": "2026-04-24T06:22:47.029Z",
+        "hash": "cf1355488216db3710dec056ae59ff67484a8a4b6df4301b0e9f06ff8ccce88c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/3.png",
+      "local": {
+        "name": "DONNA/W7118/3.png",
+        "bytes": 79076,
+        "mtime": "2026-04-24T06:24:11.745Z",
+        "hash": "21d6163bae5f46cb99f5c2fef880d675a23681277d1e13458ba455609a61cc4c"
+      },
+      "remote": {
+        "name": "DONNA/W7118/3.png",
+        "bytes": 79076,
+        "mtime": "2026-04-24T06:24:11.745Z",
+        "hash": "21d6163bae5f46cb99f5c2fef880d675a23681277d1e13458ba455609a61cc4c"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/4.png",
+      "local": {
+        "name": "DONNA/W7118/4.png",
+        "bytes": 57030,
+        "mtime": "2026-04-24T06:27:11.915Z",
+        "hash": "57a7e1993c8218428ebbc75c777961ccf97e09869923476784cbe6f8f22826f9"
+      },
+      "remote": {
+        "name": "DONNA/W7118/4.png",
+        "bytes": 57030,
+        "mtime": "2026-04-24T06:27:11.915Z",
+        "hash": "57a7e1993c8218428ebbc75c777961ccf97e09869923476784cbe6f8f22826f9"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/5.png",
+      "local": {
+        "name": "DONNA/W7118/5.png",
+        "bytes": 161860,
+        "mtime": "2026-04-24T06:30:22.431Z",
+        "hash": "820d68f74db30dc7b24ed3fe64b914516c9d7d819859165424b9eb77ec88071d"
+      },
+      "remote": {
+        "name": "DONNA/W7118/5.png",
+        "bytes": 161860,
+        "mtime": "2026-04-24T06:30:22.431Z",
+        "hash": "820d68f74db30dc7b24ed3fe64b914516c9d7d819859165424b9eb77ec88071d"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7118/6.png",
+      "local": {
+        "name": "DONNA/W7118/6.png",
+        "bytes": 138528,
+        "mtime": "2026-04-24T06:36:00.815Z",
+        "hash": "16e5c7d104915e79722b2cb2848f3cb4735fd1b8a904c32f7a0e800dd57e9562"
+      },
+      "remote": {
+        "name": "DONNA/W7118/6.png",
+        "bytes": 138528,
+        "mtime": "2026-04-24T06:36:00.815Z",
+        "hash": "16e5c7d104915e79722b2cb2848f3cb4735fd1b8a904c32f7a0e800dd57e9562"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/1.png",
+      "local": {
+        "name": "DONNA/W7119/1.png",
+        "bytes": 71854,
+        "mtime": "2026-04-24T08:55:07.556Z",
+        "hash": "9dd322e29dc8311dccd5aaa8ea15cbdbb42afeb976302ee22c39cf943afa89c8"
+      },
+      "remote": {
+        "name": "DONNA/W7119/1.png",
+        "bytes": 71854,
+        "mtime": "2026-04-24T08:55:07.556Z",
+        "hash": "9dd322e29dc8311dccd5aaa8ea15cbdbb42afeb976302ee22c39cf943afa89c8"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/2.png",
+      "local": {
+        "name": "DONNA/W7119/2.png",
+        "bytes": 87628,
+        "mtime": "2026-04-24T08:55:21.024Z",
+        "hash": "80393061755d39797683ccfc710ba864fbd89c036a84e289be8bcc090d292fb5"
+      },
+      "remote": {
+        "name": "DONNA/W7119/2.png",
+        "bytes": 87628,
+        "mtime": "2026-04-24T08:55:21.024Z",
+        "hash": "80393061755d39797683ccfc710ba864fbd89c036a84e289be8bcc090d292fb5"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/3.png",
+      "local": {
+        "name": "DONNA/W7119/3.png",
+        "bytes": 97086,
+        "mtime": "2026-04-24T08:55:33.955Z",
+        "hash": "775e89f83aadcea34b8c9bd02be333e09986d665e91c320efe32b49fc87ce2a3"
+      },
+      "remote": {
+        "name": "DONNA/W7119/3.png",
+        "bytes": 97086,
+        "mtime": "2026-04-24T08:55:33.955Z",
+        "hash": "775e89f83aadcea34b8c9bd02be333e09986d665e91c320efe32b49fc87ce2a3"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/4.png",
+      "local": {
+        "name": "DONNA/W7119/4.png",
+        "bytes": 82004,
+        "mtime": "2026-04-24T08:56:34.678Z",
+        "hash": "f1d331087e3d570d3c9c6fc4a9cb802fdcf930036c45f280a3008a0144e724c5"
+      },
+      "remote": {
+        "name": "DONNA/W7119/4.png",
+        "bytes": 82004,
+        "mtime": "2026-04-24T08:56:34.678Z",
+        "hash": "f1d331087e3d570d3c9c6fc4a9cb802fdcf930036c45f280a3008a0144e724c5"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/5.png",
+      "local": {
+        "name": "DONNA/W7119/5.png",
+        "bytes": 180112,
+        "mtime": "2026-04-24T08:57:18.287Z",
+        "hash": "dbab19bd001b52a228fb991e80e6037f9f113a9917998a3f1f4a63ab4abdcf34"
+      },
+      "remote": {
+        "name": "DONNA/W7119/5.png",
+        "bytes": 180112,
+        "mtime": "2026-04-24T08:57:18.287Z",
+        "hash": "dbab19bd001b52a228fb991e80e6037f9f113a9917998a3f1f4a63ab4abdcf34"
+      },
+      "same": true
+    },
+    {
+      "relative": "DONNA/W7119/6.png",
+      "local": {
+        "name": "DONNA/W7119/6.png",
+        "bytes": 1457544,
+        "mtime": "2026-07-20T06:20:11.018Z",
+        "hash": "1317a64a420a1b151ea170c18659e04b73cd218083ccfc13cd7667e6b07300c0"
+      },
+      "remote": {
+        "name": "DONNA/W7119/6.png",
+        "bytes": 172684,
+        "mtime": "2026-04-24T09:08:36.266Z",
+        "hash": "e86dadadd0e0550091b66d7eefeb639969c159d45adc607dea3a2d43e1b7e691"
+      },
+      "same": false
+    },
+    {
+      "relative": "GIACCA.png",
+      "local": {
+        "name": "GIACCA.png",
+        "bytes": 242245,
+        "mtime": "2026-02-04T08:43:24.223Z",
+        "hash": "9fc391a3e1b23fefdd50cee31e3f8418e11fb445cae2a11b671d97b4d219c2c4"
+      },
+      "remote": {
+        "name": "GIACCA.png",
+        "bytes": 242245,
+        "mtime": "2026-02-04T08:43:24.223Z",
+        "hash": "9fc391a3e1b23fefdd50cee31e3f8418e11fb445cae2a11b671d97b4d219c2c4"
+      },
+      "same": true
+    },
+    {
+      "relative": "GIF/1.gif",
+      "local": {
+        "name": "GIF/1.gif",
+        "bytes": 190252,
+        "mtime": "2026-02-10T07:14:48.344Z",
+        "hash": "93c457925707a554edf0ce7bfd0155f6b735f4aae6319bb039b7c6b839a33054"
+      },
+      "remote": {
+        "name": "GIF/1.gif",
+        "bytes": 190252,
+        "mtime": "2026-02-10T07:14:48.344Z",
+        "hash": "93c457925707a554edf0ce7bfd0155f6b735f4aae6319bb039b7c6b839a33054"
+      },
+      "same": true
+    },
+    {
+      "relative": "GIF/2.gif",
+      "local": {
+        "name": "GIF/2.gif",
+        "bytes": 195799,
+        "mtime": "2026-02-10T07:16:07.847Z",
+        "hash": "7503d745893f4db4d02adfdaefefe0d57e2ff982b223bb7d8499049018ca0d1f"
+      },
+      "remote": {
+        "name": "GIF/2.gif",
+        "bytes": 195799,
+        "mtime": "2026-02-10T07:16:07.847Z",
+        "hash": "7503d745893f4db4d02adfdaefefe0d57e2ff982b223bb7d8499049018ca0d1f"
+      },
+      "same": true
+    },
+    {
+      "relative": "GIF/3.gif",
+      "local": {
+        "name": "GIF/3.gif",
+        "bytes": 214069,
+        "mtime": "2026-02-10T07:16:54.159Z",
+        "hash": "f43c60cf417cffd023a345fce25fb72c31e997069d072136978ba31650210b25"
+      },
+      "remote": {
+        "name": "GIF/3.gif",
+        "bytes": 214069,
+        "mtime": "2026-02-10T07:16:54.159Z",
+        "hash": "f43c60cf417cffd023a345fce25fb72c31e997069d072136978ba31650210b25"
+      },
+      "same": true
+    },
+    {
+      "relative": "herosection.mp4",
+      "local": {
+        "name": "herosection.mp4",
+        "bytes": 11413825,
+        "mtime": "2026-05-29T06:34:30.970Z",
+        "hash": "ddc747e7affcb42e6fefd6c91f6a7600ec916415f3c09b5a1a9d8764f7eec5f8"
+      },
+      "remote": {
+        "name": "herosection.mp4",
+        "bytes": 11413825,
+        "mtime": "2026-05-29T06:34:30.970Z",
+        "hash": "ddc747e7affcb42e6fefd6c91f6a7600ec916415f3c09b5a1a9d8764f7eec5f8"
+      },
+      "same": true
+    },
+    {
+      "relative": "home.gif",
+      "local": {
+        "name": "home.gif",
+        "bytes": 19443927,
+        "mtime": "2026-04-10T09:23:11.360Z",
+        "hash": "180da242410bbc0de3d426a7472dbebe76dd62273fbf0f5ebb73134321aab9e7"
+      },
+      "remote": {
+        "name": "home.gif",
+        "bytes": 19443927,
+        "mtime": "2026-04-10T09:23:11.360Z",
+        "hash": "180da242410bbc0de3d426a7472dbebe76dd62273fbf0f5ebb73134321aab9e7"
+      },
+      "same": true
+    },
+    {
+      "relative": "Home.png",
+      "local": {
+        "name": "Home.png",
+        "bytes": 2603759,
+        "mtime": "2026-02-16T09:22:10.957Z",
+        "hash": "7969b641461b95d5d35290e51ab8306ce3fd2b6f03ea3f6c2d077f1cd35ad3f7"
+      },
+      "remote": {
+        "name": "Home.png",
+        "bytes": 2603759,
+        "mtime": "2026-02-16T09:22:10.957Z",
+        "hash": "7969b641461b95d5d35290e51ab8306ce3fd2b6f03ea3f6c2d077f1cd35ad3f7"
+      },
+      "same": true
+    },
+    {
+      "relative": "logo bianco.png",
+      "local": {
+        "name": "logo bianco.png",
+        "bytes": 202461,
+        "mtime": "2026-04-13T06:44:26.786Z",
+        "hash": "1ecbb14d79e627f20135ef82420332aec460ba8739540b957d6fda2c7c38069b"
+      },
+      "remote": {
+        "name": "logo bianco.png",
+        "bytes": 202461,
+        "mtime": "2026-04-13T06:44:26.786Z",
+        "hash": "1ecbb14d79e627f20135ef82420332aec460ba8739540b957d6fda2c7c38069b"
+      },
+      "same": true
+    },
+    {
+      "relative": "logodfs.png",
+      "local": {
+        "name": "logodfs.png",
+        "bytes": 47452,
+        "mtime": "2026-01-12T10:43:19.691Z",
+        "hash": "2fb420ce06948a8631edf7ad808519b6e04e592e17d8324567152d366b1c6bfc"
+      },
+      "remote": {
+        "name": "logodfs.png",
+        "bytes": 47452,
+        "mtime": "2026-01-12T10:43:19.691Z",
+        "hash": "2fb420ce06948a8631edf7ad808519b6e04e592e17d8324567152d366b1c6bfc"
+      },
+      "same": true
+    },
+    {
+      "relative": "menu.jpg",
+      "local": {
+        "name": "menu.jpg",
+        "bytes": 100917,
+        "mtime": "2026-04-13T09:21:44.356Z",
+        "hash": "1eb065dfe4a099a0cde2acb8cce06756c04f6fc9c3fd87c865cefdb0cd6bb8f3"
+      },
+      "remote": {
+        "name": "menu.jpg",
+        "bytes": 100917,
+        "mtime": "2026-04-13T09:21:44.356Z",
+        "hash": "1eb065dfe4a099a0cde2acb8cce06756c04f6fc9c3fd87c865cefdb0cd6bb8f3"
+      },
+      "same": true
+    },
+    {
+      "relative": "orizzontale.jpg",
+      "local": {
+        "name": "orizzontale.jpg",
+        "bytes": 431646,
+        "mtime": "2026-02-04T09:57:16.773Z",
+        "hash": "9e55740bafde401ea86560e98394029b8aad80d9564f65634d84a9799f253d8a"
+      },
+      "remote": {
+        "name": "orizzontale.jpg",
+        "bytes": 431646,
+        "mtime": "2026-02-04T09:57:16.773Z",
+        "hash": "9e55740bafde401ea86560e98394029b8aad80d9564f65634d84a9799f253d8a"
+      },
+      "same": true
+    },
+    {
+      "relative": "orizzontale1.jpg",
+      "local": {
+        "name": "orizzontale1.jpg",
+        "bytes": 6104438,
+        "mtime": "2026-02-17T09:58:47.600Z",
+        "hash": "64511e69a913eae11855d1d2566d6776a16274f7b96707a066869a22fd5d9c1f"
+      },
+      "remote": {
+        "name": "orizzontale1.jpg",
+        "bytes": 6104438,
+        "mtime": "2026-02-17T09:58:47.600Z",
+        "hash": "64511e69a913eae11855d1d2566d6776a16274f7b96707a066869a22fd5d9c1f"
+      },
+      "same": true
+    },
+    {
+      "relative": "ragazzi.png",
+      "local": {
+        "name": "ragazzi.png",
+        "bytes": 131740,
+        "mtime": "2026-05-28T09:58:04.525Z",
+        "hash": "a4edca32b9a977a8b7199e1a077e6d85f4e7f6c45cc0e9154d46188d6da58407"
+      },
+      "remote": {
+        "name": "ragazzi.png",
+        "bytes": 131740,
+        "mtime": "2026-05-28T09:58:04.525Z",
+        "hash": "a4edca32b9a977a8b7199e1a077e6d85f4e7f6c45cc0e9154d46188d6da58407"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/7121img.png",
+      "local": {
+        "name": "RAGAZZI/7121img.png",
+        "bytes": 920726,
+        "mtime": "2026-04-28T09:20:39.424Z",
+        "hash": "87a124e8d9084ee6726d2615e45ccd45fda292a6300bdd39cf1c18a91f87aeac"
+      },
+      "remote": {
+        "name": "RAGAZZI/7121img.png",
+        "bytes": 920726,
+        "mtime": "2026-04-28T09:20:39.424Z",
+        "hash": "87a124e8d9084ee6726d2615e45ccd45fda292a6300bdd39cf1c18a91f87aeac"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BANNER NEWSLETTER (1).jpg",
+      "local": {
+        "name": "RAGAZZI/BANNER NEWSLETTER (1).jpg",
+        "bytes": 745989,
+        "mtime": "2026-05-05T06:45:18.632Z",
+        "hash": "b875fee9e86dfb9dd5d76a7aa6efe2204e1eb8f37a60bbf53551c8881487f8ed"
+      },
+      "remote": {
+        "name": "RAGAZZI/BANNER NEWSLETTER (1).jpg",
+        "bytes": 745989,
+        "mtime": "2026-05-05T06:45:18.632Z",
+        "hash": "b875fee9e86dfb9dd5d76a7aa6efe2204e1eb8f37a60bbf53551c8881487f8ed"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BANNER NEWSLETTER.jpg",
+      "local": {
+        "name": "RAGAZZI/BANNER NEWSLETTER.jpg",
+        "bytes": 739908,
+        "mtime": "2026-05-05T06:45:10.670Z",
+        "hash": "20792048340b3aa59c1cef671eeb93d0b64bb813496ad85118d42c7e805765e7"
+      },
+      "remote": {
+        "name": "RAGAZZI/BANNER NEWSLETTER.jpg",
+        "bytes": 739908,
+        "mtime": "2026-05-05T06:45:10.670Z",
+        "hash": "20792048340b3aa59c1cef671eeb93d0b64bb813496ad85118d42c7e805765e7"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_back.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_back.png",
+        "bytes": 831141,
+        "mtime": "2026-01-26T08:13:32.960Z",
+        "hash": "18034ec3f7b2eadbc525f9b21847c7f21f7e25c91598a8527e48d85cc2c12650"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_back.png",
+        "bytes": 831141,
+        "mtime": "2026-01-26T08:13:32.960Z",
+        "hash": "18034ec3f7b2eadbc525f9b21847c7f21f7e25c91598a8527e48d85cc2c12650"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_front.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_front.png",
+        "bytes": 809097,
+        "mtime": "2026-01-26T08:13:33.017Z",
+        "hash": "3fa93aeac5ec80fe5d9724d7f3306bcf867f0455876c886df522ef08ffbfae6b"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW2948_RUNNING_LYCRA_SHORTS_kid_front.png",
+        "bytes": 809097,
+        "mtime": "2026-01-26T08:13:33.017Z",
+        "hash": "3fa93aeac5ec80fe5d9724d7f3306bcf867f0455876c886df522ef08ffbfae6b"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW7120_RUNNING_MMC_copertina.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_copertina.png",
+        "bytes": 20061756,
+        "mtime": "2026-01-26T08:13:48.499Z",
+        "hash": "028e5900c2689ffa5a6a0e6c11251c86ec35496c22e2c2b8ef3d3ce5a07be906"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_copertina.png",
+        "bytes": 20061756,
+        "mtime": "2026-01-26T08:13:48.499Z",
+        "hash": "028e5900c2689ffa5a6a0e6c11251c86ec35496c22e2c2b8ef3d3ce5a07be906"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_back.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_back.png",
+        "bytes": 1600870,
+        "mtime": "2026-01-26T08:13:48.551Z",
+        "hash": "a72361c50b18b3e253f348ab12b15e3e16aed88275521971960fc62e73106803"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_back.png",
+        "bytes": 1600870,
+        "mtime": "2026-01-26T08:13:48.551Z",
+        "hash": "a72361c50b18b3e253f348ab12b15e3e16aed88275521971960fc62e73106803"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_front.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_front.png",
+        "bytes": 1874375,
+        "mtime": "2026-01-26T08:13:48.611Z",
+        "hash": "c6cd344eb93bc33b8d332e3ad130ea560eae9e9dcc79dda96dd697d4d857f85e"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW7120_RUNNING_MMC_kid_front.png",
+        "bytes": 1874375,
+        "mtime": "2026-01-26T08:13:48.611Z",
+        "hash": "c6cd344eb93bc33b8d332e3ad130ea560eae9e9dcc79dda96dd697d4d857f85e"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_back.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_back.png",
+        "bytes": 1222479,
+        "mtime": "2026-01-26T08:13:48.821Z",
+        "hash": "23e675c90dbd8f7293f7cfa45dc65a705fa5380c5cdc0b3e08d72aa6c9f51795"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_back.png",
+        "bytes": 1222479,
+        "mtime": "2026-01-26T08:13:48.821Z",
+        "hash": "23e675c90dbd8f7293f7cfa45dc65a705fa5380c5cdc0b3e08d72aa6c9f51795"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_front.png",
+      "local": {
+        "name": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_front.png",
+        "bytes": 1467574,
+        "mtime": "2026-01-26T08:13:48.875Z",
+        "hash": "8e2542801691ddc76e80eeb0f00d676ad3099e10f518cb2caffe68db77d19e10"
+      },
+      "remote": {
+        "name": "RAGAZZI/BLSQW7121_RUNNING_CANOTTA_kid_front.png",
+        "bytes": 1467574,
+        "mtime": "2026-01-26T08:13:48.875Z",
+        "hash": "8e2542801691ddc76e80eeb0f00d676ad3099e10f518cb2caffe68db77d19e10"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/IMGW2948.png",
+      "local": {
+        "name": "RAGAZZI/IMGW2948.png",
+        "bytes": 636373,
+        "mtime": "2026-04-22T09:43:03.403Z",
+        "hash": "937a60dc0ea64f3a4ce8c12d451741f17b507d30f238c7cf836283da060c3873"
+      },
+      "remote": {
+        "name": "RAGAZZI/IMGW2948.png",
+        "bytes": 636373,
+        "mtime": "2026-04-22T09:43:03.403Z",
+        "hash": "937a60dc0ea64f3a4ce8c12d451741f17b507d30f238c7cf836283da060c3873"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/IMGW7120.png",
+      "local": {
+        "name": "RAGAZZI/IMGW7120.png",
+        "bytes": 1021078,
+        "mtime": "2026-04-22T09:42:28.738Z",
+        "hash": "b654750e0cc838ddbc90d4322da70ee15cd06c68df158e567adf988590d8be53"
+      },
+      "remote": {
+        "name": "RAGAZZI/IMGW7120.png",
+        "bytes": 1021078,
+        "mtime": "2026-04-22T09:42:28.738Z",
+        "hash": "b654750e0cc838ddbc90d4322da70ee15cd06c68df158e567adf988590d8be53"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/IMGW7121.png",
+      "local": {
+        "name": "RAGAZZI/IMGW7121.png",
+        "bytes": 925537,
+        "mtime": "2026-04-22T09:42:43.551Z",
+        "hash": "8c31d9deaf0c65d7e96813831ee92c2f44bbf597dbafc1f58a629383d599e19c"
+      },
+      "remote": {
+        "name": "RAGAZZI/IMGW7121.png",
+        "bytes": 925537,
+        "mtime": "2026-04-22T09:42:43.551Z",
+        "hash": "8c31d9deaf0c65d7e96813831ee92c2f44bbf597dbafc1f58a629383d599e19c"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W2948/1.png",
+      "local": {
+        "name": "RAGAZZI/W2948/1.png",
+        "bytes": 18185086,
+        "mtime": "2026-04-22T08:39:25.160Z",
+        "hash": "609c23ac5230ce0b06b439f07201e0769a2f4b3ee85add4cbbc24af26de64174"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/1.png",
+        "bytes": 18185086,
+        "mtime": "2026-04-22T08:39:25.160Z",
+        "hash": "609c23ac5230ce0b06b439f07201e0769a2f4b3ee85add4cbbc24af26de64174"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W2948/2.png",
+      "local": {
+        "name": "RAGAZZI/W2948/2.png",
+        "bytes": 18024080,
+        "mtime": "2026-04-22T08:39:26.887Z",
+        "hash": "60ef79a86855a05535888bf012242e628ade41268eff5bf808b6d7eafef95c2d"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/2.png",
+        "bytes": 18024080,
+        "mtime": "2026-04-22T08:39:26.887Z",
+        "hash": "60ef79a86855a05535888bf012242e628ade41268eff5bf808b6d7eafef95c2d"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W2948/3.png",
+      "local": {
+        "name": "RAGAZZI/W2948/3.png",
+        "bytes": 17779264,
+        "mtime": "2026-04-22T08:39:26.107Z",
+        "hash": "487b0cd7f1e826ce79dd57049af3ed12b07db93b034d4951988b6590f3cc4ea7"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/3.png",
+        "bytes": 17779264,
+        "mtime": "2026-04-22T08:39:26.107Z",
+        "hash": "487b0cd7f1e826ce79dd57049af3ed12b07db93b034d4951988b6590f3cc4ea7"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W2948/4.png",
+      "local": {
+        "name": "RAGAZZI/W2948/4.png",
+        "bytes": 60114,
+        "mtime": "2026-04-22T08:41:06.117Z",
+        "hash": "0b5ba32cc26c6a41f9d52038a051c6a9060f6917af13bb1e66d9df82a7fdf7ef"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/4.png",
+        "bytes": 60114,
+        "mtime": "2026-04-22T08:41:06.117Z",
+        "hash": "0b5ba32cc26c6a41f9d52038a051c6a9060f6917af13bb1e66d9df82a7fdf7ef"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W2948/5.png",
+      "local": {
+        "name": "RAGAZZI/W2948/5.png",
+        "bytes": 1139578,
+        "mtime": "2026-07-20T06:47:29.303Z",
+        "hash": "e9bff6fffef057718f21dca58e2b606d352676102741687640b07adccb377401"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/5.png",
+        "bytes": 144164,
+        "mtime": "2026-04-22T08:47:05.004Z",
+        "hash": "81ae2c524bfb028db3f65047ee4731c6a97d45cf5b090eebc59de419bb44163c"
+      },
+      "same": false
+    },
+    {
+      "relative": "RAGAZZI/W2948/6.png",
+      "local": {
+        "name": "RAGAZZI/W2948/6.png",
+        "bytes": 1254711,
+        "mtime": "2026-07-20T06:48:41.709Z",
+        "hash": "5d98ea57da05c5ba52cd5dfcfd7dcaf739c3ab101425667273f2635f6467ec82"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948/6.png",
+        "bytes": 174840,
+        "mtime": "2026-04-22T08:47:16.439Z",
+        "hash": "c46d8a52af971ea0a2025da8fe0dc39b1a21ad0f77ad8d973c5a3fca93ffa907"
+      },
+      "same": false
+    },
+    {
+      "relative": "RAGAZZI/W2948img.png",
+      "local": {
+        "name": "RAGAZZI/W2948img.png",
+        "bytes": 635706,
+        "mtime": "2026-04-28T09:18:58.509Z",
+        "hash": "78bc842c5560266f97c4a9227d4fffd0542e8589cf383b9bcef18748cc98b6fc"
+      },
+      "remote": {
+        "name": "RAGAZZI/W2948img.png",
+        "bytes": 635706,
+        "mtime": "2026-04-28T09:18:58.509Z",
+        "hash": "78bc842c5560266f97c4a9227d4fffd0542e8589cf383b9bcef18748cc98b6fc"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/1.png",
+      "local": {
+        "name": "RAGAZZI/W7120/1.png",
+        "bytes": 1574428,
+        "mtime": "2026-04-23T06:32:22.348Z",
+        "hash": "75f6d458c9b7914f953e0afd9f568a421ca2a8b1453f1ce50e875e158f3ecc8e"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/1.png",
+        "bytes": 1574428,
+        "mtime": "2026-04-23T06:32:22.348Z",
+        "hash": "75f6d458c9b7914f953e0afd9f568a421ca2a8b1453f1ce50e875e158f3ecc8e"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/2.png",
+      "local": {
+        "name": "RAGAZZI/W7120/2.png",
+        "bytes": 18024080,
+        "mtime": "2026-04-22T08:39:26.887Z",
+        "hash": "60ef79a86855a05535888bf012242e628ade41268eff5bf808b6d7eafef95c2d"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/2.png",
+        "bytes": 18024080,
+        "mtime": "2026-04-22T08:39:26.887Z",
+        "hash": "60ef79a86855a05535888bf012242e628ade41268eff5bf808b6d7eafef95c2d"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/3.png",
+      "local": {
+        "name": "RAGAZZI/W7120/3.png",
+        "bytes": 17779264,
+        "mtime": "2026-04-22T08:39:26.107Z",
+        "hash": "487b0cd7f1e826ce79dd57049af3ed12b07db93b034d4951988b6590f3cc4ea7"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/3.png",
+        "bytes": 17779264,
+        "mtime": "2026-04-22T08:39:26.107Z",
+        "hash": "487b0cd7f1e826ce79dd57049af3ed12b07db93b034d4951988b6590f3cc4ea7"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/4.png",
+      "local": {
+        "name": "RAGAZZI/W7120/4.png",
+        "bytes": 60114,
+        "mtime": "2026-04-22T08:41:06.117Z",
+        "hash": "0b5ba32cc26c6a41f9d52038a051c6a9060f6917af13bb1e66d9df82a7fdf7ef"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/4.png",
+        "bytes": 60114,
+        "mtime": "2026-04-22T08:41:06.117Z",
+        "hash": "0b5ba32cc26c6a41f9d52038a051c6a9060f6917af13bb1e66d9df82a7fdf7ef"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/5.png",
+      "local": {
+        "name": "RAGAZZI/W7120/5.png",
+        "bytes": 224342,
+        "mtime": "2026-04-22T08:42:19.195Z",
+        "hash": "de91678f27c3822129a7ebe8aeca9b66ea052d2424fd668f24cc640db1c3e7e7"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/5.png",
+        "bytes": 224342,
+        "mtime": "2026-04-22T08:42:19.195Z",
+        "hash": "de91678f27c3822129a7ebe8aeca9b66ea052d2424fd668f24cc640db1c3e7e7"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120/6.png",
+      "local": {
+        "name": "RAGAZZI/W7120/6.png",
+        "bytes": 146812,
+        "mtime": "2026-04-22T08:42:01.395Z",
+        "hash": "9631fe6f5316b33c0827b42fc1040c45042409df5c7e957425cc78f7dfb476dd"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120/6.png",
+        "bytes": 146812,
+        "mtime": "2026-04-22T08:42:01.395Z",
+        "hash": "9631fe6f5316b33c0827b42fc1040c45042409df5c7e957425cc78f7dfb476dd"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7120img.png",
+      "local": {
+        "name": "RAGAZZI/W7120img.png",
+        "bytes": 1020111,
+        "mtime": "2026-04-28T09:19:50.689Z",
+        "hash": "38d6acfc350024daa269c749ee7142049f9537f4c6c96f29260a9d51e168b9bf"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7120img.png",
+        "bytes": 1020111,
+        "mtime": "2026-04-28T09:19:50.689Z",
+        "hash": "38d6acfc350024daa269c749ee7142049f9537f4c6c96f29260a9d51e168b9bf"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/1.png",
+      "local": {
+        "name": "RAGAZZI/W7121/1.png",
+        "bytes": 121794,
+        "mtime": "2026-04-22T08:52:20.138Z",
+        "hash": "24ef0068e49c32c7ee04ec02973a717c1bad493b5708bc0d310c68c7fe363243"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/1.png",
+        "bytes": 121794,
+        "mtime": "2026-04-22T08:52:20.138Z",
+        "hash": "24ef0068e49c32c7ee04ec02973a717c1bad493b5708bc0d310c68c7fe363243"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/2.png",
+      "local": {
+        "name": "RAGAZZI/W7121/2.png",
+        "bytes": 71530,
+        "mtime": "2026-04-22T08:52:33.531Z",
+        "hash": "cbc2ff512af20580d8a8dac2279bafe34c457fb5bc7e1f4e587e7e07d62fd2b7"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/2.png",
+        "bytes": 71530,
+        "mtime": "2026-04-22T08:52:33.531Z",
+        "hash": "cbc2ff512af20580d8a8dac2279bafe34c457fb5bc7e1f4e587e7e07d62fd2b7"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/3.png",
+      "local": {
+        "name": "RAGAZZI/W7121/3.png",
+        "bytes": 71434,
+        "mtime": "2026-04-22T08:56:35.861Z",
+        "hash": "05a97d6c3c50bd341503c33454a7a3df902cc03c04e5d0abe7fc612c2f0e4951"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/3.png",
+        "bytes": 71434,
+        "mtime": "2026-04-22T08:56:35.861Z",
+        "hash": "05a97d6c3c50bd341503c33454a7a3df902cc03c04e5d0abe7fc612c2f0e4951"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/4.png",
+      "local": {
+        "name": "RAGAZZI/W7121/4.png",
+        "bytes": 55016,
+        "mtime": "2026-04-22T09:21:55.375Z",
+        "hash": "ca7c5f94785c3874166047a18aed5999e221ba7fcf6527c6b58609d29208802d"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/4.png",
+        "bytes": 55016,
+        "mtime": "2026-04-22T09:21:55.375Z",
+        "hash": "ca7c5f94785c3874166047a18aed5999e221ba7fcf6527c6b58609d29208802d"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/5.png",
+      "local": {
+        "name": "RAGAZZI/W7121/5.png",
+        "bytes": 257884,
+        "mtime": "2026-04-22T09:03:18.761Z",
+        "hash": "0d3aa4cb11ce91a72b3958e633b93aa83bb0f6d9bdac8467331553409c054bde"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/5.png",
+        "bytes": 257884,
+        "mtime": "2026-04-22T09:03:18.761Z",
+        "hash": "0d3aa4cb11ce91a72b3958e633b93aa83bb0f6d9bdac8467331553409c054bde"
+      },
+      "same": true
+    },
+    {
+      "relative": "RAGAZZI/W7121/6.png",
+      "local": {
+        "name": "RAGAZZI/W7121/6.png",
+        "bytes": 193116,
+        "mtime": "2026-04-22T09:21:39.950Z",
+        "hash": "53cafc1eebafb8e929c6675c540b341f58c6efe7cbbbfc190ba991cf67eff71d"
+      },
+      "remote": {
+        "name": "RAGAZZI/W7121/6.png",
+        "bytes": 193116,
+        "mtime": "2026-04-22T09:21:39.950Z",
+        "hash": "53cafc1eebafb8e929c6675c540b341f58c6efe7cbbbfc190ba991cf67eff71d"
+      },
+      "same": true
+    },
+    {
+      "relative": "uomo.png",
+      "local": {
+        "name": "uomo.png",
+        "bytes": 105882,
+        "mtime": "2026-05-28T09:58:24.376Z",
+        "hash": "2b74ef18ac4569be69a56f109074b73869331570918b569d2dddbc199a48384c"
+      },
+      "remote": {
+        "name": "uomo.png",
+        "bytes": 105882,
+        "mtime": "2026-05-28T09:58:24.376Z",
+        "hash": "2b74ef18ac4569be69a56f109074b73869331570918b569d2dddbc199a48384c"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_back.png",
+      "local": {
+        "name": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_back.png",
+        "bytes": 2320667,
+        "mtime": "2026-01-26T08:13:32.092Z",
+        "hash": "80d91c1876204fb18a9dcceefee121d6b0742dea6029f1e790af33558c203658"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_back.png",
+        "bytes": 2320667,
+        "mtime": "2026-01-26T08:13:32.092Z",
+        "hash": "80d91c1876204fb18a9dcceefee121d6b0742dea6029f1e790af33558c203658"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+      "local": {
+        "name": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+        "bytes": 2409188,
+        "mtime": "2026-01-26T08:13:32.229Z",
+        "hash": "0731f8bc352e11366c321eacb74abbdbb877f2f52f4c9dcb7c2618140d17f4dc"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+        "bytes": 2409188,
+        "mtime": "2026-01-26T08:13:32.229Z",
+        "hash": "0731f8bc352e11366c321eacb74abbdbb877f2f52f4c9dcb7c2618140d17f4dc"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2912_RUNNING_TIGHTS_back.png",
+      "local": {
+        "name": "UOMO/BLSQW2912_RUNNING_TIGHTS_back.png",
+        "bytes": 654993,
+        "mtime": "2026-01-26T08:13:32.299Z",
+        "hash": "543b5bb1a4c32a128137ba7bedd67048ad06265d448e4d5672902edf104b9e2c"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2912_RUNNING_TIGHTS_back.png",
+        "bytes": 654993,
+        "mtime": "2026-01-26T08:13:32.299Z",
+        "hash": "543b5bb1a4c32a128137ba7bedd67048ad06265d448e4d5672902edf104b9e2c"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2912_RUNNING_TIGHTS_front.png",
+      "local": {
+        "name": "UOMO/BLSQW2912_RUNNING_TIGHTS_front.png",
+        "bytes": 639597,
+        "mtime": "2026-01-26T08:13:32.350Z",
+        "hash": "9c7616d587b1dc7dbfa4544793b33650034ad362385eb41e6e53a8c9782b9cda"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2912_RUNNING_TIGHTS_front.png",
+        "bytes": 639597,
+        "mtime": "2026-01-26T08:13:32.350Z",
+        "hash": "9c7616d587b1dc7dbfa4544793b33650034ad362385eb41e6e53a8c9782b9cda"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_back.png",
+      "local": {
+        "name": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_back.png",
+        "bytes": 1388897,
+        "mtime": "2026-01-26T08:13:32.621Z",
+        "hash": "0751cd28913def1fc166f93a19256e1c0bcffcfc3fc3724946b877dc3908fa5e"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_back.png",
+        "bytes": 1388897,
+        "mtime": "2026-01-26T08:13:32.621Z",
+        "hash": "0751cd28913def1fc166f93a19256e1c0bcffcfc3fc3724946b877dc3908fa5e"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+      "local": {
+        "name": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+        "bytes": 1304357,
+        "mtime": "2026-01-26T08:13:32.673Z",
+        "hash": "8d9969205d8d3707a452fbc0ec383b14328986603bf6a942110bd44584bb1fae"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+        "bytes": 1304357,
+        "mtime": "2026-01-26T08:13:32.673Z",
+        "hash": "8d9969205d8d3707a452fbc0ec383b14328986603bf6a942110bd44584bb1fae"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW3701.png",
+      "local": {
+        "name": "UOMO/BLSQW3701.png",
+        "bytes": 1592284,
+        "mtime": "2026-05-29T07:19:07.751Z",
+        "hash": "557f66267fe28148968cb0a79aeb701e18932bec352462ce3ab9f64215bd435c"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW3701.png",
+        "bytes": 1592284,
+        "mtime": "2026-05-29T07:19:07.751Z",
+        "hash": "557f66267fe28148968cb0a79aeb701e18932bec352462ce3ab9f64215bd435c"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7100_RUNNING_MMC_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_back.png",
+        "bytes": 1948504,
+        "mtime": "2026-01-26T08:13:43.679Z",
+        "hash": "c531c6cb4700ce98778eb982f130195c0add7554e51e2ef8eb64eb0fca016fc2"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_back.png",
+        "bytes": 1948504,
+        "mtime": "2026-01-26T08:13:43.679Z",
+        "hash": "c531c6cb4700ce98778eb982f130195c0add7554e51e2ef8eb64eb0fca016fc2"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+      "local": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+        "bytes": 2184816,
+        "mtime": "2026-01-26T08:13:44.372Z",
+        "hash": "9a0861cafeb0756b7b23103e7c788940659261c86fd1d89765ded31f0283867c"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+        "bytes": 2184816,
+        "mtime": "2026-01-26T08:13:44.372Z",
+        "hash": "9a0861cafeb0756b7b23103e7c788940659261c86fd1d89765ded31f0283867c"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7100_RUNNING_MMC_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_front.png",
+        "bytes": 2192769,
+        "mtime": "2026-01-26T08:13:44.076Z",
+        "hash": "6be905ac05443a1c3215044735cd4502335611c13cdb8fde324661ebe6e6ae4d"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7100_RUNNING_MMC_front.png",
+        "bytes": 2192769,
+        "mtime": "2026-01-26T08:13:44.076Z",
+        "hash": "6be905ac05443a1c3215044735cd4502335611c13cdb8fde324661ebe6e6ae4d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7101_RUNNING_CANOTTA_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7101_RUNNING_CANOTTA_back.png",
+        "bytes": 1426614,
+        "mtime": "2026-01-26T08:13:44.602Z",
+        "hash": "cf9f901172df0030d8b561c0425bf654f1bf9ea70eb114b8dc8f1a138c15ce7a"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7101_RUNNING_CANOTTA_back.png",
+        "bytes": 1426614,
+        "mtime": "2026-01-26T08:13:44.602Z",
+        "hash": "cf9f901172df0030d8b561c0425bf654f1bf9ea70eb114b8dc8f1a138c15ce7a"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7101_RUNNING_CANOTTA_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7101_RUNNING_CANOTTA_front.png",
+        "bytes": 1717807,
+        "mtime": "2026-01-26T08:13:44.660Z",
+        "hash": "25d228f5daf56d024541e786cd837e75bd29949493d7ca07181ae95a6ffa23b8"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7101_RUNNING_CANOTTA_front.png",
+        "bytes": 1717807,
+        "mtime": "2026-01-26T08:13:44.660Z",
+        "hash": "25d228f5daf56d024541e786cd837e75bd29949493d7ca07181ae95a6ffa23b8"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7102_RUNNING_SHORTS_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7102_RUNNING_SHORTS_back.png",
+        "bytes": 427981,
+        "mtime": "2026-01-26T08:13:44.698Z",
+        "hash": "a1c11b311fdeedf73dd44268c4729ab99c25852bce6d4f77069538b099c6e1f7"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7102_RUNNING_SHORTS_back.png",
+        "bytes": 427981,
+        "mtime": "2026-01-26T08:13:44.698Z",
+        "hash": "a1c11b311fdeedf73dd44268c4729ab99c25852bce6d4f77069538b099c6e1f7"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7102_RUNNING_SHORTS_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7102_RUNNING_SHORTS_front.png",
+        "bytes": 1380065,
+        "mtime": "2026-01-26T08:13:44.751Z",
+        "hash": "8f6eec11554bcae38b12e42ba00f8ae1dcd344ceb4f15d58a589c66110c2a84b"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7102_RUNNING_SHORTS_front.png",
+        "bytes": 1380065,
+        "mtime": "2026-01-26T08:13:44.751Z",
+        "hash": "8f6eec11554bcae38b12e42ba00f8ae1dcd344ceb4f15d58a589c66110c2a84b"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_back.png",
+        "bytes": 2697719,
+        "mtime": "2026-01-26T08:13:46.794Z",
+        "hash": "11d2f0598c72ceaf57f6f5652a0ae220775e71c1c4fd6b175236860e81da2ed9"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_back.png",
+        "bytes": 2697719,
+        "mtime": "2026-01-26T08:13:46.794Z",
+        "hash": "11d2f0598c72ceaf57f6f5652a0ae220775e71c1c4fd6b175236860e81da2ed9"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_front.png",
+        "bytes": 2918746,
+        "mtime": "2026-01-26T08:13:46.871Z",
+        "hash": "b859bd29343e29da1aab7ac80e98942f6ba19bc4bb3c13cb74ca36f5ddb4d010"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_front.png",
+        "bytes": 2918746,
+        "mtime": "2026-01-26T08:13:46.871Z",
+        "hash": "b859bd29343e29da1aab7ac80e98942f6ba19bc4bb3c13cb74ca36f5ddb4d010"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_back.png",
+        "bytes": 2697719,
+        "mtime": "2026-01-26T08:13:46.943Z",
+        "hash": "11d2f0598c72ceaf57f6f5652a0ae220775e71c1c4fd6b175236860e81da2ed9"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_back.png",
+        "bytes": 2697719,
+        "mtime": "2026-01-26T08:13:46.943Z",
+        "hash": "11d2f0598c72ceaf57f6f5652a0ae220775e71c1c4fd6b175236860e81da2ed9"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_front.png",
+        "bytes": 2908984,
+        "mtime": "2026-01-26T08:13:47.015Z",
+        "hash": "9e09a0ac450f99cd435e1714c865709c99a594f9a109e702efc33ab4fd3ca1d9"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_front.png",
+        "bytes": 2908984,
+        "mtime": "2026-01-26T08:13:47.015Z",
+        "hash": "9e09a0ac450f99cd435e1714c865709c99a594f9a109e702efc33ab4fd3ca1d9"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7108.png",
+      "local": {
+        "name": "UOMO/BLSQW7108.png",
+        "bytes": 2168486,
+        "mtime": "2026-05-29T07:19:32.824Z",
+        "hash": "be7233951befc478be7195f4b47ffec5092218dafc63769c19cb15a29504988f"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7108.png",
+        "bytes": 2168486,
+        "mtime": "2026-05-29T07:19:32.824Z",
+        "hash": "be7233951befc478be7195f4b47ffec5092218dafc63769c19cb15a29504988f"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_back.png",
+      "local": {
+        "name": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_back.png",
+        "bytes": 1233480,
+        "mtime": "2026-01-26T08:13:29.551Z",
+        "hash": "1d489f67c38c6359d8ecd4caba4cebdfe09e62f2c9990159590ca32c097ef855"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_back.png",
+        "bytes": 1233480,
+        "mtime": "2026-01-26T08:13:29.551Z",
+        "hash": "1d489f67c38c6359d8ecd4caba4cebdfe09e62f2c9990159590ca32c097ef855"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_front.png",
+      "local": {
+        "name": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_front.png",
+        "bytes": 1364861,
+        "mtime": "2026-01-26T08:13:29.624Z",
+        "hash": "891e3d252e15a4c81595cb86f6a1182939bf8d999a51d24eed606e3a27ca6f9a"
+      },
+      "remote": {
+        "name": "UOMO/BLSQW7901_RUNNING_BODY_PROFLEX_man_front.png",
+        "bytes": 1364861,
+        "mtime": "2026-01-26T08:13:29.624Z",
+        "hash": "891e3d252e15a4c81595cb86f6a1182939bf8d999a51d24eed606e3a27ca6f9a"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/MIGLIORATI/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+      "local": {
+        "name": "UOMO/MIGLIORATI/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+        "bytes": 164940,
+        "mtime": "2026-04-21T09:15:36.490Z",
+        "hash": "4e4c46ca1eb4acb9b0eed50f891253657d4689c4777dbfc3eba1f20bebfbfe4c"
+      },
+      "remote": {
+        "name": "UOMO/MIGLIORATI/BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+        "bytes": 164940,
+        "mtime": "2026-04-21T09:15:36.490Z",
+        "hash": "4e4c46ca1eb4acb9b0eed50f891253657d4689c4777dbfc3eba1f20bebfbfe4c"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/MIGLIORATI/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+      "local": {
+        "name": "UOMO/MIGLIORATI/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+        "bytes": 63296,
+        "mtime": "2026-04-21T09:17:00.167Z",
+        "hash": "1896b44fe1341297c14d8eadfa463f81ddfbd95541d8039ddea83fa0b3bbdd5f"
+      },
+      "remote": {
+        "name": "UOMO/MIGLIORATI/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+        "bytes": 63296,
+        "mtime": "2026-04-21T09:17:00.167Z",
+        "hash": "1896b44fe1341297c14d8eadfa463f81ddfbd95541d8039ddea83fa0b3bbdd5f"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/MIGLIORATI/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+      "local": {
+        "name": "UOMO/MIGLIORATI/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+        "bytes": 127168,
+        "mtime": "2026-04-21T09:17:29.439Z",
+        "hash": "fc4effc7dd07c0afcedfa3bcdbd7b8f9dd8159c80ac2782be7c6fb99ae124cf3"
+      },
+      "remote": {
+        "name": "UOMO/MIGLIORATI/BLSQW7100_RUNNING_MMC_front_V_neck.png",
+        "bytes": 127168,
+        "mtime": "2026-04-21T09:17:29.439Z",
+        "hash": "fc4effc7dd07c0afcedfa3bcdbd7b8f9dd8159c80ac2782be7c6fb99ae124cf3"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2901/1.PNG",
+      "local": {
+        "name": "UOMO/W2901/1.PNG",
+        "bytes": 77656,
+        "mtime": "2026-08-24T09:53:35.856Z",
+        "hash": "7bf76c378e7981355cadcd3986f5e41594f0b457a1a4a1ce74516b8b983c70a2"
+      },
+      "remote": {
+        "name": "UOMO/W2901/1.PNG",
+        "bytes": 79420,
+        "mtime": "2026-04-28T07:17:54.888Z",
+        "hash": "235e814904d959dfe9b05dfbfc652f59772979809f1be1ddeaa7540e4f9b93bf"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2901/2.png",
+      "local": {
+        "name": "UOMO/W2901/2.png",
+        "bytes": 83992,
+        "mtime": "2026-08-24T09:53:24.939Z",
+        "hash": "8304abf6d136e7f66542c4af42506e34e8ec7f14939b06a6c6a7c80425f5ca36"
+      },
+      "remote": {
+        "name": "UOMO/W2901/2.png",
+        "bytes": 70674,
+        "mtime": "2026-04-28T07:19:21.299Z",
+        "hash": "414c5716e0a93b2d372039e4e4181680d674d4359488572ceaf23526b269a7bf"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2901/3.png",
+      "local": {
+        "name": "UOMO/W2901/3.png",
+        "bytes": 116316,
+        "mtime": "2026-08-24T09:53:53.986Z",
+        "hash": "8e4e9fd8c227b298cc6568913d25ef76f752fcbb1648b1f680ae4e7fff8d023b"
+      },
+      "remote": {
+        "name": "UOMO/W2901/3.png",
+        "bytes": 75072,
+        "mtime": "2026-04-28T07:21:20.250Z",
+        "hash": "ae35da889bdf1ccf73c27f6abb4ddcb2e9c77d6d60cd6f0cfa8960346a46d8ed"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2901/4.png",
+      "local": {
+        "name": "UOMO/W2901/4.png",
+        "bytes": 92808,
+        "mtime": "2026-08-24T09:57:36.772Z",
+        "hash": "c50d56ab41ef77fa0c93fe89c836806bfac097f53d6ea11bb023cdc560ab9b09"
+      },
+      "remote": {
+        "name": "UOMO/W2901/4.png",
+        "bytes": 65232,
+        "mtime": "2026-04-28T07:22:53.760Z",
+        "hash": "d21bea80687479ce7e096ae1b382b3570c73e130bb7e28c8721fb96699d406d8"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2901/5.png",
+      "local": {
+        "name": "UOMO/W2901/5.png",
+        "bytes": 1658528,
+        "mtime": "2026-07-20T06:15:19.320Z",
+        "hash": "39f81056fff0cd5d3a57750c862571ed142c2d04be0dd3119691b2beee8fe306"
+      },
+      "remote": {
+        "name": "UOMO/W2901/5.png",
+        "bytes": 178144,
+        "mtime": "2026-04-28T09:06:49.751Z",
+        "hash": "89adcb000630b98c0d03a08d789cf08286a9cd93590d7bf397e061d10e0b18fc"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2901/6.png",
+      "local": {
+        "name": "UOMO/W2901/6.png",
+        "bytes": 1489681,
+        "mtime": "2026-07-20T06:15:46.990Z",
+        "hash": "b995a21f0a490fe53edeb8d1bad01f2079f2bcdb1f388032052f52b2858b7cfc"
+      },
+      "remote": {
+        "name": "UOMO/W2901/6.png",
+        "bytes": 143570,
+        "mtime": "2026-04-28T09:07:08.851Z",
+        "hash": "60db7233560feab5bed81649928afc4e188854bcf19c6ed2c206ca4c46e232b4"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2912/1.png",
+      "local": {
+        "name": "UOMO/W2912/1.png",
+        "bytes": 25053686,
+        "mtime": "2026-04-28T06:42:16.762Z",
+        "hash": "685d728ff4bf7dee7c1bec585487471ef716b92ddc815fde8cf87dba61d0cdb1"
+      },
+      "remote": {
+        "name": "UOMO/W2912/1.png",
+        "bytes": 25053686,
+        "mtime": "2026-04-28T06:42:16.762Z",
+        "hash": "685d728ff4bf7dee7c1bec585487471ef716b92ddc815fde8cf87dba61d0cdb1"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2912/2.png",
+      "local": {
+        "name": "UOMO/W2912/2.png",
+        "bytes": 20254671,
+        "mtime": "2026-04-28T06:42:18.077Z",
+        "hash": "46a47f83fcaf72a82b8068c59ba09cda5e68fdbaed413a054fec9f42267e43e8"
+      },
+      "remote": {
+        "name": "UOMO/W2912/2.png",
+        "bytes": 20254671,
+        "mtime": "2026-04-28T06:42:18.077Z",
+        "hash": "46a47f83fcaf72a82b8068c59ba09cda5e68fdbaed413a054fec9f42267e43e8"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2912/3.png",
+      "local": {
+        "name": "UOMO/W2912/3.png",
+        "bytes": 18897948,
+        "mtime": "2026-04-28T06:42:18.874Z",
+        "hash": "94e2bf2c30670746d1da59d4a39b5b964e46dae1bbb0e143e0d92a91e66f3311"
+      },
+      "remote": {
+        "name": "UOMO/W2912/3.png",
+        "bytes": 18897948,
+        "mtime": "2026-04-28T06:42:18.874Z",
+        "hash": "94e2bf2c30670746d1da59d4a39b5b964e46dae1bbb0e143e0d92a91e66f3311"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2912/4.png",
+      "local": {
+        "name": "UOMO/W2912/4.png",
+        "bytes": 18545541,
+        "mtime": "2026-04-28T06:42:17.340Z",
+        "hash": "e0bd19395a63f30d6cf7ff44805e1ac251e2ff5f785a17c9d0d5cffd8bca30dd"
+      },
+      "remote": {
+        "name": "UOMO/W2912/4.png",
+        "bytes": 18545541,
+        "mtime": "2026-04-28T06:42:17.340Z",
+        "hash": "e0bd19395a63f30d6cf7ff44805e1ac251e2ff5f785a17c9d0d5cffd8bca30dd"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2912/5.png",
+      "local": {
+        "name": "UOMO/W2912/5.png",
+        "bytes": 397727,
+        "mtime": "2026-07-20T06:13:37.571Z",
+        "hash": "34f8a062bb2f23ddac655c34dc2e5f3c9acb487567c36201cba2040f6e5ea640"
+      },
+      "remote": {
+        "name": "UOMO/W2912/5.png",
+        "bytes": 42052,
+        "mtime": "2026-04-28T09:06:06.960Z",
+        "hash": "9616f9265ef053789f65bc1f931ed3534822f0f5774434068b217f4157dff760"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W2912/6.png",
+      "local": {
+        "name": "UOMO/W2912/6.png",
+        "bytes": 28114,
+        "mtime": "2026-04-28T09:04:11.950Z",
+        "hash": "2fcbfd46d4b384758e8be744ec9e8cd2a60de0406bd001b5c600a6cb0695d806"
+      },
+      "remote": {
+        "name": "UOMO/W2912/6.png",
+        "bytes": 28114,
+        "mtime": "2026-04-28T09:04:11.950Z",
+        "hash": "2fcbfd46d4b384758e8be744ec9e8cd2a60de0406bd001b5c600a6cb0695d806"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/1.png",
+      "local": {
+        "name": "UOMO/W2919/1.png",
+        "bytes": 84262,
+        "mtime": "2026-04-28T06:33:27.818Z",
+        "hash": "ef16ad6ecfd7f2e11ae368c3d9a3d5cd33e44bb4b5171fe83c06283b8903f756"
+      },
+      "remote": {
+        "name": "UOMO/W2919/1.png",
+        "bytes": 84262,
+        "mtime": "2026-04-28T06:33:27.818Z",
+        "hash": "ef16ad6ecfd7f2e11ae368c3d9a3d5cd33e44bb4b5171fe83c06283b8903f756"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/2.png",
+      "local": {
+        "name": "UOMO/W2919/2.png",
+        "bytes": 81686,
+        "mtime": "2026-04-28T06:34:40.965Z",
+        "hash": "4209e94128afefa4fedb9de4dfc6ac58ba65eb4f63dab6c6473ab9dc0c33895d"
+      },
+      "remote": {
+        "name": "UOMO/W2919/2.png",
+        "bytes": 81686,
+        "mtime": "2026-04-28T06:34:40.965Z",
+        "hash": "4209e94128afefa4fedb9de4dfc6ac58ba65eb4f63dab6c6473ab9dc0c33895d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/3.png",
+      "local": {
+        "name": "UOMO/W2919/3.png",
+        "bytes": 82602,
+        "mtime": "2026-04-28T06:35:04.476Z",
+        "hash": "d436ee79a3d0855dafcf0c91b828d1c61ab582b80c6d13d55bd0d3dd8af67774"
+      },
+      "remote": {
+        "name": "UOMO/W2919/3.png",
+        "bytes": 82602,
+        "mtime": "2026-04-28T06:35:04.476Z",
+        "hash": "d436ee79a3d0855dafcf0c91b828d1c61ab582b80c6d13d55bd0d3dd8af67774"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/4.PNG",
+      "local": {
+        "name": "UOMO/W2919/4.PNG",
+        "bytes": 51800,
+        "mtime": "2026-04-28T06:44:15.310Z",
+        "hash": "45f0072f0dc82e70bb4ffb0e4252fdaa23466adcba408553c348fa00c8afb18d"
+      },
+      "remote": {
+        "name": "UOMO/W2919/4.PNG",
+        "bytes": 51800,
+        "mtime": "2026-04-28T06:44:15.310Z",
+        "hash": "45f0072f0dc82e70bb4ffb0e4252fdaa23466adcba408553c348fa00c8afb18d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/5.png",
+      "local": {
+        "name": "UOMO/W2919/5.png",
+        "bytes": 144990,
+        "mtime": "2026-04-28T08:59:53.759Z",
+        "hash": "ffcf1f316f71112fa0887d3a52179f106027fe5095ece17709a77db12a5354b0"
+      },
+      "remote": {
+        "name": "UOMO/W2919/5.png",
+        "bytes": 144990,
+        "mtime": "2026-04-28T08:59:53.759Z",
+        "hash": "ffcf1f316f71112fa0887d3a52179f106027fe5095ece17709a77db12a5354b0"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W2919/6.png",
+      "local": {
+        "name": "UOMO/W2919/6.png",
+        "bytes": 47222,
+        "mtime": "2026-04-28T08:58:03.369Z",
+        "hash": "c95b13e9e1132e39df21ef55656bb2a96e457059b56a6128ee2b57164e11062d"
+      },
+      "remote": {
+        "name": "UOMO/W2919/6.png",
+        "bytes": 47222,
+        "mtime": "2026-04-28T08:58:03.369Z",
+        "hash": "c95b13e9e1132e39df21ef55656bb2a96e457059b56a6128ee2b57164e11062d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W3701/1.png",
+      "local": {
+        "name": "UOMO/W3701/1.png",
+        "bytes": 76804,
+        "mtime": "2026-08-24T08:34:18.197Z",
+        "hash": "e12d4e743106282263c25cbe03d085014fd9e725ef2ff2450793c222aecc916f"
+      },
+      "remote": {
+        "name": "UOMO/W3701/1.png",
+        "bytes": 70348,
+        "mtime": "2026-04-28T07:48:34.039Z",
+        "hash": "1d1328902a83d0c597d7a2b61d783961cd94a0553178695b9708720a1c1dd377"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W3701/2.png",
+      "local": {
+        "name": "UOMO/W3701/2.png",
+        "bytes": 81048,
+        "mtime": "2026-08-24T08:34:32.947Z",
+        "hash": "3db257c9b24dbacc408775a593f6e93369c36148f2896250630e3337db972f41"
+      },
+      "remote": {
+        "name": "UOMO/W3701/2.png",
+        "bytes": 67888,
+        "mtime": "2026-04-28T07:53:27.767Z",
+        "hash": "8d01dc4b4b51c8fca82d57a0d4608a22c1c88c0f3ef5798a7955a2de8aa04277"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W3701/3.png",
+      "local": {
+        "name": "UOMO/W3701/3.png",
+        "bytes": 71436,
+        "mtime": "2026-08-24T08:50:06.402Z",
+        "hash": "ff98ed6e69e8626743a138d64069e206aa45c1c15e24f8318441283ad362da56"
+      },
+      "remote": {
+        "name": "UOMO/W3701/3.png",
+        "bytes": 75424,
+        "mtime": "2026-04-28T07:59:24.474Z",
+        "hash": "b5d977e357edba4426427a3f0f2c6ed5d42321a1d83e53fc80f01d7800ff4c4b"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W3701/4.png",
+      "local": {
+        "name": "UOMO/W3701/4.png",
+        "bytes": 67908,
+        "mtime": "2026-08-24T08:33:59.826Z",
+        "hash": "180b9efb40d0d9dc644608e60eea41f2a1c0d492a8711e8288fca353bc4fea51"
+      },
+      "remote": {
+        "name": "UOMO/W3701/4.png",
+        "bytes": 68800,
+        "mtime": "2026-04-28T08:02:49.072Z",
+        "hash": "9cced2f32f9eb04c4fb929abea071035b49be65bc76d57da3b06570771ba813d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W3701/5.png",
+      "local": {
+        "name": "UOMO/W3701/5.png",
+        "bytes": 178592,
+        "mtime": "2026-04-28T09:09:34.212Z",
+        "hash": "b1a254c298c99b526e8c6f3c3847a4fe858f0c5a3c5098812422349341e729dd"
+      },
+      "remote": {
+        "name": "UOMO/W3701/5.png",
+        "bytes": 178592,
+        "mtime": "2026-04-28T09:09:34.212Z",
+        "hash": "b1a254c298c99b526e8c6f3c3847a4fe858f0c5a3c5098812422349341e729dd"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W3701/6.png",
+      "local": {
+        "name": "UOMO/W3701/6.png",
+        "bytes": 142928,
+        "mtime": "2026-04-28T09:09:23.092Z",
+        "hash": "f3a8e79b978fb39cf97fce986ee31241677710122e606e562c9809017429dc42"
+      },
+      "remote": {
+        "name": "UOMO/W3701/6.png",
+        "bytes": 142928,
+        "mtime": "2026-04-28T09:09:23.092Z",
+        "hash": "f3a8e79b978fb39cf97fce986ee31241677710122e606e562c9809017429dc42"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/1.png",
+      "local": {
+        "name": "UOMO/W7015/1.png",
+        "bytes": 9337295,
+        "mtime": "2026-04-28T06:29:56.751Z",
+        "hash": "8cd0d275fccbf32c0dba9318dcc05be25d7fbcec960d7d963426273157dca008"
+      },
+      "remote": {
+        "name": "UOMO/W7015/1.png",
+        "bytes": 9337295,
+        "mtime": "2026-04-28T06:29:56.751Z",
+        "hash": "8cd0d275fccbf32c0dba9318dcc05be25d7fbcec960d7d963426273157dca008"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/2.png",
+      "local": {
+        "name": "UOMO/W7015/2.png",
+        "bytes": 19725052,
+        "mtime": "2026-04-28T06:29:56.291Z",
+        "hash": "f122eb413119b418c24de3ad2c2f9ac46ecd56e3bb2cddb31d3966ea32330d44"
+      },
+      "remote": {
+        "name": "UOMO/W7015/2.png",
+        "bytes": 19725052,
+        "mtime": "2026-04-28T06:29:56.291Z",
+        "hash": "f122eb413119b418c24de3ad2c2f9ac46ecd56e3bb2cddb31d3966ea32330d44"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/3.png",
+      "local": {
+        "name": "UOMO/W7015/3.png",
+        "bytes": 20244616,
+        "mtime": "2026-04-28T06:29:55.660Z",
+        "hash": "ef90d23c88092ac0854ae876927f27e8751309d980b12b91b2d7e6420d138ceb"
+      },
+      "remote": {
+        "name": "UOMO/W7015/3.png",
+        "bytes": 20244616,
+        "mtime": "2026-04-28T06:29:55.660Z",
+        "hash": "ef90d23c88092ac0854ae876927f27e8751309d980b12b91b2d7e6420d138ceb"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/4.png",
+      "local": {
+        "name": "UOMO/W7015/4.png",
+        "bytes": 19081359,
+        "mtime": "2026-04-28T06:29:57.557Z",
+        "hash": "baee26594b68a7f17b1af624e480874fc2e1f0c18f70ebbef077c518f42b364d"
+      },
+      "remote": {
+        "name": "UOMO/W7015/4.png",
+        "bytes": 19081359,
+        "mtime": "2026-04-28T06:29:57.557Z",
+        "hash": "baee26594b68a7f17b1af624e480874fc2e1f0c18f70ebbef077c518f42b364d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/5.png",
+      "local": {
+        "name": "UOMO/W7015/5.png",
+        "bytes": 73552,
+        "mtime": "2026-04-28T09:00:54.011Z",
+        "hash": "e64ed9e27d4e9cb820c7d2f1ec477423e74827d8929ef903d42801c4c66784c0"
+      },
+      "remote": {
+        "name": "UOMO/W7015/5.png",
+        "bytes": 73552,
+        "mtime": "2026-04-28T09:00:54.011Z",
+        "hash": "e64ed9e27d4e9cb820c7d2f1ec477423e74827d8929ef903d42801c4c66784c0"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7015/6.png",
+      "local": {
+        "name": "UOMO/W7015/6.png",
+        "bytes": 480642,
+        "mtime": "2026-07-20T06:18:19.527Z",
+        "hash": "7c64a6d170ed3d49c89127aff2a0b4d8e71119acff4e00bd40f4f9c69dfa9987"
+      },
+      "remote": {
+        "name": "UOMO/W7015/6.png",
+        "bytes": 48546,
+        "mtime": "2026-04-28T09:01:14.047Z",
+        "hash": "d6b8509d40dbcb1974e017f329cad1dc630640b9de581e803358c9fe3e92b3e1"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7100/1.png",
+      "local": {
+        "name": "UOMO/W7100/1.png",
+        "bytes": 84224,
+        "mtime": "2026-07-20T08:25:35.701Z",
+        "hash": "77315956376bee3b44d0eb38b00332ff721ed8d1e17a02758bfcce4aae528dc2"
+      },
+      "remote": {
+        "name": "UOMO/W7100/1.png",
+        "bytes": 9337295,
+        "mtime": "2026-04-28T06:29:56.751Z",
+        "hash": "8cd0d275fccbf32c0dba9318dcc05be25d7fbcec960d7d963426273157dca008"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7100/2.png",
+      "local": {
+        "name": "UOMO/W7100/2.png",
+        "bytes": 91814,
+        "mtime": "2026-07-20T08:25:55.187Z",
+        "hash": "c8e9cc6af1c288c3904acc5e9e4dea63860611988fe2fffb2482e934c493bae2"
+      },
+      "remote": {
+        "name": "UOMO/W7100/2.png",
+        "bytes": 19725052,
+        "mtime": "2026-04-28T06:29:56.291Z",
+        "hash": "f122eb413119b418c24de3ad2c2f9ac46ecd56e3bb2cddb31d3966ea32330d44"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7100/3.png",
+      "local": {
+        "name": "UOMO/W7100/3.png",
+        "bytes": 93900,
+        "mtime": "2026-07-20T08:26:08.382Z",
+        "hash": "5bd51cffc9f8f0dea005e6b70de526fba4e7668cfa79ef8396df01edacbc267d"
+      },
+      "remote": {
+        "name": "UOMO/W7100/3.png",
+        "bytes": 20244616,
+        "mtime": "2026-04-28T06:29:55.660Z",
+        "hash": "ef90d23c88092ac0854ae876927f27e8751309d980b12b91b2d7e6420d138ceb"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7100/4.png",
+      "local": {
+        "name": "UOMO/W7100/4.png",
+        "bytes": 58370,
+        "mtime": "2026-07-20T08:32:52.099Z",
+        "hash": "b0bd8ce2f7cc237bdfd171c6b4e4c4ea48229db0206a23b760350f52450c856f"
+      },
+      "remote": {
+        "name": "UOMO/W7100/4.png",
+        "bytes": 19081359,
+        "mtime": "2026-04-28T06:29:57.557Z",
+        "hash": "baee26594b68a7f17b1af624e480874fc2e1f0c18f70ebbef077c518f42b364d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7100/5.png",
+      "local": {
+        "name": "UOMO/W7100/5.png",
+        "bytes": 148206,
+        "mtime": "2026-04-28T08:03:51.970Z",
+        "hash": "c8db728bf832929879adac63954109c7694252cc61b0f580368341c2995efab8"
+      },
+      "remote": {
+        "name": "UOMO/W7100/5.png",
+        "bytes": 148206,
+        "mtime": "2026-04-28T08:03:51.970Z",
+        "hash": "c8db728bf832929879adac63954109c7694252cc61b0f580368341c2995efab8"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7100/6.png",
+      "local": {
+        "name": "UOMO/W7100/6.png",
+        "bytes": 70742,
+        "mtime": "2026-04-28T08:51:10.759Z",
+        "hash": "7e2f3035e56e70a2d15e10821098040f8191f3b7fe2d01a344b131c3912ec79e"
+      },
+      "remote": {
+        "name": "UOMO/W7100/6.png",
+        "bytes": 70742,
+        "mtime": "2026-04-28T08:51:10.759Z",
+        "hash": "7e2f3035e56e70a2d15e10821098040f8191f3b7fe2d01a344b131c3912ec79e"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/1.png",
+      "local": {
+        "name": "UOMO/W7101/1.png",
+        "bytes": 84262,
+        "mtime": "2026-04-28T06:33:27.818Z",
+        "hash": "ef16ad6ecfd7f2e11ae368c3d9a3d5cd33e44bb4b5171fe83c06283b8903f756"
+      },
+      "remote": {
+        "name": "UOMO/W7101/1.png",
+        "bytes": 84262,
+        "mtime": "2026-04-28T06:33:27.818Z",
+        "hash": "ef16ad6ecfd7f2e11ae368c3d9a3d5cd33e44bb4b5171fe83c06283b8903f756"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/2.png",
+      "local": {
+        "name": "UOMO/W7101/2.png",
+        "bytes": 81686,
+        "mtime": "2026-04-28T06:34:40.965Z",
+        "hash": "4209e94128afefa4fedb9de4dfc6ac58ba65eb4f63dab6c6473ab9dc0c33895d"
+      },
+      "remote": {
+        "name": "UOMO/W7101/2.png",
+        "bytes": 81686,
+        "mtime": "2026-04-28T06:34:40.965Z",
+        "hash": "4209e94128afefa4fedb9de4dfc6ac58ba65eb4f63dab6c6473ab9dc0c33895d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/3.png",
+      "local": {
+        "name": "UOMO/W7101/3.png",
+        "bytes": 82602,
+        "mtime": "2026-04-28T06:35:04.476Z",
+        "hash": "d436ee79a3d0855dafcf0c91b828d1c61ab582b80c6d13d55bd0d3dd8af67774"
+      },
+      "remote": {
+        "name": "UOMO/W7101/3.png",
+        "bytes": 82602,
+        "mtime": "2026-04-28T06:35:04.476Z",
+        "hash": "d436ee79a3d0855dafcf0c91b828d1c61ab582b80c6d13d55bd0d3dd8af67774"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/4.PNG",
+      "local": {
+        "name": "UOMO/W7101/4.PNG",
+        "bytes": 51800,
+        "mtime": "2026-04-28T06:44:15.310Z",
+        "hash": "45f0072f0dc82e70bb4ffb0e4252fdaa23466adcba408553c348fa00c8afb18d"
+      },
+      "remote": {
+        "name": "UOMO/W7101/4.PNG",
+        "bytes": 51800,
+        "mtime": "2026-04-28T06:44:15.310Z",
+        "hash": "45f0072f0dc82e70bb4ffb0e4252fdaa23466adcba408553c348fa00c8afb18d"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/5.png",
+      "local": {
+        "name": "UOMO/W7101/5.png",
+        "bytes": 143950,
+        "mtime": "2026-04-28T08:04:32.077Z",
+        "hash": "d0c6268b901d96f1efc2822a204bc1e7d786cba2f8e9a9ee4cef1450f4d40e6f"
+      },
+      "remote": {
+        "name": "UOMO/W7101/5.png",
+        "bytes": 143950,
+        "mtime": "2026-04-28T08:04:32.077Z",
+        "hash": "d0c6268b901d96f1efc2822a204bc1e7d786cba2f8e9a9ee4cef1450f4d40e6f"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7101/6.png",
+      "local": {
+        "name": "UOMO/W7101/6.png",
+        "bytes": 157792,
+        "mtime": "2026-04-28T08:53:38.003Z",
+        "hash": "7eb5846483582920927c3a3955eef875dbdcaedc54654a168cfe72ba273eff75"
+      },
+      "remote": {
+        "name": "UOMO/W7101/6.png",
+        "bytes": 157792,
+        "mtime": "2026-04-28T08:53:38.003Z",
+        "hash": "7eb5846483582920927c3a3955eef875dbdcaedc54654a168cfe72ba273eff75"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7102/1.png",
+      "local": {
+        "name": "UOMO/W7102/1.png",
+        "bytes": 77426,
+        "mtime": "2026-08-24T09:23:52.648Z",
+        "hash": "b5d1fe8499d66a9b155cc523a9b0e6bc4e87421ea73cc214f8c2384af51e1611"
+      },
+      "remote": {
+        "name": "UOMO/W7102/1.png",
+        "bytes": 9337295,
+        "mtime": "2026-04-28T06:29:56.751Z",
+        "hash": "8cd0d275fccbf32c0dba9318dcc05be25d7fbcec960d7d963426273157dca008"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7102/2.png",
+      "local": {
+        "name": "UOMO/W7102/2.png",
+        "bytes": 87778,
+        "mtime": "2026-08-24T09:24:43.524Z",
+        "hash": "55b601d20703e1adea32ea4887346c4faebb0dde7ce48a1be6aaf658fd9e428a"
+      },
+      "remote": {
+        "name": "UOMO/W7102/2.png",
+        "bytes": 19725052,
+        "mtime": "2026-04-28T06:29:56.291Z",
+        "hash": "f122eb413119b418c24de3ad2c2f9ac46ecd56e3bb2cddb31d3966ea32330d44"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7102/3.png",
+      "local": {
+        "name": "UOMO/W7102/3.png",
+        "bytes": 74812,
+        "mtime": "2026-08-24T09:34:22.166Z",
+        "hash": "41e65199a0af64ee92a94bbfba90f9026e7a22c5376271096e58f1365f680971"
+      },
+      "remote": {
+        "name": "UOMO/W7102/3.png",
+        "bytes": 20244616,
+        "mtime": "2026-04-28T06:29:55.660Z",
+        "hash": "ef90d23c88092ac0854ae876927f27e8751309d980b12b91b2d7e6420d138ceb"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7102/4.png",
+      "local": {
+        "name": "UOMO/W7102/4.png",
+        "bytes": 55110,
+        "mtime": "2026-08-24T09:27:03.806Z",
+        "hash": "db294a94eef1f9a1390f2645333cdfa9df60f4fdcb45f9ea97a22069d5ff0da6"
+      },
+      "remote": {
+        "name": "UOMO/W7102/4.png",
+        "bytes": 19081359,
+        "mtime": "2026-04-28T06:29:57.557Z",
+        "hash": "baee26594b68a7f17b1af624e480874fc2e1f0c18f70ebbef077c518f42b364d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7102/5.png",
+      "local": {
+        "name": "UOMO/W7102/5.png",
+        "bytes": 228974,
+        "mtime": "2026-08-24T09:12:48.693Z",
+        "hash": "b3ced8b0a296f9e9fdf1b59ac6a64c48ec46f7b96bed1b35f546cb888cb766a1"
+      },
+      "remote": {
+        "name": "UOMO/W7102/5.png",
+        "bytes": 73552,
+        "mtime": "2026-04-28T09:00:54.011Z",
+        "hash": "e64ed9e27d4e9cb820c7d2f1ec477423e74827d8929ef903d42801c4c66784c0"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7102/6.png",
+      "local": {
+        "name": "UOMO/W7102/6.png",
+        "bytes": 53984,
+        "mtime": "2026-08-24T09:15:33.238Z",
+        "hash": "a8124761dc9761683d11c1e5c87467741d5ab1251c5941289400bbb91931b4b8"
+      },
+      "remote": {
+        "name": "UOMO/W7102/6.png",
+        "bytes": 48546,
+        "mtime": "2026-04-28T09:01:14.047Z",
+        "hash": "d6b8509d40dbcb1974e017f329cad1dc630640b9de581e803358c9fe3e92b3e1"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/1.png",
+      "local": {
+        "name": "UOMO/W7106/1.png",
+        "bytes": 80404,
+        "mtime": "2026-08-26T06:12:03.697Z",
+        "hash": "91127f53ac380b18bec3259caa7384ebacbf455e77f9d99c3f3c84996b92cb0b"
+      },
+      "remote": {
+        "name": "UOMO/W7106/1.png",
+        "bytes": 25053686,
+        "mtime": "2026-04-28T06:42:16.762Z",
+        "hash": "685d728ff4bf7dee7c1bec585487471ef716b92ddc815fde8cf87dba61d0cdb1"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/2.png",
+      "local": {
+        "name": "UOMO/W7106/2.png",
+        "bytes": 84322,
+        "mtime": "2026-08-26T06:12:22.645Z",
+        "hash": "3c839f471c28ae3f7e1fc9b29f63e6942720584ed855a47927e78fa957454e29"
+      },
+      "remote": {
+        "name": "UOMO/W7106/2.png",
+        "bytes": 20254671,
+        "mtime": "2026-04-28T06:42:18.077Z",
+        "hash": "46a47f83fcaf72a82b8068c59ba09cda5e68fdbaed413a054fec9f42267e43e8"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/3.png",
+      "local": {
+        "name": "UOMO/W7106/3.png",
+        "bytes": 97886,
+        "mtime": "2026-08-26T06:15:00.054Z",
+        "hash": "13fe4bbab07c294c2735b481949750f2834590534c2809f84e385c75dfece571"
+      },
+      "remote": {
+        "name": "UOMO/W7106/3.png",
+        "bytes": 18897948,
+        "mtime": "2026-04-28T06:42:18.874Z",
+        "hash": "94e2bf2c30670746d1da59d4a39b5b964e46dae1bbb0e143e0d92a91e66f3311"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/4.png",
+      "local": {
+        "name": "UOMO/W7106/4.png",
+        "bytes": 63348,
+        "mtime": "2026-08-26T06:18:02.944Z",
+        "hash": "63fda9f363d6d1269d31e70ab8565c5511145525bd1ca3fc55ca6a70f5976873"
+      },
+      "remote": {
+        "name": "UOMO/W7106/4.png",
+        "bytes": 18545541,
+        "mtime": "2026-04-28T06:42:17.340Z",
+        "hash": "e0bd19395a63f30d6cf7ff44805e1ac251e2ff5f785a17c9d0d5cffd8bca30dd"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/5.png",
+      "local": {
+        "name": "UOMO/W7106/5.png",
+        "bytes": 1467458,
+        "mtime": "2026-07-20T06:16:37.558Z",
+        "hash": "f447d7460259baaa236cfbd11a30ba97675a4d730ef603c0933a66d1419aaa26"
+      },
+      "remote": {
+        "name": "UOMO/W7106/5.png",
+        "bytes": 142354,
+        "mtime": "2026-04-28T09:08:34.826Z",
+        "hash": "fb64a7659c0b16e4a6d91b530060a99398703377a6eecb437e25007389969e9f"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7106/6.png",
+      "local": {
+        "name": "UOMO/W7106/6.png",
+        "bytes": 185166,
+        "mtime": "2026-04-28T09:07:55.796Z",
+        "hash": "e70b455e76a3ce8d6af855e0f44b79ed857842ed6c8ca6fa96d9c36968a90d0a"
+      },
+      "remote": {
+        "name": "UOMO/W7106/6.png",
+        "bytes": 185166,
+        "mtime": "2026-04-28T09:07:55.796Z",
+        "hash": "e70b455e76a3ce8d6af855e0f44b79ed857842ed6c8ca6fa96d9c36968a90d0a"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7107/1.png",
+      "local": {
+        "name": "UOMO/W7107/1.png",
+        "bytes": 25053686,
+        "mtime": "2026-04-28T06:42:16.762Z",
+        "hash": "685d728ff4bf7dee7c1bec585487471ef716b92ddc815fde8cf87dba61d0cdb1"
+      },
+      "remote": {
+        "name": "UOMO/W7107/1.png",
+        "bytes": 25053686,
+        "mtime": "2026-04-28T06:42:16.762Z",
+        "hash": "685d728ff4bf7dee7c1bec585487471ef716b92ddc815fde8cf87dba61d0cdb1"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7107/2.png",
+      "local": {
+        "name": "UOMO/W7107/2.png",
+        "bytes": 20254671,
+        "mtime": "2026-04-28T06:42:18.077Z",
+        "hash": "46a47f83fcaf72a82b8068c59ba09cda5e68fdbaed413a054fec9f42267e43e8"
+      },
+      "remote": {
+        "name": "UOMO/W7107/2.png",
+        "bytes": 20254671,
+        "mtime": "2026-04-28T06:42:18.077Z",
+        "hash": "46a47f83fcaf72a82b8068c59ba09cda5e68fdbaed413a054fec9f42267e43e8"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7107/3.png",
+      "local": {
+        "name": "UOMO/W7107/3.png",
+        "bytes": 18897948,
+        "mtime": "2026-04-28T06:42:18.874Z",
+        "hash": "94e2bf2c30670746d1da59d4a39b5b964e46dae1bbb0e143e0d92a91e66f3311"
+      },
+      "remote": {
+        "name": "UOMO/W7107/3.png",
+        "bytes": 18897948,
+        "mtime": "2026-04-28T06:42:18.874Z",
+        "hash": "94e2bf2c30670746d1da59d4a39b5b964e46dae1bbb0e143e0d92a91e66f3311"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7107/4.png",
+      "local": {
+        "name": "UOMO/W7107/4.png",
+        "bytes": 18545541,
+        "mtime": "2026-04-28T06:42:17.340Z",
+        "hash": "e0bd19395a63f30d6cf7ff44805e1ac251e2ff5f785a17c9d0d5cffd8bca30dd"
+      },
+      "remote": {
+        "name": "UOMO/W7107/4.png",
+        "bytes": 18545541,
+        "mtime": "2026-04-28T06:42:17.340Z",
+        "hash": "e0bd19395a63f30d6cf7ff44805e1ac251e2ff5f785a17c9d0d5cffd8bca30dd"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7107/5.png",
+      "local": {
+        "name": "UOMO/W7107/5.png",
+        "bytes": 1467458,
+        "mtime": "2026-07-20T06:17:24.668Z",
+        "hash": "b1d1413412db434703fe949923a4b417fe4555faf6bcd9259986ced501b6c44f"
+      },
+      "remote": {
+        "name": "UOMO/W7107/5.png",
+        "bytes": 142354,
+        "mtime": "2026-04-28T09:08:34.826Z",
+        "hash": "fb64a7659c0b16e4a6d91b530060a99398703377a6eecb437e25007389969e9f"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7107/6.png",
+      "local": {
+        "name": "UOMO/W7107/6.png",
+        "bytes": 185166,
+        "mtime": "2026-04-28T09:07:55.796Z",
+        "hash": "e70b455e76a3ce8d6af855e0f44b79ed857842ed6c8ca6fa96d9c36968a90d0a"
+      },
+      "remote": {
+        "name": "UOMO/W7107/6.png",
+        "bytes": 185166,
+        "mtime": "2026-04-28T09:07:55.796Z",
+        "hash": "e70b455e76a3ce8d6af855e0f44b79ed857842ed6c8ca6fa96d9c36968a90d0a"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7108/1.png",
+      "local": {
+        "name": "UOMO/W7108/1.png",
+        "bytes": 82902,
+        "mtime": "2026-07-21T08:26:28.855Z",
+        "hash": "12a91638883683043088b81bbfa4b3b0b818e2617832a3f36a599f5f8d68f78b"
+      },
+      "remote": {
+        "name": "UOMO/W7108/1.png",
+        "bytes": 78152,
+        "mtime": "2026-04-28T07:29:22.805Z",
+        "hash": "56d370fbad91e4949675cdcba0acc9374a371260cf98f90bc8e44e8fa1791669"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7108/2.png",
+      "local": {
+        "name": "UOMO/W7108/2.png",
+        "bytes": 82416,
+        "mtime": "2026-07-21T08:24:14.166Z",
+        "hash": "74ca57ea75590a7e43c2c664012de0fe811be4da9a7c76ae9d57f3855d9e5eb6"
+      },
+      "remote": {
+        "name": "UOMO/W7108/2.png",
+        "bytes": 106550,
+        "mtime": "2026-04-28T07:31:08.359Z",
+        "hash": "d53a1902e19072abadeab84e6ef034537b74e24b98c5f0b9ed3a324090e8900d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7108/3.png",
+      "local": {
+        "name": "UOMO/W7108/3.png",
+        "bytes": 123800,
+        "mtime": "2026-07-21T08:39:14.869Z",
+        "hash": "3e642e62b484c1aac4a51a188cff5c1a5cf2c7ad5523ed828a957e13c2d25cdd"
+      },
+      "remote": {
+        "name": "UOMO/W7108/3.png",
+        "bytes": 82994,
+        "mtime": "2026-04-28T07:33:31.601Z",
+        "hash": "3b4138c18c45657403744937e3cab9397fb718aa5872d53b0425828479fed817"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7108/4.png",
+      "local": {
+        "name": "UOMO/W7108/4.png",
+        "bytes": 109506,
+        "mtime": "2026-08-24T09:06:27.307Z",
+        "hash": "27c4b6803721828b4a49a68195dc382b272922a745c8cf6af75ba2ef3a61d496"
+      },
+      "remote": {
+        "name": "UOMO/W7108/4.png",
+        "bytes": 74902,
+        "mtime": "2026-04-28T07:38:39.712Z",
+        "hash": "a37875f5bf943cea5d86aabb8aaaa2351a8fdc7c3769f69950170d9c8ac7e4f4"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7108/5.png",
+      "local": {
+        "name": "UOMO/W7108/5.png",
+        "bytes": 173020,
+        "mtime": "2026-04-28T08:54:57.039Z",
+        "hash": "fcd305383ced21c4d922573f2153a2e9612180a4a7e74f2296044b1aa9b3d70b"
+      },
+      "remote": {
+        "name": "UOMO/W7108/5.png",
+        "bytes": 173020,
+        "mtime": "2026-04-28T08:54:57.039Z",
+        "hash": "fcd305383ced21c4d922573f2153a2e9612180a4a7e74f2296044b1aa9b3d70b"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7108/6.png",
+      "local": {
+        "name": "UOMO/W7108/6.png",
+        "bytes": 1564214,
+        "mtime": "2026-08-24T09:04:13.058Z",
+        "hash": "2b16796a1988e5d82457deaa9016919f6383a3982b182ceddc649131b95beae6"
+      },
+      "remote": {
+        "name": "UOMO/W7108/6.png",
+        "bytes": 131464,
+        "mtime": "2026-04-28T08:55:12.181Z",
+        "hash": "2cfceedf3c33eb195cdab4f02601441a1ec1a9f6271777b940f7821ac0a32fa4"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/1.png",
+      "local": {
+        "name": "UOMO/W7112/1.png",
+        "bytes": 78622,
+        "mtime": "2026-07-20T07:09:24.739Z",
+        "hash": "6b70faec79c610948a80b503bf1a52136139ebb59685aebd3c2a524209368bc8"
+      },
+      "remote": {
+        "name": "UOMO/W7112/1.png",
+        "bytes": 84262,
+        "mtime": "2026-04-28T06:33:27.818Z",
+        "hash": "ef16ad6ecfd7f2e11ae368c3d9a3d5cd33e44bb4b5171fe83c06283b8903f756"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/2.png",
+      "local": {
+        "name": "UOMO/W7112/2.png",
+        "bytes": 82616,
+        "mtime": "2026-07-21T07:04:37.223Z",
+        "hash": "c4ad95b1ae813e458d453f99698453b93e9e71a6a2fd5ffda11e8c924a2eef2f"
+      },
+      "remote": {
+        "name": "UOMO/W7112/2.png",
+        "bytes": 81686,
+        "mtime": "2026-04-28T06:34:40.965Z",
+        "hash": "4209e94128afefa4fedb9de4dfc6ac58ba65eb4f63dab6c6473ab9dc0c33895d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/3.png",
+      "local": {
+        "name": "UOMO/W7112/3.png",
+        "bytes": 92494,
+        "mtime": "2026-07-21T07:10:25.623Z",
+        "hash": "6e2d94cf2b88d6e05b70f8eaf27ffe8c4c486ceac4ee104adf2d78b21477e26e"
+      },
+      "remote": {
+        "name": "UOMO/W7112/3.png",
+        "bytes": 82602,
+        "mtime": "2026-04-28T06:35:04.476Z",
+        "hash": "d436ee79a3d0855dafcf0c91b828d1c61ab582b80c6d13d55bd0d3dd8af67774"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/4.PNG",
+      "local": {
+        "name": "UOMO/W7112/4.PNG",
+        "bytes": 55520,
+        "mtime": "2026-07-20T07:16:13.287Z",
+        "hash": "22524f80c28a21d97cbec92305fdf93e050fd90fe8882c36be4f99399d70df0b"
+      },
+      "remote": {
+        "name": "UOMO/W7112/4.PNG",
+        "bytes": 51800,
+        "mtime": "2026-04-28T06:44:15.310Z",
+        "hash": "45f0072f0dc82e70bb4ffb0e4252fdaa23466adcba408553c348fa00c8afb18d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/5.png",
+      "local": {
+        "name": "UOMO/W7112/5.png",
+        "bytes": 96564,
+        "mtime": "2026-07-20T07:20:40.493Z",
+        "hash": "d08efdd24ab4defa5bf353722512a6b34f109f186c10d7d6ef81f58d3e5b2161"
+      },
+      "remote": {
+        "name": "UOMO/W7112/5.png",
+        "bytes": 144990,
+        "mtime": "2026-04-28T08:59:53.759Z",
+        "hash": "ffcf1f316f71112fa0887d3a52179f106027fe5095ece17709a77db12a5354b0"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7112/6.png",
+      "local": {
+        "name": "UOMO/W7112/6.png",
+        "bytes": 246918,
+        "mtime": "2026-07-20T07:20:59.756Z",
+        "hash": "07ad340f2beceb83d73c56132941f9856c4d0e93415e8b99ff247a16aef3363b"
+      },
+      "remote": {
+        "name": "UOMO/W7112/6.png",
+        "bytes": 47222,
+        "mtime": "2026-04-28T08:58:03.369Z",
+        "hash": "c95b13e9e1132e39df21ef55656bb2a96e457059b56a6128ee2b57164e11062d"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7114/1.png",
+      "local": {
+        "name": "UOMO/W7114/1.png",
+        "bytes": 98398,
+        "mtime": "2026-04-28T07:06:53.155Z",
+        "hash": "6a1dc89682e56a016efd981de0360f155364afb84ba8538b2feda4235384927f"
+      },
+      "remote": {
+        "name": "UOMO/W7114/1.png",
+        "bytes": 98398,
+        "mtime": "2026-04-28T07:06:53.155Z",
+        "hash": "6a1dc89682e56a016efd981de0360f155364afb84ba8538b2feda4235384927f"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7114/2.png",
+      "local": {
+        "name": "UOMO/W7114/2.png",
+        "bytes": 75402,
+        "mtime": "2026-04-28T07:10:13.686Z",
+        "hash": "8dd3df3709a897ad5dad3f23e424bdb05b064afbb945bf88a189f9cfb1340b8e"
+      },
+      "remote": {
+        "name": "UOMO/W7114/2.png",
+        "bytes": 75402,
+        "mtime": "2026-04-28T07:10:13.686Z",
+        "hash": "8dd3df3709a897ad5dad3f23e424bdb05b064afbb945bf88a189f9cfb1340b8e"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7114/3.png",
+      "local": {
+        "name": "UOMO/W7114/3.png",
+        "bytes": 86588,
+        "mtime": "2026-04-28T07:07:55.371Z",
+        "hash": "50b72a85b79363384fa1ccb081b94dea1ff3a6ba4638f9ec41fd95c1d782a736"
+      },
+      "remote": {
+        "name": "UOMO/W7114/3.png",
+        "bytes": 86588,
+        "mtime": "2026-04-28T07:07:55.371Z",
+        "hash": "50b72a85b79363384fa1ccb081b94dea1ff3a6ba4638f9ec41fd95c1d782a736"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7114/4.png",
+      "local": {
+        "name": "UOMO/W7114/4.png",
+        "bytes": 85082,
+        "mtime": "2026-04-28T07:13:04.484Z",
+        "hash": "4d11fb5bc3d3170b36b34f3818a02b0ed32382687e7d91245dd3c6bdb65fa243"
+      },
+      "remote": {
+        "name": "UOMO/W7114/4.png",
+        "bytes": 85082,
+        "mtime": "2026-04-28T07:13:04.484Z",
+        "hash": "4d11fb5bc3d3170b36b34f3818a02b0ed32382687e7d91245dd3c6bdb65fa243"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7114/5.png",
+      "local": {
+        "name": "UOMO/W7114/5.png",
+        "bytes": 127168,
+        "mtime": "2026-04-28T08:04:11.727Z",
+        "hash": "fc4effc7dd07c0afcedfa3bcdbd7b8f9dd8159c80ac2782be7c6fb99ae124cf3"
+      },
+      "remote": {
+        "name": "UOMO/W7114/5.png",
+        "bytes": 127168,
+        "mtime": "2026-04-28T08:04:11.727Z",
+        "hash": "fc4effc7dd07c0afcedfa3bcdbd7b8f9dd8159c80ac2782be7c6fb99ae124cf3"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7114/6.png",
+      "local": {
+        "name": "UOMO/W7114/6.png",
+        "bytes": 70742,
+        "mtime": "2026-04-28T08:54:29.921Z",
+        "hash": "7e2f3035e56e70a2d15e10821098040f8191f3b7fe2d01a344b131c3912ec79e"
+      },
+      "remote": {
+        "name": "UOMO/W7114/6.png",
+        "bytes": 70742,
+        "mtime": "2026-04-28T08:54:29.921Z",
+        "hash": "7e2f3035e56e70a2d15e10821098040f8191f3b7fe2d01a344b131c3912ec79e"
+      },
+      "same": true
+    },
+    {
+      "relative": "UOMO/W7901/1.png",
+      "local": {
+        "name": "UOMO/W7901/1.png",
+        "bytes": 73704,
+        "mtime": "2026-07-21T06:53:51.828Z",
+        "hash": "d34c40dcc450890b76a11e2ff6b21c021327cc98ce3115594e93218231a67b2d"
+      },
+      "remote": {
+        "name": "UOMO/W7901/1.png",
+        "bytes": 18124155,
+        "mtime": "2026-04-28T06:40:09.718Z",
+        "hash": "8c4afd1bf1435f93116aa037a933e08b0f8157f41ebaad7e956325163f97bf6e"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7901/2.png",
+      "local": {
+        "name": "UOMO/W7901/2.png",
+        "bytes": 75022,
+        "mtime": "2026-07-21T06:35:22.898Z",
+        "hash": "9528e8456fda77c230e769151b6c588201140ad9cfc42c2b5372249193882ffb"
+      },
+      "remote": {
+        "name": "UOMO/W7901/2.png",
+        "bytes": 18662805,
+        "mtime": "2026-04-28T06:40:10.320Z",
+        "hash": "ecd5fe4d703043d9b559bf2f66befc6b94fc69e7e733e51029d6c99dc164bd21"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7901/3.png",
+      "local": {
+        "name": "UOMO/W7901/3.png",
+        "bytes": 75520,
+        "mtime": "2026-07-21T06:35:48.163Z",
+        "hash": "12c700b4c6cc593970e6f545a172a99f4050b8ad60b9e6aec68e73733ccd7cfb"
+      },
+      "remote": {
+        "name": "UOMO/W7901/3.png",
+        "bytes": 18929901,
+        "mtime": "2026-04-28T06:40:09.170Z",
+        "hash": "f1220034e330249c62fac2d14f9cbb520080bda15585edf702c2d98f25f10bd7"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7901/4.png",
+      "local": {
+        "name": "UOMO/W7901/4.png",
+        "bytes": 58086,
+        "mtime": "2026-07-21T06:57:30.027Z",
+        "hash": "6c52a2f7b51d3edce58e1d0f3e9239d4c41b523b0efc384e0033ef26b3205131"
+      },
+      "remote": {
+        "name": "UOMO/W7901/4.png",
+        "bytes": 18369770,
+        "mtime": "2026-04-28T06:40:08.520Z",
+        "hash": "8eb2554a67228b632593f2ce3cd38ce96afe6eeee1389ebd6032d41c0be9dacc"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7901/5.png",
+      "local": {
+        "name": "UOMO/W7901/5.png",
+        "bytes": 101512,
+        "mtime": "2026-07-20T09:29:19.293Z",
+        "hash": "9cf2a7d36cc3bd4c6fa4a2d8b14c2b1347c554ecbe76d899bceeec2dfa37b8c0"
+      },
+      "remote": {
+        "name": "UOMO/W7901/5.png",
+        "bytes": 91952,
+        "mtime": "2026-04-28T08:09:22.430Z",
+        "hash": "63e75ac0cf71f1f5003c206cb3f1204f92f66e86b5f5dc5e6b8af8fecc7acbfe"
+      },
+      "same": false
+    },
+    {
+      "relative": "UOMO/W7901/6.png",
+      "local": {
+        "name": "UOMO/W7901/6.png",
+        "bytes": 1344676,
+        "mtime": "2026-07-20T09:53:28.815Z",
+        "hash": "5047d74cf93dae4da384232e37ba4e64b0061c420dff678ded243b1f16f652ff"
+      },
+      "remote": {
+        "name": "UOMO/W7901/6.png",
+        "bytes": 63476,
+        "mtime": "2026-04-28T08:54:07.682Z",
+        "hash": "89c6569e88334f01736b9a325742846b2a3682f9ea5b3cbe061b11516376ba9d"
+      },
+      "same": false
+    },
+    {
+      "relative": "VIDEO TRASFORMAZIONE.mp4",
+      "local": {
+        "name": "VIDEO TRASFORMAZIONE.mp4",
+        "bytes": 1062736,
+        "mtime": "2026-05-28T07:12:27.119Z",
+        "hash": "f8fd2b0effe5f93e7de4b2fb48a2a77d41f46da41b8943181daf4e556bc7801a"
+      },
+      "remote": {
+        "name": "VIDEO TRASFORMAZIONE.mp4",
+        "bytes": 1062736,
+        "mtime": "2026-05-28T07:12:27.119Z",
+        "hash": "f8fd2b0effe5f93e7de4b2fb48a2a77d41f46da41b8943181daf4e556bc7801a"
+      },
+      "same": true
+    }
+  ]
+}

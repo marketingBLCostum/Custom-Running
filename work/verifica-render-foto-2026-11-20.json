@@ -1,0 +1,138 @@
+[
+  {
+    "sku": "W7901",
+    "side": "local",
+    "number": 6,
+    "source": "images/UOMO/W7901/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W2930",
+    "side": "local",
+    "number": 5,
+    "source": "../images/DONNA/W2930/5.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W2930",
+    "side": "local",
+    "number": 6,
+    "source": "../images/DONNA/W2930/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W2930",
+    "side": "server",
+    "number": 5,
+    "source": "../images/DONNA/W2930/5.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W2930",
+    "side": "server",
+    "number": 6,
+    "source": "../images/DONNA/W2930/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7115",
+    "side": "local",
+    "number": 5,
+    "source": "../images/DONNA/W7115/5.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7115",
+    "side": "local",
+    "number": 6,
+    "source": "../images/DONNA/W7115/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7105",
+    "side": "local",
+    "number": 5,
+    "source": "../images/DONNA/W7105/5.PNG",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7105",
+    "side": "local",
+    "number": 6,
+    "source": "../images/DONNA/W7105/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7113",
+    "side": "local",
+    "number": 5,
+    "source": "../images/DONNA/W7113/5.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W7113",
+    "side": "local",
+    "number": 6,
+    "source": "../images/DONNA/W7113/6.png",
+    "figureClass": "media tall",
+    "width": 451,
+    "height": 672.265625,
+    "background": "rgb(239, 239, 239)",
+    "fit": "cover",
+    "loaded": true
+  },
+  {
+    "sku": "W2930",
+    "hover": "../images/DONNA/BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png"
+  }
+]

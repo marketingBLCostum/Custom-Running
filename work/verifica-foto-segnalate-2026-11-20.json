@@ -1,0 +1,1365 @@
+[
+  {
+    "area": "UOMO",
+    "sku": "W7901",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": true,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 100,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "subjectBounds": {
+        "left": 0.181,
+        "top": 0.088,
+        "right": 0.84,
+        "bottom": 0.887
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 21.4,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 77.3,
+      "cornerRGBA": [
+        238,
+        237,
+        242,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.166,
+        "top": 0.096,
+        "right": 0.834,
+        "bottom": 0.906
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7102",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1714,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.062,
+        "top": 0.104,
+        "right": 0.936,
+        "bottom": 0.888
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 10.1,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 89.6,
+      "cornerRGBA": [
+        233,
+        233,
+        233,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.066,
+        "top": 0.171,
+        "right": 0.931,
+        "bottom": 0.906
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 1,
+    "local": {
+      "width": 1280,
+      "height": 1714,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 99.3,
+      "cornerRGBA": [
+        200,
+        199,
+        204,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 0.985
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 2293,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 88.1,
+      "cornerRGBA": [
+        213,
+        205,
+        214,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 2,
+    "local": {
+      "width": 1280,
+      "height": 1714,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 100,
+      "cornerRGBA": [
+        206,
+        200,
+        207,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 48.1,
+      "cornerRGBA": [
+        207,
+        201,
+        208,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 3,
+    "local": {
+      "width": 1280,
+      "height": 1714,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 100,
+      "cornerRGBA": [
+        210,
+        206,
+        214,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 0.971
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 24.7,
+      "cornerRGBA": [
+        211,
+        208,
+        216,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 4,
+    "local": {
+      "width": 1280,
+      "height": 1714,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 99,
+      "cornerRGBA": [
+        203,
+        198,
+        204,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 70,
+      "cornerRGBA": [
+        211,
+        202,
+        212,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1,
+        "bottom": 1
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.066,
+        "top": 0.16,
+        "right": 0.931,
+        "bottom": 0.821
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 14.6,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 85.2,
+      "cornerRGBA": [
+        242,
+        242,
+        242,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.115,
+        "top": 0.144,
+        "right": 0.885,
+        "bottom": 0.856
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7112",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.043,
+        "top": 0.156,
+        "right": 0.934,
+        "bottom": 0.794
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.103,
+        "top": 0.102,
+        "right": 0.92,
+        "bottom": 0.869
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W2912",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.266,
+        "top": 0.079,
+        "right": 0.734,
+        "bottom": 0.929
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.264,
+        "top": 0.079,
+        "right": 0.736,
+        "bottom": 0.931
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W2901",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.054,
+        "top": 0.081,
+        "right": 0.954,
+        "bottom": 0.919
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 28.5,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 71,
+      "cornerRGBA": [
+        231,
+        230,
+        235,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.054,
+        "top": 0.081,
+        "right": 0.957,
+        "bottom": 0.919
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W2901",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.06,
+        "top": 0.063,
+        "right": 0.943,
+        "bottom": 0.919
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 51.4,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 42.1,
+      "cornerRGBA": [
+        238,
+        237,
+        242,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.06,
+        "top": 0.063,
+        "right": 0.943,
+        "bottom": 0.919
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7106",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.142,
+        "right": 0.943,
+        "bottom": 0.871
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 33.4,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 64.3,
+      "cornerRGBA": [
+        235,
+        234,
+        239,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.14,
+        "right": 0.943,
+        "bottom": 0.871
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7107",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.142,
+        "right": 0.943,
+        "bottom": 0.871
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 33.4,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 64.3,
+      "cornerRGBA": [
+        235,
+        234,
+        239,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.14,
+        "right": 0.943,
+        "bottom": 0.871
+      }
+    }
+  },
+  {
+    "area": "UOMO",
+    "sku": "W7015",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.066,
+        "top": 0.171,
+        "right": 0.928,
+        "bottom": 0.798
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 10.1,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 89.6,
+      "cornerRGBA": [
+        233,
+        233,
+        233,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.066,
+        "top": 0.171,
+        "right": 0.931,
+        "bottom": 0.906
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7103",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.077,
+        "top": 0.144,
+        "right": 0.94,
+        "bottom": 0.863
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 9.1,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 90.4,
+      "cornerRGBA": [
+        236,
+        236,
+        236,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.077,
+        "top": 0.142,
+        "right": 0.94,
+        "bottom": 0.863
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7119",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.16,
+        "top": 0.115,
+        "right": 0.84,
+        "bottom": 0.875
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 59.9,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 22.6,
+      "cornerRGBA": [
+        245,
+        247,
+        249,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.16,
+        "top": 0.113,
+        "right": 0.84,
+        "bottom": 0.877
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7115",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7115",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.229,
+        "right": 0.923,
+        "bottom": 0.844
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.171,
+        "right": 0.923,
+        "bottom": 0.788
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7105",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7105",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.238,
+        "right": 0.923,
+        "bottom": 0.854
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.171,
+        "right": 0.923,
+        "bottom": 0.788
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7113",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.063,
+        "top": 0.238,
+        "right": 0.931,
+        "bottom": 0.823
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7113",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.238,
+        "right": 0.923,
+        "bottom": 0.854
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.069,
+        "top": 0.171,
+        "right": 0.923,
+        "bottom": 0.788
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W2930",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.06,
+        "top": 0.125,
+        "right": 0.871,
+        "bottom": 0.867
+      }
+    },
+    "server": {
+      "width": 1500,
+      "height": 1900,
+      "format": "png",
+      "alpha": true,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 100,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "subjectBounds": {
+        "left": 0.068,
+        "top": 0.067,
+        "right": 0.864,
+        "bottom": 0.923
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W2930",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.1,
+        "top": 0.129,
+        "right": 0.905,
+        "bottom": 0.865
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.08,
+        "top": 0.094,
+        "right": 0.96,
+        "bottom": 0.938
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7109",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.08,
+        "top": 0.096,
+        "right": 0.96,
+        "bottom": 0.858
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.08,
+        "top": 0.094,
+        "right": 0.96,
+        "bottom": 0.938
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W7110",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.08,
+        "top": 0.096,
+        "right": 0.96,
+        "bottom": 0.858
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.08,
+        "top": 0.094,
+        "right": 0.96,
+        "bottom": 0.938
+      }
+    }
+  },
+  {
+    "area": "DONNA",
+    "sku": "W2960",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.232,
+        "top": 0.087,
+        "right": 0.774,
+        "bottom": 0.919
+      }
+    },
+    "server": {
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 0,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 100,
+      "cornerRGBA": [
+        240,
+        240,
+        240,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.255,
+        "top": 0.05,
+        "right": 0.75,
+        "bottom": 0.956
+      }
+    }
+  },
+  {
+    "area": "RAGAZZI",
+    "sku": "W2948",
+    "num": 5,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.109,
+        "top": 0.108,
+        "right": 0.891,
+        "bottom": 0.887
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 51.9,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 45.8,
+      "cornerRGBA": [
+        238,
+        238,
+        238,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.109,
+        "top": 0.108,
+        "right": 0.894,
+        "bottom": 0.887
+      }
+    }
+  },
+  {
+    "area": "RAGAZZI",
+    "sku": "W2948",
+    "num": 6,
+    "local": {
+      "width": 1280,
+      "height": 1908,
+      "format": "png",
+      "alpha": false,
+      "borderWhitePct": 100,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 0,
+      "cornerRGBA": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.092,
+        "top": 0.121,
+        "right": 0.911,
+        "bottom": 0.881
+      }
+    },
+    "server": {
+      "width": 1280,
+      "height": 1908,
+      "format": "webp",
+      "alpha": false,
+      "borderWhitePct": 90.9,
+      "borderTransparentPct": 0,
+      "borderGrayPct": 7.6,
+      "cornerRGBA": [
+        254,
+        254,
+        254,
+        255
+      ],
+      "subjectBounds": {
+        "left": 0.092,
+        "top": 0.121,
+        "right": 0.911,
+        "bottom": 0.881
+      }
+    }
+  }
+]

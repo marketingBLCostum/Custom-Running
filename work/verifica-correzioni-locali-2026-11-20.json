@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-20",
+  "checks": [
+    {
+      "file": "donna.html",
+      "kind": "W2930-hover",
+      "source": "images/DONNA/W2930/1.png",
+      "loaded": true,
+      "ok": true
+    },
+    {
+      "file": "INGLESE/donna_EN.html",
+      "kind": "W2930-hover",
+      "source": "../images/DONNA/W2930/1.png",
+      "loaded": true,
+      "ok": true
+    },
+    {
+      "file": "FRANCESE/donna_FR.html",
+      "kind": "W2930-hover",
+      "source": "../images/DONNA/W2930/1.png",
+      "loaded": true,
+      "ok": true
+    },
+    {
+      "file": "SPAGNOLO/donna_ES.html",
+      "kind": "W2930-hover",
+      "source": "../images/DONNA/W2930/1.png",
+      "loaded": true,
+      "ok": true
+    },
+    {
+      "file": "TEDESCO/donna_DE.html",
+      "kind": "W2930-hover",
+      "source": "../images/DONNA/W2930/1.png",
+      "loaded": true,
+      "ok": true
+    },
+    {
+      "file": "W7901-PROFLEX.html",
+      "kind": "W7901-photo6-white",
+      "background": "rgb(255, 255, 255)",
+      "loaded": true,
+      "corner": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "file": "INGLESE/UOMO EN/W7901-PROFLEX_EN.html",
+      "kind": "W7901-photo6-white",
+      "background": "rgb(255, 255, 255)",
+      "loaded": true,
+      "corner": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "file": "FRANCESE/UOMO FR/W7901-PROFLEX_FR.html",
+      "kind": "W7901-photo6-white",
+      "background": "rgb(255, 255, 255)",
+      "loaded": true,
+      "corner": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "file": "SPAGNOLO/UOMO ES/W7901-PROFLEX_ES.html",
+      "kind": "W7901-photo6-white",
+      "background": "rgb(255, 255, 255)",
+      "loaded": true,
+      "corner": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "ok": true
+    },
+    {
+      "file": "TEDESCO/UOMO DE/W7901-PROFLEX_DE.html",
+      "kind": "W7901-photo6-white",
+      "background": "rgb(255, 255, 255)",
+      "loaded": true,
+      "corner": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "originalImages": [
+    {
+      "file": "UOMO/W7112/1.png",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7112/2.png",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7112/3.png",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7112/4.PNG",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7112/5.png",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7112/6.png",
+      "unchanged": true
+    },
+    {
+      "file": "UOMO/W7901/6.png",
+      "unchanged": true
+    }
+  ]
+}

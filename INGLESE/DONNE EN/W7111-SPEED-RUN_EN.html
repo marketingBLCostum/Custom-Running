@@ -438,6 +438,7 @@
       .footer-grid{grid-template-columns:1fr 1fr}
     }
   </style>
+  <link rel="stylesheet" href="../../product-responsive.css">
 </head>
 <body class="bg-white text-neutral-900">
 
@@ -706,6 +707,27 @@
           if (!langToggle.contains(e.target) && !langDropdown.contains(e.target)) {
             langDropdown.classList.remove('open');
           }
+        });
+      }
+
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobile-nav');
+      const mobileClose = document.getElementById('mobile-close');
+      if (hamburger && mobileNav) {
+        hamburger.addEventListener('click', function() {
+          mobileNav.classList.add('open');
+        });
+      }
+      if (mobileClose && mobileNav) {
+        mobileClose.addEventListener('click', function() {
+          mobileNav.classList.remove('open');
+        });
+      }
+      if (mobileNav) {
+        mobileNav.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            mobileNav.classList.remove('open');
+          });
         });
       }
 

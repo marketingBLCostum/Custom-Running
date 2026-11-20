@@ -1,0 +1,1448 @@
+[
+  {
+    "file": "images\\BANDIERE\\italia.jpg",
+    "width": 16,
+    "height": 11,
+    "bytes": 429
+  },
+  {
+    "file": "images\\BANDIERE\\english.jpg",
+    "width": 16,
+    "height": 11,
+    "bytes": 640
+  },
+  {
+    "file": "images\\BANDIERE\\Deutsch.jpg",
+    "width": 16,
+    "height": 11,
+    "bytes": 540
+  },
+  {
+    "file": "images\\BANDIERE\\Français.jpg",
+    "width": 16,
+    "height": 11,
+    "bytes": 562
+  },
+  {
+    "file": "images\\BANDIERE\\Español.jpg",
+    "width": 16,
+    "height": 11,
+    "bytes": 565
+  },
+  {
+    "file": "images\\DONNA\\W2913\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 85640
+  },
+  {
+    "file": "images\\logodfs.png",
+    "width": 1538,
+    "height": 1538,
+    "bytes": 47452
+  },
+  {
+    "file": "images\\DONNA\\W2913\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 98778
+  },
+  {
+    "file": "images\\DONNA\\W2913\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 86486
+  },
+  {
+    "file": "images\\DONNA\\W2913\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 49844
+  },
+  {
+    "file": "images\\DONNA\\W2913\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 78572
+  },
+  {
+    "file": "images\\DONNA\\W2913\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 38996
+  },
+  {
+    "file": "images\\DONNA\\W2915\\1.PNG",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 79076
+  },
+  {
+    "file": "images\\DONNA\\W2915\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 73532
+  },
+  {
+    "file": "images\\DONNA\\W2915\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 79076
+  },
+  {
+    "file": "images\\DONNA\\W2915\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 57030
+  },
+  {
+    "file": "images\\DONNA\\W2915\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 77730
+  },
+  {
+    "file": "images\\DONNA\\W2915\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 64404
+  },
+  {
+    "file": "images\\DONNA\\W2930\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 124408
+  },
+  {
+    "file": "images\\DONNA\\W2930\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 111832
+  },
+  {
+    "file": "images\\DONNA\\W2930\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 97540
+  },
+  {
+    "file": "images\\DONNA\\W2930\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 90132
+  },
+  {
+    "file": "images\\DONNA\\W2930\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1585648
+  },
+  {
+    "file": "images\\DONNA\\W2930\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1621105
+  },
+  {
+    "file": "images\\DONNA\\W2960\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19643507
+  },
+  {
+    "file": "images\\DONNA\\W2960\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18878658
+  },
+  {
+    "file": "images\\DONNA\\W2960\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 20949039
+  },
+  {
+    "file": "images\\DONNA\\W2960\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 456133
+  },
+  {
+    "file": "images\\DONNA\\W2960\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 78464
+  },
+  {
+    "file": "images\\DONNA\\W3705\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 96944
+  },
+  {
+    "file": "images\\DONNA\\W3705\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 80914
+  },
+  {
+    "file": "images\\DONNA\\W3705\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 99190
+  },
+  {
+    "file": "images\\DONNA\\W3705\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 71100
+  },
+  {
+    "file": "images\\DONNA\\W3705\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 183670
+  },
+  {
+    "file": "images\\DONNA\\W3705\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 201598
+  },
+  {
+    "file": "images\\DONNA\\W7103\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 68098
+  },
+  {
+    "file": "images\\DONNA\\W7103\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 87912
+  },
+  {
+    "file": "images\\DONNA\\W7103\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 64084
+  },
+  {
+    "file": "images\\DONNA\\W7103\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 58002
+  },
+  {
+    "file": "images\\DONNA\\W7103\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 129248
+  },
+  {
+    "file": "images\\DONNA\\W7104\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 62994
+  },
+  {
+    "file": "images\\DONNA\\W7104\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 57888
+  },
+  {
+    "file": "images\\DONNA\\W7103\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1430909
+  },
+  {
+    "file": "images\\DONNA\\W7104\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 56958
+  },
+  {
+    "file": "images\\DONNA\\W7104\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 46442
+  },
+  {
+    "file": "images\\DONNA\\W7104\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 157712
+  },
+  {
+    "file": "images\\DONNA\\W7104\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 234834
+  },
+  {
+    "file": "images\\DONNA\\W2960\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 22954467
+  },
+  {
+    "file": "images\\DONNA\\W7105\\1.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 22217168
+  },
+  {
+    "file": "images\\DONNA\\W7105\\2.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21916664
+  },
+  {
+    "file": "images\\DONNA\\W7105\\5.PNG",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 51624
+  },
+  {
+    "file": "images\\DONNA\\W7105\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 839991
+  },
+  {
+    "file": "images\\DONNA\\W7109\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 118248
+  },
+  {
+    "file": "images\\DONNA\\W7109\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 116780
+  },
+  {
+    "file": "images\\DONNA\\W7109\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 117048
+  },
+  {
+    "file": "images\\DONNA\\W7109\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 112348
+  },
+  {
+    "file": "images\\DONNA\\W7109\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 213062
+  },
+  {
+    "file": "images\\DONNA\\W7109\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1667607
+  },
+  {
+    "file": "images\\DONNA\\W7110\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 118248
+  },
+  {
+    "file": "images\\DONNA\\W7110\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 116780
+  },
+  {
+    "file": "images\\DONNA\\W7110\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 117048
+  },
+  {
+    "file": "images\\DONNA\\W7110\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 112348
+  },
+  {
+    "file": "images\\DONNA\\W7110\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 213062
+  },
+  {
+    "file": "images\\DONNA\\W7105\\3.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21858856
+  },
+  {
+    "file": "images\\DONNA\\W7110\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1667607
+  },
+  {
+    "file": "images\\DONNA\\W7105\\4.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21709275
+  },
+  {
+    "file": "images\\DONNA\\W7111\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19643507
+  },
+  {
+    "file": "images\\DONNA\\W7111\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 20949039
+  },
+  {
+    "file": "images\\DONNA\\W7111\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 244298
+  },
+  {
+    "file": "images\\DONNA\\W7111\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 284238
+  },
+  {
+    "file": "images\\DONNA\\W7113\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 62994
+  },
+  {
+    "file": "images\\DONNA\\W7113\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 57888
+  },
+  {
+    "file": "images\\DONNA\\W7113\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 56958
+  },
+  {
+    "file": "images\\DONNA\\W7113\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 46442
+  },
+  {
+    "file": "images\\DONNA\\W7113\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 51624
+  },
+  {
+    "file": "images\\DONNA\\W7113\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 839991
+  },
+  {
+    "file": "images\\DONNA\\W7111\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18878658
+  },
+  {
+    "file": "images\\DONNA\\W7111\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 22954467
+  },
+  {
+    "file": "images\\DONNA\\W7115\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19991198
+  },
+  {
+    "file": "images\\DONNA\\W7115\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19657345
+  },
+  {
+    "file": "images\\DONNA\\W7115\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 51624
+  },
+  {
+    "file": "images\\DONNA\\W7115\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 812658
+  },
+  {
+    "file": "images\\DONNA\\W7115\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 9140807
+  },
+  {
+    "file": "images\\DONNA\\W7115\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 22608369
+  },
+  {
+    "file": "images\\DONNA\\W7116\\1.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 22217168
+  },
+  {
+    "file": "images\\DONNA\\W7116\\2.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21916664
+  },
+  {
+    "file": "images\\DONNA\\W7116\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 154198
+  },
+  {
+    "file": "images\\DONNA\\W7116\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 129248
+  },
+  {
+    "file": "images\\DONNA\\W7116\\3.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21858856
+  },
+  {
+    "file": "images\\DONNA\\W7118\\1.png",
+    "width": 1920,
+    "height": 2862,
+    "bytes": 134046
+  },
+  {
+    "file": "images\\DONNA\\W7118\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 73532
+  },
+  {
+    "file": "images\\DONNA\\W7118\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 79076
+  },
+  {
+    "file": "images\\DONNA\\W7118\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 57030
+  },
+  {
+    "file": "images\\DONNA\\W7118\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 161860
+  },
+  {
+    "file": "images\\DONNA\\W7118\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 138528
+  },
+  {
+    "file": "images\\DONNA\\W7119\\1.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 71854
+  },
+  {
+    "file": "images\\DONNA\\W7119\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 87628
+  },
+  {
+    "file": "images\\DONNA\\W7119\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 97086
+  },
+  {
+    "file": "images\\DONNA\\W7119\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 82004
+  },
+  {
+    "file": "images\\DONNA\\W7119\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 180112
+  },
+  {
+    "file": "images\\DONNA\\W7119\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1457544
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7103.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 945558
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7116.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 934704
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7104.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 672958
+  },
+  {
+    "file": "images\\DONNA\\W7116\\4.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 21709275
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7118.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 879070
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7119.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 827486
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7115.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 449974
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7105.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 420014
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W2915.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 434121
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7113.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 449974
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W2930.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 915745
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7109.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 1112680
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7111.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 1230402
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W3705.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 1102496
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W7110.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 1112680
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W2960.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 322558
+  },
+  {
+    "file": "images\\uomo.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 105882
+  },
+  {
+    "file": "images\\DONNA\\CATALOGO\\W2913.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 352712
+  },
+  {
+    "file": "images\\ragazzi.png",
+    "width": 1280,
+    "height": 859,
+    "bytes": 131740
+  },
+  {
+    "file": "images\\donna.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 387976
+  },
+  {
+    "file": "images\\corridori.png",
+    "width": 1280,
+    "height": 714,
+    "bytes": 123672
+  },
+  {
+    "file": "images\\logo bianco.png",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 202461
+  },
+  {
+    "file": "images\\DONNA\\BLSQW2930_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_woman_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2824285
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\1.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 18185086
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 60114
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\2.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 18024080
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\3.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 17779264
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1139578
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1254711
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\1.png",
+    "width": 1029,
+    "height": 1528,
+    "bytes": 1574428
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 60114
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 224342
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 146812
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\1.png",
+    "width": 1920,
+    "height": 2862,
+    "bytes": 121794
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 71530
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 71434
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 55016
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 257884
+  },
+  {
+    "file": "images\\RAGAZZI\\W7121\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 193116
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120img.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 1020111
+  },
+  {
+    "file": "images\\RAGAZZI\\7121img.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 920726
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\2.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 18024080
+  },
+  {
+    "file": "images\\UOMO\\W2901\\1.PNG",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 77656
+  },
+  {
+    "file": "images\\RAGAZZI\\W7120\\3.png",
+    "width": 3392,
+    "height": 5056,
+    "bytes": 17779264
+  },
+  {
+    "file": "images\\RAGAZZI\\W2948img.png",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 635706
+  },
+  {
+    "file": "images\\UOMO\\W2901\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 83992
+  },
+  {
+    "file": "images\\UOMO\\W2901\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 116316
+  },
+  {
+    "file": "images\\UOMO\\W2901\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 92808
+  },
+  {
+    "file": "images\\UOMO\\W2901\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1658528
+  },
+  {
+    "file": "images\\UOMO\\W2901\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1489681
+  },
+  {
+    "file": "images\\UOMO\\W2912\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18897948
+  },
+  {
+    "file": "images\\UOMO\\W2912\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 20254671
+  },
+  {
+    "file": "images\\UOMO\\W2912\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 25053686
+  },
+  {
+    "file": "images\\UOMO\\W2912\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 28114
+  },
+  {
+    "file": "images\\UOMO\\W2912\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 397727
+  },
+  {
+    "file": "images\\UOMO\\W2919\\1.png",
+    "width": 1280,
+    "height": 2293,
+    "bytes": 84262
+  },
+  {
+    "file": "images\\UOMO\\W2919\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 81686
+  },
+  {
+    "file": "images\\UOMO\\W2919\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 82602
+  },
+  {
+    "file": "images\\UOMO\\W2919\\4.PNG",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 51800
+  },
+  {
+    "file": "images\\UOMO\\W2919\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 47222
+  },
+  {
+    "file": "images\\UOMO\\W2919\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 144990
+  },
+  {
+    "file": "images\\UOMO\\W7015\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 9337295
+  },
+  {
+    "file": "images\\UOMO\\W2912\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18545541
+  },
+  {
+    "file": "images\\UOMO\\W7015\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19725052
+  },
+  {
+    "file": "images\\UOMO\\W7015\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 73552
+  },
+  {
+    "file": "images\\UOMO\\W7015\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 480642
+  },
+  {
+    "file": "images\\UOMO\\W3701\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 76804
+  },
+  {
+    "file": "images\\UOMO\\W3701\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 81048
+  },
+  {
+    "file": "images\\UOMO\\W3701\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 71436
+  },
+  {
+    "file": "images\\UOMO\\W3701\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 67908
+  },
+  {
+    "file": "images\\UOMO\\W3701\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 178592
+  },
+  {
+    "file": "images\\UOMO\\W3701\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 142928
+  },
+  {
+    "file": "images\\UOMO\\W7100\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 84224
+  },
+  {
+    "file": "images\\UOMO\\W7100\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 91814
+  },
+  {
+    "file": "images\\UOMO\\W7100\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 93900
+  },
+  {
+    "file": "images\\UOMO\\W7015\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 20244616
+  },
+  {
+    "file": "images\\UOMO\\W7100\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 58370
+  },
+  {
+    "file": "images\\UOMO\\W7100\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 70742
+  },
+  {
+    "file": "images\\UOMO\\W7100\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 148206
+  },
+  {
+    "file": "images\\UOMO\\W7101\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 81686
+  },
+  {
+    "file": "images\\UOMO\\W7101\\1.png",
+    "width": 1280,
+    "height": 2293,
+    "bytes": 84262
+  },
+  {
+    "file": "images\\UOMO\\W7015\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 19081359
+  },
+  {
+    "file": "images\\UOMO\\W7101\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 82602
+  },
+  {
+    "file": "images\\UOMO\\W7101\\4.PNG",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 51800
+  },
+  {
+    "file": "images\\UOMO\\W7102\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 77426
+  },
+  {
+    "file": "images\\UOMO\\W7101\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 143950
+  },
+  {
+    "file": "images\\UOMO\\W7101\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 157792
+  },
+  {
+    "file": "images\\UOMO\\W7102\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 74812
+  },
+  {
+    "file": "images\\UOMO\\W7102\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 87778
+  },
+  {
+    "file": "images\\UOMO\\W7102\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 55110
+  },
+  {
+    "file": "images\\UOMO\\W7102\\6.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 53984
+  },
+  {
+    "file": "images\\UOMO\\W7106\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 80404
+  },
+  {
+    "file": "images\\UOMO\\W7102\\5.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 228974
+  },
+  {
+    "file": "images\\UOMO\\W7106\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 84322
+  },
+  {
+    "file": "images\\UOMO\\W7106\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 97886
+  },
+  {
+    "file": "images\\UOMO\\W7106\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 63348
+  },
+  {
+    "file": "images\\UOMO\\W7106\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 185166
+  },
+  {
+    "file": "images\\UOMO\\W7106\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1467458
+  },
+  {
+    "file": "images\\UOMO\\W7107\\2.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 20254671
+  },
+  {
+    "file": "images\\UOMO\\W7107\\3.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18897948
+  },
+  {
+    "file": "images\\UOMO\\W7107\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1467458
+  },
+  {
+    "file": "images\\UOMO\\W7107\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 185166
+  },
+  {
+    "file": "images\\UOMO\\W7108\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 82902
+  },
+  {
+    "file": "images\\UOMO\\W7107\\1.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 25053686
+  },
+  {
+    "file": "images\\UOMO\\W7108\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 82416
+  },
+  {
+    "file": "images\\UOMO\\W7108\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 123800
+  },
+  {
+    "file": "images\\UOMO\\W7108\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 109506
+  },
+  {
+    "file": "images\\UOMO\\W7108\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 173020
+  },
+  {
+    "file": "images\\UOMO\\W7112\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 78622
+  },
+  {
+    "file": "images\\UOMO\\W7112\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 82616
+  },
+  {
+    "file": "images\\UOMO\\W7108\\6.png",
+    "width": 1027,
+    "height": 1531,
+    "bytes": 1564214
+  },
+  {
+    "file": "images\\UOMO\\W7112\\4.PNG",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 55520
+  },
+  {
+    "file": "images\\UOMO\\W7112\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 92494
+  },
+  {
+    "file": "images\\UOMO\\W7112\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 96564
+  },
+  {
+    "file": "images\\UOMO\\W7112\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 246918
+  },
+  {
+    "file": "images\\UOMO\\W7901\\1.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 73704
+  },
+  {
+    "file": "images\\UOMO\\W7901\\2.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 75022
+  },
+  {
+    "file": "images\\UOMO\\W7901\\3.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 75520
+  },
+  {
+    "file": "images\\UOMO\\W7901\\4.png",
+    "width": 1280,
+    "height": 1714,
+    "bytes": 58086
+  },
+  {
+    "file": "images\\UOMO\\W7901\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 101512
+  },
+  {
+    "file": "images\\UOMO\\W7114\\1.png",
+    "width": 1280,
+    "height": 2293,
+    "bytes": 98398
+  },
+  {
+    "file": "images\\UOMO\\W7114\\2.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 75402
+  },
+  {
+    "file": "images\\UOMO\\W7901\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 1344676
+  },
+  {
+    "file": "images\\UOMO\\W7114\\3.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 86588
+  },
+  {
+    "file": "images\\UOMO\\W7114\\4.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 85082
+  },
+  {
+    "file": "images\\UOMO\\W7114\\5.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 127168
+  },
+  {
+    "file": "images\\UOMO\\W7114\\6.png",
+    "width": 1280,
+    "height": 1908,
+    "bytes": 70742
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7100_RUNNING_MMC_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2192769
+  },
+  {
+    "file": "images\\UOMO\\W7107\\4.png",
+    "width": 3072,
+    "height": 5504,
+    "bytes": 18545541
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7100_RUNNING_MMC_front_V_neck.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2184816
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7101_RUNNING_CANOTTA_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 1717807
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7102_RUNNING_SHORTS_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 1380065
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7901_RUNNING_BODY_PROFLEX_man_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 1364861
+  },
+  {
+    "file": "images\\UOMO\\BLSQW2919_RUNNING_LYCRA_SHORTS_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 1304357
+  },
+  {
+    "file": "images\\UOMO\\BLSQW2901_RUNNING_THERMAL_LONG_SLEEVED_JERSEY_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2409188
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7106_RUNNING_THERMAL_LONG_SLEEVED_T-SHIRT_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2918746
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7108.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2168486
+  },
+  {
+    "file": "images\\UOMO\\BLSQW3701.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 1592284
+  },
+  {
+    "file": "images\\UOMO\\BLSQW7107_RUNNING_LIGHT_LONG_SLEEVED_T-SHIRT_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 2908984
+  },
+  {
+    "file": "images\\UOMO\\BLSQW2912_RUNNING_TIGHTS_front.png",
+    "width": 1500,
+    "height": 1900,
+    "bytes": 639597
+  }
+]

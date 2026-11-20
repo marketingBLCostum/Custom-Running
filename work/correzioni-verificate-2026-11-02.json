@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "fixed": {
+    "mobileMenuHandlers": 30,
+    "mobileOverlayPages": 10,
+    "productResponsivePages": 165,
+    "catalogThumbnails": 10,
+    "imageFilenameCase": 2
+  },
+  "checks": {
+    "pages": 185,
+    "desktopMobileIssues": [],
+    "responsiveTests": 72,
+    "responsiveIssues": [],
+    "tabletMenuTests": 8,
+    "tabletMenuFailures": [],
+    "contentPreservation": "Descriptions, sizes, technical bars and anchor destinations match the 170-page pre-edit baseline."
+  },
+  "informational": [
+    "Five W7114 thumbnail filename flags refer to the existing V-neck asset; no change required.",
+    "External Bicycle Line links remain unverified because of the remote protection."
+  ],
+  "responsiveStylesheet": "product-responsive.css"
+}

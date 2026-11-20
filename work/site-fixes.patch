@@ -1,0 +1,2502 @@
+*** Begin Patch
+*** Update File: DONNA SCHEDE PRODOTTO/W2913-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W2915-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W2930-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W2960-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W3705-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W7103-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W7104-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7105-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7109-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W7110-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7111-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7113-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7115-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: DONNA SCHEDE PRODOTTO/W7116-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W7118-FIONA.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: DONNA SCHEDE PRODOTTO/W7119-LARY.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/DONNA FR/W2913-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W2915-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W2930-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W2960-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W3705-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W7103-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W7104-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7105-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7109-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W7110-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7111-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7113-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7115-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: FRANCESE/DONNA FR/W7116-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W7118-FIONA_FR.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/DONNA FR/W7119-LARY_FR.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: FRANCESE/RAGAZZI FR/BLSQW2948-RUNNING-LYCRA-SHORTS_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/RAGAZZI FR/BLSQW7120-RUNNING-MMC_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/RAGAZZI FR/BLSQW7121-RUNNING-CANOTTA_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W2901-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W2912-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W2919-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7015-HYBRID-S_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W3701-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7100-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7101-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7102-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7106-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7107-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7108-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7112-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7901-PROFLEX_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: FRANCESE/UOMO FR/W7114-SPEED-RUN_FR.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W2913-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W2915-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W2930-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W2960-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W3705-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: INGLESE/DONNE EN/W7103-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: INGLESE/DONNE EN/W7104-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7105-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7109-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: INGLESE/DONNE EN/W7110-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7111-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7113-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7115-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: INGLESE/DONNE EN/W7116-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ 
+*** Update File: INGLESE/DONNE EN/W7118-FIONA_EN.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/DONNE EN/W7119-LARY_EN.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: INGLESE/ragazzi en/BLSQW2948-RUNNING-LYCRA-SHORTS_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/ragazzi en/BLSQW7120-RUNNING-MMC_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/ragazzi en/BLSQW7121-RUNNING-CANOTTA_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W2901-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W2912-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W2919-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W3701-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7015-HYBRID-S_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7100-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7101-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7102-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7106-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7107-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7108-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7112-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7114-SPEED-RUN_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: INGLESE/UOMO EN/W7901-PROFLEX_EN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: RAGAZZI SCHEDE PRODOTTO/BLSQW2948-RUNNING-LYCRA-SHORTS.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: RAGAZZI SCHEDE PRODOTTO/BLSQW7120-RUNNING-MMC.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: RAGAZZI SCHEDE PRODOTTO/BLSQW7121-RUNNING-CANOTTA.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/DONNA ES/W2913-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W2915-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W2930-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W2960-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W3705-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W7103-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W7104-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7105-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7109-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W7110-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7111-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7113-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7115-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: SPAGNOLO/DONNA ES/W7116-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W7118-FIONA_ES.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/DONNA ES/W7119-LARY_ES.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: SPAGNOLO/RAGAZZI ES/BLSQW2948-RUNNING-LYCRA-SHORTS_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/RAGAZZI ES/BLSQW7120-RUNNING-MMC_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/RAGAZZI ES/BLSQW7121-RUNNING-CANOTTA_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W2912-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W2901-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W2919-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W3701-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7015-HYBRID-S_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7100-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7101-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7102-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7106-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7107-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7108-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7112-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7114-SPEED-RUN_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: SPAGNOLO/UOMO ES/W7901-PROFLEX_ES.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/DONNA DE/W2913-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W2915-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W2930-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W2960-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W3705-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W7103-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W7104-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7105-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7109-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W7110-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7111-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7113-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7115-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+@@
+         });
+       }
+ 
++      const hamburger = document.getElementById('hamburger');
++      const mobileNav = document.getElementById('mobile-nav');
++      const mobileClose = document.getElementById('mobile-close');
++      if (hamburger && mobileNav) {
++        hamburger.addEventListener('click', function() {
++          mobileNav.classList.add('open');
++        });
++      }
++      if (mobileClose && mobileNav) {
++        mobileClose.addEventListener('click', function() {
++          mobileNav.classList.remove('open');
++        });
++      }
++      if (mobileNav) {
++        mobileNav.querySelectorAll('a').forEach(function(link) {
++          link.addEventListener('click', function() {
++            mobileNav.classList.remove('open');
++          });
++        });
++      }
++
+         const mobileBtn = document.getElementById('mobile-menu-btn');
+         if (mobileBtn) {
+             mobileBtn.addEventListener('click', function() {
+*** Update File: TEDESCO/DONNA DE/W7116-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body class="bg-white text-neutral-900">
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W7118-FIONA_DE.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/DONNA DE/W7119-LARY_DE.html
+@@
+       .nav-links { display: none; }
+       .nav-actions { gap: 12px; }
+       .hamburger { display: flex; }
+-      .mobile-nav { display: flex; }
+     }
+ 
+     .gallery{
+@@
+       .topbar-right { display: none; }
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ <!-- ANNOUNCEMENT BAR -->
+*** Update File: TEDESCO/RAGAZZI DE/BLSQW2948-RUNNING-LYCRA-SHORTS_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/RAGAZZI DE/BLSQW7120-RUNNING-MMC_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/RAGAZZI DE/BLSQW7121-RUNNING-CANOTTA_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W2901-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W2912-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W2919-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W3701-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7015-HYBRID-S_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7100-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7101-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7102-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7106-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7107-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7108-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7112-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7114-SPEED-RUN_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: TEDESCO/UOMO DE/W7901-PROFLEX_DE.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="../../product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W2901-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W2912-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W2919-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W3701-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7015-HYBRID-S.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7100-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7101-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7102-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7106-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7107-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7108-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7112-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7114-SPEED-RUN.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: W7901-PROFLEX.html
+@@
+       .footer-grid{grid-template-columns:1fr 1fr}
+     }
+   </style>
++  <link rel="stylesheet" href="product-responsive.css">
+ </head>
+ <body>
+ 
+*** Update File: uomo.html
+@@
+             <article class="card">
+               <div class="card-image third">
+                 <a href="W7112-SPEED-RUN.html" class="product-photo">
++                  <img src="images/UOMO/W7112/1.png" alt="W7112 SPEED RUN" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="images/UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+@@
+             <article class="card">
+               <div class="card-image">
+                                 <a href="W7015-HYBRID-S.html" class="product-photo">
++                  <img src="images/UOMO/W7015/1.png" alt="W7015 HYBRID S" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="images/UOMO/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+*** Update File: INGLESE/uomo_EN.html
+@@
+             <article class="card">
+               <div class="card-image third">
+                 <a href="UOMO EN/W7112-SPEED-RUN_EN.html" class="product-photo">
++                  <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+@@
+             <article class="card">
+               <div class="card-image">
+                                 <a href="UOMO EN/W7015-HYBRID-S_EN.html" class="product-photo">
++                  <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+*** Update File: FRANCESE/uomo_FR.html
+@@
+             <article class="card">
+               <div class="card-image third">
+                 <a href="UOMO FR/W7112-SPEED-RUN_FR.html" class="product-photo">
++                  <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+@@
+             <article class="card">
+               <div class="card-image">
+                                 <a href="UOMO FR/W7015-HYBRID-S_FR.html" class="product-photo">
++                  <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+*** Update File: SPAGNOLO/uomo_ES.html
+@@
+             <article class="card">
+               <div class="card-image third">
+                 <a href="UOMO ES/W7112-SPEED-RUN_ES.html" class="product-photo">
++                  <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+@@
+             <article class="card">
+               <div class="card-image">
+                                 <a href="UOMO ES/W7015-HYBRID-S_ES.html" class="product-photo">
++                  <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+*** Update File: TEDESCO/uomo_DE.html
+@@
+             <article class="card">
+               <div class="card-image third">
+                 <a href="UOMO DE/W7112-SPEED-RUN_DE.html" class="product-photo">
++                  <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW2919_RUNNING_LYCRA_SHORTS_front.png" alt="W7112 SPEED RUN" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7112/1.png" alt="W7112 SPEED RUN Preview">
+@@
+             <article class="card">
+               <div class="card-image">
+                                 <a href="UOMO DE/W7015-HYBRID-S_DE.html" class="product-photo">
++                  <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S" style="width:200%;height:200%;object-fit:cover;object-position:50% 65%;position:absolute;top:-60%;left:-50%;">
+-                  <img src="../images/UOMO/BLSQW7102_RUNNING_SHORTS_front.png" alt="W7015 HYBRID S" style="width:80%;height:80%;object-fit:contain;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+                 </a>
+                 <div class="preview-replacement">
+                   <img src="../images/UOMO/W7015/1.png" alt="W7015 HYBRID S Preview">
+*** End Patch

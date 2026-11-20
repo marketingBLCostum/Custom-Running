@@ -1,0 +1,1307 @@
+[
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "count": 185,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://fonts.gstatic.com",
+    "status": 404,
+    "final": "https://fonts.gstatic.com/",
+    "title": "Error 404 (Not Found)!!1",
+    "count": 185,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap",
+    "status": 200,
+    "final": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap",
+    "count": 185,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://fonts.googleapis.com",
+    "status": 404,
+    "final": "https://fonts.googleapis.com/",
+    "title": "Error 404 (Not Found)!!1",
+    "lang": "en",
+    "count": 185,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://cdn.tailwindcss.com",
+    "status": 200,
+    "final": "https://cdn.tailwindcss.com/3.4.17",
+    "count": 180,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/6-storia",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/6-storia",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/4-brand",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/4-brand",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/9-sostenibilita",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/9-sostenibilita",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/contact",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/contact",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/947-uomo",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/947-uomo",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/949-cat-bambino",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/949-cat-bambino",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/948-donna",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/948-donna",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/1109-offerte",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/1109-offerte",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/23-shop",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/23-shop",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/1-spedizione",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/1-spedizione",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/5-pagamento",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/5-pagamento",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/18-faq",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/18-faq",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/12-guida-alle-taglie",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/12-guida-alle-taglie",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/14-garanzia",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/14-garanzia",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/13-resi",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/13-resi",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/15-privacy-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/15-privacy-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/17-termini-e-condizioni",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/17-termini-e-condizioni",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/it/content/16-cookie-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/it/content/16-cookie-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "DONNA SCHEDE PRODOTTO\\W2913-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2915-SPEED-RUN.html",
+      "DONNA SCHEDE PRODOTTO\\W2930-SPEED-RUN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/4-marque",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/4-marque",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/6-histoire",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/6-histoire",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/947-homme",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/947-homme",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/contact",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/contact",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/9-durabilite",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/9-durabilite",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/948-femme",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/948-femme",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/949-enfant",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/949-enfant",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/23-service-clients",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/23-service-clients",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/1109-offres",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/1109-offres",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/1-livraison",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/1-livraison",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/5-paiement",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/5-paiement",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/18-faq",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/18-faq",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/12-guide-des-tailles",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/12-guide-des-tailles",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/14-guarantee",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/14-guarantee",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/13-retour-produits",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/13-retour-produits",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/15-privacy-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/15-privacy-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/16-cookie-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/16-cookie-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/fr/content/17-termes-et-conditions",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/fr/content/17-termes-et-conditions",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "FRANCESE\\DONNA FR\\W2913-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2915-SPEED-RUN_FR.html",
+      "FRANCESE\\DONNA FR\\W2930-SPEED-RUN_FR.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/4-brand",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/4-brand",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/9-sustainability",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/9-sustainability",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/contact",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/contact",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/6-story",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/6-story",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/947-men",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/947-men",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/948-women",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/948-women",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/1109-offers",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/1109-offers",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/23-shop",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/23-shop",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/949-kids",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/949-kids",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/1-shipping",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/1-shipping",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/5-payment",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/5-payment",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/12-size-chart",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/12-size-chart",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/18-faq",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/18-faq",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/14-warranty",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/14-warranty",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/13-return-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/13-return-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/15-privacy-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/15-privacy-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/16-cookie-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/16-cookie-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/en/content/17-terms-and-conditions",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/en/content/17-terms-and-conditions",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "INGLESE\\donna_EN.html",
+      "INGLESE\\DONNE EN\\W2913-SPEED-RUN_EN.html",
+      "INGLESE\\DONNE EN\\W2915-SPEED-RUN_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/4-marca",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/4-marca",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/6-historia",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/6-historia",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.feedaty.com/recensioni/bicycle-line",
+    "status": 200,
+    "final": "https://www.feedaty.com/it/recensioni/bicycle-line",
+    "title": "\r\n\tBicycle Line: recensioni verificate | Feedaty\r\n",
+    "count": 5,
+    "examples": [
+      "FRANCESE\\index_FR.html",
+      "index.html",
+      "INGLESE\\index_EN.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/9-sustentabilidad",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/9-sustentabilidad",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/contact",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/contact",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/947-hombre",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/947-hombre",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/948-mujer",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/948-mujer",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/949-ni-o",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/949-ni-o",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/1109-ofertas",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/1109-ofertas",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/1-envios",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/1-envios",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/23-guia-de-compras",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/23-guia-de-compras",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/5-como-pagar",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/5-como-pagar",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/18-faq",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/18-faq",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/12-guia-de-tallas",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/12-guia-de-tallas",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/14-garantia",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/14-garantia",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/13-devoluciones",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/13-devoluciones",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/15-privacy-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/15-privacy-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/17-terminos-y-condiciones",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/17-terminos-y-condiciones",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/es/content/16-cookie-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/es/content/16-cookie-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "SPAGNOLO\\DONNA ES\\W2913-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2915-SPEED-RUN_ES.html",
+      "SPAGNOLO\\DONNA ES\\W2930-SPEED-RUN_ES.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/4-marke",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/4-marke",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/6-geschichte",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/6-geschichte",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/9-nachhaltigkeit",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/9-nachhaltigkeit",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/contact",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/contact",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/947-herren",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/947-herren",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/948-damen",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/948-damen",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/949-kinder",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/949-kinder",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/1-sendung",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/1-sendung",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/18-faq",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/18-faq",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/12-size-guide",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/12-size-guide",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/14-garantie",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/14-garantie",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/5-zahlung",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/5-zahlung",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/23-shop",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/23-shop",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 36,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/1109-angebote",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/1109-angebote",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/13-widerrufsrecht",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/13-widerrufsrecht",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/15-privacy-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/15-privacy-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/16-cookie-policy",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/16-cookie-policy",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  },
+  {
+    "url": "https://www.bicycle-line.com/de/content/17-geschaftsbedingungen",
+    "status": 403,
+    "final": "https://www.bicycle-line.com/de/content/17-geschaftsbedingungen",
+    "title": "Just a moment...",
+    "lang": "en-US",
+    "count": 37,
+    "examples": [
+      "TEDESCO\\DONNA DE\\W2913-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2915-SPEED-RUN_DE.html",
+      "TEDESCO\\DONNA DE\\W2930-SPEED-RUN_DE.html"
+    ]
+  }
+]
